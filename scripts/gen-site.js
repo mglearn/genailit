@@ -86,7 +86,9 @@ const CLEAR_CSS = `
 // ---- Teacher dropdown nav (top-right, near the language switcher) ---------
 const TEACHER_CSS = `
   .wrap{position:relative}
-  .teacher-menu{position:absolute;top:14px;right:16px;z-index:60;font-family:'Nunito',sans-serif}
+  .topnav{position:absolute;top:14px;right:16px;z-index:60;display:flex;gap:10px;align-items:center}
+  @media(max-width:680px){.topnav{position:static;justify-content:flex-end;flex-wrap:wrap;margin:0 0 10px}}
+  .teacher-menu{position:relative;font-family:'Nunito',sans-serif}
   .teacher-menu>summary{list-style:none;cursor:pointer;background:var(--navy);color:#fff;font-weight:800;font-size:.85rem;padding:8px 14px;border-radius:100px;display:inline-flex;align-items:center;gap:6px;box-shadow:0 4px 14px rgba(67,56,202,.28)}
   .teacher-menu>summary::-webkit-details-marker{display:none}
   .teacher-menu[open]>summary{background:var(--navy-d)}
@@ -163,7 +165,7 @@ function writeSiteI18nData() {
   fs.writeFileSync(path.join(ROOT, 'assets', 'site-i18n-data.js'), 'window.SITE_I18N_DATA = ' + JSON.stringify(dict) + ';\n');
 }
 const SITE_LANG_CSS = `
-  .site-langbar{position:absolute;top:14px;left:16px;z-index:60;display:flex;align-items:center;gap:6px}
+  .site-langbar{position:static;display:flex;align-items:center;gap:6px}
   .site-langbar .globe{font-size:1.1rem}
   .site-langbar select{font-family:'Nunito',sans-serif;font-weight:700;font-size:.82rem;color:var(--navy);background:#fff;border:2px solid var(--line);border-radius:100px;padding:6px 12px;cursor:pointer}
   .site-langbar select:focus{outline:none;border-color:var(--navy)}
@@ -251,7 +253,7 @@ ${FONTS}
 </head>
 <body>
 <div class="wrap">
-${langbar}${teacherNav(depth)}
+<div class="topnav">${langbar}${teacherNav(depth)}</div>
 ${body}
 ${scripts}</div>
 </body>
@@ -320,7 +322,7 @@ function suiteLanding() {
   </div>
 
   ${E('h2', 'The full curriculum — licensed')}
-  ${E('p', 'The complete per-grade lessons are included with a district license. Each is marked below; preview the premise and standards on its teacher page.', 'class="section-note"')}
+  ${E('p', 'The complete per-grade lessons are included with a paid license. Each is marked below; preview the premise and standards on its teacher page.', 'class="section-note"')}
   <div class="cards">
     ${paidCards}
   </div>
@@ -468,7 +470,7 @@ function guide() {
   <div class="panel">${EH('ul', deploy)}</div>
 
   ${E('h2', 'Free vs. licensed')}
-  <div class="panel gold">${EH('p', '<strong>Free featured lessons — one per grade.</strong> Each grade has a free, fully-playable featured breakout on the home page. Use them with anyone, anywhere — no login, nothing collected.')}${EH('p', '<strong>The full curriculum — licensed.</strong> The complete per-grade lessons (Grades 3–8) are included with a district license and served through an authenticated session. Teacher pages and this guide remain open so you can evaluate before you buy.')}</div>
+  <div class="panel gold">${EH('p', '<strong>Free featured lessons — one per grade.</strong> Each grade has a free, fully-playable featured breakout on the home page. Use them with anyone, anywhere — no login, nothing collected.')}${EH('p', '<strong>The full curriculum — licensed.</strong> The complete per-grade lessons (Grades 3–8) are included with a paid license and served through an authenticated session. Teacher pages and this guide remain open so you can evaluate before you buy.')}</div>
 
   ${E('h2', 'A note on accuracy')}
   ${EH('p', 'AI moves fast, but these activities teach durable ideas — patterns, data, bias, verification, disclosure — not product features. Content uses generic terms (an AI helper, a chatbot, an image generator) and avoids brand names so it stays accurate as tools change.')}
@@ -842,8 +844,8 @@ ${footer(0)}`;
 // ---- run -----------------------------------------------------------------
 suiteLanding();
 library();
-bandHub('grade35', [3, 4, 5], { paid: true, label: 'Grades 3–5 · Licensed', title: 'Grades 3–5', lede: 'The full elementary lessons — what AI is, how it learns from data, and how to prompt it and check its work. Included with a district license; each grade also has a free featured lesson on the home page.' });
-bandHub('grade68', [6, 7, 8], { paid: true, label: 'Grades 6–8 · Licensed', title: 'Grades 6–8', lede: 'The full middle-school lessons — spotting AI-generated media, tracing where bias comes from, and creating with AI responsibly. Included with a district license; each grade also has a free featured lesson on the home page.' });
+bandHub('grade35', [3, 4, 5], { paid: true, label: 'Grades 3–5 · Licensed', title: 'Grades 3–5', lede: 'The full elementary lessons — what AI is, how it learns from data, and how to prompt it and check its work. Included with a paid license; each grade also has a free featured lesson on the home page.' });
+bandHub('grade68', [6, 7, 8], { paid: true, label: 'Grades 6–8 · Licensed', title: 'Grades 6–8', lede: 'The full middle-school lessons — spotting AI-generated media, tracing where bias comes from, and creating with AI responsibly. Included with a paid license; each grade also has a free featured lesson on the home page.' });
 correlation();
 guide();
 scope();
