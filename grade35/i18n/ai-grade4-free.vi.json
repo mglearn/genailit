@@ -1,0 +1,90 @@
+{
+  "chrome": {
+    "h1": "Dạy Cho Máy Học",
+    "sub": "Bạn đang huấn luyện một trợ thủ để phân biệt mèo với chó. Nó học từ những ví dụ bạn cho nó xem. Hãy giải bốn ổ khóa để học cách một cái máy học.",
+    "briefLabel": "Nhiệm vụ của bạn",
+    "briefH": "Làm Người Huấn Luyện AI",
+    "briefP": "Một AI không chỉ đơn giản là biết mọi thứ. Nó học từ những ví dụ bạn đưa cho nó, và ta gọi những ví dụ đó là dữ liệu. Cho nó xem càng nhiều ví dụ được gắn nhãn tốt hơn, thì phỏng đoán của nó càng tốt. Hãy đọc manh mối, rồi mở cả bốn ổ khóa. Mỗi ổ khóa có một lý do cho thấy vì sao câu trả lời đúng.",
+    "footerText": "Breakout Hiểu biết AI tạo sinh · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+    "winStamp": "MÁY ĐÃ ĐƯỢC HUẤN LUYỆN",
+    "winH": "Bạn đã mở cả bốn ổ khóa!",
+    "winP": "Bạn đã học được rằng một AI học từ các ví dụ được gắn nhãn, rằng những ví dụ đó gọi là dữ liệu, rằng càng nhiều ví dụ và càng đa dạng thì phỏng đoán càng tốt, và rằng một người huấn luyện giỏi kiểm tra xem cái máy đã học được gì. Huấn luyện giỏi lắm!"
+  },
+  "clues": [
+    {
+      "nm": "Cho xem và gắn nhãn",
+      "title": "Ví dụ có tên",
+      "body": "Để dạy một cái máy phân biệt một con mèo với một con chó, bạn cho nó xem nhiều bức ảnh. Bạn cũng gắn nhãn từng bức: đây là mèo, đây là chó. Các ví dụ được gắn nhãn dạy nó phải tìm gì."
+    },
+    {
+      "nm": "Gọi nó là dữ liệu",
+      "title": "Các ví dụ có một cái tên",
+      "body": "Tất cả các ví dụ được gắn nhãn mà bạn cho cái máy xem đều có một cái tên đặc biệt. Chúng được gọi là dữ liệu. Khi người ta nói một AI học từ dữ liệu, họ có ý là nó học từ những ví dụ như thế này."
+    },
+    {
+      "nm": "Chỉ có mèo lông xù",
+      "title": "Quá ít ví dụ",
+      "body": "Có người chỉ cho một cái máy xem mèo lông xù. Bây giờ nó nghĩ một con mèo lông ngắn là một con chó. Nó chưa thấy đủ loại mèo, nên phỏng đoán của nó sai."
+    },
+    {
+      "nm": "Nhiều hơn và đa dạng hơn",
+      "title": "Ví dụ tốt hơn giúp ích",
+      "body": "Để sửa nó, bạn cho cái máy xem nhiều loại mèo và nhiều loại chó. Nhiều ví dụ hơn và nhiều LOẠI ví dụ hơn giúp nó đưa ra phỏng đoán tốt hơn."
+    },
+    {
+      "nm": "Kiểm tra việc học",
+      "title": "Thử xem nó đã học được gì",
+      "body": "Một người huấn luyện giỏi không chỉ hy vọng nó đã hoạt động. Bạn cho cái máy xem một bức ảnh MỚI mà nó chưa từng thấy và kiểm tra xem nó có phỏng đoán đúng không. Việc thử cho bạn thấy nó thực sự đã học được gì."
+    },
+    {
+      "nm": "Thực đơn trưa",
+      "title": "Một sự thật ngon miệng",
+      "body": "Thứ Ba là ngày bánh mì phô mai nướng ở căng tin, và nó đi kèm với súp cà chua. Đây là một sự thật thú vị về bữa trưa — nhưng nó sẽ không giúp bạn mở ổ khóa nào."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Cách nó học",
+      "q": "Cái máy học cách phân biệt một con mèo với một con chó như thế nào?",
+      "options": [
+        "Nó sinh ra đã biết sẵn mèo và chó trông như thế nào",
+        "Bạn cho nó xem nhiều ví dụ được gắn nhãn, nên nó học được phải tìm gì",
+        "Nó phỏng đoán ngẫu nhiên và không bao giờ khá hơn"
+      ],
+      "reason": "Cái máy học từ những ví dụ được gắn nhãn mà bạn đưa cho nó. Cho nó xem đủ nhiều bức ảnh đánh dấu là mèo hay chó, và nó học được phải tìm gì."
+    },
+    {
+      "title": "Gọi tên các ví dụ",
+      "q": "Các ví dụ được gắn nhãn mà bạn cho một cái máy xem để nó có thể học được gọi là ______.",
+      "answer": [
+        "dữ liệu",
+        "các dữ liệu",
+        "dữ kiện"
+      ],
+      "reason": "Các ví dụ mà một AI học từ đó được gọi là dữ liệu. Nhiều dữ liệu hơn và tốt hơn giúp cái máy đưa ra phỏng đoán tốt hơn."
+    },
+    {
+      "title": "Huấn luyện nó thật tốt",
+      "q": "Hãy đánh dấu MỌI thứ giúp cái máy đưa ra phỏng đoán TỐT HƠN.",
+      "items": [
+        "Cho nó xem nhiều loại mèo và chó khác nhau",
+        "Gắn nhãn từng ví dụ một cách chính xác",
+        "Thử nó trên một bức ảnh mới để kiểm tra nó đã học được gì",
+        "Chỉ cho nó xem một con mèo lông xù, lặp đi lặp lại",
+        "Không bao giờ kiểm tra xem phỏng đoán của nó có đúng không"
+      ],
+      "reason": "Nhiều loại ví dụ hơn, nhãn chính xác, và thử trên những bức ảnh mới đều làm phỏng đoán của cái máy tốt hơn. Một ví dụ và không kiểm tra làm chúng tệ hơn."
+    },
+    {
+      "title": "Dạy cho máy học",
+      "q": "Bạn đang huấn luyện một trợ thủ mèo-và-chó. Hãy chạm vào các bước để dạy nó theo ĐÚNG thứ tự.",
+      "pads": [
+        "🖼️ Thu thập nhiều bức ảnh ví dụ",
+        "🏷️ Gắn nhãn từng bức là mèo hay chó",
+        "🧠 Để nó học từ các nhãn",
+        "✅ Thử nó trên một bức ảnh mới"
+      ],
+      "reason": "Đầu tiên THU THẬP những bức ảnh ví dụ. Rồi GẮN NHÃN từng bức là mèo hay chó. Rồi để nó HỌC từ các nhãn của bạn. Rồi THỬ nó trên một bức ảnh mới để kiểm tra phỏng đoán của nó."
+    }
+  ]
+}

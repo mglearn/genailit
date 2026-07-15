@@ -1,0 +1,91 @@
+{
+  "chrome": {
+    "h1": "¿Quién falta?",
+    "sub": "Una IA funciona muy bien para algunas personas y se equivoca con otras. La razón se esconde en quién estaba en sus datos. Abre cuatro candados para descubrir quién falta.",
+    "briefLabel": "Tu misión",
+    "briefH": "Sé un detective de representación",
+    "briefP": "La IA aprende de ejemplos. Cuando algunos grupos o voces quedan fuera de esos ejemplos, la IA los conoce menos, así que sus respuestas pueden ser incorrectas o injustas para ellos. Lee las pistas y luego abre los cuatro candados. Cada candado revela el razonamiento detrás de la respuesta.",
+    "footerText": "Breakouts de alfabetización en IA generativa · Funciona todo en tu navegador — sin cuentas, sin datos guardados.",
+    "winStamp": "CASO CERRADO",
+    "winH": "¡Abriste los cuatro candados!",
+    "winP": "Aprendiste que la IA refleja sus datos de entrenamiento, que los grupos poco representados obtienen resultados menos precisos, que preguntar '¿de quién faltan los ejemplos?' revela el hueco, que datos más representativos hacen a la IA más justa, y cómo revisar un resultado para ver si es justo. Trabajo agudo.",
+    "crumbSuite": "Breakouts de alfabetización en IA generativa"
+  },
+  "clues": [
+    {
+      "nm": "Refleja sus datos",
+      "title": "Solo aprendes lo que ves",
+      "body": "Una IA aprende de los ejemplos de sus datos de entrenamiento. Solo puede volverse buena en cosas que vio mucho. Quien y lo que aparece más en los datos es lo que la IA conoce mejor."
+    },
+    {
+      "nm": "Piezas que faltan",
+      "title": "Algunas voces quedan fuera",
+      "body": "Si un grupo de personas, un idioma o un lugar apenas aparece en los datos, la IA tiene pocos ejemplos de los cuales aprender. Ese grupo está POCO REPRESENTADO; la IA lo conoce menos."
+    },
+    {
+      "nm": "Resultados injustos",
+      "title": "Funciona para unos, no para otros",
+      "body": "Cuando algunas personas faltan en los datos, las respuestas de la IA pueden ser menos precisas o hasta injustas para ellas, mientras funcionan perfectamente bien para los grupos bien representados."
+    },
+    {
+      "nm": "Haz la pregunta clave",
+      "title": "¿De quién faltan los ejemplos?",
+      "body": "La pregunta más inteligente que puedes hacer sobre cualquier IA es: ¿de quién faltan los ejemplos? Nombrar a quién quedó fuera te ayuda a ver dónde la IA podría ser débil o injusta."
+    },
+    {
+      "nm": "Cerrar el hueco",
+      "title": "Datos más representativos",
+      "body": "La IA se vuelve más justa cuando quienes la construyen agregan datos más representativos: ejemplos de los grupos, idiomas y lugares que quedaron fuera. La meta son datos que reflejen a todos a quienes va a servir."
+    },
+    {
+      "nm": "Show de talentos",
+      "title": "Un evento escolar",
+      "body": "El show de talentos de primavera es en el gimnasio este año, y el año pasado un dúo de ukelele ganó el primer lugar. Divertido de saber, pero no te ayudará a abrir ningún candado."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Por qué falla con algunas personas",
+      "q": "Una herramienta de IA funciona bien para algunos estudiantes pero sigue equivocándose con otros. ¿Cuál es la razón más probable?",
+      "options": [
+        "La IA eligió ser injusta con esos estudiantes a propósito",
+        "Esos estudiantes estaban poco representados en los datos, así que la IA tiene menos ejemplos de ellos",
+        "La IA siempre funciona exactamente igual para todos, así que nada está mal"
+      ],
+      "reason": "La IA aprende de ejemplos. Cuando un grupo está poco representado en los datos de entrenamiento, la IA tiene menos ejemplos de los cuales aprender, así que sus resultados para ellos pueden ser menos precisos."
+    },
+    {
+      "title": "Detecta los huecos",
+      "q": "Marca CADA razón por la que una IA podría funcionar mal para cierto grupo de personas.",
+      "items": [
+        "Ese grupo apenas aparece en los datos de entrenamiento",
+        "Los ejemplos en su idioma o dialecto quedaron fuera",
+        "Los datos representan sobre todo a otros grupos en su lugar",
+        "A la IA personalmente le cae mal ese grupo de personas",
+        "Los datos ya incluyen muchos ejemplos de ese grupo"
+      ],
+      "reason": "Una IA batalla con un grupo cuando ese grupo falta o está poco representado en sus datos. La IA no tiene sentimientos personales, y tener muchos ejemplos ayuda en vez de perjudicar."
+    },
+    {
+      "title": "Nombra la solución",
+      "q": "Para hacer una IA más justa, quienes la construyen agregan datos que reflejan mejor a todos a quienes va a servir. Los datos que incluyen a todos los grupos de forma justa se llaman datos ______.",
+      "answer": [
+        "representativos",
+        "de representación",
+        "más representativos",
+        "representativa"
+      ],
+      "reason": "Los datos representativos incluyen a todos los grupos a quienes la IA va a servir. Mejor representación significa que faltan menos personas, así que los resultados de la IA son más precisos y justos."
+    },
+    {
+      "title": "Revísalo para ver si es justo",
+      "q": "Una IA da una respuesta que parece funcionar para algunas personas pero no para otras. Toca los pasos para revisar si es justa en el orden CORRECTO.",
+      "pads": [
+        "👥 Pregunta para quién funciona la respuesta",
+        "❓ Pregunta de quién faltan los ejemplos",
+        "🌍 Sugiere datos más representativos"
+      ],
+      "reason": "Primero pregunta para QUIÉN funciona bien la respuesta. Luego pregunta de quién FALTAN los ejemplos. Luego sugiere una SOLUCIÓN: datos más representativos. Quién, Faltan, Solución."
+    }
+  ]
+}

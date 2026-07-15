@@ -70,16 +70,16 @@ window.BREAKOUT = {
    "footer.privacy": "Privacidad y cumplimiento",
    "footer.disclaimer": "Las traducciones son generadas por IA y están pendientes de revisión por hablantes nativos.",
    "header.eyebrow": "Breakout de alfabetización en IA generativa · Grado 3",
-   "header.h1": "AI All Around",
-   "header.sub": "AI is hiding in things you use every day. A voice helper, a video list, a photo app. Can you spot it? Crack four locks to find AI all around you.",
-   "brief.label": "Your Mission",
-   "brief.h": "Be an AI Spotter",
-   "brief.p": "AI is a computer tool that makes guesses. It shows up in many things you use each day. Read the clues, then open all four locks. Each lock has a reason that shows why the answer is right.",
-   "footer.text": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
-   "win.stamp": "MYSTERY SOLVED",
-   "win.h": "You cracked all four locks!",
-   "win.p": "You learned that AI is all around you in voice helpers, video lists, and photo apps. It makes guesses from patterns, it is a tool and not a person, and you are still the boss. Great spotting!",
-   "crumb.suite": "Gen AI Literacy Breakouts"
+   "header.h1": "IA por todas partes",
+   "header.sub": "La IA se esconde en cosas que usas todos los días. Un asistente de voz, una lista de videos, una aplicación de fotos. ¿La puedes encontrar? Abre cuatro candados para hallar la IA por todas partes.",
+   "brief.label": "Tu misión",
+   "brief.h": "Sé un buscador de IA",
+   "brief.p": "La IA es una herramienta de computadora que hace conjeturas. Aparece en muchas cosas que usas cada día. Lee las pistas y luego abre los cuatro candados. Cada candado tiene una razón que muestra por qué la respuesta es correcta.",
+   "footer.text": "Breakouts de alfabetización en IA generativa · Funciona todo en tu navegador — sin cuentas, sin datos guardados.",
+   "win.stamp": "MISTERIO RESUELTO",
+   "win.h": "¡Abriste los cuatro candados!",
+   "win.p": "Aprendiste que la IA está por todas partes en los asistentes de voz, las listas de videos y las aplicaciones de fotos. Hace conjeturas a partir de patrones, es una herramienta y no una persona, y tú sigues siendo quien manda. ¡Buena búsqueda!",
+   "crumb.suite": "Breakouts de alfabetización en IA generativa"
   },
   "vi": {
    "sect.clues": "🔍 Các manh mối",
@@ -104,15 +104,15 @@ window.BREAKOUT = {
    "footer.privacy": "Quyền riêng tư & tuân thủ",
    "footer.disclaimer": "Bản dịch do AI khởi tạo và đang chờ người bản ngữ rà soát.",
    "header.eyebrow": "Breakout hiểu biết AI tạo sinh · Lớp 3",
-   "header.h1": "AI All Around",
-   "header.sub": "AI is hiding in things you use every day. A voice helper, a video list, a photo app. Can you spot it? Crack four locks to find AI all around you.",
-   "brief.label": "Your Mission",
-   "brief.h": "Be an AI Spotter",
-   "brief.p": "AI is a computer tool that makes guesses. It shows up in many things you use each day. Read the clues, then open all four locks. Each lock has a reason that shows why the answer is right.",
-   "footer.text": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
-   "win.stamp": "MYSTERY SOLVED",
-   "win.h": "You cracked all four locks!",
-   "win.p": "You learned that AI is all around you in voice helpers, video lists, and photo apps. It makes guesses from patterns, it is a tool and not a person, and you are still the boss. Great spotting!",
+   "header.h1": "AI Ở Khắp Xung Quanh",
+   "header.sub": "AI đang ẩn trong những thứ bạn dùng mỗi ngày. Một trợ lý giọng nói, một danh sách video, một ứng dụng ảnh. Bạn có nhận ra nó không? Hãy giải bốn ổ khóa để tìm AI ở khắp xung quanh bạn.",
+   "brief.label": "Nhiệm vụ của bạn",
+   "brief.h": "Làm Người Phát Hiện AI",
+   "brief.p": "AI là một công cụ máy tính đưa ra phỏng đoán. Nó xuất hiện trong nhiều thứ bạn dùng mỗi ngày. Hãy đọc manh mối, rồi mở cả bốn ổ khóa. Mỗi ổ khóa có một lý do cho thấy vì sao câu trả lời đúng.",
+   "footer.text": "Breakout Hiểu biết AI tạo sinh · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+   "win.stamp": "ĐÃ GIẢI XONG BÍ ẨN",
+   "win.h": "Bạn đã mở cả bốn ổ khóa!",
+   "win.p": "Bạn đã học được rằng AI ở khắp xung quanh bạn trong các trợ lý giọng nói, danh sách video, và ứng dụng ảnh. Nó đưa ra phỏng đoán từ các khuôn mẫu, nó là một công cụ chứ không phải một con người, và bạn vẫn là người làm chủ. Phát hiện giỏi lắm!",
    "crumb.suite": "Gen AI Literacy Breakouts"
   },
   "ar": {
@@ -138,16 +138,16 @@ window.BREAKOUT = {
    "footer.privacy": "الخصوصية والامتثال",
    "footer.disclaimer": "التّرجمات مُولّدة بالذكاء الاصطناعي وبانتظار مراجعة متحدّث أصلي.",
    "header.eyebrow": "تحدّي الثقافة في الذكاء الاصطناعي التوليدي · الصف 3",
-   "header.h1": "AI All Around",
-   "header.sub": "AI is hiding in things you use every day. A voice helper, a video list, a photo app. Can you spot it? Crack four locks to find AI all around you.",
-   "brief.label": "Your Mission",
-   "brief.h": "Be an AI Spotter",
-   "brief.p": "AI is a computer tool that makes guesses. It shows up in many things you use each day. Read the clues, then open all four locks. Each lock has a reason that shows why the answer is right.",
-   "footer.text": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
-   "win.stamp": "MYSTERY SOLVED",
-   "win.h": "You cracked all four locks!",
-   "win.p": "You learned that AI is all around you in voice helpers, video lists, and photo apps. It makes guesses from patterns, it is a tool and not a person, and you are still the boss. Great spotting!",
-   "crumb.suite": "Gen AI Literacy Breakouts"
+   "header.h1": "الذكاء الاصطناعي في كل مكان",
+   "header.sub": "الذكاء الاصطناعي مختبئ في أشياء تستخدمها كل يوم. مساعد صوتي، قائمة فيديوهات، تطبيق صور. هل يمكنك رصده؟ افتح أربعة أقفال لتجد الذكاء الاصطناعي في كل مكان حولك.",
+   "brief.label": "مهمّتك",
+   "brief.h": "كن راصد الذكاء الاصطناعي",
+   "brief.p": "الذكاء الاصطناعي أداة حاسوبية تُخمّن. يظهر في أشياء كثيرة تستخدمها كل يوم. اقرأ الأدلّة، ثم افتح الأقفال الأربعة كلّها. لكل قفل سبب يوضّح لماذا الإجابة صحيحة.",
+   "footer.text": "تحدّيات الثقافة في الذكاء الاصطناعي التوليدي · يعمل بالكامل في متصفّحك — بلا تسجيل دخول، ولا جمع بيانات.",
+   "win.stamp": "حُلّ اللغز",
+   "win.h": "لقد فتحت الأقفال الأربعة كلّها!",
+   "win.p": "تعلّمت أن الذكاء الاصطناعي في كل مكان حولك في المساعدين الصوتيين، وقوائم الفيديو، وتطبيقات الصور. إنه يُخمّن من الأنماط، وهو أداة وليس شخصًا، وأنت ما زلت المسؤول. رصد رائع!",
+   "crumb.suite": "تحدّيات الثقافة في الذكاء الاصطناعي التوليدي"
   },
   "hi": {
    "sect.clues": "🔍 सुराग",
@@ -172,15 +172,15 @@ window.BREAKOUT = {
    "footer.privacy": "गोपनीयता और अनुपालन",
    "footer.disclaimer": "अनुवाद AI द्वारा तैयार हैं और मातृभाषी समीक्षा की प्रतीक्षा में हैं।",
    "header.eyebrow": "जनरेटिव AI साक्षरता ब्रेकआउट · कक्षा 3",
-   "header.h1": "AI All Around",
-   "header.sub": "AI is hiding in things you use every day. A voice helper, a video list, a photo app. Can you spot it? Crack four locks to find AI all around you.",
-   "brief.label": "Your Mission",
-   "brief.h": "Be an AI Spotter",
-   "brief.p": "AI is a computer tool that makes guesses. It shows up in many things you use each day. Read the clues, then open all four locks. Each lock has a reason that shows why the answer is right.",
-   "footer.text": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
-   "win.stamp": "MYSTERY SOLVED",
-   "win.h": "You cracked all four locks!",
-   "win.p": "You learned that AI is all around you in voice helpers, video lists, and photo apps. It makes guesses from patterns, it is a tool and not a person, and you are still the boss. Great spotting!",
+   "header.h1": "AI हर तरफ़",
+   "header.sub": "AI उन चीज़ों में छिपा है जो तुम रोज़ इस्तेमाल करते हो। एक आवाज़ मददगार, एक वीडियो सूची, एक फ़ोटो ऐप। क्या तुम इसे पहचान सकते हो? चार ताले खोलो और अपने आस-पास हर तरफ़ AI ढूँढो।",
+   "brief.label": "तुम्हारा मिशन",
+   "brief.h": "AI पहचानने वाले बनो",
+   "brief.p": "AI एक कंप्यूटर उपकरण है जो अनुमान लगाता है। यह उन कई चीज़ों में दिखता है जो तुम हर दिन इस्तेमाल करते हो। सुराग पढ़ो, फिर चारों ताले खोलो। हर ताले में एक कारण होता है जो बताता है कि उत्तर सही क्यों है।",
+   "footer.text": "जनरेटिव AI साक्षरता ब्रेकआउट · पूरी तरह तुम्हारे ब्राउज़र में चलता है — कोई लॉगिन नहीं, कोई डेटा नहीं इकट्ठा किया जाता।",
+   "win.stamp": "रहस्य सुलझा",
+   "win.h": "तुमने चारों ताले खोल दिए!",
+   "win.p": "तुमने सीखा कि AI तुम्हारे आस-पास हर तरफ़ है — आवाज़ मददगारों, वीडियो सूचियों, और फ़ोटो ऐप्स में। यह पैटर्न से अनुमान लगाता है, यह एक उपकरण है कोई व्यक्ति नहीं, और तुम अब भी बॉस हो। बढ़िया पहचान!",
    "crumb.suite": "Gen AI Literacy Breakouts"
   },
   "ur": {
@@ -240,16 +240,16 @@ window.BREAKOUT = {
    "footer.privacy": "隐私与合规",
    "footer.disclaimer": "译文由 AI 生成，尚待母语者审校。",
    "header.eyebrow": "生成式 AI 素养破解 · 3 年级",
-   "header.h1": "AI All Around",
-   "header.sub": "AI is hiding in things you use every day. A voice helper, a video list, a photo app. Can you spot it? Crack four locks to find AI all around you.",
-   "brief.label": "Your Mission",
-   "brief.h": "Be an AI Spotter",
-   "brief.p": "AI is a computer tool that makes guesses. It shows up in many things you use each day. Read the clues, then open all four locks. Each lock has a reason that shows why the answer is right.",
-   "footer.text": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
-   "win.stamp": "MYSTERY SOLVED",
-   "win.h": "You cracked all four locks!",
-   "win.p": "You learned that AI is all around you in voice helpers, video lists, and photo apps. It makes guesses from patterns, it is a tool and not a person, and you are still the boss. Great spotting!",
-   "crumb.suite": "Gen AI Literacy Breakouts"
+   "header.h1": "人工智能就在身边",
+   "header.sub": "人工智能藏在你每天用的东西里。一个语音助手、一份视频列表、一个照片应用。你能找出它吗？解开四把锁，在你身边找到人工智能。",
+   "brief.label": "你的任务",
+   "brief.h": "当一名人工智能侦察员",
+   "brief.p": "人工智能是一种会做出猜测的电脑工具。它出现在你每天用的很多东西里。先读线索，再打开全部四把锁。每把锁都有一个理由，说明为什么答案是对的。",
+   "footer.text": "生成式 AI 素养破解 · 全部在你的浏览器里运行——不用登录，不收集数据。",
+   "win.stamp": "谜团破解",
+   "win.h": "你解开了全部四把锁！",
+   "win.p": "你了解到人工智能就在你身边，藏在语音助手、视频列表和照片应用里。它根据规律来做猜测，它是一个工具而不是一个人，而你才是做主的那个。侦察得真棒！",
+   "crumb.suite": "生成式 AI 素养破解"
   }
  },
  "CONTENT": {
@@ -392,28 +392,718 @@ window.BREAKOUT = {
    ]
   },
   "es": {
-   "clues": [],
-   "locks": []
+   "clues": [
+    {
+     "id": "c1",
+     "ico": "🗣️",
+     "nm": "El asistente de voz",
+     "title": "IA con la que puedes hablar",
+     "body": "Cuando le pides a un asistente de voz que ponga una canción o que diga la hora, eso es IA. Escucha tus palabras, adivina lo que quieres decir y responde. Es una herramienta que ayuda, no una persona."
+    },
+    {
+     "id": "c2",
+     "ico": "📺",
+     "nm": "La lista de videos",
+     "title": "¿Por qué este video?",
+     "body": "Una aplicación de videos o de música puede mostrarte una lista de cosas para ver o escuchar a continuación. La IA hizo esa lista. Miró lo que te gustó antes y adivinó lo que te podría gustar ahora."
+    },
+    {
+     "id": "c3",
+     "ico": "⌨️",
+     "nm": "Adivinar palabras",
+     "title": "Ayuda al escribir",
+     "body": "Cuando escribes y el teléfono adivina tu siguiente palabra, eso también es IA. Vio que ciertas palabras suelen ir juntas. Así que adivina la palabra que cree que viene después. A veces su conjetura está mal."
+    },
+    {
+     "id": "c4",
+     "ico": "🖼️",
+     "nm": "Etiquetas de fotos",
+     "title": "Encontrar al perro",
+     "body": "Una aplicación de fotos puede encontrar cada imagen que tiene un perro. La IA aprendió cómo se ven los perros a partir de muchas imágenes. Luego adivina cuáles de tus fotos tienen un perro. Puede saltarse algunas o adivinar mal."
+    },
+    {
+     "id": "c5",
+     "ico": "🎮",
+     "nm": "Tú mandas",
+     "title": "Tú eliges",
+     "body": "La IA puede adivinar y sugerir, pero tú sigues a cargo. Tú eliges qué ver. Tú eliges qué escribir. La IA es una herramienta que te ayuda, no un jefe que te dice qué hacer."
+    },
+    {
+     "id": "c6",
+     "ico": "🦕",
+     "nm": "Día de dinosaurios",
+     "title": "Un dato divertido",
+     "body": "Algunos dinosaurios eran tan largos como tres autobuses escolares en fila. Es un dato genial, pero no te ayudará a abrir ningún candado.",
+     "decoy": true
+    }
+   ],
+   "locks": [
+    {
+     "id": "L1",
+     "type": "mc",
+     "color": "#4338ca",
+     "title": "Encuentra la IA",
+     "q": "¿Cuál de estas usa IA para hacer una conjetura por ti?",
+     "options": [
+      "Un asistente de voz que escucha tus palabras y te responde",
+      "Un lápiz de madera que usas para escribir en papel",
+      "Un mapa de papel que doblas y guardas en tu mochila"
+     ],
+     "answerIndex": 0,
+     "reason": "Un asistente de voz usa IA para adivinar lo que quieren decir tus palabras y responderte. Un lápiz simple y un mapa de papel son herramientas sencillas sin IA dentro."
+    },
+    {
+     "id": "L2",
+     "type": "multi",
+     "color": "#7c3aed",
+     "title": "IA por todas partes a tu alrededor",
+     "q": "Marca CADA cosa donde la IA ayuda haciendo conjeturas.",
+     "items": [
+      {
+       "t": "Una aplicación de videos adivina qué te gustaría ver después",
+       "strong": true
+      },
+      {
+       "t": "Un teléfono adivina la siguiente palabra mientras escribes",
+       "strong": true
+      },
+      {
+       "t": "Una aplicación de fotos adivina cuáles imágenes tienen un perro",
+       "strong": true
+      },
+      {
+       "t": "Una luz se enciende solo porque tú mismo mueves el interruptor",
+       "strong": false
+      },
+      {
+       "t": "Un crayón colorea el papel solo donde lo mueve tu mano",
+       "strong": false
+      }
+     ],
+     "reason": "Las listas de videos, adivinar la siguiente palabra y etiquetar fotos usan IA para hacer conjeturas a partir de patrones. Un interruptor de luz y un crayón solo hacen exactamente lo que hace tu mano, sin adivinar."
+    },
+    {
+     "id": "L3",
+     "type": "word",
+     "color": "#0891b2",
+     "title": "No es una persona",
+     "q": "Un asistente de voz te responde, pero no está vivo. Es una ______ de computadora.",
+     "answer": [
+      "tool",
+      "helper",
+      "helper tool",
+      "a tool",
+      "a helper",
+      "herramienta",
+      "ayuda",
+      "herramienta de ayuda"
+     ],
+     "reason": "Un asistente de voz es una herramienta de computadora, o una ayuda. Puede responderte, pero no es una persona viva y no piensa ni siente como tú."
+    },
+    {
+     "id": "L4",
+     "type": "seq",
+     "color": "#0d9488",
+     "title": "Tú estás a cargo",
+     "q": "Una aplicación de videos sugiere un programa. Toca los pasos en el orden CORRECTO.",
+     "pads": [
+      {
+       "k": "choose",
+       "e": "🙋 Tú eliges qué hacer",
+       "c": "#4338ca"
+      },
+      {
+       "k": "guess",
+       "e": "🤖 La IA adivina un programa para ti",
+       "c": "#7c3aed"
+      },
+      {
+       "k": "look",
+       "e": "👀 Tú miras la sugerencia",
+       "c": "#0891b2"
+      }
+     ],
+     "answer": [
+      "guess",
+      "look",
+      "choose"
+     ],
+     "reason": "Primero la IA ADIVINA un programa a partir de tus patrones. Luego tú MIRAS lo que sugirió. Luego TÚ ELIGES qué hacer, porque tú sigues siendo quien manda."
+    }
+   ]
   },
   "vi": {
-   "clues": [],
-   "locks": []
+   "clues": [
+    {
+     "id": "c1",
+     "ico": "🗣️",
+     "nm": "Trợ lý giọng nói",
+     "title": "AI mà bạn có thể nói chuyện",
+     "body": "Khi bạn nhờ một trợ lý giọng nói phát một bài hát hoặc báo giờ, đó là AI. Nó nghe lời bạn, phỏng đoán ý bạn, và trả lời. Nó là một công cụ trợ giúp, không phải một con người."
+    },
+    {
+     "id": "c2",
+     "ico": "📺",
+     "nm": "Danh sách video",
+     "title": "Vì sao lại là video này?",
+     "body": "Một ứng dụng video hoặc một ứng dụng nhạc có thể cho bạn một danh sách những thứ để xem hoặc nghe tiếp theo. AI đã tạo ra danh sách đó. Nó nhìn vào những gì bạn từng thích trước đây và phỏng đoán những gì bạn có thể thích bây giờ."
+    },
+    {
+     "id": "c3",
+     "ico": "⌨️",
+     "nm": "Phỏng đoán từ",
+     "title": "Trợ giúp gõ chữ",
+     "body": "Khi bạn gõ chữ và điện thoại phỏng đoán từ tiếp theo của bạn, đó cũng là AI. Nó thấy rằng các từ thường đi cùng nhau. Nên nó phỏng đoán từ mà nó nghĩ là đến tiếp theo. Đôi khi phỏng đoán của nó sai."
+    },
+    {
+     "id": "c4",
+     "ico": "🖼️",
+     "nm": "Gắn thẻ ảnh",
+     "title": "Tìm chú chó",
+     "body": "Một ứng dụng ảnh có thể tìm mọi bức ảnh có một chú chó trong đó. AI đã học chó trông như thế nào từ rất nhiều bức ảnh. Rồi nó phỏng đoán bức ảnh nào của bạn có một chú chó. Nó có thể bỏ sót vài bức hoặc phỏng đoán sai."
+    },
+    {
+     "id": "c5",
+     "ico": "🎮",
+     "nm": "Bạn là người làm chủ",
+     "title": "Bạn lựa chọn",
+     "body": "AI có thể phỏng đoán và gợi ý, nhưng bạn vẫn là người phụ trách. Bạn chọn xem gì. Bạn chọn gõ gì. AI là một công cụ giúp bạn, không phải một ông chủ bảo bạn phải làm gì."
+    },
+    {
+     "id": "c6",
+     "ico": "🦕",
+     "nm": "Ngày khủng long",
+     "title": "Một sự thật thú vị",
+     "body": "Một số con khủng long dài bằng ba chiếc xe buýt trường học xếp thành hàng. Đó là một sự thật ngầu — nhưng nó sẽ không giúp bạn mở ổ khóa nào.",
+     "decoy": true
+    }
+   ],
+   "locks": [
+    {
+     "id": "L1",
+     "type": "mc",
+     "color": "#4338ca",
+     "title": "Nhận ra AI",
+     "q": "Cái nào dùng AI để đưa ra một phỏng đoán cho bạn?",
+     "options": [
+      "Một trợ lý giọng nói nghe lời bạn và trả lời bạn",
+      "Một cây bút chì gỗ mà bạn dùng để viết trên giấy",
+      "Một tấm bản đồ giấy mà bạn gấp lại và bỏ vào túi"
+     ],
+     "answerIndex": 0,
+     "reason": "Một trợ lý giọng nói dùng AI để phỏng đoán ý lời bạn và trả lời bạn. Một cây bút chì thường và một tấm bản đồ giấy là những công cụ đơn giản, không có AI bên trong."
+    },
+    {
+     "id": "L2",
+     "type": "multi",
+     "color": "#7c3aed",
+     "title": "AI ở khắp xung quanh bạn",
+     "q": "Hãy đánh dấu MỌI thứ mà AI đang giúp đỡ bằng cách đưa ra phỏng đoán.",
+     "items": [
+      {
+       "t": "Một ứng dụng video phỏng đoán những gì bạn có thể muốn xem tiếp theo",
+       "strong": true
+      },
+      {
+       "t": "Một điện thoại phỏng đoán từ tiếp theo khi bạn gõ chữ",
+       "strong": true
+      },
+      {
+       "t": "Một ứng dụng ảnh phỏng đoán bức ảnh nào có một chú chó trong đó",
+       "strong": true
+      },
+      {
+       "t": "Một chiếc đèn bật lên chỉ vì bạn tự bật công tắc",
+       "strong": false
+      },
+      {
+       "t": "Một cây bút sáp tô màu tờ giấy chỉ ở nơi tay bạn di chuyển nó",
+       "strong": false
+      }
+     ],
+     "reason": "Danh sách video, gõ chữ đoán từ tiếp theo, và gắn thẻ ảnh đều dùng AI để đưa ra phỏng đoán từ các khuôn mẫu. Một công tắc đèn và một cây bút sáp chỉ làm đúng những gì tay bạn làm, không có phỏng đoán."
+    },
+    {
+     "id": "L3",
+     "type": "word",
+     "color": "#0891b2",
+     "title": "Không phải con người",
+     "q": "Một trợ lý giọng nói trả lời bạn, nhưng nó không sống. Nó là một ______ máy tính.",
+     "answer": [
+      "tool",
+      "helper",
+      "helper tool",
+      "a tool",
+      "a helper",
+      "công cụ",
+      "công cụ trợ giúp",
+      "trợ lý",
+      "công cụ giúp đỡ"
+     ],
+     "reason": "Một trợ lý giọng nói là một công cụ máy tính, hay công cụ trợ giúp. Nó có thể trả lời bạn, nhưng nó không phải một con người sống và không suy nghĩ hay cảm nhận như bạn."
+    },
+    {
+     "id": "L4",
+     "type": "seq",
+     "color": "#0d9488",
+     "title": "Bạn là người phụ trách",
+     "q": "Một ứng dụng video gợi ý một chương trình. Hãy chạm vào các bước theo ĐÚNG thứ tự.",
+     "pads": [
+      {
+       "k": "choose",
+       "e": "🙋 Bạn chọn làm gì",
+       "c": "#4338ca"
+      },
+      {
+       "k": "guess",
+       "e": "🤖 AI phỏng đoán một chương trình cho bạn",
+       "c": "#7c3aed"
+      },
+      {
+       "k": "look",
+       "e": "👀 Bạn nhìn vào gợi ý",
+       "c": "#0891b2"
+      }
+     ],
+     "answer": [
+      "guess",
+      "look",
+      "choose"
+     ],
+     "reason": "Đầu tiên AI PHỎNG ĐOÁN một chương trình từ các khuôn mẫu của bạn. Rồi bạn NHÌN vào những gì nó gợi ý. Rồi BẠN CHỌN làm gì, vì bạn vẫn là người làm chủ."
+    }
+   ]
   },
   "ar": {
-   "clues": [],
-   "locks": []
+   "clues": [
+    {
+     "id": "c1",
+     "ico": "🗣️",
+     "nm": "المساعد الصوتي",
+     "title": "ذكاء اصطناعي يمكنك التحدّث إليه",
+     "body": "عندما تطلب من مساعد صوتي أن يشغّل أغنية أو يخبرك بالوقت، فذلك ذكاء اصطناعي. يستمع إلى كلماتك، ويُخمّن ما تعنيه، ويجيبك. إنه أداة مساعِدة، لا شخص."
+    },
+    {
+     "id": "c2",
+     "ico": "📺",
+     "nm": "قائمة الفيديو",
+     "title": "لماذا هذا الفيديو؟",
+     "body": "يمكن لتطبيق فيديو أو تطبيق موسيقى أن يعرض لك قائمة بأشياء تشاهدها أو تسمعها بعد ذلك. الذكاء الاصطناعي صنع تلك القائمة. نظر إلى ما أعجبك سابقًا وخمّن ما قد يعجبك الآن."
+    },
+    {
+     "id": "c3",
+     "ico": "⌨️",
+     "nm": "تخمينات الكلمات",
+     "title": "مساعدة في الكتابة",
+     "body": "عندما تكتب ويُخمّن الهاتف كلمتك التالية، فذلك ذكاء اصطناعي أيضًا. رأى أن الكلمات تأتي معًا كثيرًا. لذا يُخمّن الكلمة التي يظنّ أنها تأتي بعد ذلك. أحيانًا يكون تخمينه خاطئًا."
+    },
+    {
+     "id": "c4",
+     "ico": "🖼️",
+     "nm": "وسوم الصور",
+     "title": "إيجاد الكلب",
+     "body": "يمكن لتطبيق صور أن يجد كل صورة فيها كلب. تعلّم الذكاء الاصطناعي شكل الكلاب من صور كثيرة. ثم يُخمّن أيّ صورك فيها كلب. قد يفوته بعضها أو يُخمّن خطأً."
+    },
+    {
+     "id": "c5",
+     "ico": "🎮",
+     "nm": "أنت المسؤول",
+     "title": "أنت تختار",
+     "body": "يمكن للذكاء الاصطناعي أن يُخمّن ويقترح، لكنك ما زلت المسؤول. أنت تختار ما تشاهد. أنت تختار ما تكتب. الذكاء الاصطناعي أداة تساعدك، لا رئيس يخبرك بما تفعل."
+    },
+    {
+     "id": "c6",
+     "ico": "🦕",
+     "nm": "يوم الديناصورات",
+     "title": "معلومة طريفة",
+     "body": "بعض الديناصورات كانت بطول ثلاث حافلات مدرسية في صفّ واحد. هذه معلومة رائعة — لكنها لن تساعدك على فتح أيّ قفل.",
+     "decoy": true
+    }
+   ],
+   "locks": [
+    {
+     "id": "L1",
+     "type": "mc",
+     "color": "#4338ca",
+     "title": "ارصد الذكاء الاصطناعي",
+     "q": "أيّها يستخدم الذكاء الاصطناعي ليُخمّن لك؟",
+     "options": [
+      "مساعد صوتي يسمع كلماتك ويجيبك",
+      "قلم رصاص خشبي تستخدمه للكتابة على الورق",
+      "خريطة ورقية تطويها وتضعها في حقيبتك"
+     ],
+     "answerIndex": 0,
+     "reason": "المساعد الصوتي يستخدم الذكاء الاصطناعي ليُخمّن ما تعنيه كلماتك ويجيبك. القلم العادي والخريطة الورقية أدوات بسيطة لا ذكاء اصطناعي داخلها."
+    },
+    {
+     "id": "L2",
+     "type": "multi",
+     "color": "#7c3aed",
+     "title": "الذكاء الاصطناعي في كل مكان حولك",
+     "q": "علّم على كل شيء يساعد فيه الذكاء الاصطناعي عن طريق التخمين.",
+     "items": [
+      {
+       "t": "تطبيق فيديو يُخمّن ما قد تريد مشاهدته بعد ذلك",
+       "strong": true
+      },
+      {
+       "t": "هاتف يُخمّن الكلمة التالية أثناء كتابتك",
+       "strong": true
+      },
+      {
+       "t": "تطبيق صور يُخمّن أيّ الصور فيها كلب",
+       "strong": true
+      },
+      {
+       "t": "مصباح يُضاء فقط لأنك أدرت المفتاح بنفسك",
+       "strong": false
+      },
+      {
+       "t": "قلم تلوين يلوّن الورق فقط حيث تحرّكه يدك",
+       "strong": false
+      }
+     ],
+     "reason": "قوائم الفيديو، وتخمين الكلمة التالية، ووسم الصور كلّها تستخدم الذكاء الاصطناعي لتُخمّن من الأنماط. مفتاح الإضاءة وقلم التلوين يفعلان بالضبط ما تفعله يدك، دون تخمين."
+    },
+    {
+     "id": "L3",
+     "type": "word",
+     "color": "#0891b2",
+     "title": "ليس شخصًا",
+     "q": "يجيبك المساعد الصوتي، لكنه ليس حيًّا. إنه ______ حاسوبية.",
+     "answer": [
+      "tool",
+      "helper",
+      "helper tool",
+      "a tool",
+      "a helper",
+      "أداة",
+      "مساعِدة",
+      "أداة مساعِدة",
+      "أداة حاسوبية"
+     ],
+     "reason": "المساعد الصوتي أداة حاسوبية، أو مساعِدة. يمكنه أن يجيبك، لكنه ليس شخصًا حيًّا ولا يفكّر أو يشعر كما تفعل أنت."
+    },
+    {
+     "id": "L4",
+     "type": "seq",
+     "color": "#0d9488",
+     "title": "أنت المسؤول",
+     "q": "يقترح تطبيق فيديو برنامجًا. انقر الخطوات بالترتيب الصحيح.",
+     "pads": [
+      {
+       "k": "choose",
+       "e": "🙋 أنت تختار ما تفعل",
+       "c": "#4338ca"
+      },
+      {
+       "k": "guess",
+       "e": "🤖 الذكاء الاصطناعي يُخمّن برنامجًا لك",
+       "c": "#7c3aed"
+      },
+      {
+       "k": "look",
+       "e": "👀 أنت تنظر إلى الاقتراح",
+       "c": "#0891b2"
+      }
+     ],
+     "answer": [
+      "guess",
+      "look",
+      "choose"
+     ],
+     "reason": "أولًا يُخمّن الذكاء الاصطناعي برنامجًا من أنماطك. ثم تنظر أنت إلى ما اقترحه. ثم تختار أنت ما تفعل، لأنك ما زلت المسؤول."
+    }
+   ]
   },
   "hi": {
-   "clues": [],
-   "locks": []
+   "clues": [
+    {
+     "id": "c1",
+     "ico": "🗣️",
+     "nm": "आवाज़ मददगार",
+     "title": "AI जिससे तुम बात कर सकते हो",
+     "body": "जब तुम किसी आवाज़ सहायक से कोई गाना बजाने या समय बताने को कहते हो, तो वह AI है। यह तुम्हारे शब्द सुनता है, अनुमान लगाता है कि तुम्हारा क्या मतलब है, और जवाब देता है। यह एक मददगार उपकरण है, कोई व्यक्ति नहीं।"
+    },
+    {
+     "id": "c2",
+     "ico": "📺",
+     "nm": "वीडियो सूची",
+     "title": "यह वीडियो क्यों?",
+     "body": "एक वीडियो ऐप या संगीत ऐप तुम्हें आगे देखने या सुनने की चीज़ों की सूची दिखा सकता है। वह सूची AI ने बनाई। इसने देखा कि तुम्हें पहले क्या पसंद था और अनुमान लगाया कि तुम्हें अब क्या पसंद आ सकता है।"
+    },
+    {
+     "id": "c3",
+     "ico": "⌨️",
+     "nm": "शब्द अनुमान",
+     "title": "टाइप करने में मदद",
+     "body": "जब तुम टाइप करते हो और फ़ोन तुम्हारे अगले शब्द का अनुमान लगाता है, तो वह भी AI है। इसने देखा कि शब्द अक्सर साथ चलते हैं। इसलिए यह उस शब्द का अनुमान लगाता है जो इसे लगता है कि आगे आता है। कभी-कभी इसका अनुमान गलत होता है।"
+    },
+    {
+     "id": "c4",
+     "ico": "🖼️",
+     "nm": "फ़ोटो टैग",
+     "title": "कुत्ता ढूँढना",
+     "body": "एक फ़ोटो ऐप हर उस तस्वीर को ढूँढ सकता है जिसमें कुत्ता हो। AI ने कई तस्वीरों से सीखा कि कुत्ते कैसे दिखते हैं। फिर यह अनुमान लगाता है कि तुम्हारी कौन सी फ़ोटो में कुत्ता है। यह कुछ छोड़ सकता है या गलत अनुमान लगा सकता है।"
+    },
+    {
+     "id": "c5",
+     "ico": "🎮",
+     "nm": "तुम बॉस हो",
+     "title": "तुम चुनते हो",
+     "body": "AI अनुमान लगा सकता है और सुझाव दे सकता है, पर तुम अब भी प्रभारी हो। तुम चुनते हो कि क्या देखना है। तुम चुनते हो कि क्या टाइप करना है। AI एक उपकरण है जो तुम्हारी मदद करता है, कोई बॉस नहीं जो तुम्हें बताए कि क्या करना है।"
+    },
+    {
+     "id": "c6",
+     "ico": "🦕",
+     "nm": "डायनो दिन",
+     "title": "एक मज़ेदार तथ्य",
+     "body": "कुछ डायनासोर एक कतार में तीन स्कूल बसों जितने लंबे थे। यह एक मज़ेदार तथ्य है — पर यह किसी ताले को खोलने में मदद नहीं करेगा।",
+     "decoy": true
+    }
+   ],
+   "locks": [
+    {
+     "id": "L1",
+     "type": "mc",
+     "color": "#4338ca",
+     "title": "AI पहचानो",
+     "q": "कौन सा तुम्हारे लिए अनुमान लगाने के लिए AI इस्तेमाल करता है?",
+     "options": [
+      "एक आवाज़ सहायक जो तुम्हारे शब्द सुनता है और तुम्हें जवाब देता है",
+      "एक लकड़ी की पेंसिल जिससे तुम कागज़ पर लिखते हो",
+      "एक कागज़ का नक्शा जिसे तुम मोड़कर अपने बैग में रखते हो"
+     ],
+     "answerIndex": 0,
+     "reason": "एक आवाज़ सहायक तुम्हारे शब्दों का मतलब अनुमान लगाने और तुम्हें जवाब देने के लिए AI इस्तेमाल करता है। एक साधारण पेंसिल और एक कागज़ का नक्शा सरल उपकरण हैं जिनमें कोई AI नहीं होता।"
+    },
+    {
+     "id": "L2",
+     "type": "multi",
+     "color": "#7c3aed",
+     "title": "तुम्हारे आस-पास हर तरफ़ AI",
+     "q": "हर उस चीज़ को चुनो जहाँ AI अनुमान लगाकर मदद कर रहा है।",
+     "items": [
+      {
+       "t": "एक वीडियो ऐप अनुमान लगाता है कि तुम आगे क्या देखना चाहोगे",
+       "strong": true
+      },
+      {
+       "t": "जब तुम टाइप करते हो तो एक फ़ोन अगले शब्द का अनुमान लगाता है",
+       "strong": true
+      },
+      {
+       "t": "एक फ़ोटो ऐप अनुमान लगाता है कि किन तस्वीरों में कुत्ता है",
+       "strong": true
+      },
+      {
+       "t": "एक बत्ती सिर्फ़ इसलिए जलती है क्योंकि तुम खुद स्विच दबाते हो",
+       "strong": false
+      },
+      {
+       "t": "एक क्रेयॉन कागज़ पर सिर्फ़ वहीं रंग भरता है जहाँ तुम्हारा हाथ उसे ले जाता है",
+       "strong": false
+      }
+     ],
+     "reason": "वीडियो सूचियाँ, अगले-शब्द की टाइपिंग, और फ़ोटो टैगिंग सब पैटर्न से अनुमान लगाने के लिए AI इस्तेमाल करते हैं। एक बत्ती का स्विच और एक क्रेयॉन बस ठीक वही करते हैं जो तुम्हारा हाथ करता है, बिना किसी अनुमान के।"
+    },
+    {
+     "id": "L3",
+     "type": "word",
+     "color": "#0891b2",
+     "title": "व्यक्ति नहीं",
+     "q": "एक आवाज़ सहायक तुम्हें जवाब देता है, पर यह जीवित नहीं है। यह एक कंप्यूटर ______ है।",
+     "answer": [
+      "tool",
+      "helper",
+      "helper tool",
+      "a tool",
+      "a helper",
+      "उपकरण",
+      "मददगार",
+      "मददगार उपकरण",
+      "एक उपकरण",
+      "एक मददगार"
+     ],
+     "reason": "एक आवाज़ सहायक एक कंप्यूटर उपकरण, या मददगार है। यह तुम्हें जवाब दे सकता है, पर यह कोई जीवित व्यक्ति नहीं है और तुम्हारी तरह सोचता या महसूस नहीं करता।"
+    },
+    {
+     "id": "L4",
+     "type": "seq",
+     "color": "#0d9488",
+     "title": "तुम प्रभारी हो",
+     "q": "एक वीडियो ऐप कोई शो सुझाता है। कदमों पर सही क्रम में टैप करो।",
+     "pads": [
+      {
+       "k": "choose",
+       "e": "🙋 तुम चुनते हो कि क्या करना है",
+       "c": "#4338ca"
+      },
+      {
+       "k": "guess",
+       "e": "🤖 AI तुम्हारे लिए कोई शो अनुमान लगाता है",
+       "c": "#7c3aed"
+      },
+      {
+       "k": "look",
+       "e": "👀 तुम सुझाव को देखते हो",
+       "c": "#0891b2"
+      }
+     ],
+     "answer": [
+      "guess",
+      "look",
+      "choose"
+     ],
+     "reason": "पहले AI तुम्हारे पैटर्न से कोई शो अनुमान लगाता है। फिर तुम देखते हो कि इसने क्या सुझाया। फिर तुम चुनते हो कि क्या करना है, क्योंकि तुम अब भी बॉस हो।"
+    }
+   ]
   },
   "ur": {
    "clues": [],
    "locks": []
   },
   "zh": {
-   "clues": [],
-   "locks": []
+   "clues": [
+    {
+     "id": "c1",
+     "ico": "🗣️",
+     "nm": "语音助手",
+     "title": "可以对它说话的人工智能",
+     "body": "当你让语音助手放一首歌或报时间时，那就是人工智能。它听你说的话，猜你的意思，然后回答你。它是个帮忙的工具，不是一个人。"
+    },
+    {
+     "id": "c2",
+     "ico": "📺",
+     "nm": "视频列表",
+     "title": "为什么是这个视频？",
+     "body": "一个视频应用或音乐应用会给你显示一份接下来可以看或听的列表。那份列表是人工智能做的。它看了你以前喜欢什么，然后猜你现在可能喜欢什么。"
+    },
+    {
+     "id": "c3",
+     "ico": "⌨️",
+     "nm": "词语猜测",
+     "title": "打字帮手",
+     "body": "当你打字，手机猜出你的下一个词时，那也是人工智能。它看到有些词经常一起出现，于是就猜它认为接下来会出现的那个词。有时候它的猜测是错的。"
+    },
+    {
+     "id": "c4",
+     "ico": "🖼️",
+     "nm": "照片标签",
+     "title": "找出那只狗",
+     "body": "一个照片应用能找出每一张有狗的图片。人工智能从很多图片里学会了狗长什么样。然后它猜你的哪些照片里有狗。它可能会漏掉一些，或者猜错。"
+    },
+    {
+     "id": "c5",
+     "ico": "🎮",
+     "nm": "你才是做主的",
+     "title": "你来选择",
+     "body": "人工智能可以猜测和建议，但你仍然说了算。你挑要看什么。你选要打什么。人工智能是帮你的工具，不是告诉你该做什么的老板。"
+    },
+    {
+     "id": "c6",
+     "ico": "🦕",
+     "nm": "恐龙日",
+     "title": "一个有趣的小知识",
+     "body": "有些恐龙有三辆校车排成一排那么长。这是个很酷的小知识——但它帮不了你打开任何一把锁。",
+     "decoy": true
+    }
+   ],
+   "locks": [
+    {
+     "id": "L1",
+     "type": "mc",
+     "color": "#4338ca",
+     "title": "找出人工智能",
+     "q": "哪一个用人工智能来替你做猜测？",
+     "options": [
+      "一个能听懂你的话并回答你的语音助手",
+      "一支你用来在纸上写字的木铅笔",
+      "一张你折起来放进包里的纸质地图"
+     ],
+     "answerIndex": 0,
+     "reason": "语音助手用人工智能来猜你的话是什么意思并回答你。一支普通铅笔和一张纸质地图都是简单的工具，里面没有人工智能。"
+    },
+    {
+     "id": "L2",
+     "type": "multi",
+     "color": "#7c3aed",
+     "title": "人工智能就在你身边",
+     "q": "把每一个人工智能通过做猜测来帮忙的地方都勾选出来。",
+     "items": [
+      {
+       "t": "一个视频应用猜你接下来可能想看什么",
+       "strong": true
+      },
+      {
+       "t": "一部手机在你打字时猜出下一个词",
+       "strong": true
+      },
+      {
+       "t": "一个照片应用猜哪些图片里有狗",
+       "strong": true
+      },
+      {
+       "t": "一盏灯只是因为你自己按了开关才亮",
+       "strong": false
+      },
+      {
+       "t": "一支蜡笔只在你的手移动的地方给纸上色",
+       "strong": false
+      }
+     ],
+     "reason": "视频列表、打字时的下一个词、照片标签，全都用人工智能根据规律来做猜测。而开关和蜡笔只是完全照着你的手去做，没有猜测。"
+    },
+    {
+     "id": "L3",
+     "type": "word",
+     "color": "#0891b2",
+     "title": "不是一个人",
+     "q": "语音助手会回答你，但它不是活的。它是一个电脑______。",
+     "answer": [
+      "tool",
+      "helper",
+      "helper tool",
+      "a tool",
+      "a helper",
+      "工具",
+      "帮手",
+      "助手",
+      "帮忙工具"
+     ],
+     "reason": "语音助手是一个电脑工具，或者说帮手。它能回答你，但它不是一个活人，也不像你那样思考或感受。"
+    },
+    {
+     "id": "L4",
+     "type": "seq",
+     "color": "#0d9488",
+     "title": "你说了算",
+     "q": "一个视频应用推荐了一个节目。按正确的顺序点这些步骤。",
+     "pads": [
+      {
+       "k": "choose",
+       "e": "🙋 你来选择要做什么",
+       "c": "#4338ca"
+      },
+      {
+       "k": "guess",
+       "e": "🤖 人工智能替你猜一个节目",
+       "c": "#7c3aed"
+      },
+      {
+       "k": "look",
+       "e": "👀 你看看这个推荐",
+       "c": "#0891b2"
+      }
+     ],
+     "answer": [
+      "guess",
+      "look",
+      "choose"
+     ],
+     "reason": "先是人工智能根据你的规律猜出一个节目。然后你看看它推荐了什么。再由你来选择要做什么，因为你才是做主的那个。"
+    }
+   ]
   }
  }
 };

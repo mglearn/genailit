@@ -1,0 +1,90 @@
+{
+  "chrome": {
+    "h1": "Enséñale a la máquina",
+    "sub": "Estás entrenando a un ayudante para distinguir gatos de perros. Aprende de los ejemplos que le muestras. Abre cuatro candados para aprender cómo aprende una máquina.",
+    "briefLabel": "Tu misión",
+    "briefH": "Sé un entrenador de IA",
+    "briefP": "Una IA no simplemente sabe las cosas. Aprende de los ejemplos que le das, y a esos ejemplos los llamamos datos. Muéstrale más ejemplos y mejor etiquetados, y sus conjeturas mejoran. Lee las pistas y luego abre los cuatro candados. Cada candado tiene una razón que muestra por qué la respuesta es correcta.",
+    "footerText": "Breakouts de alfabetización en IA generativa · Funciona todo en tu navegador — sin cuentas, sin datos guardados.",
+    "winStamp": "MÁQUINA ENTRENADA",
+    "winH": "¡Abriste los cuatro candados!",
+    "winP": "Aprendiste que una IA aprende de ejemplos etiquetados, que esos ejemplos se llaman datos, que más ejemplos y más variados hacen mejores conjeturas, y que un buen entrenador revisa lo que la máquina aprendió. ¡Buen entrenamiento!",
+    "crumbSuite": "Breakouts de alfabetización en IA generativa"
+  },
+  "clues": [
+    {
+      "nm": "Muestra y etiqueta",
+      "title": "Ejemplos con nombres",
+      "body": "Para enseñarle a una máquina a distinguir un gato de un perro, le muestras muchas imágenes. También etiquetas cada una: esto es un gato, esto es un perro. Los ejemplos etiquetados le enseñan qué buscar."
+    },
+    {
+      "nm": "Se llaman datos",
+      "title": "Los ejemplos tienen un nombre",
+      "body": "Todos los ejemplos etiquetados que le muestras a la máquina tienen un nombre especial. Se llaman datos. Cuando la gente dice que una IA aprende de los datos, quiere decir que aprende de ejemplos como estos."
+    },
+    {
+      "nm": "Solo gatos peludos",
+      "title": "Muy pocos ejemplos",
+      "body": "Alguien le mostró a una máquina solo gatos peludos. Ahora cree que un gato de pelo corto es un perro. No vio suficientes clases de gatos, así que su conjetura está mal."
+    },
+    {
+      "nm": "Más y variados",
+      "title": "Mejores ejemplos ayudan",
+      "body": "Para arreglarlo, le muestras a la máquina muchas clases de gatos y muchas clases de perros. Más ejemplos y más CLASES de ejemplos la ayudan a hacer mejores conjeturas."
+    },
+    {
+      "nm": "Revisa lo aprendido",
+      "title": "Prueba lo que aprendió",
+      "body": "Un buen entrenador no solo espera que haya funcionado. Le muestras a la máquina una imagen NUEVA que nunca vio y revisas si adivina bien. Probar te muestra lo que de verdad aprendió."
+    },
+    {
+      "nm": "Menú del almuerzo",
+      "title": "Un dato sabroso",
+      "body": "El martes es día de sándwich de queso a la plancha en la cafetería, y viene con sopa de tomate. Este es un dato divertido sobre el almuerzo, pero no te ayudará a abrir ningún candado."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Cómo aprende",
+      "q": "¿Cómo aprende la máquina a distinguir un gato de un perro?",
+      "options": [
+        "Nace ya sabiendo cómo se ven los gatos y los perros",
+        "Le muestras muchos ejemplos etiquetados, así aprende qué buscar",
+        "Adivina al azar y nunca mejora"
+      ],
+      "reason": "La máquina aprende de los ejemplos etiquetados que le das. Muéstrale suficientes imágenes marcadas como gato o perro, y aprende qué buscar."
+    },
+    {
+      "title": "Nombra los ejemplos",
+      "q": "Los ejemplos etiquetados que le muestras a una máquina para que pueda aprender se llaman ______.",
+      "answer": [
+        "datos",
+        "los datos"
+      ],
+      "reason": "Los ejemplos de los que aprende una IA se llaman datos. Más y mejores datos ayudan a la máquina a hacer mejores conjeturas."
+    },
+    {
+      "title": "Entrénala bien",
+      "q": "Marca CADA cosa que ayudaría a la máquina a hacer MEJORES conjeturas.",
+      "items": [
+        "Mostrarle muchas clases diferentes de gatos y perros",
+        "Etiquetar cada ejemplo correctamente",
+        "Probarla con una imagen nueva para revisar lo que aprendió",
+        "Mostrarle solo un gato peludo, una y otra vez",
+        "Nunca revisar si sus conjeturas están bien"
+      ],
+      "reason": "Más clases de ejemplos, etiquetas correctas y probar con imágenes nuevas hacen mejores las conjeturas de la máquina. Un solo ejemplo y no revisar las empeoran."
+    },
+    {
+      "title": "Enséñale a la máquina",
+      "q": "Estás entrenando a un ayudante de gatos y perros. Toca los pasos para enseñarle en el orden CORRECTO.",
+      "pads": [
+        "🖼️ Reúne muchas imágenes de ejemplo",
+        "🏷️ Etiqueta cada una como gato o perro",
+        "🧠 Deja que aprenda de las etiquetas",
+        "✅ Pruébala con una imagen nueva"
+      ],
+      "reason": "Primero REÚNE imágenes de ejemplo. Luego ETIQUETA cada una como gato o perro. Luego deja que APRENDA de tus etiquetas. Luego PRUÉBALA con una imagen nueva para revisar su conjetura."
+    }
+  ]
+}

@@ -70,16 +70,16 @@ window.BREAKOUT = {
    "footer.privacy": "Privacidad y cumplimiento",
    "footer.disclaimer": "Las traducciones son generadas por IA y están pendientes de revisión por hablantes nativos.",
    "header.eyebrow": "Breakout de alfabetización en IA generativa · Grado 7",
-   "header.h1": "Who's Missing?",
-   "header.sub": "An AI works great for some people — and gets things wrong for others. The reason hides in who was in its data. Crack four locks to find out who's missing.",
-   "brief.label": "Your Mission",
-   "brief.h": "Be a Representation Detective",
-   "brief.p": "AI learns from examples. When some groups or voices are left out of those examples, the AI knows them less well — so its answers can be wrong or unfair for them. Read the clues, then open all four locks. Each lock reveals the reasoning behind the answer.",
-   "footer.text": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
-   "win.stamp": "CASE CLOSED",
-   "win.h": "You cracked all four locks!",
-   "win.p": "You learned that AI mirrors its training data, that under-represented groups get less accurate results, that asking 'whose examples are missing?' reveals the gap, that more representative data makes AI fairer, and how to check an output for fairness. Sharp work.",
-   "crumb.suite": "Gen AI Literacy Breakouts"
+   "header.h1": "¿Quién falta?",
+   "header.sub": "Una IA funciona muy bien para algunas personas y se equivoca con otras. La razón se esconde en quién estaba en sus datos. Abre cuatro candados para descubrir quién falta.",
+   "brief.label": "Tu misión",
+   "brief.h": "Sé un detective de representación",
+   "brief.p": "La IA aprende de ejemplos. Cuando algunos grupos o voces quedan fuera de esos ejemplos, la IA los conoce menos, así que sus respuestas pueden ser incorrectas o injustas para ellos. Lee las pistas y luego abre los cuatro candados. Cada candado revela el razonamiento detrás de la respuesta.",
+   "footer.text": "Breakouts de alfabetización en IA generativa · Funciona todo en tu navegador — sin cuentas, sin datos guardados.",
+   "win.stamp": "CASO CERRADO",
+   "win.h": "¡Abriste los cuatro candados!",
+   "win.p": "Aprendiste que la IA refleja sus datos de entrenamiento, que los grupos poco representados obtienen resultados menos precisos, que preguntar '¿de quién faltan los ejemplos?' revela el hueco, que datos más representativos hacen a la IA más justa, y cómo revisar un resultado para ver si es justo. Trabajo agudo.",
+   "crumb.suite": "Breakouts de alfabetización en IA generativa"
   },
   "vi": {
    "sect.clues": "🔍 Các manh mối",
@@ -138,16 +138,16 @@ window.BREAKOUT = {
    "footer.privacy": "الخصوصية والامتثال",
    "footer.disclaimer": "التّرجمات مُولّدة بالذكاء الاصطناعي وبانتظار مراجعة متحدّث أصلي.",
    "header.eyebrow": "تحدّي الثقافة في الذكاء الاصطناعي التوليدي · الصف 7",
-   "header.h1": "Who's Missing?",
-   "header.sub": "An AI works great for some people — and gets things wrong for others. The reason hides in who was in its data. Crack four locks to find out who's missing.",
-   "brief.label": "Your Mission",
-   "brief.h": "Be a Representation Detective",
-   "brief.p": "AI learns from examples. When some groups or voices are left out of those examples, the AI knows them less well — so its answers can be wrong or unfair for them. Read the clues, then open all four locks. Each lock reveals the reasoning behind the answer.",
-   "footer.text": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
-   "win.stamp": "CASE CLOSED",
-   "win.h": "You cracked all four locks!",
-   "win.p": "You learned that AI mirrors its training data, that under-represented groups get less accurate results, that asking 'whose examples are missing?' reveals the gap, that more representative data makes AI fairer, and how to check an output for fairness. Sharp work.",
-   "crumb.suite": "Gen AI Literacy Breakouts"
+   "header.h1": "من الغائب؟",
+   "header.sub": "يعمل الذكاء الاصطناعي بشكل رائع لبعض الناس — ويخطئ لآخرين. السبب مختبئ في من كان ضمن بياناته. افتح أربعة أقفال لتكتشف من الغائب.",
+   "brief.label": "مهمّتك",
+   "brief.h": "كن محقّق التمثيل",
+   "brief.p": "يتعلّم الذكاء الاصطناعي من الأمثلة. عندما تُستبعَد بعض الفئات أو الأصوات من تلك الأمثلة، يعرفها الذكاء الاصطناعي معرفة أقلّ — فتصبح إجاباته لها خاطئة أو غير عادلة. اقرأ الأدلّة، ثم افتح الأقفال الأربعة كلّها. يكشف كل قفل عن المنطق وراء الإجابة.",
+   "footer.text": "تحدّيات الثقافة في الذكاء الاصطناعي التوليدي · يعمل بالكامل في متصفّحك — بلا تسجيل دخول، ولا جمع بيانات.",
+   "win.stamp": "أُغلقت القضية",
+   "win.h": "لقد فتحت الأقفال الأربعة كلّها!",
+   "win.p": "تعلّمت أن الذكاء الاصطناعي يعكس بيانات تدريبه، وأن الفئات ناقصة التمثيل تحصل على نتائج أقلّ دقّة، وأن سؤال 'أمثلة من الغائبة؟' يكشف الفجوة، وأن بيانات أكثر تمثيلًا تجعل الذكاء الاصطناعي أعدل، وكيف تتحقّق من مُخرَج للعدالة. عمل حاذق.",
+   "crumb.suite": "تحدّيات الثقافة في الذكاء الاصطناعي التوليدي"
   },
   "hi": {
    "sect.clues": "🔍 सुराग",
@@ -240,16 +240,16 @@ window.BREAKOUT = {
    "footer.privacy": "隐私与合规",
    "footer.disclaimer": "译文由 AI 生成，尚待母语者审校。",
    "header.eyebrow": "生成式 AI 素养破解 · 7 年级",
-   "header.h1": "Who's Missing?",
-   "header.sub": "An AI works great for some people — and gets things wrong for others. The reason hides in who was in its data. Crack four locks to find out who's missing.",
-   "brief.label": "Your Mission",
-   "brief.h": "Be a Representation Detective",
-   "brief.p": "AI learns from examples. When some groups or voices are left out of those examples, the AI knows them less well — so its answers can be wrong or unfair for them. Read the clues, then open all four locks. Each lock reveals the reasoning behind the answer.",
-   "footer.text": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
-   "win.stamp": "CASE CLOSED",
-   "win.h": "You cracked all four locks!",
-   "win.p": "You learned that AI mirrors its training data, that under-represented groups get less accurate results, that asking 'whose examples are missing?' reveals the gap, that more representative data makes AI fairer, and how to check an output for fairness. Sharp work.",
-   "crumb.suite": "Gen AI Literacy Breakouts"
+   "header.h1": "谁被漏掉了？",
+   "header.sub": "一个人工智能对某些人用起来很好——对另一些人却会出错。原因藏在它的数据里有谁。解开四把锁，找出谁被漏掉了。",
+   "brief.label": "你的任务",
+   "brief.h": "当一名代表性侦探",
+   "brief.p": "人工智能从例子里学习。当某些群体或声音被排除在这些例子之外时，人工智能对他们就了解得更少——所以它给出的答案对他们可能是错的或不公平的。先读线索，再打开全部四把锁。每把锁都会揭示答案背后的推理。",
+   "footer.text": "生成式 AI 素养破解 · 全部在你的浏览器里运行——不用登录，不收集数据。",
+   "win.stamp": "案件破了",
+   "win.h": "你解开了全部四把锁！",
+   "win.p": "你了解到人工智能会映照它的训练数据，代表性不足的群体会得到不那么准确的结果，问“谁的例子被漏掉了？”能揭示这道缺口，更有代表性的数据能让人工智能更公平，还有怎样检查一个输出是否公平。做得真犀利。",
+   "crumb.suite": "生成式 AI 素养破解"
   }
  },
  "CONTENT": {
@@ -391,16 +391,290 @@ window.BREAKOUT = {
    ]
   },
   "es": {
-   "clues": [],
-   "locks": []
+   "clues": [
+    {
+     "id": "c1",
+     "ico": "🪞",
+     "nm": "Refleja sus datos",
+     "title": "Solo aprendes lo que ves",
+     "body": "Una IA aprende de los ejemplos de sus datos de entrenamiento. Solo puede volverse buena en cosas que vio mucho. Quien y lo que aparece más en los datos es lo que la IA conoce mejor."
+    },
+    {
+     "id": "c2",
+     "ico": "🧩",
+     "nm": "Piezas que faltan",
+     "title": "Algunas voces quedan fuera",
+     "body": "Si un grupo de personas, un idioma o un lugar apenas aparece en los datos, la IA tiene pocos ejemplos de los cuales aprender. Ese grupo está POCO REPRESENTADO; la IA lo conoce menos."
+    },
+    {
+     "id": "c3",
+     "ico": "🎯",
+     "nm": "Resultados injustos",
+     "title": "Funciona para unos, no para otros",
+     "body": "Cuando algunas personas faltan en los datos, las respuestas de la IA pueden ser menos precisas o hasta injustas para ellas, mientras funcionan perfectamente bien para los grupos bien representados."
+    },
+    {
+     "id": "c4",
+     "ico": "❓",
+     "nm": "Haz la pregunta clave",
+     "title": "¿De quién faltan los ejemplos?",
+     "body": "La pregunta más inteligente que puedes hacer sobre cualquier IA es: ¿de quién faltan los ejemplos? Nombrar a quién quedó fuera te ayuda a ver dónde la IA podría ser débil o injusta."
+    },
+    {
+     "id": "c5",
+     "ico": "🌍",
+     "nm": "Cerrar el hueco",
+     "title": "Datos más representativos",
+     "body": "La IA se vuelve más justa cuando quienes la construyen agregan datos más representativos: ejemplos de los grupos, idiomas y lugares que quedaron fuera. La meta son datos que reflejen a todos a quienes va a servir."
+    },
+    {
+     "id": "c6",
+     "ico": "🎸",
+     "nm": "Show de talentos",
+     "title": "Un evento escolar",
+     "body": "El show de talentos de primavera es en el gimnasio este año, y el año pasado un dúo de ukelele ganó el primer lugar. Divertido de saber, pero no te ayudará a abrir ningún candado.",
+     "decoy": true
+    }
+   ],
+   "locks": [
+    {
+     "id": "L1",
+     "type": "mc",
+     "color": "#4338ca",
+     "title": "Por qué falla con algunas personas",
+     "q": "Una herramienta de IA funciona bien para algunos estudiantes pero sigue equivocándose con otros. ¿Cuál es la razón más probable?",
+     "options": [
+      "La IA eligió ser injusta con esos estudiantes a propósito",
+      "Esos estudiantes estaban poco representados en los datos, así que la IA tiene menos ejemplos de ellos",
+      "La IA siempre funciona exactamente igual para todos, así que nada está mal"
+     ],
+     "answerIndex": 1,
+     "reason": "La IA aprende de ejemplos. Cuando un grupo está poco representado en los datos de entrenamiento, la IA tiene menos ejemplos de los cuales aprender, así que sus resultados para ellos pueden ser menos precisos."
+    },
+    {
+     "id": "L2",
+     "type": "multi",
+     "color": "#7c3aed",
+     "title": "Detecta los huecos",
+     "q": "Marca CADA razón por la que una IA podría funcionar mal para cierto grupo de personas.",
+     "items": [
+      {
+       "t": "Ese grupo apenas aparece en los datos de entrenamiento",
+       "strong": true
+      },
+      {
+       "t": "Los ejemplos en su idioma o dialecto quedaron fuera",
+       "strong": true
+      },
+      {
+       "t": "Los datos representan sobre todo a otros grupos en su lugar",
+       "strong": true
+      },
+      {
+       "t": "A la IA personalmente le cae mal ese grupo de personas",
+       "strong": false
+      },
+      {
+       "t": "Los datos ya incluyen muchos ejemplos de ese grupo",
+       "strong": false
+      }
+     ],
+     "reason": "Una IA batalla con un grupo cuando ese grupo falta o está poco representado en sus datos. La IA no tiene sentimientos personales, y tener muchos ejemplos ayuda en vez de perjudicar."
+    },
+    {
+     "id": "L3",
+     "type": "word",
+     "color": "#0891b2",
+     "title": "Nombra la solución",
+     "q": "Para hacer una IA más justa, quienes la construyen agregan datos que reflejan mejor a todos a quienes va a servir. Los datos que incluyen a todos los grupos de forma justa se llaman datos ______.",
+     "answer": [
+      "representative",
+      "representation",
+      "more representative",
+      "representative data",
+      "representativos",
+      "de representación",
+      "más representativos",
+      "representativa"
+     ],
+     "reason": "Los datos representativos incluyen a todos los grupos a quienes la IA va a servir. Mejor representación significa que faltan menos personas, así que los resultados de la IA son más precisos y justos."
+    },
+    {
+     "id": "L4",
+     "type": "seq",
+     "color": "#0d9488",
+     "title": "Revísalo para ver si es justo",
+     "q": "Una IA da una respuesta que parece funcionar para algunas personas pero no para otras. Toca los pasos para revisar si es justa en el orden CORRECTO.",
+     "pads": [
+      {
+       "k": "who",
+       "e": "👥 Pregunta para quién funciona la respuesta",
+       "c": "#4338ca"
+      },
+      {
+       "k": "missing",
+       "e": "❓ Pregunta de quién faltan los ejemplos",
+       "c": "#7c3aed"
+      },
+      {
+       "k": "fix",
+       "e": "🌍 Sugiere datos más representativos",
+       "c": "#0891b2"
+      }
+     ],
+     "answer": [
+      "who",
+      "missing",
+      "fix"
+     ],
+     "reason": "Primero pregunta para QUIÉN funciona bien la respuesta. Luego pregunta de quién FALTAN los ejemplos. Luego sugiere una SOLUCIÓN: datos más representativos. Quién, Faltan, Solución."
+    }
+   ]
   },
   "vi": {
    "clues": [],
    "locks": []
   },
   "ar": {
-   "clues": [],
-   "locks": []
+   "clues": [
+    {
+     "id": "c1",
+     "ico": "🪞",
+     "nm": "يعكس بياناته",
+     "title": "لا تتعلّم إلا ما تراه",
+     "body": "يتعلّم الذكاء الاصطناعي من أمثلة في بيانات تدريبه. لا يمكنه أن يجيد إلا الأشياء التي رآها كثيرًا. من وما يظهر أكثر في البيانات هو ما يعرفه الذكاء الاصطناعي أفضل."
+    },
+    {
+     "id": "c2",
+     "ico": "🧩",
+     "nm": "قطع غائبة",
+     "title": "بعض الأصوات مُستبعَدة",
+     "body": "إذا كانت فئة من الناس، أو لغة، أو مكان بالكاد يظهر في البيانات، فإن للذكاء الاصطناعي أمثلة قليلة ليتعلّم منها. تلك الفئة ناقصة التمثيل — يعرفها الذكاء الاصطناعي معرفة أقلّ."
+    },
+    {
+     "id": "c3",
+     "ico": "🎯",
+     "nm": "نتائج غير عادلة",
+     "title": "تعمل للبعض لا للجميع",
+     "body": "عندما يكون بعض الناس غائبين عن البيانات، يمكن أن تكون إجابات الذكاء الاصطناعي أقلّ دقّة أو حتى غير عادلة لهم — بينما تعمل بشكل جيّد تمامًا للفئات جيّدة التمثيل."
+    },
+    {
+     "id": "c4",
+     "ico": "❓",
+     "nm": "اطرح السؤال الأساسي",
+     "title": "أمثلة من الغائبة؟",
+     "body": "أذكى سؤال يمكنك طرحه عن أيّ ذكاء اصطناعي هو: أمثلة من الغائبة؟ تسمية من استُبعِد يساعدك على اكتشاف أين قد يكون الذكاء الاصطناعي ضعيفًا أو غير عادل."
+    },
+    {
+     "id": "c5",
+     "ico": "🌍",
+     "nm": "سدّ الفجوة",
+     "title": "بيانات أكثر تمثيلًا",
+     "body": "يصبح الذكاء الاصطناعي أعدل عندما يضيف بانوه بيانات أكثر تمثيلًا — أمثلة من الفئات، واللغات، والأماكن التي استُبعِدت. الهدف بيانات تعكس كل من ستخدمهم."
+    },
+    {
+     "id": "c6",
+     "ico": "🎸",
+     "nm": "عرض المواهب",
+     "title": "فعالية مدرسية",
+     "body": "عرض المواهب الربيعي في الصالة الرياضية هذا العام، والعام الماضي فاز ثنائي عزف على الأوكيليلي بالمركز الأول. طريف أن تعرفه — لكنه لن يساعدك على فتح أيّ قفل.",
+     "decoy": true
+    }
+   ],
+   "locks": [
+    {
+     "id": "L1",
+     "type": "mc",
+     "color": "#4338ca",
+     "title": "لماذا يخذل بعض الناس",
+     "q": "أداة ذكاء اصطناعي تعمل جيّدًا لبعض التلاميذ لكنها تظلّ تخطئ لآخرين. ما السبب الأرجح؟",
+     "options": [
+      "اختار الذكاء الاصطناعي أن يكون غير عادل مع أولئك التلاميذ عمدًا",
+      "كان أولئك التلاميذ ناقصي التمثيل في البيانات، فلدى الذكاء الاصطناعي أمثلة أقلّ عنهم",
+      "يعمل الذكاء الاصطناعي دائمًا بالطريقة نفسها تمامًا للجميع، فلا شيء خطأ"
+     ],
+     "answerIndex": 1,
+     "reason": "يتعلّم الذكاء الاصطناعي من الأمثلة. عندما تكون فئة ناقصة التمثيل في بيانات التدريب، يكون لدى الذكاء الاصطناعي أمثلة أقلّ ليتعلّم منها، فتكون نتائجه لهم أقلّ دقّة."
+    },
+    {
+     "id": "L2",
+     "type": "multi",
+     "color": "#7c3aed",
+     "title": "اكتشف الفجوات",
+     "q": "علّم على كل سبب قد يجعل الذكاء الاصطناعي يعمل بشكل رديء لفئة معيّنة من الناس.",
+     "items": [
+      {
+       "t": "تلك الفئة بالكاد تظهر في بيانات التدريب",
+       "strong": true
+      },
+      {
+       "t": "أمثلة بلغتهم أو لهجتهم كانت مُستبعَدة",
+       "strong": true
+      },
+      {
+       "t": "البيانات تمثّل في الغالب فئات أخرى بدلًا منهم",
+       "strong": true
+      },
+      {
+       "t": "الذكاء الاصطناعي يكره تلك الفئة من الناس شخصيًّا",
+       "strong": false
+      },
+      {
+       "t": "البيانات تتضمّن بالفعل أمثلة وافرة عن تلك الفئة",
+       "strong": false
+      }
+     ],
+     "reason": "يتعثّر الذكاء الاصطناعي مع فئة عندما تكون غائبة أو ناقصة التمثيل في بياناته. الذكاء الاصطناعي لا مشاعر شخصية له، ووجود أمثلة وافرة يساعد بدلًا من أن يضرّ."
+    },
+    {
+     "id": "L3",
+     "type": "word",
+     "color": "#0891b2",
+     "title": "سمِّ الحلّ",
+     "q": "لجعل الذكاء الاصطناعي أعدل، يضيف بانوه بيانات تعكس بشكل أفضل كل من سيخدمهم. البيانات التي تتضمّن كل الفئات بإنصاف تُسمّى بيانات ______.",
+     "answer": [
+      "representative",
+      "representation",
+      "more representative",
+      "representative data",
+      "تمثيلية",
+      "تمثيل",
+      "أكثر تمثيلًا",
+      "بيانات تمثيلية"
+     ],
+     "reason": "البيانات التمثيلية تتضمّن كل الفئات التي سيخدمها الذكاء الاصطناعي. تمثيل أفضل يعني أن أقلّ من الناس غائبون، فتكون نتائج الذكاء الاصطناعي أدقّ وأعدل."
+    },
+    {
+     "id": "L4",
+     "type": "seq",
+     "color": "#0d9488",
+     "title": "تحقّق منه للعدالة",
+     "q": "يعطي الذكاء الاصطناعي إجابة تبدو أنها تعمل لبعض الناس لا لغيرهم. انقر الخطوات للتحقّق منها للعدالة بالترتيب الصحيح.",
+     "pads": [
+      {
+       "k": "who",
+       "e": "👥 اسأل لمن تعمل الإجابة",
+       "c": "#4338ca"
+      },
+      {
+       "k": "missing",
+       "e": "❓ اسأل أمثلة من الغائبة",
+       "c": "#7c3aed"
+      },
+      {
+       "k": "fix",
+       "e": "🌍 اقترح بيانات أكثر تمثيلًا",
+       "c": "#0891b2"
+      }
+     ],
+     "answer": [
+      "who",
+      "missing",
+      "fix"
+     ],
+     "reason": "أولًا اسأل لمن تعمل الإجابة جيّدًا. ثم اسأل أمثلة من الغائبة. ثم اقترح حلًّا — بيانات أكثر تمثيلًا. لمن، الغائبة، الحلّ."
+    }
+   ]
   },
   "hi": {
    "clues": [],
@@ -411,8 +685,145 @@ window.BREAKOUT = {
    "locks": []
   },
   "zh": {
-   "clues": [],
-   "locks": []
+   "clues": [
+    {
+     "id": "c1",
+     "ico": "🪞",
+     "nm": "它映照它的数据",
+     "title": "你只学到你看到的",
+     "body": "人工智能从它训练数据里的例子中学习。它只能在见得多的东西上变得擅长。在数据里出现最多的人和事，就是人工智能最了解的。"
+    },
+    {
+     "id": "c2",
+     "ico": "🧩",
+     "nm": "缺失的部分",
+     "title": "有些声音被漏掉了",
+     "body": "如果某一群人、某种语言或某个地方在数据里几乎不出现，人工智能可用来学习的例子就很少。那个群体就是代表性不足的——人工智能对他们了解得更少。"
+    },
+    {
+     "id": "c3",
+     "ico": "🎯",
+     "nm": "不公平的结果",
+     "title": "对某些人有用，对另一些人没用",
+     "body": "当某些人在数据里缺失时，人工智能给他们的答案可能不那么准确，甚至不公平——而对代表充分的群体却运作得很好。"
+    },
+    {
+     "id": "c4",
+     "ico": "❓",
+     "nm": "问那个关键问题",
+     "title": "谁的例子被漏掉了？",
+     "body": "关于任何一个人工智能，你能问的最聪明的问题就是：谁的例子被漏掉了？点出谁被排除在外，能帮你发现人工智能可能薄弱或不公平的地方。"
+    },
+    {
+     "id": "c5",
+     "ico": "🌍",
+     "nm": "弥补缺口",
+     "title": "更有代表性的数据",
+     "body": "当建造者加入更有代表性的数据时，人工智能会更公平——也就是加入那些被排除在外的群体、语言和地方的例子。目标是让数据反映它将服务的每一个人。"
+    },
+    {
+     "id": "c6",
+     "ico": "🎸",
+     "nm": "才艺表演",
+     "title": "一场校园活动",
+     "body": "今年的春季才艺表演在体育馆举行，去年一个尤克里里二重奏拿了第一名。知道了很好玩——但它帮不了你打开任何一把锁。",
+     "decoy": true
+    }
+   ],
+   "locks": [
+    {
+     "id": "L1",
+     "type": "mc",
+     "color": "#4338ca",
+     "title": "它为什么对某些人失灵",
+     "q": "一个人工智能工具对某些学生用起来很好，对另一些学生却总出错。最可能的原因是什么？",
+     "options": [
+      "人工智能故意选择对那些学生不公平",
+      "那些学生在数据里代表性不足，所以人工智能关于他们的例子更少",
+      "人工智能对每个人总是完全一样地运作，所以什么问题都没有"
+     ],
+     "answerIndex": 1,
+     "reason": "人工智能从例子里学习。当一个群体在训练数据里代表性不足时，人工智能可用来学习的例子就更少，所以它对他们的结果可能不那么准确。"
+    },
+    {
+     "id": "L2",
+     "type": "multi",
+     "color": "#7c3aed",
+     "title": "找出缺口",
+     "q": "把每一个人工智能可能对某一群人用起来不好的原因都勾选出来。",
+     "items": [
+      {
+       "t": "那个群体在训练数据里几乎不出现",
+       "strong": true
+      },
+      {
+       "t": "他们语言或方言的例子被漏掉了",
+       "strong": true
+      },
+      {
+       "t": "数据大多代表的是其他群体",
+       "strong": true
+      },
+      {
+       "t": "人工智能私下里讨厌那一群人",
+       "strong": false
+      },
+      {
+       "t": "数据里已经包含了大量那个群体的例子",
+       "strong": false
+      }
+     ],
+     "reason": "当一个群体在数据里缺失或代表性不足时，人工智能就难以应对。人工智能没有个人情感，而拥有大量例子是有帮助而非有害的。"
+    },
+    {
+     "id": "L3",
+     "type": "word",
+     "color": "#0891b2",
+     "title": "给解决办法起名",
+     "q": "为了让人工智能更公平，建造者会加入能更好地反映它将服务的每一个人的数据。公平地包含所有群体的数据，叫做______的数据。",
+     "answer": [
+      "representative",
+      "representation",
+      "more representative",
+      "representative data",
+      "有代表性",
+      "代表性",
+      "更有代表性",
+      "有代表性的"
+     ],
+     "reason": "有代表性的数据包含人工智能将服务的所有群体。代表性越好，被漏掉的人就越少，所以人工智能的结果就更准确、更公平。"
+    },
+    {
+     "id": "L4",
+     "type": "seq",
+     "color": "#0d9488",
+     "title": "检查它是否公平",
+     "q": "一个人工智能给出的答案似乎对某些人有用、对另一些人没用。按正确的顺序点这些步骤来检查它是否公平。",
+     "pads": [
+      {
+       "k": "who",
+       "e": "👥 问这个答案对谁有用",
+       "c": "#4338ca"
+      },
+      {
+       "k": "missing",
+       "e": "❓ 问谁的例子被漏掉了",
+       "c": "#7c3aed"
+      },
+      {
+       "k": "fix",
+       "e": "🌍 建议加入更有代表性的数据",
+       "c": "#0891b2"
+      }
+     ],
+     "answer": [
+      "who",
+      "missing",
+      "fix"
+     ],
+     "reason": "先问这个答案对谁用得好。然后问谁的例子被漏掉了。再建议一个解决办法——更有代表性的数据。谁、漏掉、解决。"
+    }
+   ]
   }
  }
 };

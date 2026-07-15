@@ -1,0 +1,91 @@
+{
+  "chrome": {
+    "h1": "Kiểm Tra Lại Con Bot",
+    "sub": "Một trợ lý AI vừa cho bạn một câu trả lời — nhanh, rõ ràng, và hoàn toàn tự tin. Nhưng nó có đúng không? Hãy giải bốn ổ khóa để học cách kiểm tra trước khi tin tưởng.",
+    "briefLabel": "Nhiệm vụ của bạn",
+    "briefH": "Làm Thám Tử Câu Trả Lời",
+    "briefP": "Một chatbot có thể nghe tự tin mà vẫn sai. Nó dự đoán những từ khớp với nhau — nó không thực sự biết chúng có đúng hay không. Hãy đọc manh mối, rồi mở cả bốn ổ khóa. Mỗi ổ khóa hé lộ lý lẽ đằng sau câu trả lời.",
+    "footerText": "Breakout Hiểu biết AI tạo sinh · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+    "winStamp": "ĐÃ GIẢI XONG VỤ ÁN",
+    "winH": "Bạn đã mở cả bốn ổ khóa!",
+    "winP": "Bạn đã học được rằng một AI có thể nghe chắc chắn mà vẫn sai, vì sao điều đó xảy ra, cách xây dựng thói quen xác minh — đọc nó, so sánh nó với một nguồn đáng tin cậy, rồi sửa hoặc quyết định — và khi nào nên tin tưởng so với khi nào nên kiểm tra lại. Công việc thám tử thông minh."
+  },
+  "clues": [
+    {
+      "nm": "Nghe chắc chắn",
+      "title": "Tự tin không có nghĩa là đúng",
+      "body": "Một chatbot có thể đưa ra một câu trả lời bằng một giọng bình tĩnh, nghe chắc chắn mà nó vẫn sai. Nghe tự tin không giống với việc đúng. Giọng điệu chẳng cho bạn biết gì về sự thật."
+    },
+    {
+      "nm": "Nó dự đoán",
+      "title": "Đoán từ tiếp theo",
+      "body": "Một trợ lý AI không thực sự 'biết' các sự thật. Nó dự đoán những từ thường đi cùng nhau dựa trên các khuôn mẫu. Đó là lý do vì sao nó có thể bịa ra một ngày tháng, một cái tên, hay một nguồn không tồn tại — điều này gọi là ảo giác (hallucination)."
+    },
+    {
+      "nm": "Đọc nó trước",
+      "title": "Đừng dán vào một cách mù quáng",
+      "body": "Trước khi bạn dùng một câu trả lời của AI, hãy thực sự đọc nó. Đừng sao chép và dán nó vào bài của bạn mà không kiểm tra. Một lần đọc nhanh phát hiện những câu trả lời lạc đề, bịa ra, hoặc vô nghĩa."
+    },
+    {
+      "nm": "So sánh nó",
+      "title": "Kiểm tra một nguồn đáng tin cậy",
+      "body": "Hãy so sánh câu trả lời của AI với một nguồn bạn tin tưởng: một cuốn sách giáo khoa, một bộ bách khoa toàn thư quen thuộc, một giáo viên, hoặc một trang web chính thức. Nếu một nguồn đáng tin cậy đồng ý, bạn có thể tin nó. Nếu không có nguồn nào đồng ý, hãy nghi ngờ nó."
+    },
+    {
+      "nm": "Khi nào nên kiểm tra lại",
+      "title": "Một số câu trả lời cần bằng chứng",
+      "body": "Các sự thật, ngày tháng, con số, câu trích dẫn, và nguồn đều đáng kiểm tra lại mỗi lần. Những ý tưởng đơn giản hay động não thì ít rủi ro hơn. Quyết định càng lớn, bạn càng nên xác minh trước."
+    },
+    {
+      "nm": "Món đặc biệt bữa trưa",
+      "title": "Thứ Ba Taco",
+      "body": "Căng tin phục vụ taco mỗi thứ Ba, và hàng chờ di chuyển nhanh nhất ngay khi chuông reo. Ngon để biết đấy — nhưng nó sẽ không giúp bạn mở ổ khóa nào."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Tự tin nhưng sai",
+      "q": "Một chatbot cho bạn một sự thật bằng một giọng rất tự tin. Sự tự tin đó chứng minh điều gì?",
+      "options": [
+        "Câu trả lời phải đúng, vì nó nghe rất chắc chắn",
+        "Không chứng minh gì về việc nó có đúng không — bạn vẫn cần kiểm tra nó",
+        "AI đã tra cứu nó trong một nguồn đáng tin cậy trước khi trả lời"
+      ],
+      "reason": "Một giọng điệu tự tin chẳng cho bạn biết gì về sự thật. Một AI có thể nghe hoàn toàn chắc chắn mà vẫn sai, nên bạn luôn kiểm tra câu trả lời so với một nguồn đáng tin cậy."
+    },
+    {
+      "title": "Vì sao nó có thể sai",
+      "q": "Hãy đánh dấu MỌI lý do khiến câu trả lời của một trợ lý AI có thể sai.",
+      "items": [
+        "Nó dự đoán những từ có khả năng cao thay vì thực sự biết các sự thật",
+        "Nó có thể bịa ra một cái tên, ngày tháng, hoặc nguồn không tồn tại",
+        "Một giọng điệu tự tin không đảm bảo các sự thật là đúng",
+        "Nó luôn tra cứu một bộ bách khoa toàn thư đáng tin cậy trước khi trả lời",
+        "Nó không bao giờ có thể mắc lỗi một khi nó nghe chắc chắn"
+      ],
+      "reason": "AI dự đoán các khuôn mẫu thay vì biết các sự thật, nên nó có thể bịa ra chi tiết, và giọng điệu tự tin của nó không phải là bằng chứng. Nó không phải lúc nào cũng kiểm tra một nguồn đáng tin cậy, và nghe chắc chắn không làm cho nó đúng."
+    },
+    {
+      "title": "Gọi tên thói quen",
+      "q": "Trước khi bạn dùng một câu trả lời của AI, bạn so sánh nó với một nguồn đáng tin cậy để chắc chắn nó đúng. Trong một từ, thói quen này là ______ câu trả lời.",
+      "answer": [
+        "xác minh",
+        "kiểm tra",
+        "kiểm chứng",
+        "kiểm tra lại",
+        "xác minh nó"
+      ],
+      "reason": "Thói quen là xác minh — kiểm tra câu trả lời so với một nguồn đáng tin cậy trước khi bạn dùng nó. Đọc nó, so sánh nó, rồi sửa hoặc quyết định."
+    },
+    {
+      "title": "Thói quen xác minh",
+      "q": "Một chatbot vừa trả lời câu hỏi của bạn. Hãy chạm vào các bước để kiểm tra lại nó theo ĐÚNG thứ tự.",
+      "pads": [
+        "👀 Đọc câu trả lời của AI",
+        "📗 So sánh nó với một nguồn đáng tin cậy",
+        "🧠 Sửa nó hoặc quyết định dùng nó"
+      ],
+      "reason": "Đầu tiên ĐỌC câu trả lời thay vì dán nó vào một cách mù quáng. Rồi SO SÁNH nó với một nguồn đáng tin cậy. Rồi QUYẾT ĐỊNH sửa nó hoặc dùng nó. Đọc, So sánh, Quyết định."
+    }
+  ]
+}

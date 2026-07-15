@@ -1,0 +1,92 @@
+{
+  "chrome": {
+    "h1": "Dale crédito a la IA",
+    "sub": "Un ayudante de IA puede ahorrarte tiempo en las tareas, pero ser honesto significa que dices cuándo la usaste. Abre cuatro candados para aprender a usar la IA de forma honesta.",
+    "briefLabel": "Tu misión",
+    "briefH": "Sé honesto sobre la ayuda de la IA",
+    "briefP": "Recibir ayuda de una herramienta de IA no es hacer trampa automáticamente, pero esconderlo sí puede serlo. Las reglas de tu maestro van primero, tú sigues haciendo tu propio razonamiento, y das crédito cuando la IA ayudó. Lee las pistas y luego abre los cuatro candados. Cada candado revela el razonamiento detrás de la respuesta.",
+    "footerText": "Breakouts de alfabetización en IA generativa · Funciona todo en tu navegador — sin cuentas, sin datos guardados.",
+    "winStamp": "CASO CERRADO",
+    "winH": "¡Abriste los cuatro candados!",
+    "winP": "Aprendiste a revisar las reglas de tu maestro, a hacer tu propio razonamiento y verificar los hechos, a conocer la línea entre una herramienta y hacer trampa, y a revelar y citar la ayuda de la IA. Así se le da crédito a la IA de forma honesta.",
+    "crumbSuite": "Breakouts de alfabetización en IA generativa"
+  },
+  "clues": [
+    {
+      "nm": "Reglas primero",
+      "title": "Revisa qué está permitido",
+      "body": "Cada clase es diferente. Antes de usar una herramienta de IA para una tarea, revisa las reglas de tu maestro. Algunas tareas permiten la ayuda de la IA; otras exigen que trabajes solo. Cuando tengas dudas, pregunta primero."
+    },
+    {
+      "nm": "Da crédito",
+      "title": "Di cuándo ayudó la IA",
+      "body": "Ser honesto significa que revelas y citas cuándo una IA ayudó: una nota corta como 'hice una lluvia de ideas con un asistente de IA'. Entregar trabajo de IA como totalmente tuyo, sin crédito, es deshonesto."
+    },
+    {
+      "nm": "Tu razonamiento",
+      "title": "Haz el trabajo de verdad",
+      "body": "Una IA puede empezar un borrador, pero el razonamiento tiene que ser tuyo. Entiende las ideas, ponlas en tus propias palabras, y sé capaz de explicar tu trabajo. Aprender es el punto, no solo una página terminada."
+    },
+    {
+      "nm": "Verifica los hechos",
+      "title": "La IA puede equivocarse",
+      "body": "Las herramientas de IA a veces inventan hechos, fechas o fuentes que suenan reales pero son falsos. Verifica cualquier cosa que una IA te dé antes de usarla, o sus errores se vuelven tus errores en la tarea."
+    },
+    {
+      "nm": "¿Herramienta o trampa?",
+      "title": "Dónde está la línea",
+      "body": "Usar la IA para hacer una lluvia de ideas o revisar tu gramática puede ser una herramienta útil. Que la IA escriba todo y luego esconder que lo hizo —haciéndolo pasar como totalmente tuyo— es hacer trampa."
+    },
+    {
+      "nm": "Feria de ciencias",
+      "title": "Un proyecto genial",
+      "body": "La feria de ciencias de octavo grado presenta un volcán de bicarbonato que hace erupción y una demostración de horno solar. Un proyecto divertido, pero no te ayudará a abrir ningún candado."
+    }
+  ],
+  "locks": [
+    {
+      "title": "La movida honesta",
+      "q": "Una IA te ayudó a hacer una lluvia de ideas para una tarea de historia. ¿Qué es lo honesto que puedes hacer?",
+      "options": [
+        "Entregarla y afirmar que cada idea fue completamente tuya",
+        "Revisar las reglas de tu maestro, hacer tu propio razonamiento y citar la ayuda de la IA",
+        "Copiar toda la respuesta de la IA palabra por palabra y esconder que la usaste"
+      ],
+      "reason": "Ser honesto significa seguir las reglas de tu maestro, hacer tu propio razonamiento y dar crédito citando que la IA ayudó. Esconder la ayuda o afirmar que las ideas de la IA son totalmente tuyas es deshonesto."
+    },
+    {
+      "title": "Hábitos honestos",
+      "q": "Marca CADA hábito que muestra honestidad académica con la IA.",
+      "items": [
+        "Revisar las reglas de tu maestro antes de usar una herramienta de IA",
+        "Revelar y citar que una IA ayudó con tu trabajo",
+        "Hacer tu propio razonamiento y verificar los hechos",
+        "Entregar toda la respuesta de la IA como si fuera totalmente tu trabajo",
+        "Esconder que usaste una IA para que nadie se entere"
+      ],
+      "reason": "Revisar las reglas, revelar y citar la ayuda de la IA, y hacer tu propio razonamiento son cosas honestas. Hacer pasar el trabajo de la IA como tuyo o esconder que la usaste no lo es."
+    },
+    {
+      "title": "Dale crédito",
+      "q": "Cuando una IA te ayudó con la tarea, ser honesto significa que ______ esa ayuda en vez de esconderla.",
+      "answer": [
+        "revelas",
+        "citas",
+        "reconoces",
+        "acreditas"
+      ],
+      "reason": "Revelar y citar la ayuda de la IA le da crédito y te mantiene honesto; esconderla y afirmar que el trabajo es totalmente tuyo es deshonesto."
+    },
+    {
+      "title": "Usa la IA de forma honesta",
+      "q": "Vas a usar una IA para ayudarte con una tarea de clase. Toca los pasos honestos en el orden CORRECTO.",
+      "pads": [
+        "📋 Revisa las reglas de tu maestro",
+        "🧠 Haz tu propio razonamiento primero",
+        "✔️ Verifica los hechos que da la IA",
+        "🏷️ Da crédito a la ayuda de la IA"
+      ],
+      "reason": "Primero revisa las REGLAS de tu maestro. Luego haz tu propio RAZONAMIENTO. Luego VERIFICA los hechos. Luego da CRÉDITO a la ayuda de la IA. Reglas, Razonamiento, Verifica, Crédito."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "chrome": {
+    "h1": "Hỏi Cho Rõ Ràng",
+    "sub": "Hai người bạn hỏi một AI về cùng một điều. Một người hỏi một câu mơ hồ và nhận được một câu trả lời mơ hồ. Người kia hỏi rõ ràng và nhận được đúng thứ mình cần. Hãy giải bốn ổ khóa để học cách hỏi một AI một câu hỏi hay.",
+    "briefLabel": "Nhiệm vụ của bạn",
+    "briefH": "Hỏi Như Một Chuyên Gia",
+    "briefP": "Câu hỏi bạn đặt cho một AI được gọi là một yêu cầu. Một yêu cầu rõ ràng, cụ thể nhận được câu trả lời tốt hơn một yêu cầu mơ hồ. Hãy nói chủ đề của bạn, bạn muốn nó dài bao nhiêu, và nó dành cho ai. Nếu câu trả lời sai lệch, hãy hỏi lại rõ ràng hơn. Hãy đọc manh mối, rồi mở cả bốn ổ khóa. Mỗi ổ khóa có một lý do cho thấy vì sao câu trả lời đúng.",
+    "footerText": "Breakout Hiểu biết AI tạo sinh · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+    "winStamp": "ĐÃ GIẢI XONG BÍ ẨN",
+    "winH": "Bạn đã mở cả bốn ổ khóa!",
+    "winP": "Bạn đã học được rằng một câu hỏi rõ ràng thắng một câu mơ hồ, rằng những yêu cầu tốt thêm chủ đề, độ dài, và nó dành cho ai, rằng bạn có thể hỏi lại rõ ràng hơn nếu câu trả lời sai lệch, và rằng bạn luôn kiểm tra câu trả lời. Hỏi giỏi lắm!"
+  },
+  "clues": [
+    {
+      "nm": "Mơ hồ và rõ ràng",
+      "title": "Hai cách hỏi",
+      "body": "\"Cho tôi biết về chó\" là một câu hỏi mơ hồ. \"Liệt kê ba sự thật về cách chó con học các trò, dành cho một học sinh lớp 5\" là một câu hỏi rõ ràng. Câu hỏi rõ ràng nhận được câu trả lời tốt hơn vì nó nói chính xác bạn muốn gì."
+    },
+    {
+      "nm": "Thêm chi tiết",
+      "title": "Chủ đề, độ dài, dành cho ai",
+      "body": "Một yêu cầu tốt thêm ba chi tiết: CHỦ ĐỀ (nó nói về gì), ĐỘ DÀI (dài bao nhiêu, như ba câu), và DÀNH CHO AI (một đứa trẻ, một lớp học, một người bạn). Càng nhiều chi tiết nghĩa là câu trả lời càng tốt."
+    },
+    {
+      "nm": "Hỏi lại",
+      "title": "Sai lệch? Thử lần nữa",
+      "body": "Nếu câu trả lời sai lệch hoặc không phải điều bạn muốn, đừng bỏ cuộc. Hãy hỏi lại và rõ ràng hơn. Thêm những gì còn thiếu hoặc nói phải thay đổi gì. Hỏi lại rõ ràng hơn thường khắc phục được nó."
+    },
+    {
+      "nm": "Kiểm tra nó",
+      "title": "Bạn là người kiểm tra",
+      "body": "Một AI có thể nghe rất chắc chắn mà vẫn sai. Trước khi bạn dùng câu trả lời, hãy kiểm tra nó so với một nguồn bạn tin tưởng, như một cuốn sách, một trang web, hoặc thầy cô của bạn. Bạn quyết định xem nó có đúng không."
+    },
+    {
+      "nm": "Nói bạn muốn gì",
+      "title": "Nêu mục tiêu của bạn",
+      "body": "Hãy nói cho AI biết bạn muốn câu trả lời trông như thế nào — một danh sách ngắn, một câu, hay một ví dụ đơn giản. Khi bạn nêu mục tiêu của mình, AI có thể đáp ứng nó. Nếu bạn không nói, nó chỉ phỏng đoán."
+    },
+    {
+      "nm": "Sự thật núi lửa",
+      "title": "Một sự thật khoa học thú vị",
+      "body": "Ngọn núi lửa cao nhất trong hệ mặt trời của chúng ta nằm trên hành tinh Sao Hỏa, và nó cao gấp khoảng ba lần đỉnh Everest. Đây là một sự thật ngầu — nhưng nó sẽ không giúp bạn mở ổ khóa nào."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Mơ hồ hay rõ ràng",
+      "q": "Câu hỏi nào nhiều khả năng nhất sẽ nhận được câu trả lời tốt hơn từ một AI?",
+      "options": [
+        "\"Cho tôi biết vài thứ.\"",
+        "\"Liệt kê ba sự thật ngắn về cách ong làm mật, dành cho một học sinh lớp 5.\"",
+        "\"Chó?\""
+      ],
+      "reason": "Câu hỏi rõ ràng nêu chủ đề (ong làm mật), độ dài (ba sự thật ngắn), và nó dành cho ai (một học sinh lớp 5). Nêu những gì bạn muốn nhận được câu trả lời tốt hơn một câu hỏi mơ hồ."
+    },
+    {
+      "title": "Từ còn thiếu",
+      "q": "Hoàn thành quy tắc: Một câu hỏi rõ ràng, cụ thể nhận được câu trả lời _______ một câu mơ hồ. Hãy gõ từ đó.",
+      "answer": [
+        "tốt hơn",
+        "hay hơn",
+        "tốt hơn so với"
+      ],
+      "reason": "Một câu hỏi rõ ràng, cụ thể nói cho AI biết chính xác bạn muốn gì, nên bạn nhận được câu trả lời TỐT HƠN so với khi bạn hỏi một câu mơ hồ."
+    },
+    {
+      "title": "Thói quen hỏi cho rõ ràng",
+      "q": "Hãy đánh dấu MỌI thói quen làm cho một câu hỏi rõ ràng.",
+      "items": [
+        "Nêu chủ đề bạn muốn tìm hiểu",
+        "Nói câu trả lời nên dài bao nhiêu",
+        "Nói câu trả lời dành cho ai",
+        "Gõ một từ mơ hồ và hy vọng",
+        "Dùng câu trả lời mà không kiểm tra nó"
+      ],
+      "reason": "Câu hỏi rõ ràng nêu chủ đề, độ dài, và câu trả lời dành cho ai. Gõ một từ mơ hồ hoặc bỏ qua việc kiểm tra không phải là thói quen hỏi cho rõ ràng."
+    },
+    {
+      "title": "Sửa một câu hỏi mơ hồ",
+      "q": "Câu trả lời đầu tiên của bạn bị sai lệch vì câu hỏi của bạn mơ hồ. Hãy chạm vào các bước để sửa nó theo ĐÚNG thứ tự.",
+      "pads": [
+        "🧩 Thêm những chi tiết còn thiếu",
+        "🔁 Hỏi lại rõ ràng hơn",
+        "🔎 Kiểm tra câu trả lời"
+      ],
+      "reason": "Đầu tiên THÊM những chi tiết còn thiếu, như chủ đề, độ dài, và nó dành cho ai. Rồi HỎI lại rõ ràng hơn. Rồi KIỂM TRA câu trả lời trước khi bạn dùng nó. Thêm, Hỏi, Kiểm tra."
+    }
+  ]
+}

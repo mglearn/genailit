@@ -1,0 +1,90 @@
+{
+  "chrome": {
+    "h1": "Pregúntale con claridad",
+    "sub": "Dos amigos le preguntaron a una IA sobre lo mismo. Uno hizo una pregunta vaga y obtuvo una respuesta vaga. El otro preguntó con claridad y obtuvo justo lo que necesitaba. Abre cuatro candados para aprender a hacerle una buena pregunta a una IA.",
+    "briefLabel": "Tu misión",
+    "briefH": "Pregunta como un experto",
+    "briefP": "La pregunta que le haces a una IA se llama una solicitud. Una solicitud clara y específica obtiene una mejor respuesta que una vaga. Di tu tema, qué tan largo lo quieres y para quién es. Si la respuesta no sirve, pregunta otra vez con más claridad. Lee las pistas y luego abre los cuatro candados. Cada candado tiene una razón que muestra por qué la respuesta es correcta.",
+    "footerText": "Breakouts de alfabetización en IA generativa · Funciona todo en tu navegador — sin cuentas, sin datos guardados.",
+    "winStamp": "MISTERIO RESUELTO",
+    "winH": "¡Abriste los cuatro candados!",
+    "winP": "Aprendiste que una pregunta clara gana a una vaga, que las buenas solicitudes agregan el tema, el largo y para quién es, que puedes preguntar otra vez con más claridad si la respuesta no sirve, y que siempre revisas la respuesta. ¡Buenas preguntas!",
+    "crumbSuite": "Breakouts de alfabetización en IA generativa"
+  },
+  "clues": [
+    {
+      "nm": "Vago vs claro",
+      "title": "Dos formas de preguntar",
+      "body": "\"Cuéntame sobre los perros\" es una pregunta vaga. \"Enumera tres datos sobre cómo los cachorros aprenden trucos, para un estudiante de 5.º grado\" es una pregunta clara. La pregunta clara obtiene una mejor respuesta porque dice exactamente lo que quieres."
+    },
+    {
+      "nm": "Agrega detalles",
+      "title": "Tema, largo, para quién",
+      "body": "Una buena solicitud agrega tres detalles: el TEMA (de qué se trata), el LARGO (qué tan largo, como tres oraciones) y PARA QUIÉN es (un niño, una clase, un amigo). Más detalle significa una mejor respuesta."
+    },
+    {
+      "nm": "Pregunta otra vez",
+      "title": "¿No sirve? Intenta una vez más",
+      "body": "Si la respuesta no sirve o no es lo que querías, no te rindas. Pregunta otra vez y sé más claro. Agrega lo que faltaba o di qué cambiar. Preguntar otra vez con más claridad casi siempre lo arregla."
+    },
+    {
+      "nm": "Revísalo",
+      "title": "Tú eres quien revisa",
+      "body": "Una IA puede sonar segura y aun así estar equivocada. Antes de usar la respuesta, revísala con una fuente en la que confíes, como un libro, un sitio web o tu maestro. Tú decides si está bien."
+    },
+    {
+      "nm": "Di lo que quieres",
+      "title": "Nombra tu meta",
+      "body": "Dile a la IA cómo quieres que se vea la respuesta: una lista corta, una oración o un ejemplo simple. Cuando nombras tu meta, la IA puede igualarla. Si no lo dices, solo adivina."
+    },
+    {
+      "nm": "Dato de volcán",
+      "title": "Un dato científico divertido",
+      "body": "El volcán más alto de nuestro sistema solar está en el planeta Marte, y es cerca de tres veces más alto que el Monte Everest. Es un dato genial, pero no te ayudará a abrir ningún candado."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Vago o claro",
+      "q": "¿Cuál pregunta es más probable que obtenga una mejor respuesta de una IA?",
+      "options": [
+        "\"Cuéntame cosas.\"",
+        "\"Enumera tres datos cortos sobre cómo las abejas hacen miel, para un estudiante de 5.º grado.\"",
+        "\"¿Perros?\""
+      ],
+      "reason": "La pregunta clara nombra el tema (las abejas hacen miel), el largo (tres datos cortos) y para quién es (un estudiante de 5.º grado). Nombrar lo que quieres obtiene una mejor respuesta que una pregunta vaga."
+    },
+    {
+      "title": "La palabra que falta",
+      "q": "Completa la regla: una pregunta clara y específica obtiene una _______ respuesta que una vaga. Escribe la palabra.",
+      "answer": [
+        "mejor",
+        "una mejor",
+        "más buena"
+      ],
+      "reason": "Una pregunta clara y específica le dice a la IA exactamente lo que quieres, así que obtienes una MEJOR respuesta que la que tendrías con una vaga."
+    },
+    {
+      "title": "Hábitos para preguntar con claridad",
+      "q": "Marca CADA hábito que hace que una pregunta sea clara.",
+      "items": [
+        "Nombrar el tema sobre el que quieres aprender",
+        "Decir qué tan larga debe ser la respuesta",
+        "Decir para quién es la respuesta",
+        "Escribir una palabra vaga y esperar",
+        "Usar la respuesta sin revisarla"
+      ],
+      "reason": "Las preguntas claras nombran el tema, el largo y para quién es la respuesta. Escribir una palabra vaga o saltarte la revisión no son hábitos de preguntas claras."
+    },
+    {
+      "title": "Arregla una pregunta vaga",
+      "q": "Tu primera respuesta no sirvió porque tu pregunta era vaga. Toca los pasos para arreglarla en el orden CORRECTO.",
+      "pads": [
+        "🧩 Agrega los detalles que faltan",
+        "🔁 Pregunta otra vez con más claridad",
+        "🔎 Revisa la respuesta"
+      ],
+      "reason": "Primero AGREGA los detalles que faltan, como el tema, el largo y para quién es. Luego PREGUNTA otra vez con más claridad. Luego REVISA la respuesta antes de usarla. Agrega, Pregunta, Revisa."
+    }
+  ]
+}

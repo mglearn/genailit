@@ -1,0 +1,90 @@
+{
+  "chrome": {
+    "h1": "AI Ở Khắp Xung Quanh",
+    "sub": "AI đang ẩn trong những thứ bạn dùng mỗi ngày. Một trợ lý giọng nói, một danh sách video, một ứng dụng ảnh. Bạn có nhận ra nó không? Hãy giải bốn ổ khóa để tìm AI ở khắp xung quanh bạn.",
+    "briefLabel": "Nhiệm vụ của bạn",
+    "briefH": "Làm Người Phát Hiện AI",
+    "briefP": "AI là một công cụ máy tính đưa ra phỏng đoán. Nó xuất hiện trong nhiều thứ bạn dùng mỗi ngày. Hãy đọc manh mối, rồi mở cả bốn ổ khóa. Mỗi ổ khóa có một lý do cho thấy vì sao câu trả lời đúng.",
+    "footerText": "Breakout Hiểu biết AI tạo sinh · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+    "winStamp": "ĐÃ GIẢI XONG BÍ ẨN",
+    "winH": "Bạn đã mở cả bốn ổ khóa!",
+    "winP": "Bạn đã học được rằng AI ở khắp xung quanh bạn trong các trợ lý giọng nói, danh sách video, và ứng dụng ảnh. Nó đưa ra phỏng đoán từ các khuôn mẫu, nó là một công cụ chứ không phải một con người, và bạn vẫn là người làm chủ. Phát hiện giỏi lắm!"
+  },
+  "clues": [
+    {
+      "nm": "Trợ lý giọng nói",
+      "title": "AI mà bạn có thể nói chuyện",
+      "body": "Khi bạn nhờ một trợ lý giọng nói phát một bài hát hoặc báo giờ, đó là AI. Nó nghe lời bạn, phỏng đoán ý bạn, và trả lời. Nó là một công cụ trợ giúp, không phải một con người."
+    },
+    {
+      "nm": "Danh sách video",
+      "title": "Vì sao lại là video này?",
+      "body": "Một ứng dụng video hoặc một ứng dụng nhạc có thể cho bạn một danh sách những thứ để xem hoặc nghe tiếp theo. AI đã tạo ra danh sách đó. Nó nhìn vào những gì bạn từng thích trước đây và phỏng đoán những gì bạn có thể thích bây giờ."
+    },
+    {
+      "nm": "Phỏng đoán từ",
+      "title": "Trợ giúp gõ chữ",
+      "body": "Khi bạn gõ chữ và điện thoại phỏng đoán từ tiếp theo của bạn, đó cũng là AI. Nó thấy rằng các từ thường đi cùng nhau. Nên nó phỏng đoán từ mà nó nghĩ là đến tiếp theo. Đôi khi phỏng đoán của nó sai."
+    },
+    {
+      "nm": "Gắn thẻ ảnh",
+      "title": "Tìm chú chó",
+      "body": "Một ứng dụng ảnh có thể tìm mọi bức ảnh có một chú chó trong đó. AI đã học chó trông như thế nào từ rất nhiều bức ảnh. Rồi nó phỏng đoán bức ảnh nào của bạn có một chú chó. Nó có thể bỏ sót vài bức hoặc phỏng đoán sai."
+    },
+    {
+      "nm": "Bạn là người làm chủ",
+      "title": "Bạn lựa chọn",
+      "body": "AI có thể phỏng đoán và gợi ý, nhưng bạn vẫn là người phụ trách. Bạn chọn xem gì. Bạn chọn gõ gì. AI là một công cụ giúp bạn, không phải một ông chủ bảo bạn phải làm gì."
+    },
+    {
+      "nm": "Ngày khủng long",
+      "title": "Một sự thật thú vị",
+      "body": "Một số con khủng long dài bằng ba chiếc xe buýt trường học xếp thành hàng. Đó là một sự thật ngầu — nhưng nó sẽ không giúp bạn mở ổ khóa nào."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Nhận ra AI",
+      "q": "Cái nào dùng AI để đưa ra một phỏng đoán cho bạn?",
+      "options": [
+        "Một trợ lý giọng nói nghe lời bạn và trả lời bạn",
+        "Một cây bút chì gỗ mà bạn dùng để viết trên giấy",
+        "Một tấm bản đồ giấy mà bạn gấp lại và bỏ vào túi"
+      ],
+      "reason": "Một trợ lý giọng nói dùng AI để phỏng đoán ý lời bạn và trả lời bạn. Một cây bút chì thường và một tấm bản đồ giấy là những công cụ đơn giản, không có AI bên trong."
+    },
+    {
+      "title": "AI ở khắp xung quanh bạn",
+      "q": "Hãy đánh dấu MỌI thứ mà AI đang giúp đỡ bằng cách đưa ra phỏng đoán.",
+      "items": [
+        "Một ứng dụng video phỏng đoán những gì bạn có thể muốn xem tiếp theo",
+        "Một điện thoại phỏng đoán từ tiếp theo khi bạn gõ chữ",
+        "Một ứng dụng ảnh phỏng đoán bức ảnh nào có một chú chó trong đó",
+        "Một chiếc đèn bật lên chỉ vì bạn tự bật công tắc",
+        "Một cây bút sáp tô màu tờ giấy chỉ ở nơi tay bạn di chuyển nó"
+      ],
+      "reason": "Danh sách video, gõ chữ đoán từ tiếp theo, và gắn thẻ ảnh đều dùng AI để đưa ra phỏng đoán từ các khuôn mẫu. Một công tắc đèn và một cây bút sáp chỉ làm đúng những gì tay bạn làm, không có phỏng đoán."
+    },
+    {
+      "title": "Không phải con người",
+      "q": "Một trợ lý giọng nói trả lời bạn, nhưng nó không sống. Nó là một ______ máy tính.",
+      "answer": [
+        "công cụ",
+        "công cụ trợ giúp",
+        "trợ lý",
+        "công cụ giúp đỡ"
+      ],
+      "reason": "Một trợ lý giọng nói là một công cụ máy tính, hay công cụ trợ giúp. Nó có thể trả lời bạn, nhưng nó không phải một con người sống và không suy nghĩ hay cảm nhận như bạn."
+    },
+    {
+      "title": "Bạn là người phụ trách",
+      "q": "Một ứng dụng video gợi ý một chương trình. Hãy chạm vào các bước theo ĐÚNG thứ tự.",
+      "pads": [
+        "🙋 Bạn chọn làm gì",
+        "🤖 AI phỏng đoán một chương trình cho bạn",
+        "👀 Bạn nhìn vào gợi ý"
+      ],
+      "reason": "Đầu tiên AI PHỎNG ĐOÁN một chương trình từ các khuôn mẫu của bạn. Rồi bạn NHÌN vào những gì nó gợi ý. Rồi BẠN CHỌN làm gì, vì bạn vẫn là người làm chủ."
+    }
+  ]
+}

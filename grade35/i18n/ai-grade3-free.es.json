@@ -1,0 +1,90 @@
+{
+  "chrome": {
+    "h1": "IA por todas partes",
+    "sub": "La IA se esconde en cosas que usas todos los días. Un asistente de voz, una lista de videos, una aplicación de fotos. ¿La puedes encontrar? Abre cuatro candados para hallar la IA por todas partes.",
+    "briefLabel": "Tu misión",
+    "briefH": "Sé un buscador de IA",
+    "briefP": "La IA es una herramienta de computadora que hace conjeturas. Aparece en muchas cosas que usas cada día. Lee las pistas y luego abre los cuatro candados. Cada candado tiene una razón que muestra por qué la respuesta es correcta.",
+    "footerText": "Breakouts de alfabetización en IA generativa · Funciona todo en tu navegador — sin cuentas, sin datos guardados.",
+    "winStamp": "MISTERIO RESUELTO",
+    "winH": "¡Abriste los cuatro candados!",
+    "winP": "Aprendiste que la IA está por todas partes en los asistentes de voz, las listas de videos y las aplicaciones de fotos. Hace conjeturas a partir de patrones, es una herramienta y no una persona, y tú sigues siendo quien manda. ¡Buena búsqueda!",
+    "crumbSuite": "Breakouts de alfabetización en IA generativa"
+  },
+  "clues": [
+    {
+      "nm": "El asistente de voz",
+      "title": "IA con la que puedes hablar",
+      "body": "Cuando le pides a un asistente de voz que ponga una canción o que diga la hora, eso es IA. Escucha tus palabras, adivina lo que quieres decir y responde. Es una herramienta que ayuda, no una persona."
+    },
+    {
+      "nm": "La lista de videos",
+      "title": "¿Por qué este video?",
+      "body": "Una aplicación de videos o de música puede mostrarte una lista de cosas para ver o escuchar a continuación. La IA hizo esa lista. Miró lo que te gustó antes y adivinó lo que te podría gustar ahora."
+    },
+    {
+      "nm": "Adivinar palabras",
+      "title": "Ayuda al escribir",
+      "body": "Cuando escribes y el teléfono adivina tu siguiente palabra, eso también es IA. Vio que ciertas palabras suelen ir juntas. Así que adivina la palabra que cree que viene después. A veces su conjetura está mal."
+    },
+    {
+      "nm": "Etiquetas de fotos",
+      "title": "Encontrar al perro",
+      "body": "Una aplicación de fotos puede encontrar cada imagen que tiene un perro. La IA aprendió cómo se ven los perros a partir de muchas imágenes. Luego adivina cuáles de tus fotos tienen un perro. Puede saltarse algunas o adivinar mal."
+    },
+    {
+      "nm": "Tú mandas",
+      "title": "Tú eliges",
+      "body": "La IA puede adivinar y sugerir, pero tú sigues a cargo. Tú eliges qué ver. Tú eliges qué escribir. La IA es una herramienta que te ayuda, no un jefe que te dice qué hacer."
+    },
+    {
+      "nm": "Día de dinosaurios",
+      "title": "Un dato divertido",
+      "body": "Algunos dinosaurios eran tan largos como tres autobuses escolares en fila. Es un dato genial, pero no te ayudará a abrir ningún candado."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Encuentra la IA",
+      "q": "¿Cuál de estas usa IA para hacer una conjetura por ti?",
+      "options": [
+        "Un asistente de voz que escucha tus palabras y te responde",
+        "Un lápiz de madera que usas para escribir en papel",
+        "Un mapa de papel que doblas y guardas en tu mochila"
+      ],
+      "reason": "Un asistente de voz usa IA para adivinar lo que quieren decir tus palabras y responderte. Un lápiz simple y un mapa de papel son herramientas sencillas sin IA dentro."
+    },
+    {
+      "title": "IA por todas partes a tu alrededor",
+      "q": "Marca CADA cosa donde la IA ayuda haciendo conjeturas.",
+      "items": [
+        "Una aplicación de videos adivina qué te gustaría ver después",
+        "Un teléfono adivina la siguiente palabra mientras escribes",
+        "Una aplicación de fotos adivina cuáles imágenes tienen un perro",
+        "Una luz se enciende solo porque tú mismo mueves el interruptor",
+        "Un crayón colorea el papel solo donde lo mueve tu mano"
+      ],
+      "reason": "Las listas de videos, adivinar la siguiente palabra y etiquetar fotos usan IA para hacer conjeturas a partir de patrones. Un interruptor de luz y un crayón solo hacen exactamente lo que hace tu mano, sin adivinar."
+    },
+    {
+      "title": "No es una persona",
+      "q": "Un asistente de voz te responde, pero no está vivo. Es una ______ de computadora.",
+      "answer": [
+        "herramienta",
+        "ayuda",
+        "herramienta de ayuda"
+      ],
+      "reason": "Un asistente de voz es una herramienta de computadora, o una ayuda. Puede responderte, pero no es una persona viva y no piensa ni siente como tú."
+    },
+    {
+      "title": "Tú estás a cargo",
+      "q": "Una aplicación de videos sugiere un programa. Toca los pasos en el orden CORRECTO.",
+      "pads": [
+        "🙋 Tú eliges qué hacer",
+        "🤖 La IA adivina un programa para ti",
+        "👀 Tú miras la sugerencia"
+      ],
+      "reason": "Primero la IA ADIVINA un programa a partir de tus patrones. Luego tú MIRAS lo que sugirió. Luego TÚ ELIGES qué hacer, porque tú sigues siendo quien manda."
+    }
+  ]
+}

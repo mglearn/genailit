@@ -1,0 +1,91 @@
+{
+  "chrome": {
+    "h1": "Verifica dos veces al bot",
+    "sub": "Un asistente de IA acaba de darte una respuesta: rápida, clara y totalmente segura de sí misma. Pero, ¿es correcta? Abre cuatro candados para aprender a verificar antes de confiar.",
+    "briefLabel": "Tu misión",
+    "briefH": "Sé un detective de respuestas",
+    "briefP": "Un chatbot puede sonar seguro y aun así estar equivocado. Predice palabras que encajan; no sabe de verdad si son ciertas. Lee las pistas y luego abre los cuatro candados. Cada candado revela el razonamiento detrás de la respuesta.",
+    "footerText": "Breakouts de alfabetización en IA generativa · Funciona todo en tu navegador — sin cuentas, sin datos guardados.",
+    "winStamp": "CASO CERRADO",
+    "winH": "¡Abriste los cuatro candados!",
+    "winP": "Aprendiste que una IA puede sonar segura y aun así estar equivocada, por qué pasa eso, cómo construir el hábito de verificar —léelo, compáralo con una fuente confiable, luego corrige o decide— y cuándo confiar frente a verificar dos veces. Buen trabajo de detective.",
+    "crumbSuite": "Breakouts de alfabetización en IA generativa"
+  },
+  "clues": [
+    {
+      "nm": "Suena seguro",
+      "title": "Seguro no es correcto",
+      "body": "Un chatbot puede dar una respuesta con una voz tranquila y muy segura y aun así estar equivocada. Sonar seguro no es lo mismo que tener razón. El tono no te dice nada sobre los hechos."
+    },
+    {
+      "nm": "Predice",
+      "title": "Adivinar la siguiente palabra",
+      "body": "Un asistente de IA no 'sabe' de verdad los hechos. Predice palabras que suelen ir juntas según patrones. Por eso puede inventar una fecha, un nombre o una fuente que no existe; a esto se le llama alucinación."
+    },
+    {
+      "nm": "Léelo primero",
+      "title": "No lo pegues a ciegas",
+      "body": "Antes de usar una respuesta de IA, léela de verdad. No la copies y pegues en tu trabajo sin revisarla. Una lectura rápida atrapa respuestas que están fuera de tema, inventadas o que no tienen sentido."
+    },
+    {
+      "nm": "Compárala",
+      "title": "Revisa una fuente confiable",
+      "body": "Compara la respuesta de la IA con una fuente en la que confíes: un libro de texto, una enciclopedia conocida, un maestro o un sitio web oficial. Si una fuente confiable coincide, puedes confiar en ella. Si ninguna lo hace, dúdalo."
+    },
+    {
+      "nm": "Cuándo verificar dos veces",
+      "title": "Algunas respuestas necesitan prueba",
+      "body": "Vale la pena verificar dos veces siempre los hechos, las fechas, los números, las citas y las fuentes. Las ideas simples o las lluvias de ideas tienen menos riesgo. Mientras más grande sea la decisión, más deberías verificar primero."
+    },
+    {
+      "nm": "Especial del almuerzo",
+      "title": "Martes de tacos",
+      "body": "La cafetería sirve tacos todos los martes, y la fila avanza más rápido justo cuando suena el timbre. Sabroso de saber, pero no te ayudará a abrir ningún candado."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Seguro pero equivocado",
+      "q": "Un chatbot te da un dato con una voz muy segura. ¿Qué prueba esa seguridad?",
+      "options": [
+        "La respuesta debe ser verdad, porque suena muy segura",
+        "Nada sobre si es verdad; todavía necesitas revisarla",
+        "La IA lo buscó en una fuente confiable antes de responder"
+      ],
+      "reason": "Un tono seguro no te dice nada sobre los hechos. Una IA puede sonar totalmente segura y aun así estar equivocada, así que siempre revisas la respuesta con una fuente confiable."
+    },
+    {
+      "title": "Por qué puede estar equivocada",
+      "q": "Marca CADA razón por la que la respuesta de un asistente de IA podría ser falsa.",
+      "items": [
+        "Predice palabras probables en vez de saber de verdad los hechos",
+        "Puede inventar un nombre, fecha o fuente que no existe",
+        "Un tono seguro no garantiza que los hechos sean correctos",
+        "Siempre busca en una enciclopedia confiable antes de responder",
+        "Nunca puede cometer un error una vez que suena segura"
+      ],
+      "reason": "La IA predice patrones en vez de saber los hechos, así que puede inventar detalles, y su tono seguro no es prueba. No siempre revisa una fuente confiable, y sonar segura no la hace correcta."
+    },
+    {
+      "title": "Nombra el hábito",
+      "q": "Antes de usar una respuesta de IA, la comparas con una fuente confiable para asegurarte de que es verdad. En una palabra, este hábito es ______ la respuesta.",
+      "answer": [
+        "verificar",
+        "comprobar",
+        "revisar",
+        "verificarla"
+      ],
+      "reason": "El hábito es verificar: comprobar la respuesta con una fuente confiable antes de usarla. Léela, compárala, luego corrige o decide."
+    },
+    {
+      "title": "El hábito de verificar",
+      "q": "Un chatbot acaba de responder tu pregunta. Toca los pasos para verificarla dos veces en el orden CORRECTO.",
+      "pads": [
+        "👀 Lee la respuesta de la IA",
+        "📗 Compárala con una fuente confiable",
+        "🧠 Corrígela o decide usarla"
+      ],
+      "reason": "Primero LEE la respuesta en vez de pegarla a ciegas. Luego COMPÁRALA con una fuente confiable. Luego DECIDE corregirla o usarla. Lee, Compara, Decide."
+    }
+  ]
+}
