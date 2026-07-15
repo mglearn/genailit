@@ -267,6 +267,7 @@ function teacherPage(grade) {
       <td>${esc(focus[i][0])}</td>
       <td><span class="pill sub">${focus[i][1]}</span> ${esc(SUBSTRANDS[focus[i][1]])}</td></tr>`).join('\n    ');
   const substrandsUsed = [...new Set(focus.map(f => f[1]))].sort();
+  const decoy = (a.B.CONTENT.en.clues.find(c => c.decoy) || {}).nm || 'the decoy clue';
   const body = `  <div class="crumb"><a href="index.html">‹ ${esc(a.band === 'grade35' ? 'Grades 3–5' : 'Grades 6–8')} hub</a> · <a href="../index.html">Suite home</a></div>
   <div class="hero">
     <div class="eyebrow${a.tier === 'paid' ? ' gold' : ''}">Teacher launch · Grade ${grade} · TEKS ${a.teks}</div>
@@ -282,6 +283,16 @@ function teacherPage(grade) {
     <h3>The premise</h3>
     <p>${esc(U['brief.p'])}</p>
   </div>
+
+  <h2>How this breakout builds CLEAR thinking</h2>
+  <p class="section-note">Every Critical Thinking Online Breakout runs on the <strong>CLEAR</strong> process — Claim, Lens, Evidence, Alternatives, Response (<a href="../guide.html">full framework</a>). Here is where students practice each step in this activity:</p>
+  <div class="panel"><ul>
+    <li><strong>Claim</strong> — for each lock, decide what answer it is really asking for, and make it specific.</li>
+    <li><strong>Lens</strong> — notice what you already assume before you choose.</li>
+    <li><strong>Evidence</strong> — weigh the six clues; “${esc(decoy)}” is true but off-topic, so it is not evidence for any lock.</li>
+    <li><strong>Alternatives</strong> — the multiple-choice and multi-select locks force a comparison of competing options.</li>
+    <li><strong>Response</strong> — the reason revealed after each lock models the justified answer to act on.</li>
+  </ul></div>
 
   <h2>Standards alignment</h2>
   <p class="section-note">Aligned to Texas TEKS Technology Applications, Grade ${grade}, <strong>${a.teks}</strong> — the AI-adjacent strands (${STRAND_SUMMARY}), subsections ${substrandsUsed.join(', ')}. Skills are paraphrased; read the official standard at <a href="https://tea.texas.gov" target="_blank" rel="noopener">tea.texas.gov</a>. This page shows the reasoning focus of each lock — <strong>not the answers.</strong></p>
