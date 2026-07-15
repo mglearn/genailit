@@ -1,0 +1,127 @@
+{
+  "id": "ai-grade6-free",
+  "grade": 6,
+  "tier": "free",
+  "icon": "✅",
+  "teks": "§126.17",
+  "confetti": ["#4338ca", "#06b6d4", "#7c3aed", "#0891b2", "#ffffff", "#a78bfa"],
+  "chrome": {
+    "eyebrow": {
+      "en": "Gen AI Literacy Breakout · Grade 6",
+      "es": "Breakout de alfabetización en IA generativa · Grado 6",
+      "vi": "Breakout hiểu biết AI tạo sinh · Lớp 6",
+      "ar": "تحدّي الثقافة في الذكاء الاصطناعي التوليدي · الصف 6",
+      "hi": "जनरेटिव AI साक्षरता ब्रेकआउट · कक्षा 6",
+      "ur": "جنریٹِو اے آئی خواندگی بریک آؤٹ · جماعت 6",
+      "zh": "生成式 AI 素养破解 · 6 年级"
+    },
+    "h1": "Double-Check the Bot",
+    "sub": "An AI assistant just gave you an answer — fast, clear, and totally sure of itself. But is it right? Crack four locks to learn how to check before you trust.",
+    "briefLabel": "Your Mission",
+    "briefH": "Be an Answer Detective",
+    "briefP": "A chatbot can sound confident and still be wrong. It predicts words that fit — it does not truly know if they are true. Read the clues, then open all four locks. Each lock reveals the reasoning behind the answer.",
+    "footerText": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
+    "winStamp": "CASE CLOSED",
+    "winH": "You cracked all four locks!",
+    "winP": "You learned that an AI can sound sure and still be wrong, why that happens, how to build the verify habit — read it, compare it to a trusted source, then fix or decide — and when to trust versus double-check. Smart detective work."
+  },
+  "clues": [
+    {
+      "id": "c1",
+      "ico": "😎",
+      "nm": "Sounds Sure",
+      "title": "Confident isn't correct",
+      "body": "A chatbot can give an answer in a calm, sure-sounding voice and still have it be wrong. Sounding confident is not the same as being right. The tone tells you nothing about the facts."
+    },
+    {
+      "id": "c2",
+      "ico": "🎲",
+      "nm": "It Predicts",
+      "title": "Guessing the next word",
+      "body": "An AI assistant does not truly 'know' facts. It predicts words that usually go together based on patterns. That is why it can invent a date, a name, or a source that does not exist — this is called a hallucination."
+    },
+    {
+      "id": "c3",
+      "ico": "👀",
+      "nm": "Read It First",
+      "title": "Don't paste it blind",
+      "body": "Before you use an AI answer, actually read it. Do not copy and paste it into your work without checking. A quick read catches answers that are off-topic, made up, or don't make sense."
+    },
+    {
+      "id": "c4",
+      "ico": "📗",
+      "nm": "Compare It",
+      "title": "Check a trusted source",
+      "body": "Compare the AI's answer to a source you trust: a textbook, a known encyclopedia, a teacher, or an official website. If a reliable source agrees, you can trust it. If none does, doubt it."
+    },
+    {
+      "id": "c5",
+      "ico": "🚦",
+      "nm": "When to Double-Check",
+      "title": "Some answers need proof",
+      "body": "Facts, dates, numbers, quotes, and sources are worth double-checking every time. Simple ideas or brainstorms are lower risk. The bigger the decision, the more you should verify first."
+    },
+    {
+      "id": "c6",
+      "ico": "🌮",
+      "nm": "Lunch Special",
+      "title": "Taco Tuesday",
+      "body": "The cafeteria serves tacos every Tuesday, and the line moves fastest right when the bell rings. Tasty to know — but it will not help you open any lock.",
+      "decoy": true
+    }
+  ],
+  "locks": [
+    {
+      "id": "L1",
+      "type": "mc",
+      "color": "#4338ca",
+      "title": "Confident but Wrong",
+      "q": "A chatbot gives you a fact in a very confident voice. What does that confidence prove?",
+      "options": [
+        "The answer must be true, because it sounds so sure",
+        "Nothing about whether it is true — you still need to check it",
+        "The AI looked it up in a trusted source before answering"
+      ],
+      "answerIndex": 1,
+      "reason": "A confident tone tells you nothing about the facts. An AI can be totally sure-sounding and still be wrong, so you always check the answer against a trusted source."
+    },
+    {
+      "id": "L2",
+      "type": "multi",
+      "color": "#7c3aed",
+      "title": "Why It Can Be Wrong",
+      "q": "Check EVERY reason an AI assistant's answer might be false.",
+      "items": [
+        { "t": "It predicts likely words instead of truly knowing the facts", "strong": true },
+        { "t": "It can invent a name, date, or source that doesn't exist", "strong": true },
+        { "t": "A confident tone does not guarantee the facts are correct", "strong": true },
+        { "t": "It always searches a trusted encyclopedia before replying", "strong": false },
+        { "t": "It can never make a mistake once it sounds sure", "strong": false }
+      ],
+      "reason": "AI predicts patterns rather than knowing facts, so it can invent details, and its confident tone is no proof. It does not always check a trusted source, and sounding sure does not make it right."
+    },
+    {
+      "id": "L3",
+      "type": "word",
+      "color": "#0891b2",
+      "title": "Name the Habit",
+      "q": "Before you use an AI answer, you compare it to a trusted source to make sure it is true. In one word, this habit is to ______ the answer.",
+      "answer": ["verify", "check", "verifying", "checking", "double-check", "double check", "verify it", "check it"],
+      "reason": "The habit is to verify — to check the answer against a trusted source before you use it. Read it, compare it, then fix or decide."
+    },
+    {
+      "id": "L4",
+      "type": "seq",
+      "color": "#0d9488",
+      "title": "The Verify Habit",
+      "q": "A chatbot just answered your question. Tap the steps to double-check it in the RIGHT order.",
+      "pads": [
+        { "k": "read", "e": "👀 Read the AI's answer", "c": "#4338ca" },
+        { "k": "compare", "e": "📗 Compare it to a trusted source", "c": "#7c3aed" },
+        { "k": "decide", "e": "🧠 Fix it or decide to use it", "c": "#0891b2" }
+      ],
+      "answer": ["read", "compare", "decide"],
+      "reason": "First READ the answer instead of pasting it blind. Then COMPARE it to a trusted source. Then DECIDE to fix it or use it. Read, Compare, Decide."
+    }
+  ]
+}

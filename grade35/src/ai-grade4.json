@@ -1,7 +1,17 @@
 {
   "id": "ai-grade4",
   "grade": 4,
-  "confetti": ["#4338ca", "#06b6d4", "#7c3aed", "#0891b2", "#ffffff", "#a78bfa"],
+  "tier": "paid",
+  "icon": "🗑️",
+  "teks": "§126.9",
+  "confetti": [
+    "#4338ca",
+    "#06b6d4",
+    "#7c3aed",
+    "#0891b2",
+    "#ffffff",
+    "#a78bfa"
+  ],
   "chrome": {
     "eyebrow": {
       "en": "Gen AI Literacy Breakout · Grade 4",
@@ -88,7 +98,10 @@
       "color": "#7c3aed",
       "title": "Name the Examples",
       "q": "The examples an AI learns from are called its ______.",
-      "answer": ["data", "the data"],
+      "answer": [
+        "data",
+        "the data"
+      ],
       "reason": "The examples an AI learns from are called data. If the data is bad or one-sided, the AI's guesses are too."
     },
     {
@@ -98,11 +111,26 @@
       "title": "Make It Better",
       "q": "Check EVERY thing that would make an AI's guesses BETTER and FAIRER.",
       "items": [
-        { "t": "Giving it more kinds of examples, not just one kind", "strong": true },
-        { "t": "Checking its facts against a trusted source", "strong": true },
-        { "t": "Fixing the mistakes in the data it learned from", "strong": true },
-        { "t": "Only ever showing it one kind of example", "strong": false },
-        { "t": "Believing every answer without checking", "strong": false }
+        {
+          "t": "Giving it more kinds of examples, not just one kind",
+          "strong": true
+        },
+        {
+          "t": "Checking its facts against a trusted source",
+          "strong": true
+        },
+        {
+          "t": "Fixing the mistakes in the data it learned from",
+          "strong": true
+        },
+        {
+          "t": "Only ever showing it one kind of example",
+          "strong": false
+        },
+        {
+          "t": "Believing every answer without checking",
+          "strong": false
+        }
       ],
       "reason": "Better and more varied data, plus checking facts against trusted sources, makes guesses fairer. One-sided data and blind trust make them worse."
     },
@@ -113,11 +141,27 @@
       "title": "Fix the Report",
       "q": "Your AI book report has a made-up character. Tap the steps to fix it in the RIGHT order.",
       "pads": [
-        { "k": "notice", "e": "🔎 Notice the made-up fact", "c": "#4338ca" },
-        { "k": "compare", "e": "📖 Compare it to the real book", "c": "#7c3aed" },
-        { "k": "fix", "e": "✏️ Fix the report yourself", "c": "#0891b2" }
+        {
+          "k": "notice",
+          "e": "🔎 Notice the made-up fact",
+          "c": "#4338ca"
+        },
+        {
+          "k": "compare",
+          "e": "📖 Compare it to the real book",
+          "c": "#7c3aed"
+        },
+        {
+          "k": "fix",
+          "e": "✏️ Fix the report yourself",
+          "c": "#0891b2"
+        }
       ],
-      "answer": ["notice", "compare", "fix"],
+      "answer": [
+        "notice",
+        "compare",
+        "fix"
+      ],
       "reason": "First NOTICE the fact that seems made up. Then COMPARE it to the real book. Then FIX the report yourself. Notice, Compare, Fix."
     }
   ]

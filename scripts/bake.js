@@ -113,10 +113,12 @@ function bakeOne(srcPath) {
   const i18nDir = path.join(path.dirname(path.dirname(srcPath)), 'i18n');
 
   for (const lg of NONEN) {
-    // 21 COMMON shared keys + the per-grade eyebrow = 22-key baseline
+    // 21 COMMON shared keys + the per-grade eyebrow + the 10 grade/suite chrome
+    // keys (English default) = a uniform 32-key set; overlay overrides below.
     UI[lg] = {};
     for (const k of Object.keys(COMMON)) UI[lg][k] = COMMON[k][lg];
     UI[lg]['header.eyebrow'] = c.eyebrow[lg];
+    for (const k of ['header.h1', 'header.sub', 'brief.label', 'brief.h', 'brief.p', 'footer.text', 'win.stamp', 'win.h', 'win.p', 'crumb.suite']) UI[lg][k] = UI.en[k];
 
     // text-only translation overlay, if present — structure always comes from EN
     const ovPath = path.join(i18nDir, S.id + '.' + lg + '.json');
@@ -129,7 +131,7 @@ function bakeOne(srcPath) {
     }
   }
 
-  const B = { id: S.id, confetti: S.confetti, UI, CONTENT };
+  const B = { id: S.id, grade: S.grade, tier: S.tier || 'free', icon: S.icon || '', teks: S.teks || '', confetti: S.confetti, UI, CONTENT };
   const out = 'window.BREAKOUT = ' + JSON.stringify(B, null, 1) + ';\n';
   const dest = path.join(ROOT, bandOf(S.grade), 'locales', S.id + '.js');
   fs.writeFileSync(dest, out);

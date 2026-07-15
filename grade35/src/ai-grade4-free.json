@@ -1,0 +1,128 @@
+{
+  "id": "ai-grade4-free",
+  "grade": 4,
+  "tier": "free",
+  "icon": "🧩",
+  "teks": "§126.9",
+  "confetti": ["#4338ca", "#06b6d4", "#7c3aed", "#0891b2", "#ffffff", "#a78bfa"],
+  "chrome": {
+    "eyebrow": {
+      "en": "Gen AI Literacy Breakout · Grade 4",
+      "es": "Breakout de alfabetización en IA generativa · Grado 4",
+      "vi": "Breakout hiểu biết AI tạo sinh · Lớp 4",
+      "ar": "تحدّي الثقافة في الذكاء الاصطناعي التوليدي · الصف 4",
+      "hi": "जनरेटिव AI साक्षरता ब्रेकआउट · कक्षा 4",
+      "ur": "جنریٹِو اے آئی خواندگی بریک آؤٹ · جماعت 4",
+      "zh": "生成式 AI 素养破解 · 4 年级"
+    },
+    "h1": "Teach the Machine",
+    "sub": "You are training a helper to tell cats from dogs. It learns from the examples you show it. Crack four locks to learn how a machine learns.",
+    "briefLabel": "Your Mission",
+    "briefH": "Be an AI Trainer",
+    "briefP": "An AI does not just know things. It learns from examples you give it, and we call those examples data. Show it more and better labeled examples, and its guesses get better. Read the clues, then open all four locks. Each lock has a reason that shows why the answer is right.",
+    "footerText": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
+    "winStamp": "MACHINE TRAINED",
+    "winH": "You cracked all four locks!",
+    "winP": "You learned that an AI learns from labeled examples, that those examples are called data, that more and more varied examples make better guesses, and that a good trainer checks what the machine learned. Great training!"
+  },
+  "clues": [
+    {
+      "id": "c1",
+      "ico": "🏷️",
+      "nm": "Show and Label",
+      "title": "Examples with names",
+      "body": "To teach a machine to tell a cat from a dog, you show it many pictures. You also label each one: this is a cat, this is a dog. The labeled examples teach it what to look for."
+    },
+    {
+      "id": "c2",
+      "ico": "📊",
+      "nm": "Call It Data",
+      "title": "Examples have a name",
+      "body": "All the labeled examples you show the machine have a special name. They are called data. When people say an AI learns from data, they mean it learns from examples like these."
+    },
+    {
+      "id": "c3",
+      "ico": "🐈",
+      "nm": "Only Fluffy Cats",
+      "title": "Too few examples",
+      "body": "Someone showed a machine only fluffy cats. Now it thinks a short-hair cat is a dog. It did not see enough kinds of cats, so its guess is wrong."
+    },
+    {
+      "id": "c4",
+      "ico": "🐾",
+      "nm": "More and Varied",
+      "title": "Better examples help",
+      "body": "To fix it, you show the machine many kinds of cats and many kinds of dogs. More examples and more KINDS of examples help it make better guesses."
+    },
+    {
+      "id": "c5",
+      "ico": "✅",
+      "nm": "Check the Learning",
+      "title": "Test what it learned",
+      "body": "A good trainer does not just hope it worked. You show the machine a NEW picture it never saw and check if it guesses right. Testing shows you what it really learned."
+    },
+    {
+      "id": "c6",
+      "ico": "🥪",
+      "nm": "Lunch Menu",
+      "title": "A tasty fact",
+      "body": "Tuesday is grilled cheese day in the cafeteria, and it comes with tomato soup. This is a fun fact about lunch — but it will not help you open any lock.",
+      "decoy": true
+    }
+  ],
+  "locks": [
+    {
+      "id": "L1",
+      "type": "mc",
+      "color": "#4338ca",
+      "title": "How It Learns",
+      "q": "How does the machine learn to tell a cat from a dog?",
+      "options": [
+        "It is born already knowing what cats and dogs look like",
+        "You show it many labeled examples, so it learns what to look for",
+        "It guesses randomly and never gets any better"
+      ],
+      "answerIndex": 1,
+      "reason": "The machine learns from labeled examples you give it. Show it enough pictures marked cat or dog, and it learns what to look for."
+    },
+    {
+      "id": "L2",
+      "type": "word",
+      "color": "#7c3aed",
+      "title": "Name the Examples",
+      "q": "The labeled examples you show a machine so it can learn are called ______.",
+      "answer": ["data", "the data"],
+      "reason": "The examples an AI learns from are called data. More and better data helps the machine make better guesses."
+    },
+    {
+      "id": "L3",
+      "type": "multi",
+      "color": "#0891b2",
+      "title": "Train It Well",
+      "q": "Check EVERY thing that would help the machine make BETTER guesses.",
+      "items": [
+        { "t": "Showing it many different kinds of cats and dogs", "strong": true },
+        { "t": "Labeling each example correctly", "strong": true },
+        { "t": "Testing it on a new picture to check what it learned", "strong": true },
+        { "t": "Showing it only one fluffy cat, over and over", "strong": false },
+        { "t": "Never checking if its guesses are right", "strong": false }
+      ],
+      "reason": "More kinds of examples, correct labels, and testing on new pictures all make the machine's guesses better. One example and no checking make them worse."
+    },
+    {
+      "id": "L4",
+      "type": "seq",
+      "color": "#0d9488",
+      "title": "Teach the Machine",
+      "q": "You are training a cat-and-dog helper. Tap the steps to teach it in the RIGHT order.",
+      "pads": [
+        { "k": "gather", "e": "🖼️ Gather many example pictures", "c": "#4338ca" },
+        { "k": "label", "e": "🏷️ Label each one cat or dog", "c": "#7c3aed" },
+        { "k": "train", "e": "🧠 Let it learn from the labels", "c": "#0891b2" },
+        { "k": "test", "e": "✅ Test it on a new picture", "c": "#0d9488" }
+      ],
+      "answer": ["gather", "label", "train", "test"],
+      "reason": "First GATHER example pictures. Then LABEL each as cat or dog. Then let it LEARN from your labels. Then TEST it on a new picture to check its guess."
+    }
+  ]
+}

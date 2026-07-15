@@ -1,7 +1,17 @@
 {
   "id": "ai-grade8",
   "grade": 8,
-  "confetti": ["#4338ca", "#06b6d4", "#7c3aed", "#0891b2", "#ffffff", "#a78bfa"],
+  "tier": "paid",
+  "icon": "🛠️",
+  "teks": "§126.19",
+  "confetti": [
+    "#4338ca",
+    "#06b6d4",
+    "#7c3aed",
+    "#0891b2",
+    "#ffffff",
+    "#a78bfa"
+  ],
   "chrome": {
     "eyebrow": {
       "en": "Gen AI Literacy Breakout · Grade 8",
@@ -89,11 +99,26 @@
       "title": "Responsible Habits",
       "q": "Check EVERY responsible habit when creating with AI.",
       "items": [
-        { "t": "Disclosing that an AI helped with the work", "strong": true },
-        { "t": "Verifying facts and fixing errors before submitting", "strong": true },
-        { "t": "Keeping private information out of AI tools", "strong": true },
-        { "t": "Claiming AI-generated work as entirely your own", "strong": false },
-        { "t": "Sharing someone's personal details with a chatbot", "strong": false }
+        {
+          "t": "Disclosing that an AI helped with the work",
+          "strong": true
+        },
+        {
+          "t": "Verifying facts and fixing errors before submitting",
+          "strong": true
+        },
+        {
+          "t": "Keeping private information out of AI tools",
+          "strong": true
+        },
+        {
+          "t": "Claiming AI-generated work as entirely your own",
+          "strong": false
+        },
+        {
+          "t": "Sharing someone's personal details with a chatbot",
+          "strong": false
+        }
       ],
       "reason": "Disclosing AI's help, verifying its work, and protecting private data are responsible. Claiming its work as your own or leaking personal details are not."
     },
@@ -103,7 +128,14 @@
       "color": "#0891b2",
       "title": "Be Honest About It",
       "q": "Being honest that an AI helped you — instead of hiding it — means you ______ its use.",
-      "answer": ["disclose", "disclosed", "disclosing", "credit", "cite", "acknowledge"],
+      "answer": [
+        "disclose",
+        "disclosed",
+        "disclosing",
+        "credit",
+        "cite",
+        "acknowledge"
+      ],
       "reason": "Disclosing that AI helped is the honest choice; hiding it and claiming the work as entirely your own is not."
     },
     {
@@ -113,12 +145,33 @@
       "title": "Create Responsibly",
       "q": "You'll use an AI to help make a class presentation. Tap the responsible steps in the RIGHT order.",
       "pads": [
-        { "k": "plan", "e": "🧠 Plan your own idea first", "c": "#4338ca" },
-        { "k": "draft", "e": "🤖 Draft with the AI's help", "c": "#7c3aed" },
-        { "k": "verify", "e": "✔️ Verify and revise the facts", "c": "#0891b2" },
-        { "k": "credit", "e": "🏷️ Credit the AI's help", "c": "#6d28d9" }
+        {
+          "k": "plan",
+          "e": "🧠 Plan your own idea first",
+          "c": "#4338ca"
+        },
+        {
+          "k": "draft",
+          "e": "🤖 Draft with the AI's help",
+          "c": "#7c3aed"
+        },
+        {
+          "k": "verify",
+          "e": "✔️ Verify and revise the facts",
+          "c": "#0891b2"
+        },
+        {
+          "k": "credit",
+          "e": "🏷️ Credit the AI's help",
+          "c": "#6d28d9"
+        }
       ],
-      "answer": ["plan", "draft", "verify", "credit"],
+      "answer": [
+        "plan",
+        "draft",
+        "verify",
+        "credit"
+      ],
       "reason": "First PLAN your own idea. Then DRAFT with the AI's help. Then VERIFY and revise the facts. Then CREDIT the AI's help. Plan, Draft, Verify, Credit."
     }
   ]

@@ -1,7 +1,17 @@
 {
   "id": "ai-grade7",
   "grade": 7,
-  "confetti": ["#4338ca", "#06b6d4", "#7c3aed", "#0891b2", "#ffffff", "#a78bfa"],
+  "tier": "paid",
+  "icon": "⚖️",
+  "teks": "§126.18",
+  "confetti": [
+    "#4338ca",
+    "#06b6d4",
+    "#7c3aed",
+    "#0891b2",
+    "#ffffff",
+    "#a78bfa"
+  ],
   "chrome": {
     "eyebrow": {
       "en": "Gen AI Literacy Breakout · Grade 7",
@@ -89,11 +99,26 @@
       "title": "Sources of Bias",
       "q": "Check EVERY place bias in an AI can come from.",
       "items": [
-        { "t": "Training data that over-represents one group or view", "strong": true },
-        { "t": "Important examples being missing from the data", "strong": true },
-        { "t": "The choices and blind spots of the people who built it", "strong": true },
-        { "t": "The AI personally disliking certain people", "strong": false },
-        { "t": "Careful, balanced data drawn from many sources", "strong": false }
+        {
+          "t": "Training data that over-represents one group or view",
+          "strong": true
+        },
+        {
+          "t": "Important examples being missing from the data",
+          "strong": true
+        },
+        {
+          "t": "The choices and blind spots of the people who built it",
+          "strong": true
+        },
+        {
+          "t": "The AI personally disliking certain people",
+          "strong": false
+        },
+        {
+          "t": "Careful, balanced data drawn from many sources",
+          "strong": false
+        }
       ],
       "reason": "Bias comes from skewed data, missing examples, and human choices. An AI has no personal feelings, and balanced data reduces bias rather than causing it."
     },
@@ -103,7 +128,11 @@
       "color": "#0891b2",
       "title": "Name the Harm",
       "q": "A biased AI can repeat an unfair, oversimplified idea about a whole group. That idea is called a ______.",
-      "answer": ["stereotype", "stereotypes", "a stereotype"],
+      "answer": [
+        "stereotype",
+        "stereotypes",
+        "a stereotype"
+      ],
       "reason": "An unfair, oversimplified idea about a whole group is a stereotype, and a biased AI can spread stereotypes to many people at once."
     },
     {
@@ -113,11 +142,27 @@
       "title": "Evaluate the Answer",
       "q": "An AI gives you a one-sided answer about a topic. Tap the steps to evaluate it in the RIGHT order.",
       "pads": [
-        { "k": "ask", "e": "🤔 Ask what data it learned from", "c": "#4338ca" },
-        { "k": "missing", "e": "🕳️ Ask whose view is missing", "c": "#7c3aed" },
-        { "k": "crosscheck", "e": "🔎 Cross-check other sources", "c": "#0891b2" }
+        {
+          "k": "ask",
+          "e": "🤔 Ask what data it learned from",
+          "c": "#4338ca"
+        },
+        {
+          "k": "missing",
+          "e": "🕳️ Ask whose view is missing",
+          "c": "#7c3aed"
+        },
+        {
+          "k": "crosscheck",
+          "e": "🔎 Cross-check other sources",
+          "c": "#0891b2"
+        }
       ],
-      "answer": ["ask", "missing", "crosscheck"],
+      "answer": [
+        "ask",
+        "missing",
+        "crosscheck"
+      ],
       "reason": "First ASK what data it learned from. Then ask whose view is MISSING. Then CROSS-CHECK against other sources. Ask, Missing, Cross-check."
     }
   ]

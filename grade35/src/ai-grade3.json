@@ -1,7 +1,17 @@
 {
   "id": "ai-grade3",
   "grade": 3,
-  "confetti": ["#4338ca", "#06b6d4", "#7c3aed", "#0891b2", "#ffffff", "#a78bfa"],
+  "tier": "paid",
+  "icon": "🤖",
+  "teks": "§126.8",
+  "confetti": [
+    "#4338ca",
+    "#06b6d4",
+    "#7c3aed",
+    "#0891b2",
+    "#ffffff",
+    "#a78bfa"
+  ],
   "chrome": {
     "eyebrow": {
       "en": "Gen AI Literacy Breakout · Grade 3",
@@ -89,11 +99,26 @@
       "title": "How AI Learns",
       "q": "Check EVERY true thing about how an AI learns to make guesses.",
       "items": [
-        { "t": "It learns from many examples that people give it", "strong": true },
-        { "t": "The examples it learns from are called data", "strong": true },
-        { "t": "More good examples help it make better guesses", "strong": true },
-        { "t": "It was born already knowing every answer", "strong": false },
-        { "t": "It can guess perfectly without seeing any examples", "strong": false }
+        {
+          "t": "It learns from many examples that people give it",
+          "strong": true
+        },
+        {
+          "t": "The examples it learns from are called data",
+          "strong": true
+        },
+        {
+          "t": "More good examples help it make better guesses",
+          "strong": true
+        },
+        {
+          "t": "It was born already knowing every answer",
+          "strong": false
+        },
+        {
+          "t": "It can guess perfectly without seeing any examples",
+          "strong": false
+        }
       ],
       "reason": "An AI learns patterns from examples, and those examples are called data. More good data means better guesses. It was not born knowing things, and it cannot guess well with no examples at all."
     },
@@ -103,7 +128,15 @@
       "color": "#0891b2",
       "title": "Trust, but Verify",
       "q": "An AI answer can sound sure but still be wrong. Before you trust it, you should ______ it.",
-      "answer": ["check", "check it", "checkit", "verify", "double check", "double-check", "doublecheck"],
+      "answer": [
+        "check",
+        "check it",
+        "checkit",
+        "verify",
+        "double check",
+        "double-check",
+        "doublecheck"
+      ],
       "reason": "Because an AI is only guessing, it can be confidently wrong. You check its answer against what you know or a trusted source before you use it."
     },
     {
@@ -113,11 +146,27 @@
       "title": "Use an AI Helper Well",
       "q": "You use an AI helper for a class poster. Tap the steps in the RIGHT order.",
       "pads": [
-        { "k": "check", "e": "✅ Check if it is right", "c": "#4338ca" },
-        { "k": "ask", "e": "📝 Ask with a clear request", "c": "#7c3aed" },
-        { "k": "read", "e": "👀 Read what it made", "c": "#0891b2" }
+        {
+          "k": "check",
+          "e": "✅ Check if it is right",
+          "c": "#4338ca"
+        },
+        {
+          "k": "ask",
+          "e": "📝 Ask with a clear request",
+          "c": "#7c3aed"
+        },
+        {
+          "k": "read",
+          "e": "👀 Read what it made",
+          "c": "#0891b2"
+        }
       ],
-      "answer": ["ask", "read", "check"],
+      "answer": [
+        "ask",
+        "read",
+        "check"
+      ],
       "reason": "First ASK with a clear request. Then READ what the AI made. Then CHECK if it is right before you use it. Ask, Read, Check."
     }
   ]

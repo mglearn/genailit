@@ -1,7 +1,17 @@
 {
   "id": "ai-grade5",
   "grade": 5,
-  "confetti": ["#4338ca", "#06b6d4", "#7c3aed", "#0891b2", "#ffffff", "#a78bfa"],
+  "tier": "paid",
+  "icon": "🧪",
+  "teks": "§126.10",
+  "confetti": [
+    "#4338ca",
+    "#06b6d4",
+    "#7c3aed",
+    "#0891b2",
+    "#ffffff",
+    "#a78bfa"
+  ],
   "chrome": {
     "eyebrow": {
       "en": "Gen AI Literacy Breakout · Grade 5",
@@ -89,7 +99,9 @@
       "title": "The Three Parts",
       "q": "A strong prompt names how many parts — the task, the details, and the format? Type the number.",
       "len": 1,
-      "answer": ["3"],
+      "answer": [
+        "3"
+      ],
       "reason": "A strong prompt names three parts: the task, the details, and the format. Naming all three gets a better result."
     },
     {
@@ -99,11 +111,26 @@
       "title": "Smart Prompt Habits",
       "q": "Check EVERY habit of a smart prompt writer.",
       "items": [
-        { "t": "Giving clear, specific instructions", "strong": true },
-        { "t": "Refining the prompt and trying again if needed", "strong": true },
-        { "t": "Checking the facts before using the answer", "strong": true },
-        { "t": "Typing one vague word and using whatever comes out", "strong": false },
-        { "t": "Believing an answer just because it sounds confident", "strong": false }
+        {
+          "t": "Giving clear, specific instructions",
+          "strong": true
+        },
+        {
+          "t": "Refining the prompt and trying again if needed",
+          "strong": true
+        },
+        {
+          "t": "Checking the facts before using the answer",
+          "strong": true
+        },
+        {
+          "t": "Typing one vague word and using whatever comes out",
+          "strong": false
+        },
+        {
+          "t": "Believing an answer just because it sounds confident",
+          "strong": false
+        }
       ],
       "reason": "Smart prompting means being clear, refining when needed, and checking facts. Vague prompts and blind trust are not smart habits."
     },
@@ -114,11 +141,27 @@
       "title": "Improve the Result",
       "q": "Your first result is too long and misses the topic. Tap the steps to improve it in the RIGHT order.",
       "pads": [
-        { "k": "add", "e": "✍️ Add the missing details", "c": "#4338ca" },
-        { "k": "retry", "e": "🔁 Try the new prompt", "c": "#7c3aed" },
-        { "k": "check", "e": "🔎 Check the facts", "c": "#0891b2" }
+        {
+          "k": "add",
+          "e": "✍️ Add the missing details",
+          "c": "#4338ca"
+        },
+        {
+          "k": "retry",
+          "e": "🔁 Try the new prompt",
+          "c": "#7c3aed"
+        },
+        {
+          "k": "check",
+          "e": "🔎 Check the facts",
+          "c": "#0891b2"
+        }
       ],
-      "answer": ["add", "retry", "check"],
+      "answer": [
+        "add",
+        "retry",
+        "check"
+      ],
       "reason": "First ADD the missing details to your prompt. Then RETRY with the clearer prompt. Then CHECK the facts before you use it. Add, Retry, Check."
     }
   ]

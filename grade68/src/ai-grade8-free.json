@@ -1,0 +1,128 @@
+{
+  "id": "ai-grade8-free",
+  "grade": 8,
+  "tier": "free",
+  "icon": "🏷️",
+  "teks": "§126.19",
+  "confetti": ["#4338ca", "#06b6d4", "#7c3aed", "#0891b2", "#ffffff", "#a78bfa"],
+  "chrome": {
+    "eyebrow": {
+      "en": "Gen AI Literacy Breakout · Grade 8",
+      "es": "Breakout de alfabetización en IA generativa · Grado 8",
+      "vi": "Breakout hiểu biết AI tạo sinh · Lớp 8",
+      "ar": "تحدّي الثقافة في الذكاء الاصطناعي التوليدي · الصف 8",
+      "hi": "जनरेटिव AI साक्षरता ब्रेकआउट · कक्षा 8",
+      "ur": "جنریٹِو اے آئی خواندگی بریک آؤٹ · جماعت 8",
+      "zh": "生成式 AI 素养破解 · 8 年级"
+    },
+    "h1": "Give AI Credit",
+    "sub": "An AI helper can save you time on schoolwork — but honesty means you say when you used it. Crack four locks to learn how to use AI the honest way.",
+    "briefLabel": "Your Mission",
+    "briefH": "Be Honest About AI Help",
+    "briefP": "Getting help from an AI tool is not automatically cheating — but hiding it can be. Your teacher's rules come first, you still do your own thinking, and you give credit when AI helped. Read the clues, then open all four locks. Each lock reveals the reasoning behind the answer.",
+    "footerText": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
+    "winStamp": "CASE CLOSED",
+    "winH": "You cracked all four locks!",
+    "winP": "You learned to check your teacher's rules, to do your own thinking and verify the facts, to know the line between a tool and cheating, and to disclose and cite AI help. That's giving AI credit honestly."
+  },
+  "clues": [
+    {
+      "id": "c1",
+      "ico": "📋",
+      "nm": "Rules First",
+      "title": "Check what's allowed",
+      "body": "Every class is different. Before you use an AI tool for an assignment, check your teacher's rules. Some tasks allow AI help; others require you to work alone. When unsure, ask first."
+    },
+    {
+      "id": "c2",
+      "ico": "🏷️",
+      "nm": "Give Credit",
+      "title": "Say when AI helped",
+      "body": "Being honest means you disclose and cite when an AI helped — a short note like 'brainstormed with an AI assistant.' Turning in AI work as fully your own, with no credit, is dishonest."
+    },
+    {
+      "id": "c3",
+      "ico": "🧠",
+      "nm": "Your Thinking",
+      "title": "Do the real work",
+      "body": "An AI can start a draft, but the thinking has to be yours. Understand the ideas, put them in your own words, and be able to explain your work. Learning is the point, not just a finished page."
+    },
+    {
+      "id": "c4",
+      "ico": "✔️",
+      "nm": "Check the Facts",
+      "title": "AI can be wrong",
+      "body": "AI tools sometimes make up facts, dates, or sources that sound real but are false. Verify anything an AI gives you before you use it, or its mistakes become your mistakes on the assignment."
+    },
+    {
+      "id": "c5",
+      "ico": "⚖️",
+      "nm": "Tool or Cheating?",
+      "title": "Where the line is",
+      "body": "Using AI to brainstorm ideas or check your grammar can be a helpful tool. Having AI write the whole thing and then hiding that it did — passing it off as fully your own — is cheating."
+    },
+    {
+      "id": "c6",
+      "ico": "🌋",
+      "nm": "Science Fair",
+      "title": "A cool project",
+      "body": "The eighth-grade science fair features an erupting baking-soda volcano and a solar-oven demo. A fun project — but it will not help you open any lock.",
+      "decoy": true
+    }
+  ],
+  "locks": [
+    {
+      "id": "L1",
+      "type": "mc",
+      "color": "#4338ca",
+      "title": "The Honest Move",
+      "q": "An AI helped you brainstorm ideas for a history assignment. What is the honest thing to do?",
+      "options": [
+        "Turn it in and claim every idea was completely your own",
+        "Check your teacher's rules, do your own thinking, and cite the AI help",
+        "Copy the AI's whole answer word for word and hide that you used it"
+      ],
+      "answerIndex": 1,
+      "reason": "Honesty means following your teacher's rules, doing your own thinking, and giving credit by citing that AI helped. Hiding the help or claiming AI's ideas as fully your own is dishonest."
+    },
+    {
+      "id": "L2",
+      "type": "multi",
+      "color": "#7c3aed",
+      "title": "Honest Habits",
+      "q": "Check EVERY habit that shows academic honesty with AI.",
+      "items": [
+        { "t": "Checking your teacher's rules before using an AI tool", "strong": true },
+        { "t": "Disclosing and citing that an AI helped with your work", "strong": true },
+        { "t": "Doing your own thinking and verifying the facts", "strong": true },
+        { "t": "Turning in AI's whole answer as fully your own work", "strong": false },
+        { "t": "Hiding that you used an AI so no one finds out", "strong": false }
+      ],
+      "reason": "Checking the rules, disclosing and citing AI help, and doing your own thinking are honest. Passing AI work off as your own or hiding that you used it is not."
+    },
+    {
+      "id": "L3",
+      "type": "word",
+      "color": "#0891b2",
+      "title": "Give It Credit",
+      "q": "When an AI helped you with schoolwork, being honest means you ______ that help instead of hiding it.",
+      "answer": ["disclose", "disclosed", "disclosing", "cite", "cited", "citing", "credit", "credited", "acknowledge"],
+      "reason": "Disclosing and citing AI help gives it credit and keeps you honest; hiding it and claiming the work as fully your own is dishonest."
+    },
+    {
+      "id": "L4",
+      "type": "seq",
+      "color": "#0d9488",
+      "title": "Use AI Honestly",
+      "q": "You'll use an AI to help with a class assignment. Tap the honest steps in the RIGHT order.",
+      "pads": [
+        { "k": "rules", "e": "📋 Check your teacher's rules", "c": "#4338ca" },
+        { "k": "think", "e": "🧠 Do your own thinking first", "c": "#7c3aed" },
+        { "k": "verify", "e": "✔️ Verify the facts AI gives", "c": "#0891b2" },
+        { "k": "credit", "e": "🏷️ Credit the AI's help", "c": "#6d28d9" }
+      ],
+      "answer": ["rules", "think", "verify", "credit"],
+      "reason": "First check your teacher's RULES. Then do your own THINKing. Then VERIFY the facts. Then CREDIT the AI's help. Rules, Think, Verify, Credit."
+    }
+  ]
+}

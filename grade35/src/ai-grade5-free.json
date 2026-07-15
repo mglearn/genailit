@@ -1,0 +1,127 @@
+{
+  "id": "ai-grade5-free",
+  "grade": 5,
+  "tier": "free",
+  "icon": "❓",
+  "teks": "§126.10",
+  "confetti": ["#4338ca", "#06b6d4", "#7c3aed", "#0891b2", "#ffffff", "#a78bfa"],
+  "chrome": {
+    "eyebrow": {
+      "en": "Gen AI Literacy Breakout · Grade 5",
+      "es": "Breakout de alfabetización en IA generativa · Grado 5",
+      "vi": "Breakout hiểu biết AI tạo sinh · Lớp 5",
+      "ar": "تحدّي الثقافة في الذكاء الاصطناعي التوليدي · الصف 5",
+      "hi": "जनरेटिव AI साक्षरता ब्रेकआउट · कक्षा 5",
+      "ur": "جنریٹِو اے آئی خواندگی بریک آؤٹ · جماعت 5",
+      "zh": "生成式 AI 素养破解 · 5 年级"
+    },
+    "h1": "Ask It Clearly",
+    "sub": "Two friends asked an AI about the same thing. One asked a fuzzy question and got a fuzzy answer. The other asked clearly and got just what they needed. Crack four locks to learn how to ask an AI a good question.",
+    "briefLabel": "Your Mission",
+    "briefH": "Ask Like a Pro",
+    "briefP": "The question you ask an AI is called a request. A clear, specific request gets a better answer than a vague one. Say your topic, how long you want it, and who it is for. If the answer is off, ask again more clearly. Read the clues, then open all four locks. Each lock has a reason that shows why the answer is right.",
+    "footerText": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
+    "winStamp": "MYSTERY SOLVED",
+    "winH": "You cracked all four locks!",
+    "winP": "You learned that a clear question beats a vague one, that good requests add the topic, the length, and who it is for, that you can ask again more clearly if the answer is off, and that you always check the answer. Great asking!"
+  },
+  "clues": [
+    {
+      "id": "c1",
+      "ico": "🌫️",
+      "nm": "Fuzzy vs Clear",
+      "title": "Two ways to ask",
+      "body": "\"Tell me about dogs\" is a fuzzy question. \"List three facts about how puppies learn tricks, for a 5th grader\" is a clear question. The clear question gets a better answer because it says exactly what you want."
+    },
+    {
+      "id": "c2",
+      "ico": "🧩",
+      "nm": "Add Details",
+      "title": "Topic, length, who",
+      "body": "A good request adds three details: the TOPIC (what it is about), the LENGTH (how long, like three sentences), and WHO it is for (a kid, a class, a friend). More detail means a better answer."
+    },
+    {
+      "id": "c3",
+      "ico": "🔁",
+      "nm": "Ask Again",
+      "title": "Off? Try once more",
+      "body": "If the answer is off or not what you wanted, don't quit. Ask again and be more clear. Add what was missing or say what to change. Asking again more clearly usually fixes it."
+    },
+    {
+      "id": "c4",
+      "ico": "🔎",
+      "nm": "Check It",
+      "title": "You are the checker",
+      "body": "An AI can sound sure and still be wrong. Before you use the answer, check it against a source you trust, like a book, a website, or your teacher. You decide if it is right."
+    },
+    {
+      "id": "c5",
+      "ico": "🎯",
+      "nm": "Say What You Want",
+      "title": "Name your goal",
+      "body": "Tell the AI what you want the answer to look like — a short list, one sentence, or a simple example. When you name your goal, the AI can match it. If you don't say, it just guesses."
+    },
+    {
+      "id": "c6",
+      "ico": "🌋",
+      "nm": "Volcano Fact",
+      "title": "A fun science fact",
+      "body": "The tallest volcano in our solar system is on the planet Mars, and it is about three times taller than Mount Everest. This is a cool fact — but it will not help you open any lock.",
+      "decoy": true
+    }
+  ],
+  "locks": [
+    {
+      "id": "L1",
+      "type": "mc",
+      "color": "#4338ca",
+      "title": "Fuzzy or Clear",
+      "q": "Which question will most likely get a better answer from an AI?",
+      "options": [
+        "\"Tell me stuff.\"",
+        "\"List three short facts about how bees make honey, for a 5th grader.\"",
+        "\"Dogs?\""
+      ],
+      "answerIndex": 1,
+      "reason": "The clear question names the topic (bees making honey), the length (three short facts), and who it is for (a 5th grader). Naming what you want gets a better answer than a fuzzy question."
+    },
+    {
+      "id": "L2",
+      "type": "word",
+      "color": "#7c3aed",
+      "title": "The Missing Word",
+      "q": "Finish the rule: A clear, specific question gets a _______ answer than a vague one. Type the word.",
+      "answer": ["better"],
+      "reason": "A clear, specific question tells the AI exactly what you want, so you get a BETTER answer than you would from a vague one."
+    },
+    {
+      "id": "L3",
+      "type": "multi",
+      "color": "#0891b2",
+      "title": "Ask It Clearly Habits",
+      "q": "Check EVERY habit that makes a question clear.",
+      "items": [
+        { "t": "Naming the topic you want to learn about", "strong": true },
+        { "t": "Saying how long the answer should be", "strong": true },
+        { "t": "Saying who the answer is for", "strong": true },
+        { "t": "Typing one vague word and hoping", "strong": false },
+        { "t": "Using the answer without checking it", "strong": false }
+      ],
+      "reason": "Clear questions name the topic, the length, and who the answer is for. Typing one vague word or skipping the check are not clear-question habits."
+    },
+    {
+      "id": "L4",
+      "type": "seq",
+      "color": "#0d9488",
+      "title": "Fix a Fuzzy Question",
+      "q": "Your first answer was off because your question was fuzzy. Tap the steps to fix it in the RIGHT order.",
+      "pads": [
+        { "k": "details", "e": "🧩 Add the missing details", "c": "#4338ca" },
+        { "k": "ask", "e": "🔁 Ask again more clearly", "c": "#7c3aed" },
+        { "k": "check", "e": "🔎 Check the answer", "c": "#0891b2" }
+      ],
+      "answer": ["details", "ask", "check"],
+      "reason": "First ADD the missing details, like the topic, length, and who it is for. Then ASK again more clearly. Then CHECK the answer before you use it. Details, Ask, Check."
+    }
+  ]
+}

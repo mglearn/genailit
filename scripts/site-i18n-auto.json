@@ -4552,5 +4552,653 @@
   "hi": "<li><strong>वार्म अप (5 मिनट)।</strong> पूछें: “एक ज़िम्मेदार रचनाकार बनें” — AI के साथ काम करते समय इसका क्या अर्थ है? गतिविधि से पहले पूर्व अनुभव सामने लाएँ।</li><li><strong>एक संकेत मॉडल करें।</strong> एक अकेला संकेत एक साथ खोलें और ज़ोर से सोचें: यह हमें क्या बताता है, और यह किस ताले की मदद कर सकता है?</li><li><strong>तर्क करें, अनुमान न लगाएँ।</strong> छात्रों से किसी ताले की जाँच से पहले <em>क्यों</em> कहलवाएँ। प्रत्येक हल के बाद, प्रकट किया गया <em>कारण</em> पढ़ें और इसकी तुलना उनकी सोच से करें।</li><li><strong>भ्रामक संकेत पहचानें।</strong> एक संकेत सत्य है परंतु बेकार है। समीक्षा करें कि कौन सा और उन्होंने कैसे जाना — एक मूल मूल्यांकन कौशल जो किसी AI के आउटपुट को आँकने को प्रतिबिंबित करता है।</li><li><strong>भाषा समर्थन।</strong> 🌐 चयनकर्ता 7 भाषाएँ प्रदान करता है; नए आगंतुकों को जोड़ी बनाकर अपनी घरेलू भाषा में संकेतों पर चर्चा कराएँ, फिर उत्तर दें।</li><li><strong>विस्तार करें।</strong> छात्रों से केंद्रित कौशल का एक वास्तविक उदाहरण खोजने (या सुरक्षित रूप से वर्णन करने) को कहें — एक पूर्वाग्रहपूर्ण परिणाम, एक मतिभ्रम, एक अच्छा प्रॉम्प्ट — किसी वास्तविक उत्पाद के स्क्रीनशॉट का उपयोग किए बिना।</li>",
   "ur": "<li><strong>وارم اپ (5 منٹ)۔</strong> پوچھیں: \"ایک ذمہ دار تخلیق کار بنیں\" — AI کے ساتھ کام کرتے وقت اس کا کیا مطلب ہے؟ سرگرمی سے پہلے سابقہ تجربہ سامنے لائیں۔</li><li><strong>ایک سراغ کا نمونہ دکھائیں۔</strong> ایک سراغ مل کر کھولیں اور بلند آواز سے سوچیں: یہ ہمیں کیا بتاتا ہے، اور یہ کس لاک کی مدد کر سکتا ہے؟</li><li><strong>استدلال کریں، اندازہ نہ لگائیں۔</strong> طلبہ سے کسی لاک کی جانچ سے پہلے <em>کیوں</em> کہنے کا تقاضا کریں۔ ہر حل کے بعد، ظاہر شدہ <em>وجہ</em> پڑھیں اور اسے ان کی سوچ سے موازنہ کریں۔</li><li><strong>ڈیکوئے کی شناخت کریں۔</strong> ایک سراغ سچ لیکن بیکار ہے۔ ڈی بریف کریں کہ کون سا اور انہیں کیسے پتہ چلا — ایک بنیادی جائزے کی مہارت جو کسی AI کے آؤٹ پٹ کو پرکھنے کی عکاسی کرتی ہے۔</li><li><strong>زبان کا سہارا۔</strong> 🌐 پکر 7 زبانیں پیش کرتا ہے؛ نئے آنے والوں کو جوڑا بنائیں تاکہ وہ سراغوں پر اپنی مادری زبان میں بات کریں، پھر جواب دیں۔</li><li><strong>توسیع کریں۔</strong> طلبہ سے کہیں کہ فوکس مہارت کی ایک حقیقی مثال تلاش کریں (یا محفوظ طریقے سے بیان کریں) — ایک متعصب نتیجہ، ایک ہیلوسینیشن، ایک اچھا پرامپٹ — کسی حقیقی پروڈکٹ کے اسکرین شاٹس استعمال کیے بغیر۔</li>",
   "zh": "<li><strong>热身（5 分钟）。</strong>问：“做一名负责任的创作者”——在使用人工智能时这意味着什么？在活动前唤起先前经验。</li><li><strong>示范一条线索。</strong>一起打开一条线索并出声思考：它告诉我们什么，它可能帮助哪个锁？</li><li><strong>推理，别乱猜。</strong>要求学生在检查一个锁之前说出<em>为什么</em>。每次解开后，读出揭示的<em>理由</em>，并与他们的思考做对比。</li><li><strong>找出干扰项。</strong>有一条线索是真的却没用。复盘是哪一条以及他们如何知道——这是一项核心评估技能，与判断人工智能的输出如出一辙。</li><li><strong>语言支持。</strong>🌐 选择器提供 7 种语言；让新到学生结对用母语讨论线索，然后作答。</li><li><strong>拓展。</strong>让学生找出（或安全地描述）该焦点技能的一个真实例子——一个有偏见的结果、一个幻觉、一个好提示词——而不使用任何真实产品的截图。</li>"
+ },
+ "t1gcv6q7": {
+  "en": "AI All Around",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1b188ie": {
+  "en": "AI is hiding in things you use every day. A voice helper, a video list, a photo app. Can you spot it? Crack four locks to find AI all around you.",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tnwfra7": {
+  "en": "Start the breakout →",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tyw10iq": {
+  "en": "Teach the Machine",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1yqlx7i": {
+  "en": "You are training a helper to tell cats from dogs. It learns from the examples you show it. Crack four locks to learn how a machine learns.",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1qx9e0d": {
+  "en": "Ask It Clearly",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1jpd83n": {
+  "en": "Two friends asked an AI about the same thing. One asked a fuzzy question and got a fuzzy answer. The other asked clearly and got just what they needed. Crack four locks to learn how to ask an AI a good question.",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tboufqz": {
+  "en": "Double-Check the Bot",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1mzylh6": {
+  "en": "An AI assistant just gave you an answer — fast, clear, and totally sure of itself. But is it right? Crack four locks to learn how to check before you trust.",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tak629m": {
+  "en": "Who's Missing?",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t137i992": {
+  "en": "An AI works great for some people — and gets things wrong for others. The reason hides in who was in its data. Crack four locks to find out who's missing.",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1hgamt9": {
+  "en": "Give AI Credit",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1edn7z7": {
+  "en": "An AI helper can save you time on schoolwork — but honesty means you say when you used it. Crack four locks to learn how to use AI the honest way.",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "te1n9f0": {
+  "en": "Available only with a paid license",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tgyv3i": {
+  "en": "Featured lessons — free",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1axu5d": {
+  "en": "One free featured breakout per grade — fully playable, no login, nothing collected. Share the link and go.",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1qk0921": {
+  "en": "The full curriculum — licensed",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t177fygt": {
+  "en": "The complete per-grade lessons are included with a district license. Each is marked below; preview the premise and standards on its teacher page.",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1pml1by": {
+  "en": "Grades 3–5 · Licensed",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t15q5x5q": {
+  "en": "The full elementary lessons — what AI is, how it learns from data, and how to prompt it and check its work. Included with a district license; each grade also has a free featured lesson on the home page.",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tgqe4re": {
+  "en": "The full middle-school lessons — spotting AI-generated media, tracing where bias comes from, and creating with AI responsibly. Included with a district license; each grade also has a free featured lesson on the home page.",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tesrzb8": {
+  "en": "<strong>Free featured lessons — one per grade.</strong> Each grade has a free, fully-playable featured breakout on the home page. Use them with anyone, anywhere — no login, nothing collected.",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1t5t0rb": {
+  "en": "<strong>The full curriculum — licensed.</strong> The complete per-grade lessons (Grades 3–8) are included with a district license and served through an authenticated session. Teacher pages and this guide remain open so you can evaluate before you buy.",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tzmu0x7": {
+  "en": "<li><strong>One breakout ≈ 25–40 minutes</strong> including debrief; it works best as the <em>engage</em> or <em>collaborative-practice</em> phase of a lesson, not the whole lesson.</li><li>Run one per grading period, or cluster a band into a <strong>1–2 week AI-literacy unit</strong>.</li><li>Each grade has a free featured lesson on the home page; the full per-grade lessons are the licensed tier.</li>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t3zudw4": {
+  "en": "Grade 3 — Meet the Machine that Guesses <span class=\"small\">(§126.8 · licensed)</span>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t13ondy2": {
+  "en": "Grade 4 — Garbage In, Garbage Out <span class=\"small\">(§126.9 · licensed)</span>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1i8l1hw": {
+  "en": "Grade 5 — The Prompt Lab <span class=\"small\">(§126.10 · licensed)</span>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t174r9kc": {
+  "en": "Spot the AI",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1xz3ob0": {
+  "en": "AI All Around You",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1niq1l0": {
+  "en": "Not a Person",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1pibgel": {
+  "en": "You Are In Charge",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "ttig8n0": {
+  "en": "AI is a computer tool that makes guesses. It shows up in many things you use each day. Read the clues, then open all four locks. Each lock has a reason that shows why the answer is right.",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t6behtr": {
+  "en": "<li><strong>Claim</strong> — for each lock, decide what answer it is really asking for, and make it specific.</li><li><strong>Lens</strong> — notice what you already assume before you choose.</li><li><strong>Evidence</strong> — weigh the six clues; “Dino Day” is true but off-topic, so it is not evidence for any lock.</li><li><strong>Alternatives</strong> — the multiple-choice and multi-select locks force a comparison of competing options.</li><li><strong>Response</strong> — the reason revealed after each lock models the justified answer to act on.</li>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "txzq6qo": {
+  "en": "Aligned to Texas TEKS Technology Applications, Grade 3, <strong>§126.8</strong> — the AI-adjacent strands (Computational Thinking; Creativity &amp; Innovation; Data Literacy; and Practical Technology Concepts), subsections (c)(11). Skills are paraphrased; read the official standard at <a href=\"https://tea.texas.gov\" target=\"_blank\" rel=\"noopener\">tea.texas.gov</a>. This page shows the reasoning focus of each lock — <strong>not the answers.</strong>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tmhgxl9": {
+  "en": "<li><strong>Warm up (5 min).</strong> Ask: “Be an AI Spotter” — what does this mean when working with AI? Surface prior experience before the activity.</li><li><strong>Model one clue.</strong> Open a single clue together and think aloud: what does this tell us, and which lock might it help?</li><li><strong>Reason, don’t guess.</strong> Require students to say <em>why</em> before checking a lock. After each solve, read the revealed <em>reason</em> and compare it to their thinking.</li><li><strong>Spot the decoy.</strong> One clue is true but useless. Debrief which one and how they knew — a core evaluation skill that mirrors judging an AI’s output.</li><li><strong>Language support.</strong> The 🌐 picker offers 7 languages; pair newcomers to discuss clues in their home language, then answer.</li><li><strong>Extend.</strong> Have students find (or safely describe) a real example of the focus skill — a biased result, a hallucination, a good prompt — without using any real product’s screenshots.</li>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tf4w9pr": {
+  "en": "How It Learns",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1hg5cbu": {
+  "en": "Train It Well",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1ks2n7p": {
+  "en": "An AI does not just know things. It learns from examples you give it, and we call those examples data. Show it more and better labeled examples, and its guesses get better. Read the clues, then open all four locks. Each lock has a reason that shows why the answer is right.",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tdlv2qo": {
+  "en": "<li><strong>Claim</strong> — for each lock, decide what answer it is really asking for, and make it specific.</li><li><strong>Lens</strong> — notice what you already assume before you choose.</li><li><strong>Evidence</strong> — weigh the six clues; “Lunch Menu” is true but off-topic, so it is not evidence for any lock.</li><li><strong>Alternatives</strong> — the multiple-choice and multi-select locks force a comparison of competing options.</li><li><strong>Response</strong> — the reason revealed after each lock models the justified answer to act on.</li>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t19p0l6b": {
+  "en": "Aligned to Texas TEKS Technology Applications, Grade 4, <strong>§126.9</strong> — the AI-adjacent strands (Computational Thinking; Creativity &amp; Innovation; Data Literacy; and Practical Technology Concepts), subsections (c)(5). Skills are paraphrased; read the official standard at <a href=\"https://tea.texas.gov\" target=\"_blank\" rel=\"noopener\">tea.texas.gov</a>. This page shows the reasoning focus of each lock — <strong>not the answers.</strong>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1a6xtk1": {
+  "en": "<li><strong>Warm up (5 min).</strong> Ask: “Be an AI Trainer” — what does this mean when working with AI? Surface prior experience before the activity.</li><li><strong>Model one clue.</strong> Open a single clue together and think aloud: what does this tell us, and which lock might it help?</li><li><strong>Reason, don’t guess.</strong> Require students to say <em>why</em> before checking a lock. After each solve, read the revealed <em>reason</em> and compare it to their thinking.</li><li><strong>Spot the decoy.</strong> One clue is true but useless. Debrief which one and how they knew — a core evaluation skill that mirrors judging an AI’s output.</li><li><strong>Language support.</strong> The 🌐 picker offers 7 languages; pair newcomers to discuss clues in their home language, then answer.</li><li><strong>Extend.</strong> Have students find (or safely describe) a real example of the focus skill — a biased result, a hallucination, a good prompt — without using any real product’s screenshots.</li>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1cjmnvv": {
+  "en": "Fuzzy or Clear",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t142ff3q": {
+  "en": "The Missing Word",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1pkama0": {
+  "en": "Ask It Clearly Habits",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1a36h1z": {
+  "en": "Fix a Fuzzy Question",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tfxqbvi": {
+  "en": "The question you ask an AI is called a request. A clear, specific request gets a better answer than a vague one. Say your topic, how long you want it, and who it is for. If the answer is off, ask again more clearly. Read the clues, then open all four locks. Each lock has a reason that shows why the answer is right.",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1bi6sfd": {
+  "en": "<li><strong>Claim</strong> — for each lock, decide what answer it is really asking for, and make it specific.</li><li><strong>Lens</strong> — notice what you already assume before you choose.</li><li><strong>Evidence</strong> — weigh the six clues; “Volcano Fact” is true but off-topic, so it is not evidence for any lock.</li><li><strong>Alternatives</strong> — the multiple-choice and multi-select locks force a comparison of competing options.</li><li><strong>Response</strong> — the reason revealed after each lock models the justified answer to act on.</li>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1fi17zh": {
+  "en": "Aligned to Texas TEKS Technology Applications, Grade 5, <strong>§126.10</strong> — the AI-adjacent strands (Computational Thinking; Creativity &amp; Innovation; Data Literacy; and Practical Technology Concepts), subsections (c)(2). Skills are paraphrased; read the official standard at <a href=\"https://tea.texas.gov\" target=\"_blank\" rel=\"noopener\">tea.texas.gov</a>. This page shows the reasoning focus of each lock — <strong>not the answers.</strong>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1b79p54": {
+  "en": "<li><strong>Warm up (5 min).</strong> Ask: “Ask Like a Pro” — what does this mean when working with AI? Surface prior experience before the activity.</li><li><strong>Model one clue.</strong> Open a single clue together and think aloud: what does this tell us, and which lock might it help?</li><li><strong>Reason, don’t guess.</strong> Require students to say <em>why</em> before checking a lock. After each solve, read the revealed <em>reason</em> and compare it to their thinking.</li><li><strong>Spot the decoy.</strong> One clue is true but useless. Debrief which one and how they knew — a core evaluation skill that mirrors judging an AI’s output.</li><li><strong>Language support.</strong> The 🌐 picker offers 7 languages; pair newcomers to discuss clues in their home language, then answer.</li><li><strong>Extend.</strong> Have students find (or safely describe) a real example of the focus skill — a biased result, a hallucination, a good prompt — without using any real product’s screenshots.</li>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tckrjmb": {
+  "en": "Confident but Wrong",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1xwonbq": {
+  "en": "Why It Can Be Wrong",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1zppkd": {
+  "en": "Name the Habit",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tsuuan1": {
+  "en": "The Verify Habit",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tu2ug4n": {
+  "en": "A chatbot can sound confident and still be wrong. It predicts words that fit — it does not truly know if they are true. Read the clues, then open all four locks. Each lock reveals the reasoning behind the answer.",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t13jmv82": {
+  "en": "<li><strong>Claim</strong> — for each lock, decide what answer it is really asking for, and make it specific.</li><li><strong>Lens</strong> — notice what you already assume before you choose.</li><li><strong>Evidence</strong> — weigh the six clues; “Lunch Special” is true but off-topic, so it is not evidence for any lock.</li><li><strong>Alternatives</strong> — the multiple-choice and multi-select locks force a comparison of competing options.</li><li><strong>Response</strong> — the reason revealed after each lock models the justified answer to act on.</li>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1yelpd8": {
+  "en": "Aligned to Texas TEKS Technology Applications, Grade 6, <strong>§126.17</strong> — the AI-adjacent strands (Computational Thinking; Creativity &amp; Innovation; Data Literacy; and Practical Technology Concepts), subsections (c)(7). Skills are paraphrased; read the official standard at <a href=\"https://tea.texas.gov\" target=\"_blank\" rel=\"noopener\">tea.texas.gov</a>. This page shows the reasoning focus of each lock — <strong>not the answers.</strong>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tnag76n": {
+  "en": "<li><strong>Warm up (5 min).</strong> Ask: “Be an Answer Detective” — what does this mean when working with AI? Surface prior experience before the activity.</li><li><strong>Model one clue.</strong> Open a single clue together and think aloud: what does this tell us, and which lock might it help?</li><li><strong>Reason, don’t guess.</strong> Require students to say <em>why</em> before checking a lock. After each solve, read the revealed <em>reason</em> and compare it to their thinking.</li><li><strong>Spot the decoy.</strong> One clue is true but useless. Debrief which one and how they knew — a core evaluation skill that mirrors judging an AI’s output.</li><li><strong>Language support.</strong> The 🌐 picker offers 7 languages; pair newcomers to discuss clues in their home language, then answer.</li><li><strong>Extend.</strong> Have students find (or safely describe) a real example of the focus skill — a biased result, a hallucination, a good prompt — without using any real product’s screenshots.</li>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1jra048": {
+  "en": "Why It Fails Some People",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tjhcnr5": {
+  "en": "Spot the Gaps",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "ta6dln0": {
+  "en": "Name the Fix",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1l12ok2": {
+  "en": "Check It for Fairness",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1ov6o6y": {
+  "en": "AI learns from examples. When some groups or voices are left out of those examples, the AI knows them less well — so its answers can be wrong or unfair for them. Read the clues, then open all four locks. Each lock reveals the reasoning behind the answer.",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tbl8hsz": {
+  "en": "Aligned to Texas TEKS Technology Applications, Grade 7, <strong>§126.18</strong> — the AI-adjacent strands (Computational Thinking; Creativity &amp; Innovation; Data Literacy; and Practical Technology Concepts), subsections (c)(6). Skills are paraphrased; read the official standard at <a href=\"https://tea.texas.gov\" target=\"_blank\" rel=\"noopener\">tea.texas.gov</a>. This page shows the reasoning focus of each lock — <strong>not the answers.</strong>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1d9th9o": {
+  "en": "<li><strong>Warm up (5 min).</strong> Ask: “Be a Representation Detective” — what does this mean when working with AI? Surface prior experience before the activity.</li><li><strong>Model one clue.</strong> Open a single clue together and think aloud: what does this tell us, and which lock might it help?</li><li><strong>Reason, don’t guess.</strong> Require students to say <em>why</em> before checking a lock. After each solve, read the revealed <em>reason</em> and compare it to their thinking.</li><li><strong>Spot the decoy.</strong> One clue is true but useless. Debrief which one and how they knew — a core evaluation skill that mirrors judging an AI’s output.</li><li><strong>Language support.</strong> The 🌐 picker offers 7 languages; pair newcomers to discuss clues in their home language, then answer.</li><li><strong>Extend.</strong> Have students find (or safely describe) a real example of the focus skill — a biased result, a hallucination, a good prompt — without using any real product’s screenshots.</li>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t14wp4xy": {
+  "en": "The Honest Move",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1x8cidn": {
+  "en": "Honest Habits",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1mzqzag": {
+  "en": "Give It Credit",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tl540c0": {
+  "en": "Use AI Honestly",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tzniunk": {
+  "en": "Getting help from an AI tool is not automatically cheating — but hiding it can be. Your teacher's rules come first, you still do your own thinking, and you give credit when AI helped. Read the clues, then open all four locks. Each lock reveals the reasoning behind the answer.",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "td3ql6v": {
+  "en": "<li><strong>Claim</strong> — for each lock, decide what answer it is really asking for, and make it specific.</li><li><strong>Lens</strong> — notice what you already assume before you choose.</li><li><strong>Evidence</strong> — weigh the six clues; “Science Fair” is true but off-topic, so it is not evidence for any lock.</li><li><strong>Alternatives</strong> — the multiple-choice and multi-select locks force a comparison of competing options.</li><li><strong>Response</strong> — the reason revealed after each lock models the justified answer to act on.</li>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "t1l4ympk": {
+  "en": "Aligned to Texas TEKS Technology Applications, Grade 8, <strong>§126.19</strong> — the AI-adjacent strands (Computational Thinking; Creativity &amp; Innovation; Data Literacy; and Practical Technology Concepts), subsections (c)(12). Skills are paraphrased; read the official standard at <a href=\"https://tea.texas.gov\" target=\"_blank\" rel=\"noopener\">tea.texas.gov</a>. This page shows the reasoning focus of each lock — <strong>not the answers.</strong>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
+ },
+ "tn4208e": {
+  "en": "<li><strong>Warm up (5 min).</strong> Ask: “Be Honest About AI Help” — what does this mean when working with AI? Surface prior experience before the activity.</li><li><strong>Model one clue.</strong> Open a single clue together and think aloud: what does this tell us, and which lock might it help?</li><li><strong>Reason, don’t guess.</strong> Require students to say <em>why</em> before checking a lock. After each solve, read the revealed <em>reason</em> and compare it to their thinking.</li><li><strong>Spot the decoy.</strong> One clue is true but useless. Debrief which one and how they knew — a core evaluation skill that mirrors judging an AI’s output.</li><li><strong>Language support.</strong> The 🌐 picker offers 7 languages; pair newcomers to discuss clues in their home language, then answer.</li><li><strong>Extend.</strong> Have students find (or safely describe) a real example of the focus skill — a biased result, a hallucination, a good prompt — without using any real product’s screenshots.</li>",
+  "es": "",
+  "vi": "",
+  "ar": "",
+  "hi": "",
+  "ur": "",
+  "zh": ""
  }
 }

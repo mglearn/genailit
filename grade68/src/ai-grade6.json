@@ -1,7 +1,17 @@
 {
   "id": "ai-grade6",
   "grade": 6,
-  "confetti": ["#4338ca", "#06b6d4", "#7c3aed", "#0891b2", "#ffffff", "#a78bfa"],
+  "tier": "paid",
+  "icon": "🖼️",
+  "teks": "§126.17",
+  "confetti": [
+    "#4338ca",
+    "#06b6d4",
+    "#7c3aed",
+    "#0891b2",
+    "#ffffff",
+    "#a78bfa"
+  ],
   "chrome": {
     "eyebrow": {
       "en": "Gen AI Literacy Breakout · Grade 6",
@@ -89,11 +99,26 @@
       "title": "Signs of a Fake",
       "q": "Check EVERY sign that a photo or claim MIGHT be AI-generated or fake.",
       "items": [
-        { "t": "Hands, teeth, or text in the image look garbled or wrong", "strong": true },
-        { "t": "There is no reliable source and no original creator", "strong": true },
-        { "t": "A quote or source can't be found anywhere else", "strong": true },
-        { "t": "A trusted news outlet also reports it with evidence", "strong": false },
-        { "t": "The original photographer is known and verifiable", "strong": false }
+        {
+          "t": "Hands, teeth, or text in the image look garbled or wrong",
+          "strong": true
+        },
+        {
+          "t": "There is no reliable source and no original creator",
+          "strong": true
+        },
+        {
+          "t": "A quote or source can't be found anywhere else",
+          "strong": true
+        },
+        {
+          "t": "A trusted news outlet also reports it with evidence",
+          "strong": false
+        },
+        {
+          "t": "The original photographer is known and verifiable",
+          "strong": false
+        }
       ],
       "reason": "Garbled details, no traceable source, and unfindable quotes all point to a possible fake. A verifiable creator or a trusted outlet's evidence points the other way."
     },
@@ -103,7 +128,12 @@
       "color": "#0891b2",
       "title": "Name the Error",
       "q": "When a chatbot states a false fact or invents a source but sounds sure, we say it produced a ______.",
-      "answer": ["hallucination", "hallucinations", "hallucinate", "a hallucination"],
+      "answer": [
+        "hallucination",
+        "hallucinations",
+        "hallucinate",
+        "a hallucination"
+      ],
       "reason": "An AI can state false facts or invent sources with total confidence — that's called a hallucination, which is why you verify before trusting it."
     },
     {
@@ -113,11 +143,27 @@
       "title": "Check Before You Share",
       "q": "A shocking image is going around online. Tap the steps to check it in the RIGHT order.",
       "pads": [
-        { "k": "inspect", "e": "🔍 Inspect the details for errors", "c": "#4338ca" },
-        { "k": "source", "e": "📰 Look for a trusted source", "c": "#7c3aed" },
-        { "k": "decide", "e": "🧠 Decide before you share", "c": "#0891b2" }
+        {
+          "k": "inspect",
+          "e": "🔍 Inspect the details for errors",
+          "c": "#4338ca"
+        },
+        {
+          "k": "source",
+          "e": "📰 Look for a trusted source",
+          "c": "#7c3aed"
+        },
+        {
+          "k": "decide",
+          "e": "🧠 Decide before you share",
+          "c": "#0891b2"
+        }
       ],
-      "answer": ["inspect", "source", "decide"],
+      "answer": [
+        "inspect",
+        "source",
+        "decide"
+      ],
       "reason": "First INSPECT the image for AI errors. Then look for a trusted SOURCE that confirms it. Then DECIDE before you share. Inspect, Source, Decide."
     }
   ]
