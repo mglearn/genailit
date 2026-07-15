@@ -1,0 +1,92 @@
+{
+  "chrome": {
+    "h1": "Ghi nhận công của AI",
+    "sub": "Một trợ lý AI có thể giúp bạn tiết kiệm thời gian làm bài — nhưng trung thực nghĩa là bạn nói ra khi đã dùng nó. Hãy mở bốn ổ khóa để học cách dùng AI một cách trung thực.",
+    "briefLabel": "Nhiệm vụ của bạn",
+    "briefH": "Hãy trung thực về việc AI giúp đỡ",
+    "briefP": "Nhận sự giúp đỡ từ một công cụ AI không tự động là gian lận — nhưng che giấu điều đó thì có thể là. Quy định của thầy cô là ưu tiên trước, bạn vẫn phải tự mình suy nghĩ, và bạn ghi nhận công khi AI đã giúp. Đọc các manh mối, rồi mở cả bốn ổ khóa. Mỗi ổ khóa hé lộ lý lẽ đằng sau câu trả lời.",
+    "footerText": "Breakout hiểu biết AI tạo sinh · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+    "winStamp": "ĐÃ KHÉP LẠI VỤ ÁN",
+    "winH": "Bạn đã mở được cả bốn ổ khóa!",
+    "winP": "Bạn đã học được cách kiểm tra quy định của thầy cô, tự mình suy nghĩ và kiểm chứng sự thật, biết ranh giới giữa một công cụ và gian lận, và công khai cùng trích dẫn sự giúp đỡ của AI. Đó là ghi nhận công của AI một cách trung thực.",
+    "crumbSuite": "Breakout hiểu biết AI tạo sinh"
+  },
+  "clues": [
+    {
+      "nm": "Quy định trước tiên",
+      "title": "Kiểm tra điều được phép",
+      "body": "Mỗi lớp mỗi khác. Trước khi dùng một công cụ AI cho bài tập, hãy kiểm tra quy định của thầy cô. Một số bài cho phép AI giúp; số khác yêu cầu bạn tự làm một mình. Khi không chắc, hãy hỏi trước."
+    },
+    {
+      "nm": "Ghi nhận công",
+      "title": "Nói ra khi AI đã giúp",
+      "body": "Trung thực nghĩa là bạn công khai và trích dẫn khi một AI đã giúp — một ghi chú ngắn như 'động não cùng một trợ lý AI.' Nộp bài của AI như hoàn toàn của riêng mình, không ghi nhận công, là không trung thực."
+    },
+    {
+      "nm": "Suy nghĩ của bạn",
+      "title": "Làm phần việc thật sự",
+      "body": "Một AI có thể bắt đầu một bản nháp, nhưng suy nghĩ phải là của bạn. Hãy hiểu các ý tưởng, diễn đạt lại bằng lời của mình, và có thể giải thích được bài làm. Học mới là mục đích, không chỉ là một trang đã hoàn thành."
+    },
+    {
+      "nm": "Kiểm chứng sự thật",
+      "title": "AI có thể sai",
+      "body": "Các công cụ AI đôi khi bịa ra sự kiện, ngày tháng, hay nguồn nghe có vẻ thật nhưng lại sai. Hãy kiểm chứng bất cứ điều gì AI đưa cho bạn trước khi dùng, nếu không lỗi của nó sẽ thành lỗi của bạn trong bài tập."
+    },
+    {
+      "nm": "Công cụ hay gian lận?",
+      "title": "Ranh giới nằm ở đâu",
+      "body": "Dùng AI để động não ý tưởng hay kiểm tra ngữ pháp có thể là một công cụ hữu ích. Để AI viết toàn bộ rồi che giấu điều đó — coi như hoàn toàn của riêng mình — là gian lận."
+    },
+    {
+      "nm": "Hội chợ khoa học",
+      "title": "Một dự án thú vị",
+      "body": "Hội chợ khoa học lớp tám có mô hình núi lửa phun trào bằng baking soda và một buổi trình diễn bếp năng lượng mặt trời. Một dự án vui — nhưng nó sẽ không giúp bạn mở được ổ khóa nào."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Nước đi trung thực",
+      "q": "Một AI đã giúp bạn động não ý tưởng cho bài tập lịch sử. Điều trung thực nên làm là gì?",
+      "options": [
+        "Nộp bài và tuyên bố mọi ý tưởng hoàn toàn là của riêng bạn",
+        "Kiểm tra quy định của thầy cô, tự mình suy nghĩ, và trích dẫn sự giúp đỡ của AI",
+        "Chép nguyên văn toàn bộ câu trả lời của AI và che giấu việc bạn đã dùng nó"
+      ],
+      "reason": "Trung thực nghĩa là làm theo quy định của thầy cô, tự mình suy nghĩ, và ghi nhận công bằng cách trích dẫn rằng AI đã giúp. Che giấu sự giúp đỡ hoặc nhận ý tưởng của AI là hoàn toàn của mình là không trung thực."
+    },
+    {
+      "title": "Thói quen trung thực",
+      "q": "Đánh dấu MỌI thói quen thể hiện sự trung thực học thuật với AI.",
+      "items": [
+        "Kiểm tra quy định của thầy cô trước khi dùng một công cụ AI",
+        "Công khai và trích dẫn rằng một AI đã giúp cho bài làm của bạn",
+        "Tự mình suy nghĩ và kiểm chứng sự thật",
+        "Nộp toàn bộ câu trả lời của AI như hoàn toàn là bài làm của mình",
+        "Che giấu việc bạn đã dùng một AI để không ai phát hiện ra"
+      ],
+      "reason": "Kiểm tra quy định, công khai và trích dẫn sự giúp đỡ của AI, và tự mình suy nghĩ là trung thực. Coi bài của AI như của mình hoặc che giấu việc đã dùng nó thì không."
+    },
+    {
+      "title": "Hãy ghi nhận công của nó",
+      "q": "Khi một AI đã giúp bạn với bài tập, trung thực nghĩa là bạn ______ sự giúp đỡ đó thay vì che giấu nó.",
+      "answer": [
+        "công khai",
+        "trích dẫn",
+        "ghi nhận công",
+        "thừa nhận"
+      ],
+      "reason": "Công khai và trích dẫn sự giúp đỡ của AI là ghi nhận công cho nó và giữ bạn trung thực; che giấu nó và nhận bài làm là hoàn toàn của riêng mình là không trung thực."
+    },
+    {
+      "title": "Dùng AI một cách trung thực",
+      "q": "Bạn sẽ dùng một AI để giúp làm một bài tập trên lớp. Chạm vào các bước trung thực theo đúng thứ tự.",
+      "pads": [
+        "📋 Kiểm tra quy định của thầy cô",
+        "🧠 Tự mình suy nghĩ trước",
+        "✔️ Kiểm chứng sự thật AI đưa ra",
+        "🏷️ Ghi nhận công giúp đỡ của AI"
+      ],
+      "reason": "Trước tiên kiểm tra QUY ĐỊNH của thầy cô. Rồi tự mình SUY NGHĨ. Rồi KIỂM CHỨNG sự thật. Rồi GHI NHẬN CÔNG giúp đỡ của AI. Quy định, Suy nghĩ, Kiểm chứng, Ghi nhận công."
+    }
+  ]
+}

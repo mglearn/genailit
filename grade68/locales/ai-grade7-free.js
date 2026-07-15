@@ -104,16 +104,16 @@ window.BREAKOUT = {
    "footer.privacy": "Quyền riêng tư & tuân thủ",
    "footer.disclaimer": "Bản dịch do AI khởi tạo và đang chờ người bản ngữ rà soát.",
    "header.eyebrow": "Breakout hiểu biết AI tạo sinh · Lớp 7",
-   "header.h1": "Who's Missing?",
-   "header.sub": "An AI works great for some people — and gets things wrong for others. The reason hides in who was in its data. Crack four locks to find out who's missing.",
-   "brief.label": "Your Mission",
-   "brief.h": "Be a Representation Detective",
-   "brief.p": "AI learns from examples. When some groups or voices are left out of those examples, the AI knows them less well — so its answers can be wrong or unfair for them. Read the clues, then open all four locks. Each lock reveals the reasoning behind the answer.",
-   "footer.text": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
-   "win.stamp": "CASE CLOSED",
-   "win.h": "You cracked all four locks!",
-   "win.p": "You learned that AI mirrors its training data, that under-represented groups get less accurate results, that asking 'whose examples are missing?' reveals the gap, that more representative data makes AI fairer, and how to check an output for fairness. Sharp work.",
-   "crumb.suite": "Gen AI Literacy Breakouts"
+   "header.h1": "Ai đang bị bỏ sót?",
+   "header.sub": "Một AI hoạt động rất tốt với một số người — nhưng lại sai với người khác. Lý do ẩn trong việc ai có mặt trong dữ liệu của nó. Hãy mở bốn ổ khóa để tìm ra ai đang bị bỏ sót.",
+   "brief.label": "Nhiệm vụ của bạn",
+   "brief.h": "Hãy làm thám tử về sự đại diện",
+   "brief.p": "AI học từ các ví dụ. Khi một số nhóm hoặc tiếng nói bị bỏ ra khỏi những ví dụ đó, AI hiểu họ kém hơn — nên câu trả lời của nó có thể sai hoặc bất công với họ. Đọc các manh mối, rồi mở cả bốn ổ khóa. Mỗi ổ khóa hé lộ lý lẽ đằng sau câu trả lời.",
+   "footer.text": "Breakout hiểu biết AI tạo sinh · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+   "win.stamp": "ĐÃ KHÉP LẠI VỤ ÁN",
+   "win.h": "Bạn đã mở được cả bốn ổ khóa!",
+   "win.p": "Bạn đã học được rằng AI phản chiếu dữ liệu huấn luyện của nó, rằng các nhóm ít được đại diện sẽ nhận kết quả kém chính xác hơn, rằng việc hỏi 'ai đang thiếu ví dụ?' làm lộ ra khoảng trống, rằng dữ liệu đại diện hơn giúp AI công bằng hơn, và cách kiểm tra một kết quả xem có công bằng không. Làm rất sắc bén.",
+   "crumb.suite": "Breakout hiểu biết AI tạo sinh"
   },
   "ar": {
    "sect.clues": "🔍 الأدلّة",
@@ -172,16 +172,16 @@ window.BREAKOUT = {
    "footer.privacy": "गोपनीयता और अनुपालन",
    "footer.disclaimer": "अनुवाद AI द्वारा तैयार हैं और मातृभाषी समीक्षा की प्रतीक्षा में हैं।",
    "header.eyebrow": "जनरेटिव AI साक्षरता ब्रेकआउट · कक्षा 7",
-   "header.h1": "Who's Missing?",
-   "header.sub": "An AI works great for some people — and gets things wrong for others. The reason hides in who was in its data. Crack four locks to find out who's missing.",
-   "brief.label": "Your Mission",
-   "brief.h": "Be a Representation Detective",
-   "brief.p": "AI learns from examples. When some groups or voices are left out of those examples, the AI knows them less well — so its answers can be wrong or unfair for them. Read the clues, then open all four locks. Each lock reveals the reasoning behind the answer.",
-   "footer.text": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
-   "win.stamp": "CASE CLOSED",
-   "win.h": "You cracked all four locks!",
-   "win.p": "You learned that AI mirrors its training data, that under-represented groups get less accurate results, that asking 'whose examples are missing?' reveals the gap, that more representative data makes AI fairer, and how to check an output for fairness. Sharp work.",
-   "crumb.suite": "Gen AI Literacy Breakouts"
+   "header.h1": "कौन छूट रहा है?",
+   "header.sub": "कोई AI कुछ लोगों के लिए बढ़िया काम करता है — और दूसरों के लिए गलतियाँ करता है। इसकी वजह इसमें छिपी है कि उसके डेटा में कौन था। कौन छूट रहा है, यह जानने के लिए चार ताले खोलो।",
+   "brief.label": "तुम्हारा मिशन",
+   "brief.h": "प्रतिनिधित्व के जासूस बनो",
+   "brief.p": "AI उदाहरणों से सीखता है। जब कुछ समूह या आवाज़ें उन उदाहरणों से छूट जाती हैं, तो AI उन्हें कम अच्छी तरह जानता है — इसलिए उनके लिए इसके जवाब गलत या अन्यायपूर्ण हो सकते हैं। सुराग पढ़ो, फिर चारों ताले खोलो। हर ताला जवाब के पीछे का तर्क दिखाता है।",
+   "footer.text": "जनरेटिव AI साक्षरता ब्रेकआउट · पूरी तरह तुम्हारे ब्राउज़र में चलता है — कोई लॉगिन नहीं, कोई डेटा इकट्ठा नहीं।",
+   "win.stamp": "केस बंद",
+   "win.h": "तुमने चारों ताले खोल दिए!",
+   "win.p": "तुमने सीखा कि AI अपने प्रशिक्षण डेटा को दर्शाता है, कि कम प्रतिनिधित्व वाले समूहों को कम सटीक परिणाम मिलते हैं, कि 'किसके उदाहरण छूट रहे हैं?' पूछना खाई को उजागर करता है, कि अधिक प्रतिनिधित्व वाला डेटा AI को अधिक न्यायपूर्ण बनाता है, और किसी परिणाम को न्याय के लिए कैसे जाँचें। बढ़िया काम।",
+   "crumb.suite": "जनरेटिव AI साक्षरता ब्रेकआउट"
   },
   "ur": {
    "sect.clues": "🔍 سراغ",
@@ -206,16 +206,16 @@ window.BREAKOUT = {
    "footer.privacy": "رازداری اور تعمیل",
    "footer.disclaimer": "تراجم AI سے تیار کیے گئے ہیں اور مقامی بولنے والے کی نظرِ ثانی کے منتظر ہیں۔",
    "header.eyebrow": "جنریٹِو اے آئی خواندگی بریک آؤٹ · جماعت 7",
-   "header.h1": "Who's Missing?",
-   "header.sub": "An AI works great for some people — and gets things wrong for others. The reason hides in who was in its data. Crack four locks to find out who's missing.",
-   "brief.label": "Your Mission",
-   "brief.h": "Be a Representation Detective",
-   "brief.p": "AI learns from examples. When some groups or voices are left out of those examples, the AI knows them less well — so its answers can be wrong or unfair for them. Read the clues, then open all four locks. Each lock reveals the reasoning behind the answer.",
-   "footer.text": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
-   "win.stamp": "CASE CLOSED",
-   "win.h": "You cracked all four locks!",
-   "win.p": "You learned that AI mirrors its training data, that under-represented groups get less accurate results, that asking 'whose examples are missing?' reveals the gap, that more representative data makes AI fairer, and how to check an output for fairness. Sharp work.",
-   "crumb.suite": "Gen AI Literacy Breakouts"
+   "header.h1": "کون غائب ہے؟",
+   "header.sub": "ایک اے آئی کچھ لوگوں کے لیے بہت اچھا کام کرتی ہے — اور دوسروں کے لیے چیزیں غلط کر دیتی ہے۔ اس کی وجہ اس بات میں چھپی ہے کہ اس کے ڈیٹا میں کون تھا۔ چار تالے کھولیں اور جانیں کہ کون غائب ہے۔",
+   "brief.label": "آپ کا مشن",
+   "brief.h": "نمائندگی کے جاسوس بنیں",
+   "brief.p": "اے آئی مثالوں سے سیکھتی ہے۔ جب کچھ گروہ یا آوازیں ان مثالوں سے چھوٹ جاتی ہیں، تو اے آئی انہیں کم اچھی طرح جانتی ہے — اس لیے ان کے لیے اس کے جواب غلط یا ناانصافی والے ہو سکتے ہیں۔ اشارے پڑھیں، پھر چاروں تالے کھولیں۔ ہر تالا جواب کے پیچھے کی سوچ ظاہر کرتا ہے۔",
+   "footer.text": "جنریٹِو اے آئی خواندگی بریک آؤٹ · مکمل طور پر آپ کے براؤزر میں چلتا ہے — نہ کوئی لاگ اِن، نہ کوئی ڈیٹا جمع کیا جاتا ہے۔",
+   "win.stamp": "معاملہ حل ہو گیا",
+   "win.h": "آپ نے چاروں تالے کھول دیے!",
+   "win.p": "آپ نے سیکھا کہ اے آئی اپنے تربیتی ڈیٹا کا عکس ہوتی ہے، کہ کم نمائندگی والے گروہوں کو کم درست نتائج ملتے ہیں، کہ 'کس کی مثالیں غائب ہیں؟' پوچھنا خلا ظاہر کرتا ہے، کہ زیادہ نمائندہ ڈیٹا اے آئی کو زیادہ منصفانہ بناتا ہے، اور کسی نتیجے کو انصاف کے لیے کیسے جانچا جائے۔ زبردست کام۔",
+   "crumb.suite": "جنریٹِو اے آئی خواندگی بریک آؤٹ"
   },
   "zh": {
    "sect.clues": "🔍 线索",
@@ -532,8 +532,145 @@ window.BREAKOUT = {
    ]
   },
   "vi": {
-   "clues": [],
-   "locks": []
+   "clues": [
+    {
+     "id": "c1",
+     "ico": "🪞",
+     "nm": "Nó phản chiếu dữ liệu của nó",
+     "title": "Bạn chỉ học được điều bạn thấy",
+     "body": "Một AI học từ các ví dụ trong dữ liệu huấn luyện của nó. Nó chỉ có thể giỏi những điều nó thấy nhiều. Ai và điều gì xuất hiện nhiều nhất trong dữ liệu chính là điều AI hiểu rõ nhất."
+    },
+    {
+     "id": "c2",
+     "ico": "🧩",
+     "nm": "Những mảnh còn thiếu",
+     "title": "Một số tiếng nói bị bỏ ra ngoài",
+     "body": "Nếu một nhóm người, một ngôn ngữ, hay một nơi chốn hầu như không xuất hiện trong dữ liệu, AI có rất ít ví dụ để học. Nhóm đó bị ÍT ĐẠI DIỆN — AI hiểu họ kém hơn."
+    },
+    {
+     "id": "c3",
+     "ico": "🎯",
+     "nm": "Kết quả bất công",
+     "title": "Được với người này, không với người kia",
+     "body": "Khi một số người bị thiếu trong dữ liệu, câu trả lời của AI có thể kém chính xác hoặc thậm chí bất công với họ — trong khi vẫn hoạt động tốt với những nhóm được đại diện đầy đủ."
+    },
+    {
+     "id": "c4",
+     "ico": "❓",
+     "nm": "Hãy hỏi câu hỏi mấu chốt",
+     "title": "Ai đang thiếu ví dụ?",
+     "body": "Câu hỏi thông minh nhất bạn có thể đặt ra về bất kỳ AI nào là: ai đang thiếu ví dụ? Gọi tên ai bị bỏ ra giúp bạn nhận ra chỗ AI có thể yếu hoặc bất công."
+    },
+    {
+     "id": "c5",
+     "ico": "🌍",
+     "nm": "Vá lại khoảng trống",
+     "title": "Dữ liệu đại diện hơn",
+     "body": "AI trở nên công bằng hơn khi những người xây dựng bổ sung dữ liệu đại diện hơn — ví dụ từ các nhóm, ngôn ngữ, và nơi chốn đã bị bỏ ra. Mục tiêu là dữ liệu phản ánh mọi người mà nó sẽ phục vụ."
+    },
+    {
+     "id": "c6",
+     "ico": "🎸",
+     "nm": "Hội diễn tài năng",
+     "title": "Một sự kiện của trường",
+     "body": "Hội diễn tài năng mùa xuân năm nay tổ chức ở nhà thi đấu, và năm ngoái một tiết mục song tấu ukulele đã đoạt giải nhất. Vui đấy — nhưng nó sẽ không giúp bạn mở được ổ khóa nào.",
+     "decoy": true
+    }
+   ],
+   "locks": [
+    {
+     "id": "L1",
+     "type": "mc",
+     "color": "#4338ca",
+     "title": "Vì sao nó sai với một số người",
+     "q": "Một công cụ AI hoạt động tốt với một số học sinh nhưng cứ sai với những học sinh khác. Đâu là lý do có khả năng nhất?",
+     "options": [
+      "AI cố tình chọn cách bất công với những học sinh đó",
+      "Những học sinh đó ít được đại diện trong dữ liệu, nên AI có ít ví dụ về họ hơn",
+      "AI luôn hoạt động y hệt nhau với mọi người, nên không có gì sai cả"
+     ],
+     "answerIndex": 1,
+     "reason": "AI học từ các ví dụ. Khi một nhóm ít được đại diện trong dữ liệu huấn luyện, AI có ít ví dụ để học hơn, nên kết quả của nó cho họ có thể kém chính xác hơn."
+    },
+    {
+     "id": "L2",
+     "type": "multi",
+     "color": "#7c3aed",
+     "title": "Phát hiện các khoảng trống",
+     "q": "Đánh dấu MỌI lý do khiến một AI có thể hoạt động kém với một nhóm người nhất định.",
+     "items": [
+      {
+       "t": "Nhóm đó hầu như không xuất hiện trong dữ liệu huấn luyện",
+       "strong": true
+      },
+      {
+       "t": "Các ví dụ bằng ngôn ngữ hay phương ngữ của họ đã bị bỏ ra",
+       "strong": true
+      },
+      {
+       "t": "Dữ liệu chủ yếu đại diện cho các nhóm khác thay vì họ",
+       "strong": true
+      },
+      {
+       "t": "AI thấy ghét cá nhân nhóm người đó",
+       "strong": false
+      },
+      {
+       "t": "Dữ liệu đã có sẵn rất nhiều ví dụ về nhóm đó",
+       "strong": false
+      }
+     ],
+     "reason": "Một AI gặp khó với một nhóm khi nhóm đó bị thiếu hoặc ít được đại diện trong dữ liệu của nó. AI không có cảm xúc cá nhân, và có nhiều ví dụ thì giúp ích chứ không gây hại."
+    },
+    {
+     "id": "L3",
+     "type": "word",
+     "color": "#0891b2",
+     "title": "Gọi tên cách khắc phục",
+     "q": "Để làm AI công bằng hơn, những người xây dựng bổ sung dữ liệu phản ánh tốt hơn mọi người mà nó sẽ phục vụ. Dữ liệu bao gồm mọi nhóm một cách công bằng được gọi là dữ liệu ______.",
+     "answer": [
+      "representative",
+      "representation",
+      "more representative",
+      "representative data",
+      "đại diện",
+      "có tính đại diện",
+      "đại diện hơn",
+      "sự đại diện"
+     ],
+     "reason": "Dữ liệu đại diện bao gồm mọi nhóm mà AI sẽ phục vụ. Đại diện tốt hơn nghĩa là ít người bị thiếu hơn, nên kết quả của AI chính xác và công bằng hơn."
+    },
+    {
+     "id": "L4",
+     "type": "seq",
+     "color": "#0d9488",
+     "title": "Kiểm tra xem có công bằng không",
+     "q": "Một AI đưa ra câu trả lời có vẻ được với một số người nhưng không với người khác. Chạm vào các bước để kiểm tra sự công bằng theo đúng thứ tự.",
+     "pads": [
+      {
+       "k": "who",
+       "e": "👥 Hỏi câu trả lời được với ai",
+       "c": "#4338ca"
+      },
+      {
+       "k": "missing",
+       "e": "❓ Hỏi ai đang thiếu ví dụ",
+       "c": "#7c3aed"
+      },
+      {
+       "k": "fix",
+       "e": "🌍 Đề xuất dữ liệu đại diện hơn",
+       "c": "#0891b2"
+      }
+     ],
+     "answer": [
+      "who",
+      "missing",
+      "fix"
+     ],
+     "reason": "Trước tiên hỏi câu trả lời được với AI. Rồi hỏi ai đang THIẾU ví dụ. Rồi đề xuất cách KHẮC PHỤC — dữ liệu đại diện hơn. Ai, Thiếu, Khắc phục."
+    }
+   ]
   },
   "ar": {
    "clues": [
@@ -677,12 +814,286 @@ window.BREAKOUT = {
    ]
   },
   "hi": {
-   "clues": [],
-   "locks": []
+   "clues": [
+    {
+     "id": "c1",
+     "ico": "🪞",
+     "nm": "यह अपने डेटा को दर्शाता है",
+     "title": "तुम वही सीखते हो जो देखते हो",
+     "body": "कोई AI अपने प्रशिक्षण डेटा के उदाहरणों से सीखता है। यह केवल उन्हीं चीज़ों में अच्छा बन सकता है जो इसने खूब देखीं। जो भी और जो कुछ भी डेटा में सबसे ज़्यादा दिखता है, AI उसे ही सबसे अच्छी तरह जानता है।"
+    },
+    {
+     "id": "c2",
+     "ico": "🧩",
+     "nm": "छूटे हुए टुकड़े",
+     "title": "कुछ आवाज़ें छूट गईं",
+     "body": "अगर लोगों का कोई समूह, कोई भाषा, या कोई जगह डेटा में मुश्किल से ही दिखती है, तो AI के पास सीखने के लिए बहुत कम उदाहरण होते हैं। वह समूह कम-प्रतिनिधित्व वाला है — AI उसे कम अच्छी तरह जानता है।"
+    },
+    {
+     "id": "c3",
+     "ico": "🎯",
+     "nm": "अन्यायपूर्ण परिणाम",
+     "title": "कुछ के लिए काम करता है, कुछ के लिए नहीं",
+     "body": "जब कुछ लोग डेटा से छूट जाते हैं, तो AI के जवाब उनके लिए कम सटीक या यहाँ तक कि अन्यायपूर्ण हो सकते हैं — जबकि अच्छे प्रतिनिधित्व वाले समूहों के लिए वे बिल्कुल ठीक काम करते हैं।"
+    },
+    {
+     "id": "c4",
+     "ico": "❓",
+     "nm": "मुख्य सवाल पूछो",
+     "title": "किसके उदाहरण छूट रहे हैं?",
+     "body": "किसी भी AI के बारे में तुम जो सबसे समझदारी भरा सवाल पूछ सकते हो वह है: किसके उदाहरण छूट रहे हैं? कौन छूट गया, यह नाम लेकर बताना तुम्हें यह देखने में मदद करता है कि AI कहाँ कमज़ोर या अन्यायपूर्ण हो सकता है।"
+    },
+    {
+     "id": "c5",
+     "ico": "🌍",
+     "nm": "खाई को भरना",
+     "title": "अधिक प्रतिनिधित्व वाला डेटा",
+     "body": "AI तब अधिक न्यायपूर्ण बनता है जब बनाने वाले अधिक प्रतिनिधित्व वाला डेटा जोड़ते हैं — उन समूहों, भाषाओं और जगहों के उदाहरण जो छूट गए थे। लक्ष्य ऐसा डेटा है जो उन सबको दर्शाए जिनकी वह सेवा करेगा।"
+    },
+    {
+     "id": "c6",
+     "ico": "🎸",
+     "nm": "प्रतिभा शो",
+     "title": "एक स्कूल आयोजन",
+     "body": "इस साल वसंत का प्रतिभा शो जिम में है, और पिछले साल एक युकुलेले जोड़ी ने पहला स्थान पाया था। जानना मज़ेदार है — पर यह तुम्हें कोई ताला खोलने में मदद नहीं करेगा।",
+     "decoy": true
+    }
+   ],
+   "locks": [
+    {
+     "id": "L1",
+     "type": "mc",
+     "color": "#4338ca",
+     "title": "यह कुछ लोगों के लिए क्यों विफल होता है",
+     "q": "कोई AI उपकरण कुछ छात्रों के लिए अच्छा काम करता है पर दूसरों के लिए बार-बार गलतियाँ करता है। सबसे संभावित कारण क्या है?",
+     "options": [
+      "AI ने जानबूझकर उन छात्रों के साथ अन्याय करना चुना",
+      "वे छात्र डेटा में कम प्रतिनिधित्व वाले थे, इसलिए AI के पास उनके कम उदाहरण हैं",
+      "AI हमेशा सबके लिए बिल्कुल एक जैसा काम करता है, इसलिए कुछ भी गलत नहीं है"
+     ],
+     "answerIndex": 1,
+     "reason": "AI उदाहरणों से सीखता है। जब कोई समूह प्रशिक्षण डेटा में कम प्रतिनिधित्व वाला होता है, तो AI के पास सीखने के लिए कम उदाहरण होते हैं, इसलिए उनके लिए इसके परिणाम कम सटीक हो सकते हैं।"
+    },
+    {
+     "id": "L2",
+     "type": "multi",
+     "color": "#7c3aed",
+     "title": "खाइयों को पहचानो",
+     "q": "हर उस कारण पर निशान लगाओ जिससे कोई AI किसी खास समूह के लोगों के लिए खराब काम कर सकता है।",
+     "items": [
+      {
+       "t": "वह समूह प्रशिक्षण डेटा में मुश्किल से ही दिखता है",
+       "strong": true
+      },
+      {
+       "t": "उनकी भाषा या बोली के उदाहरण छूट गए थे",
+       "strong": true
+      },
+      {
+       "t": "डेटा ज़्यादातर उनके बजाय दूसरे समूहों को दर्शाता है",
+       "strong": true
+      },
+      {
+       "t": "AI को व्यक्तिगत रूप से उस समूह के लोग नापसंद हैं",
+       "strong": false
+      },
+      {
+       "t": "डेटा में उस समूह के पहले से ही खूब सारे उदाहरण हैं",
+       "strong": false
+      }
+     ],
+     "reason": "कोई AI किसी समूह के साथ तब जूझता है जब वह समूह उसके डेटा से छूटा हुआ या कम प्रतिनिधित्व वाला हो। AI की कोई व्यक्तिगत भावनाएँ नहीं होतीं, और खूब सारे उदाहरण होना नुकसान के बजाय मदद करता है।"
+    },
+    {
+     "id": "L3",
+     "type": "word",
+     "color": "#0891b2",
+     "title": "समाधान का नाम बताओ",
+     "q": "किसी AI को अधिक न्यायपूर्ण बनाने के लिए, बनाने वाले ऐसा डेटा जोड़ते हैं जो उन सबको बेहतर ढंग से दर्शाए जिनकी वह सेवा करेगा। जो डेटा सभी समूहों को निष्पक्ष रूप से शामिल करता है, उसे ______ डेटा कहते हैं।",
+     "answer": [
+      "representative",
+      "representation",
+      "more representative",
+      "representative data",
+      "प्रतिनिधि",
+      "प्रतिनिधित्व",
+      "अधिक प्रतिनिधि",
+      "प्रतिनिधित्व वाला"
+     ],
+     "reason": "प्रतिनिधि डेटा उन सभी समूहों को शामिल करता है जिनकी AI सेवा करेगा। बेहतर प्रतिनिधित्व का मतलब है कम लोग छूटते हैं, इसलिए AI के परिणाम अधिक सटीक और न्यायपूर्ण होते हैं।"
+    },
+    {
+     "id": "L4",
+     "type": "seq",
+     "color": "#0d9488",
+     "title": "न्याय के लिए इसे जाँचो",
+     "q": "कोई AI ऐसा जवाब देता है जो कुछ लोगों के लिए काम करता दिखता है पर दूसरों के लिए नहीं। न्याय के लिए इसे जाँचने के चरणों को सही क्रम में छुओ।",
+     "pads": [
+      {
+       "k": "who",
+       "e": "👥 पूछो जवाब किसके लिए काम करता है",
+       "c": "#4338ca"
+      },
+      {
+       "k": "missing",
+       "e": "❓ पूछो किसके उदाहरण छूट रहे हैं",
+       "c": "#7c3aed"
+      },
+      {
+       "k": "fix",
+       "e": "🌍 अधिक प्रतिनिधित्व वाले डेटा का सुझाव दो",
+       "c": "#0891b2"
+      }
+     ],
+     "answer": [
+      "who",
+      "missing",
+      "fix"
+     ],
+     "reason": "पहले पूछो जवाब किसके लिए अच्छा काम करता है। फिर पूछो किसके उदाहरण छूट रहे हैं। फिर एक समाधान सुझाओ — अधिक प्रतिनिधित्व वाला डेटा। किसके, छूट रहे, समाधान।"
+    }
+   ]
   },
   "ur": {
-   "clues": [],
-   "locks": []
+   "clues": [
+    {
+     "id": "c1",
+     "ico": "🪞",
+     "nm": "یہ اپنے ڈیٹا کا عکس ہے",
+     "title": "آپ صرف وہی سیکھتے ہیں جو دیکھتے ہیں",
+     "body": "ایک اے آئی اپنے تربیتی ڈیٹا میں موجود مثالوں سے سیکھتی ہے۔ یہ صرف انہی چیزوں میں اچھی ہو سکتی ہے جو اس نے بہت زیادہ دیکھیں۔ جو کوئی اور جو کچھ بھی ڈیٹا میں سب سے زیادہ نظر آتا ہے، اسے اے آئی سب سے اچھی طرح جانتی ہے۔"
+    },
+    {
+     "id": "c2",
+     "ico": "🧩",
+     "nm": "غائب ٹکڑے",
+     "title": "کچھ آوازیں چھوٹ گئیں",
+     "body": "اگر لوگوں کا کوئی گروہ، کوئی زبان، یا کوئی جگہ ڈیٹا میں بمشکل نظر آئے، تو اے آئی کے پاس سیکھنے کے لیے بہت کم مثالیں ہوتی ہیں۔ اس گروہ کی کم نمائندگی ہوتی ہے — اے آئی انہیں کم اچھی طرح جانتی ہے۔"
+    },
+    {
+     "id": "c3",
+     "ico": "🎯",
+     "nm": "ناانصافی والے نتائج",
+     "title": "کچھ کے لیے کام کرتی ہے، دوسروں کے لیے نہیں",
+     "body": "جب کچھ لوگ ڈیٹا سے غائب ہوں، تو اے آئی کے جواب ان کے لیے کم درست یا حتیٰ کہ ناانصافی والے ہو سکتے ہیں — جبکہ اچھی نمائندگی والے گروہوں کے لیے بالکل ٹھیک کام کرتے ہیں۔"
+    },
+    {
+     "id": "c4",
+     "ico": "❓",
+     "nm": "کلیدی سوال پوچھیں",
+     "title": "کس کی مثالیں غائب ہیں؟",
+     "body": "کسی بھی اے آئی کے بارے میں سب سے سمجھدار سوال جو آپ پوچھ سکتے ہیں وہ یہ ہے: کس کی مثالیں غائب ہیں؟ یہ بتانا کہ کون چھوٹ گیا آپ کو یہ پہچاننے میں مدد دیتا ہے کہ اے آئی کہاں کمزور یا ناانصاف ہو سکتی ہے۔"
+    },
+    {
+     "id": "c5",
+     "ico": "🌍",
+     "nm": "خلا کو بھرنا",
+     "title": "زیادہ نمائندہ ڈیٹا",
+     "body": "اے آئی زیادہ منصفانہ بنتی ہے جب بنانے والے زیادہ نمائندہ ڈیٹا شامل کرتے ہیں — ان گروہوں، زبانوں، اور جگہوں سے مثالیں جو چھوٹ گئی تھیں۔ مقصد ایسا ڈیٹا ہے جو ہر اس شخص کا عکس ہو جس کی یہ خدمت کرے گی۔"
+    },
+    {
+     "id": "c6",
+     "ico": "🎸",
+     "nm": "ٹیلنٹ شو",
+     "title": "ایک اسکول کی تقریب",
+     "body": "بہار کا ٹیلنٹ شو اس سال جِم میں ہے، اور پچھلے سال ایک یوکلیلی جوڑی نے پہلا انعام جیتا تھا۔ جاننا مزیدار ہے — لیکن یہ کوئی تالا کھولنے میں آپ کی مدد نہیں کرے گی۔",
+     "decoy": true
+    }
+   ],
+   "locks": [
+    {
+     "id": "L1",
+     "type": "mc",
+     "color": "#4338ca",
+     "title": "یہ کچھ لوگوں کے لیے کیوں ناکام ہوتی ہے",
+     "q": "ایک اے آئی آلہ کچھ طلبہ کے لیے اچھا کام کرتا ہے مگر دوسروں کے لیے بار بار چیزیں غلط کرتا رہتا ہے۔ سب سے زیادہ ممکنہ وجہ کیا ہے؟",
+     "options": [
+      "اے آئی نے جان بوجھ کر ان طلبہ کے ساتھ ناانصافی کرنے کا انتخاب کیا",
+      "ان طلبہ کی ڈیٹا میں کم نمائندگی تھی، اس لیے اے آئی کے پاس ان کی کم مثالیں ہیں",
+      "اے آئی ہمیشہ ہر کسی کے لیے بالکل ایک جیسا کام کرتی ہے، اس لیے کچھ غلط نہیں"
+     ],
+     "answerIndex": 1,
+     "reason": "اے آئی مثالوں سے سیکھتی ہے۔ جب کسی گروہ کی تربیتی ڈیٹا میں کم نمائندگی ہو، تو اے آئی کے پاس سیکھنے کے لیے کم مثالیں ہوتی ہیں، اس لیے ان کے لیے اس کے نتائج کم درست ہو سکتے ہیں۔"
+    },
+    {
+     "id": "L2",
+     "type": "multi",
+     "color": "#7c3aed",
+     "title": "خلا پہچانیں",
+     "q": "ہر اس وجہ پر نشان لگائیں جس سے اے آئی کسی خاص گروہ کے لوگوں کے لیے کمزور کام کر سکتی ہے۔",
+     "items": [
+      {
+       "t": "وہ گروہ تربیتی ڈیٹا میں بمشکل نظر آتا ہے",
+       "strong": true
+      },
+      {
+       "t": "ان کی زبان یا لہجے کی مثالیں چھوڑ دی گئی تھیں",
+       "strong": true
+      },
+      {
+       "t": "ڈیٹا زیادہ تر دوسرے گروہوں کی نمائندگی کرتا ہے",
+       "strong": true
+      },
+      {
+       "t": "اے آئی ذاتی طور پر اس گروہ کے لوگوں کو ناپسند کرتی ہے",
+       "strong": false
+      },
+      {
+       "t": "ڈیٹا میں پہلے ہی اس گروہ کی کافی مثالیں شامل ہیں",
+       "strong": false
+      }
+     ],
+     "reason": "اے آئی کسی گروہ کے ساتھ مشکل میں پڑتی ہے جب وہ گروہ اس کے ڈیٹا سے غائب ہو یا اس کی کم نمائندگی ہو۔ اے آئی کے کوئی ذاتی جذبات نہیں، اور کافی مثالیں ہونا نقصان کے بجائے مدد دیتا ہے۔"
+    },
+    {
+     "id": "L3",
+     "type": "word",
+     "color": "#0891b2",
+     "title": "حل کا نام بتائیں",
+     "q": "کسی اے آئی کو زیادہ منصفانہ بنانے کے لیے، بنانے والے ایسا ڈیٹا شامل کرتے ہیں جو ہر اس شخص کا بہتر عکس ہو جس کی یہ خدمت کرے گی۔ وہ ڈیٹا جو تمام گروہوں کو منصفانہ طور پر شامل کرے اسے ______ ڈیٹا کہتے ہیں۔",
+     "answer": [
+      "representative",
+      "representation",
+      "more representative",
+      "representative data",
+      "نمائندہ",
+      "نمائندگی",
+      "زیادہ نمائندہ",
+      "نمائندہ ڈیٹا"
+     ],
+     "reason": "نمائندہ ڈیٹا ان تمام گروہوں کو شامل کرتا ہے جن کی اے آئی خدمت کرے گی۔ بہتر نمائندگی کا مطلب ہے کہ کم لوگ غائب ہوں، اس لیے اے آئی کے نتائج زیادہ درست اور منصفانہ ہوتے ہیں۔"
+    },
+    {
+     "id": "L4",
+     "type": "seq",
+     "color": "#0d9488",
+     "title": "اسے انصاف کے لیے جانچیں",
+     "q": "ایک اے آئی ایسا جواب دیتی ہے جو کچھ لوگوں کے لیے کام کرتا لگتا ہے مگر دوسروں کے لیے نہیں۔ اسے انصاف کے لیے جانچنے کے مراحل کو درست ترتیب میں دبائیں۔",
+     "pads": [
+      {
+       "k": "who",
+       "e": "👥 پوچھیں کہ جواب کس کے لیے کام کرتا ہے",
+       "c": "#4338ca"
+      },
+      {
+       "k": "missing",
+       "e": "❓ پوچھیں کہ کس کی مثالیں غائب ہیں",
+       "c": "#7c3aed"
+      },
+      {
+       "k": "fix",
+       "e": "🌍 زیادہ نمائندہ ڈیٹا تجویز کریں",
+       "c": "#0891b2"
+      }
+     ],
+     "answer": [
+      "who",
+      "missing",
+      "fix"
+     ],
+     "reason": "پہلے پوچھیں کہ جواب کس کے لیے اچھا کام کرتا ہے۔ پھر پوچھیں کہ کس کی مثالیں غائب ہیں۔ پھر ایک حل تجویز کریں — زیادہ نمائندہ ڈیٹا۔ کون، غائب، حل۔"
+    }
+   ]
   },
   "zh": {
    "clues": [

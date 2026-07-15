@@ -104,16 +104,16 @@ window.BREAKOUT = {
    "footer.privacy": "Quyền riêng tư & tuân thủ",
    "footer.disclaimer": "Bản dịch do AI khởi tạo và đang chờ người bản ngữ rà soát.",
    "header.eyebrow": "Breakout hiểu biết AI tạo sinh · Lớp 8",
-   "header.h1": "Give AI Credit",
-   "header.sub": "An AI helper can save you time on schoolwork — but honesty means you say when you used it. Crack four locks to learn how to use AI the honest way.",
-   "brief.label": "Your Mission",
-   "brief.h": "Be Honest About AI Help",
-   "brief.p": "Getting help from an AI tool is not automatically cheating — but hiding it can be. Your teacher's rules come first, you still do your own thinking, and you give credit when AI helped. Read the clues, then open all four locks. Each lock reveals the reasoning behind the answer.",
-   "footer.text": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
-   "win.stamp": "CASE CLOSED",
-   "win.h": "You cracked all four locks!",
-   "win.p": "You learned to check your teacher's rules, to do your own thinking and verify the facts, to know the line between a tool and cheating, and to disclose and cite AI help. That's giving AI credit honestly.",
-   "crumb.suite": "Gen AI Literacy Breakouts"
+   "header.h1": "Ghi nhận công của AI",
+   "header.sub": "Một trợ lý AI có thể giúp bạn tiết kiệm thời gian làm bài — nhưng trung thực nghĩa là bạn nói ra khi đã dùng nó. Hãy mở bốn ổ khóa để học cách dùng AI một cách trung thực.",
+   "brief.label": "Nhiệm vụ của bạn",
+   "brief.h": "Hãy trung thực về việc AI giúp đỡ",
+   "brief.p": "Nhận sự giúp đỡ từ một công cụ AI không tự động là gian lận — nhưng che giấu điều đó thì có thể là. Quy định của thầy cô là ưu tiên trước, bạn vẫn phải tự mình suy nghĩ, và bạn ghi nhận công khi AI đã giúp. Đọc các manh mối, rồi mở cả bốn ổ khóa. Mỗi ổ khóa hé lộ lý lẽ đằng sau câu trả lời.",
+   "footer.text": "Breakout hiểu biết AI tạo sinh · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+   "win.stamp": "ĐÃ KHÉP LẠI VỤ ÁN",
+   "win.h": "Bạn đã mở được cả bốn ổ khóa!",
+   "win.p": "Bạn đã học được cách kiểm tra quy định của thầy cô, tự mình suy nghĩ và kiểm chứng sự thật, biết ranh giới giữa một công cụ và gian lận, và công khai cùng trích dẫn sự giúp đỡ của AI. Đó là ghi nhận công của AI một cách trung thực.",
+   "crumb.suite": "Breakout hiểu biết AI tạo sinh"
   },
   "ar": {
    "sect.clues": "🔍 الأدلّة",
@@ -138,16 +138,16 @@ window.BREAKOUT = {
    "footer.privacy": "الخصوصية والامتثال",
    "footer.disclaimer": "التّرجمات مُولّدة بالذكاء الاصطناعي وبانتظار مراجعة متحدّث أصلي.",
    "header.eyebrow": "تحدّي الثقافة في الذكاء الاصطناعي التوليدي · الصف 8",
-   "header.h1": "Give AI Credit",
-   "header.sub": "An AI helper can save you time on schoolwork — but honesty means you say when you used it. Crack four locks to learn how to use AI the honest way.",
-   "brief.label": "Your Mission",
-   "brief.h": "Be Honest About AI Help",
-   "brief.p": "Getting help from an AI tool is not automatically cheating — but hiding it can be. Your teacher's rules come first, you still do your own thinking, and you give credit when AI helped. Read the clues, then open all four locks. Each lock reveals the reasoning behind the answer.",
-   "footer.text": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
-   "win.stamp": "CASE CLOSED",
-   "win.h": "You cracked all four locks!",
-   "win.p": "You learned to check your teacher's rules, to do your own thinking and verify the facts, to know the line between a tool and cheating, and to disclose and cite AI help. That's giving AI credit honestly.",
-   "crumb.suite": "Gen AI Literacy Breakouts"
+   "header.h1": "انسب الفضل إلى الذكاء الاصطناعي",
+   "header.sub": "يمكن لمساعد ذكاء اصطناعي أن يوفّر عليك الوقت في الواجبات المدرسية — لكن الأمانة تعني أن تقول متى استعنت به. افتح أربعة أقفال لتتعلّم كيف تستخدم الذكاء الاصطناعي بأمانة.",
+   "brief.label": "مهمتك",
+   "brief.h": "كن أميناً بشأن مساعدة الذكاء الاصطناعي",
+   "brief.p": "الاستعانة بأداة ذكاء اصطناعي ليست غشاً بالضرورة — لكن إخفاءها قد يكون كذلك. قواعد معلّمك تأتي أولاً، وأنت لا تزال تفكّر بنفسك، وتنسب الفضل عندما يساعد الذكاء الاصطناعي. اقرأ الأدلة، ثم افتح الأقفال الأربعة جميعها. كل قفل يكشف المنطق وراء الإجابة.",
+   "footer.text": "تحدّيات الثقافة في الذكاء الاصطناعي التوليدي · يعمل بالكامل في متصفحك — بلا تسجيل دخول، ولا جمع بيانات.",
+   "win.stamp": "أُغلقت القضية",
+   "win.h": "لقد فتحت الأقفال الأربعة جميعها!",
+   "win.p": "تعلّمت أن تتحقّق من قواعد معلّمك، وأن تفكّر بنفسك وتتأكّد من الحقائق، وأن تعرف الحدّ الفاصل بين الأداة والغش، وأن تُفصح عن مساعدة الذكاء الاصطناعي وتنسبها. هذا هو نسب الفضل إلى الذكاء الاصطناعي بأمانة.",
+   "crumb.suite": "تحدّيات الثقافة في الذكاء الاصطناعي التوليدي"
   },
   "hi": {
    "sect.clues": "🔍 सुराग",
@@ -172,16 +172,16 @@ window.BREAKOUT = {
    "footer.privacy": "गोपनीयता और अनुपालन",
    "footer.disclaimer": "अनुवाद AI द्वारा तैयार हैं और मातृभाषी समीक्षा की प्रतीक्षा में हैं।",
    "header.eyebrow": "जनरेटिव AI साक्षरता ब्रेकआउट · कक्षा 8",
-   "header.h1": "Give AI Credit",
-   "header.sub": "An AI helper can save you time on schoolwork — but honesty means you say when you used it. Crack four locks to learn how to use AI the honest way.",
-   "brief.label": "Your Mission",
-   "brief.h": "Be Honest About AI Help",
-   "brief.p": "Getting help from an AI tool is not automatically cheating — but hiding it can be. Your teacher's rules come first, you still do your own thinking, and you give credit when AI helped. Read the clues, then open all four locks. Each lock reveals the reasoning behind the answer.",
-   "footer.text": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
-   "win.stamp": "CASE CLOSED",
-   "win.h": "You cracked all four locks!",
-   "win.p": "You learned to check your teacher's rules, to do your own thinking and verify the facts, to know the line between a tool and cheating, and to disclose and cite AI help. That's giving AI credit honestly.",
-   "crumb.suite": "Gen AI Literacy Breakouts"
+   "header.h1": "AI को श्रेय दो",
+   "header.sub": "कोई AI सहायक तुम्हारे स्कूल के काम में समय बचा सकता है — पर ईमानदारी का मतलब है कि तुम बताओ कि तुमने इसका इस्तेमाल कब किया। AI को ईमानदारी से इस्तेमाल करना सीखने के लिए चार ताले खोलो।",
+   "brief.label": "तुम्हारा मिशन",
+   "brief.h": "AI की मदद के बारे में ईमानदार रहो",
+   "brief.p": "किसी AI उपकरण से मदद लेना अपने आप में नकल नहीं है — पर उसे छिपाना नकल हो सकती है। तुम्हारे शिक्षक के नियम पहले आते हैं, तुम फिर भी अपनी सोच खुद लगाते हो, और जब AI ने मदद की तो तुम श्रेय देते हो। सुराग पढ़ो, फिर चारों ताले खोलो। हर ताला जवाब के पीछे का तर्क दिखाता है।",
+   "footer.text": "जनरेटिव AI साक्षरता ब्रेकआउट · पूरी तरह तुम्हारे ब्राउज़र में चलता है — कोई लॉगिन नहीं, कोई डेटा इकट्ठा नहीं।",
+   "win.stamp": "केस बंद",
+   "win.h": "तुमने चारों ताले खोल दिए!",
+   "win.p": "तुमने सीखा कि अपने शिक्षक के नियम जाँचो, अपनी सोच खुद लगाओ और तथ्यों की पुष्टि करो, यह जानो कि उपकरण और नकल के बीच रेखा कहाँ है, और AI की मदद को उजागर करो व उद्धृत करो। यही है AI को ईमानदारी से श्रेय देना।",
+   "crumb.suite": "जनरेटिव AI साक्षरता ब्रेकआउट"
   },
   "ur": {
    "sect.clues": "🔍 سراغ",
@@ -206,16 +206,16 @@ window.BREAKOUT = {
    "footer.privacy": "رازداری اور تعمیل",
    "footer.disclaimer": "تراجم AI سے تیار کیے گئے ہیں اور مقامی بولنے والے کی نظرِ ثانی کے منتظر ہیں۔",
    "header.eyebrow": "جنریٹِو اے آئی خواندگی بریک آؤٹ · جماعت 8",
-   "header.h1": "Give AI Credit",
-   "header.sub": "An AI helper can save you time on schoolwork — but honesty means you say when you used it. Crack four locks to learn how to use AI the honest way.",
-   "brief.label": "Your Mission",
-   "brief.h": "Be Honest About AI Help",
-   "brief.p": "Getting help from an AI tool is not automatically cheating — but hiding it can be. Your teacher's rules come first, you still do your own thinking, and you give credit when AI helped. Read the clues, then open all four locks. Each lock reveals the reasoning behind the answer.",
-   "footer.text": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
-   "win.stamp": "CASE CLOSED",
-   "win.h": "You cracked all four locks!",
-   "win.p": "You learned to check your teacher's rules, to do your own thinking and verify the facts, to know the line between a tool and cheating, and to disclose and cite AI help. That's giving AI credit honestly.",
-   "crumb.suite": "Gen AI Literacy Breakouts"
+   "header.h1": "اے آئی کو کریڈٹ دیں",
+   "header.sub": "ایک اے آئی مددگار آپ کا اسکول کے کام میں وقت بچا سکتا ہے — مگر ایمانداری کا مطلب ہے کہ آپ بتائیں کہ آپ نے اسے استعمال کیا۔ چار تالے کھولیں اور جانیں کہ اے آئی کو ایماندارانہ طریقے سے کیسے استعمال کریں۔",
+   "brief.label": "آپ کا مشن",
+   "brief.h": "اے آئی کی مدد کے بارے میں ایماندار بنیں",
+   "brief.p": "کسی اے آئی آلے سے مدد لینا خود بخود نقل نہیں ہے — مگر اسے چھپانا نقل ہو سکتا ہے۔ آپ کے استاد کے قواعد سب سے پہلے آتے ہیں، آپ اب بھی اپنی سوچ خود لگاتے ہیں، اور جب اے آئی نے مدد کی تو آپ کریڈٹ دیتے ہیں۔ اشارے پڑھیں، پھر چاروں تالے کھولیں۔ ہر تالا جواب کے پیچھے کی سوچ ظاہر کرتا ہے۔",
+   "footer.text": "جنریٹِو اے آئی خواندگی بریک آؤٹ · مکمل طور پر آپ کے براؤزر میں چلتا ہے — نہ کوئی لاگ اِن، نہ کوئی ڈیٹا جمع کیا جاتا ہے۔",
+   "win.stamp": "معاملہ حل ہو گیا",
+   "win.h": "آپ نے چاروں تالے کھول دیے!",
+   "win.p": "آپ نے سیکھا کہ اپنے استاد کے قواعد جانچیں، اپنی سوچ خود لگائیں اور حقائق کی تصدیق کریں، آلے اور نقل کے درمیان فرق کو جانیں، اور اے آئی کی مدد کا انکشاف اور حوالہ دیں۔ یہ اے آئی کو ایمانداری سے کریڈٹ دینا ہے۔",
+   "crumb.suite": "جنریٹِو اے آئی خواندگی بریک آؤٹ"
   },
   "zh": {
    "sect.clues": "🔍 线索",
@@ -554,20 +554,616 @@ window.BREAKOUT = {
    ]
   },
   "vi": {
-   "clues": [],
-   "locks": []
+   "clues": [
+    {
+     "id": "c1",
+     "ico": "📋",
+     "nm": "Quy định trước tiên",
+     "title": "Kiểm tra điều được phép",
+     "body": "Mỗi lớp mỗi khác. Trước khi dùng một công cụ AI cho bài tập, hãy kiểm tra quy định của thầy cô. Một số bài cho phép AI giúp; số khác yêu cầu bạn tự làm một mình. Khi không chắc, hãy hỏi trước."
+    },
+    {
+     "id": "c2",
+     "ico": "🏷️",
+     "nm": "Ghi nhận công",
+     "title": "Nói ra khi AI đã giúp",
+     "body": "Trung thực nghĩa là bạn công khai và trích dẫn khi một AI đã giúp — một ghi chú ngắn như 'động não cùng một trợ lý AI.' Nộp bài của AI như hoàn toàn của riêng mình, không ghi nhận công, là không trung thực."
+    },
+    {
+     "id": "c3",
+     "ico": "🧠",
+     "nm": "Suy nghĩ của bạn",
+     "title": "Làm phần việc thật sự",
+     "body": "Một AI có thể bắt đầu một bản nháp, nhưng suy nghĩ phải là của bạn. Hãy hiểu các ý tưởng, diễn đạt lại bằng lời của mình, và có thể giải thích được bài làm. Học mới là mục đích, không chỉ là một trang đã hoàn thành."
+    },
+    {
+     "id": "c4",
+     "ico": "✔️",
+     "nm": "Kiểm chứng sự thật",
+     "title": "AI có thể sai",
+     "body": "Các công cụ AI đôi khi bịa ra sự kiện, ngày tháng, hay nguồn nghe có vẻ thật nhưng lại sai. Hãy kiểm chứng bất cứ điều gì AI đưa cho bạn trước khi dùng, nếu không lỗi của nó sẽ thành lỗi của bạn trong bài tập."
+    },
+    {
+     "id": "c5",
+     "ico": "⚖️",
+     "nm": "Công cụ hay gian lận?",
+     "title": "Ranh giới nằm ở đâu",
+     "body": "Dùng AI để động não ý tưởng hay kiểm tra ngữ pháp có thể là một công cụ hữu ích. Để AI viết toàn bộ rồi che giấu điều đó — coi như hoàn toàn của riêng mình — là gian lận."
+    },
+    {
+     "id": "c6",
+     "ico": "🌋",
+     "nm": "Hội chợ khoa học",
+     "title": "Một dự án thú vị",
+     "body": "Hội chợ khoa học lớp tám có mô hình núi lửa phun trào bằng baking soda và một buổi trình diễn bếp năng lượng mặt trời. Một dự án vui — nhưng nó sẽ không giúp bạn mở được ổ khóa nào.",
+     "decoy": true
+    }
+   ],
+   "locks": [
+    {
+     "id": "L1",
+     "type": "mc",
+     "color": "#4338ca",
+     "title": "Nước đi trung thực",
+     "q": "Một AI đã giúp bạn động não ý tưởng cho bài tập lịch sử. Điều trung thực nên làm là gì?",
+     "options": [
+      "Nộp bài và tuyên bố mọi ý tưởng hoàn toàn là của riêng bạn",
+      "Kiểm tra quy định của thầy cô, tự mình suy nghĩ, và trích dẫn sự giúp đỡ của AI",
+      "Chép nguyên văn toàn bộ câu trả lời của AI và che giấu việc bạn đã dùng nó"
+     ],
+     "answerIndex": 1,
+     "reason": "Trung thực nghĩa là làm theo quy định của thầy cô, tự mình suy nghĩ, và ghi nhận công bằng cách trích dẫn rằng AI đã giúp. Che giấu sự giúp đỡ hoặc nhận ý tưởng của AI là hoàn toàn của mình là không trung thực."
+    },
+    {
+     "id": "L2",
+     "type": "multi",
+     "color": "#7c3aed",
+     "title": "Thói quen trung thực",
+     "q": "Đánh dấu MỌI thói quen thể hiện sự trung thực học thuật với AI.",
+     "items": [
+      {
+       "t": "Kiểm tra quy định của thầy cô trước khi dùng một công cụ AI",
+       "strong": true
+      },
+      {
+       "t": "Công khai và trích dẫn rằng một AI đã giúp cho bài làm của bạn",
+       "strong": true
+      },
+      {
+       "t": "Tự mình suy nghĩ và kiểm chứng sự thật",
+       "strong": true
+      },
+      {
+       "t": "Nộp toàn bộ câu trả lời của AI như hoàn toàn là bài làm của mình",
+       "strong": false
+      },
+      {
+       "t": "Che giấu việc bạn đã dùng một AI để không ai phát hiện ra",
+       "strong": false
+      }
+     ],
+     "reason": "Kiểm tra quy định, công khai và trích dẫn sự giúp đỡ của AI, và tự mình suy nghĩ là trung thực. Coi bài của AI như của mình hoặc che giấu việc đã dùng nó thì không."
+    },
+    {
+     "id": "L3",
+     "type": "word",
+     "color": "#0891b2",
+     "title": "Hãy ghi nhận công của nó",
+     "q": "Khi một AI đã giúp bạn với bài tập, trung thực nghĩa là bạn ______ sự giúp đỡ đó thay vì che giấu nó.",
+     "answer": [
+      "disclose",
+      "disclosed",
+      "disclosing",
+      "cite",
+      "cited",
+      "citing",
+      "credit",
+      "credited",
+      "acknowledge",
+      "công khai",
+      "trích dẫn",
+      "ghi nhận công",
+      "thừa nhận"
+     ],
+     "reason": "Công khai và trích dẫn sự giúp đỡ của AI là ghi nhận công cho nó và giữ bạn trung thực; che giấu nó và nhận bài làm là hoàn toàn của riêng mình là không trung thực."
+    },
+    {
+     "id": "L4",
+     "type": "seq",
+     "color": "#0d9488",
+     "title": "Dùng AI một cách trung thực",
+     "q": "Bạn sẽ dùng một AI để giúp làm một bài tập trên lớp. Chạm vào các bước trung thực theo đúng thứ tự.",
+     "pads": [
+      {
+       "k": "rules",
+       "e": "📋 Kiểm tra quy định của thầy cô",
+       "c": "#4338ca"
+      },
+      {
+       "k": "think",
+       "e": "🧠 Tự mình suy nghĩ trước",
+       "c": "#7c3aed"
+      },
+      {
+       "k": "verify",
+       "e": "✔️ Kiểm chứng sự thật AI đưa ra",
+       "c": "#0891b2"
+      },
+      {
+       "k": "credit",
+       "e": "🏷️ Ghi nhận công giúp đỡ của AI",
+       "c": "#6d28d9"
+      }
+     ],
+     "answer": [
+      "rules",
+      "think",
+      "verify",
+      "credit"
+     ],
+     "reason": "Trước tiên kiểm tra QUY ĐỊNH của thầy cô. Rồi tự mình SUY NGHĨ. Rồi KIỂM CHỨNG sự thật. Rồi GHI NHẬN CÔNG giúp đỡ của AI. Quy định, Suy nghĩ, Kiểm chứng, Ghi nhận công."
+    }
+   ]
   },
   "ar": {
-   "clues": [],
-   "locks": []
+   "clues": [
+    {
+     "id": "c1",
+     "ico": "📋",
+     "nm": "القواعد أولاً",
+     "title": "تحقّق مما هو مسموح",
+     "body": "كل صف مختلف. قبل أن تستخدم أداة ذكاء اصطناعي لواجب ما، تحقّق من قواعد معلّمك. بعض المهام تسمح بمساعدة الذكاء الاصطناعي؛ وأخرى تتطلّب أن تعمل وحدك. عند عدم التأكّد، اسأل أولاً."
+    },
+    {
+     "id": "c2",
+     "ico": "🏷️",
+     "nm": "انسب الفضل",
+     "title": "قل متى ساعد الذكاء الاصطناعي",
+     "body": "الأمانة تعني أن تُفصح وتنسب عندما يساعدك ذكاء اصطناعي — ملاحظة قصيرة مثل 'عصفت الأفكار مع مساعد ذكاء اصطناعي.' أما تسليم عمل الذكاء الاصطناعي على أنه عملك بالكامل، دون نسب فضل، فهو غير أمين."
+    },
+    {
+     "id": "c3",
+     "ico": "🧠",
+     "nm": "تفكيرك أنت",
+     "title": "قم بالعمل الحقيقي",
+     "body": "يستطيع الذكاء الاصطناعي أن يبدأ مسودة، لكن التفكير يجب أن يكون تفكيرك أنت. افهم الأفكار، وصُغها بكلماتك، وكن قادراً على شرح عملك. التعلّم هو الغاية، لا مجرد صفحة منتهية."
+    },
+    {
+     "id": "c4",
+     "ico": "✔️",
+     "nm": "تحقّق من الحقائق",
+     "title": "قد يخطئ الذكاء الاصطناعي",
+     "body": "تختلق أدوات الذكاء الاصطناعي أحياناً حقائق أو تواريخ أو مصادر تبدو حقيقية لكنها خاطئة. تحقّق من أي شيء يعطيك إياه الذكاء الاصطناعي قبل استخدامه، وإلا صارت أخطاؤه أخطاءك أنت في الواجب."
+    },
+    {
+     "id": "c5",
+     "ico": "⚖️",
+     "nm": "أداة أم غش؟",
+     "title": "أين يقع الحدّ",
+     "body": "استخدام الذكاء الاصطناعي لعصف الأفكار أو مراجعة قواعدك اللغوية قد يكون أداة مفيدة. أما أن يكتب الذكاء الاصطناعي كل شيء ثم تخفي أنه فعل ذلك — منتحلاً إياه على أنه عملك بالكامل — فهذا غش."
+    },
+    {
+     "id": "c6",
+     "ico": "🌋",
+     "nm": "معرض العلوم",
+     "title": "مشروع رائع",
+     "body": "يضمّ معرض علوم الصف الثامن بركاناً يثور بصودا الخبز وعرضاً لفرن يعمل بالطاقة الشمسية. مشروع ممتع — لكنه لن يساعدك على فتح أي قفل.",
+     "decoy": true
+    }
+   ],
+   "locks": [
+    {
+     "id": "L1",
+     "type": "mc",
+     "color": "#4338ca",
+     "title": "الخطوة الأمينة",
+     "q": "ساعدك ذكاء اصطناعي على عصف الأفكار لواجب تاريخ. ما الشيء الأمين الذي تفعله؟",
+     "options": [
+      "سلّمه وادّعِ أن كل فكرة كانت من عندك بالكامل",
+      "تحقّق من قواعد معلّمك، وفكّر بنفسك، وانسب مساعدة الذكاء الاصطناعي",
+      "انسخ إجابة الذكاء الاصطناعي كلمة بكلمة وأخفِ أنك استخدمته"
+     ],
+     "answerIndex": 1,
+     "reason": "الأمانة تعني اتّباع قواعد معلّمك، والتفكير بنفسك، ونسب الفضل بذكر أن الذكاء الاصطناعي ساعد. أما إخفاء المساعدة أو ادّعاء أفكار الذكاء الاصطناعي على أنها من عندك بالكامل فهو غير أمين."
+    },
+    {
+     "id": "L2",
+     "type": "multi",
+     "color": "#7c3aed",
+     "title": "عادات أمينة",
+     "q": "علّم على كل عادة تُظهر الأمانة الأكاديمية مع الذكاء الاصطناعي.",
+     "items": [
+      {
+       "t": "التحقّق من قواعد معلّمك قبل استخدام أداة ذكاء اصطناعي",
+       "strong": true
+      },
+      {
+       "t": "الإفصاح عن مساعدة الذكاء الاصطناعي في عملك ونسبها",
+       "strong": true
+      },
+      {
+       "t": "التفكير بنفسك والتأكّد من الحقائق",
+       "strong": true
+      },
+      {
+       "t": "تسليم إجابة الذكاء الاصطناعي بالكامل على أنها عملك بالكامل",
+       "strong": false
+      },
+      {
+       "t": "إخفاء أنك استخدمت ذكاءً اصطناعياً كي لا يكتشف أحد ذلك",
+       "strong": false
+      }
+     ],
+     "reason": "التحقّق من القواعد، والإفصاح عن مساعدة الذكاء الاصطناعي ونسبها، والتفكير بنفسك أمور أمينة. أما انتحال عمل الذكاء الاصطناعي على أنه عملك أو إخفاء أنك استخدمته فليس كذلك."
+    },
+    {
+     "id": "L3",
+     "type": "word",
+     "color": "#0891b2",
+     "title": "انسب الفضل إليه",
+     "q": "عندما يساعدك ذكاء اصطناعي في واجب مدرسي، تعني الأمانة أن ______ تلك المساعدة بدلاً من إخفائها.",
+     "answer": [
+      "disclose",
+      "disclosed",
+      "disclosing",
+      "cite",
+      "cited",
+      "citing",
+      "credit",
+      "credited",
+      "acknowledge",
+      "تفصح عن",
+      "تنسب",
+      "تذكر",
+      "تعترف بـ"
+     ],
+     "reason": "الإفصاح عن مساعدة الذكاء الاصطناعي ونسبها ينسب الفضل إليه ويبقيك أميناً؛ أما إخفاؤها وادّعاء العمل على أنه من عندك بالكامل فهو غير أمين."
+    },
+    {
+     "id": "L4",
+     "type": "seq",
+     "color": "#0d9488",
+     "title": "استخدم الذكاء الاصطناعي بأمانة",
+     "q": "ستستعين بذكاء اصطناعي في واجب صفي. اضغط على الخطوات الأمينة بالترتيب الصحيح.",
+     "pads": [
+      {
+       "k": "rules",
+       "e": "📋 تحقّق من قواعد معلّمك",
+       "c": "#4338ca"
+      },
+      {
+       "k": "think",
+       "e": "🧠 فكّر بنفسك أولاً",
+       "c": "#7c3aed"
+      },
+      {
+       "k": "verify",
+       "e": "✔️ تأكّد من الحقائق التي يعطيها الذكاء الاصطناعي",
+       "c": "#0891b2"
+      },
+      {
+       "k": "credit",
+       "e": "🏷️ انسب مساعدة الذكاء الاصطناعي",
+       "c": "#6d28d9"
+      }
+     ],
+     "answer": [
+      "rules",
+      "think",
+      "verify",
+      "credit"
+     ],
+     "reason": "تحقّق أولاً من قواعد معلّمك. ثم فكّر بنفسك. ثم تأكّد من الحقائق. ثم انسب مساعدة الذكاء الاصطناعي. القواعد، التفكير، التأكّد، النسب."
+    }
+   ]
   },
   "hi": {
-   "clues": [],
-   "locks": []
+   "clues": [
+    {
+     "id": "c1",
+     "ico": "📋",
+     "nm": "पहले नियम",
+     "title": "जाँचो क्या अनुमति है",
+     "body": "हर कक्षा अलग होती है। किसी असाइनमेंट के लिए AI उपकरण इस्तेमाल करने से पहले, अपने शिक्षक के नियम जाँचो। कुछ काम AI की मदद की अनुमति देते हैं; कुछ में तुम्हें अकेले काम करना होता है। जब पक्का न हो, तो पहले पूछो।"
+    },
+    {
+     "id": "c2",
+     "ico": "🏷️",
+     "nm": "श्रेय दो",
+     "title": "बताओ जब AI ने मदद की",
+     "body": "ईमानदार होने का मतलब है कि जब किसी AI ने मदद की तो तुम उसे उजागर करते और उद्धृत करते हो — एक छोटी सी टिप्पणी जैसे 'एक AI सहायक के साथ विचार-मंथन किया।' AI का काम पूरी तरह अपना बताकर, बिना श्रेय दिए, सौंपना बेईमानी है।"
+    },
+    {
+     "id": "c3",
+     "ico": "🧠",
+     "nm": "तुम्हारी सोच",
+     "title": "असली काम करो",
+     "body": "कोई AI एक मसौदा शुरू कर सकता है, पर सोच तुम्हारी अपनी होनी चाहिए। विचारों को समझो, उन्हें अपने शब्दों में रखो, और अपने काम को समझा पाओ। सीखना ही मकसद है, केवल एक पूरा किया गया पन्ना नहीं।"
+    },
+    {
+     "id": "c4",
+     "ico": "✔️",
+     "nm": "तथ्य जाँचो",
+     "title": "AI गलत हो सकता है",
+     "body": "AI उपकरण कभी-कभी ऐसे तथ्य, तारीखें या स्रोत गढ़ लेते हैं जो असली लगते हैं पर झूठे होते हैं। AI जो कुछ तुम्हें दे, उसे इस्तेमाल करने से पहले पुष्टि कर लो, वरना उसकी गलतियाँ असाइनमेंट में तुम्हारी गलतियाँ बन जाती हैं।"
+    },
+    {
+     "id": "c5",
+     "ico": "⚖️",
+     "nm": "उपकरण या नकल?",
+     "title": "रेखा कहाँ है",
+     "body": "विचारों के मंथन या अपनी व्याकरण जाँचने के लिए AI का इस्तेमाल एक मददगार उपकरण हो सकता है। AI से पूरी चीज़ लिखवाना और फिर यह छिपाना कि उसने किया — इसे पूरी तरह अपना बताना — नकल है।"
+    },
+    {
+     "id": "c6",
+     "ico": "🌋",
+     "nm": "विज्ञान मेला",
+     "title": "एक शानदार परियोजना",
+     "body": "आठवीं कक्षा के विज्ञान मेले में बेकिंग सोडा से फटता ज्वालामुखी और एक सौर-ओवन का प्रदर्शन है। एक मज़ेदार परियोजना — पर यह तुम्हें कोई ताला खोलने में मदद नहीं करेगी।",
+     "decoy": true
+    }
+   ],
+   "locks": [
+    {
+     "id": "L1",
+     "type": "mc",
+     "color": "#4338ca",
+     "title": "ईमानदार कदम",
+     "q": "किसी AI ने इतिहास के असाइनमेंट के लिए विचार-मंथन में तुम्हारी मदद की। ईमानदारी वाली बात क्या करना है?",
+     "options": [
+      "इसे सौंप दो और दावा करो कि हर विचार पूरी तरह तुम्हारा अपना था",
+      "अपने शिक्षक के नियम जाँचो, अपनी सोच खुद लगाओ, और AI की मदद को उद्धृत करो",
+      "AI का पूरा जवाब शब्द-दर-शब्द नकल कर लो और छिपाओ कि तुमने इसका इस्तेमाल किया"
+     ],
+     "answerIndex": 1,
+     "reason": "ईमानदारी का मतलब है अपने शिक्षक के नियमों का पालन करना, अपनी सोच खुद लगाना, और यह उद्धृत करके श्रेय देना कि AI ने मदद की। मदद को छिपाना या AI के विचारों को पूरी तरह अपना बताना बेईमानी है।"
+    },
+    {
+     "id": "L2",
+     "type": "multi",
+     "color": "#7c3aed",
+     "title": "ईमानदार आदतें",
+     "q": "हर उस आदत पर निशान लगाओ जो AI के साथ शैक्षणिक ईमानदारी दिखाती है।",
+     "items": [
+      {
+       "t": "AI उपकरण इस्तेमाल करने से पहले अपने शिक्षक के नियम जाँचना",
+       "strong": true
+      },
+      {
+       "t": "यह उजागर और उद्धृत करना कि किसी AI ने तुम्हारे काम में मदद की",
+       "strong": true
+      },
+      {
+       "t": "अपनी सोच खुद लगाना और तथ्यों की पुष्टि करना",
+       "strong": true
+      },
+      {
+       "t": "AI का पूरा जवाब पूरी तरह अपना काम बताकर सौंपना",
+       "strong": false
+      },
+      {
+       "t": "यह छिपाना कि तुमने AI इस्तेमाल किया ताकि किसी को पता न चले",
+       "strong": false
+      }
+     ],
+     "reason": "नियम जाँचना, AI की मदद को उजागर व उद्धृत करना, और अपनी सोच खुद लगाना ईमानदार है। AI के काम को अपना बताना या यह छिपाना कि तुमने इसका इस्तेमाल किया, ईमानदार नहीं है।"
+    },
+    {
+     "id": "L3",
+     "type": "word",
+     "color": "#0891b2",
+     "title": "इसे श्रेय दो",
+     "q": "जब किसी AI ने स्कूल के काम में तुम्हारी मदद की, तो ईमानदारी का मतलब है कि तुम उस मदद को छिपाने के बजाय उसे ______।",
+     "answer": [
+      "disclose",
+      "disclosed",
+      "disclosing",
+      "cite",
+      "cited",
+      "citing",
+      "credit",
+      "credited",
+      "acknowledge",
+      "उजागर करते हो",
+      "उद्धृत करते हो",
+      "श्रेय देते हो",
+      "स्वीकार करते हो"
+     ],
+     "reason": "AI की मदद को उजागर और उद्धृत करना उसे श्रेय देता है और तुम्हें ईमानदार रखता है; इसे छिपाना और काम को पूरी तरह अपना बताना बेईमानी है।"
+    },
+    {
+     "id": "L4",
+     "type": "seq",
+     "color": "#0d9488",
+     "title": "AI को ईमानदारी से इस्तेमाल करो",
+     "q": "तुम किसी कक्षा असाइनमेंट में मदद के लिए AI इस्तेमाल करोगे। ईमानदार चरणों को सही क्रम में छुओ।",
+     "pads": [
+      {
+       "k": "rules",
+       "e": "📋 अपने शिक्षक के नियम जाँचो",
+       "c": "#4338ca"
+      },
+      {
+       "k": "think",
+       "e": "🧠 पहले अपनी सोच खुद लगाओ",
+       "c": "#7c3aed"
+      },
+      {
+       "k": "verify",
+       "e": "✔️ AI द्वारा दिए तथ्यों की पुष्टि करो",
+       "c": "#0891b2"
+      },
+      {
+       "k": "credit",
+       "e": "🏷️ AI की मदद को श्रेय दो",
+       "c": "#6d28d9"
+      }
+     ],
+     "answer": [
+      "rules",
+      "think",
+      "verify",
+      "credit"
+     ],
+     "reason": "पहले अपने शिक्षक के नियम जाँचो। फिर अपनी सोच खुद लगाओ। फिर तथ्यों की पुष्टि करो। फिर AI की मदद को श्रेय दो। नियम, सोच, पुष्टि, श्रेय।"
+    }
+   ]
   },
   "ur": {
-   "clues": [],
-   "locks": []
+   "clues": [
+    {
+     "id": "c1",
+     "ico": "📋",
+     "nm": "پہلے قواعد",
+     "title": "جانچیں کہ کیا اجازت ہے",
+     "body": "ہر کلاس مختلف ہے۔ کسی اسائنمنٹ کے لیے اے آئی آلہ استعمال کرنے سے پہلے، اپنے استاد کے قواعد جانچیں۔ کچھ کام اے آئی کی مدد کی اجازت دیتے ہیں؛ دوسرے آپ سے تنہا کام کرنے کا تقاضا کرتے ہیں۔ جب یقین نہ ہو، تو پہلے پوچھیں۔"
+    },
+    {
+     "id": "c2",
+     "ico": "🏷️",
+     "nm": "کریڈٹ دیں",
+     "title": "بتائیں جب اے آئی نے مدد کی",
+     "body": "ایماندار ہونے کا مطلب ہے کہ جب کسی اے آئی نے مدد کی تو آپ اس کا انکشاف اور حوالہ دیں — ایک مختصر نوٹ جیسے 'ایک اے آئی مددگار کے ساتھ خیالات پر غور کیا'۔ اے آئی کے کام کو مکمل طور پر اپنا بتا کر، بغیر کریڈٹ کے، پیش کرنا بےایمانی ہے۔"
+    },
+    {
+     "id": "c3",
+     "ico": "🧠",
+     "nm": "آپ کی سوچ",
+     "title": "اصل کام خود کریں",
+     "body": "ایک اے آئی مسودہ شروع کر سکتی ہے، مگر سوچ آپ کی ہونی چاہیے۔ خیالات کو سمجھیں، انہیں اپنے الفاظ میں لکھیں، اور اپنے کام کی وضاحت کر سکیں۔ سیکھنا اصل مقصد ہے، صرف ایک مکمل صفحہ نہیں۔"
+    },
+    {
+     "id": "c4",
+     "ico": "✔️",
+     "nm": "حقائق جانچیں",
+     "title": "اے آئی غلط ہو سکتی ہے",
+     "body": "اے آئی آلے کبھی کبھی ایسے حقائق، تاریخیں، یا ذرائع گھڑ لیتے ہیں جو حقیقی لگتے ہیں مگر جھوٹے ہوتے ہیں۔ اے آئی جو کچھ بھی آپ کو دے اسے استعمال کرنے سے پہلے تصدیق کریں، ورنہ اس کی غلطیاں اسائنمنٹ میں آپ کی غلطیاں بن جاتی ہیں۔"
+    },
+    {
+     "id": "c5",
+     "ico": "⚖️",
+     "nm": "آلہ یا نقل؟",
+     "title": "حد کہاں ہے",
+     "body": "اے آئی کو خیالات پر غور کرنے یا اپنی گرامر جانچنے کے لیے استعمال کرنا ایک مددگار آلہ ہو سکتا ہے۔ اے آئی سے پورا کام لکھوانا اور پھر یہ چھپانا کہ اس نے یہ کیا — اسے مکمل طور پر اپنا بتا کر پیش کرنا — نقل ہے۔"
+    },
+    {
+     "id": "c6",
+     "ico": "🌋",
+     "nm": "سائنس میلہ",
+     "title": "ایک زبردست پروجیکٹ",
+     "body": "آٹھویں جماعت کے سائنس میلے میں بیکنگ سوڈا کا پھٹنے والا آتش فشاں اور ایک شمسی چولہے کا مظاہرہ شامل ہے۔ ایک مزیدار پروجیکٹ — لیکن یہ کوئی تالا کھولنے میں آپ کی مدد نہیں کرے گا۔",
+     "decoy": true
+    }
+   ],
+   "locks": [
+    {
+     "id": "L1",
+     "type": "mc",
+     "color": "#4338ca",
+     "title": "ایماندارانہ قدم",
+     "q": "ایک اے آئی نے آپ کو تاریخ کے اسائنمنٹ کے لیے خیالات پر غور کرنے میں مدد دی۔ ایماندارانہ کام کیا ہے؟",
+     "options": [
+      "اسے جمع کروائیں اور دعویٰ کریں کہ ہر خیال مکمل طور پر آپ کا اپنا تھا",
+      "اپنے استاد کے قواعد جانچیں، اپنی سوچ خود لگائیں، اور اے آئی کی مدد کا حوالہ دیں",
+      "اے آئی کا پورا جواب لفظ بہ لفظ نقل کریں اور چھپائیں کہ آپ نے اسے استعمال کیا"
+     ],
+     "answerIndex": 1,
+     "reason": "ایمانداری کا مطلب ہے اپنے استاد کے قواعد پر عمل کرنا، اپنی سوچ خود لگانا، اور یہ حوالہ دے کر کریڈٹ دینا کہ اے آئی نے مدد کی۔ مدد چھپانا یا اے آئی کے خیالات کو مکمل طور پر اپنا بتانا بےایمانی ہے۔"
+    },
+    {
+     "id": "L2",
+     "type": "multi",
+     "color": "#7c3aed",
+     "title": "ایماندار عادات",
+     "q": "ہر اس عادت پر نشان لگائیں جو اے آئی کے ساتھ تعلیمی ایمانداری ظاہر کرتی ہے۔",
+     "items": [
+      {
+       "t": "کسی اے آئی آلے کو استعمال کرنے سے پہلے اپنے استاد کے قواعد جانچنا",
+       "strong": true
+      },
+      {
+       "t": "یہ انکشاف اور حوالہ دینا کہ ایک اے آئی نے آپ کے کام میں مدد کی",
+       "strong": true
+      },
+      {
+       "t": "اپنی سوچ خود لگانا اور حقائق کی تصدیق کرنا",
+       "strong": true
+      },
+      {
+       "t": "اے آئی کا پورا جواب مکمل طور پر اپنا کام بنا کر جمع کروانا",
+       "strong": false
+      },
+      {
+       "t": "یہ چھپانا کہ آپ نے اے آئی استعمال کیا تاکہ کسی کو پتا نہ چلے",
+       "strong": false
+      }
+     ],
+     "reason": "قواعد جانچنا، اے آئی کی مدد کا انکشاف اور حوالہ دینا، اور اپنی سوچ خود لگانا ایماندارانہ ہے۔ اے آئی کے کام کو اپنا بتا کر پیش کرنا یا یہ چھپانا کہ آپ نے اسے استعمال کیا ایماندارانہ نہیں۔"
+    },
+    {
+     "id": "L3",
+     "type": "word",
+     "color": "#0891b2",
+     "title": "اسے کریڈٹ دیں",
+     "q": "جب کسی اے آئی نے آپ کے اسکول کے کام میں مدد کی، تو ایماندار ہونے کا مطلب ہے کہ آپ اس مدد کو چھپانے کے بجائے اسے ______۔",
+     "answer": [
+      "disclose",
+      "disclosed",
+      "disclosing",
+      "cite",
+      "cited",
+      "citing",
+      "credit",
+      "credited",
+      "acknowledge",
+      "انکشاف کریں",
+      "انکشاف کرنا",
+      "حوالہ دیں",
+      "حوالہ دینا",
+      "کریڈٹ دیں",
+      "کریڈٹ دینا",
+      "تسلیم کریں",
+      "بتائیں"
+     ],
+     "reason": "اے آئی کی مدد کا انکشاف اور حوالہ دینا اسے کریڈٹ دیتا ہے اور آپ کو ایماندار رکھتا ہے؛ اسے چھپانا اور کام کو مکمل طور پر اپنا بتانا بےایمانی ہے۔"
+    },
+    {
+     "id": "L4",
+     "type": "seq",
+     "color": "#0d9488",
+     "title": "اے آئی کو ایمانداری سے استعمال کریں",
+     "q": "آپ ایک کلاس اسائنمنٹ میں مدد کے لیے اے آئی استعمال کریں گے۔ ایماندار مراحل کو درست ترتیب میں دبائیں۔",
+     "pads": [
+      {
+       "k": "rules",
+       "e": "📋 اپنے استاد کے قواعد جانچیں",
+       "c": "#4338ca"
+      },
+      {
+       "k": "think",
+       "e": "🧠 پہلے اپنی سوچ خود لگائیں",
+       "c": "#7c3aed"
+      },
+      {
+       "k": "verify",
+       "e": "✔️ اے آئی جو حقائق دیتی ہے ان کی تصدیق کریں",
+       "c": "#0891b2"
+      },
+      {
+       "k": "credit",
+       "e": "🏷️ اے آئی کی مدد کو کریڈٹ دیں",
+       "c": "#6d28d9"
+      }
+     ],
+     "answer": [
+      "rules",
+      "think",
+      "verify",
+      "credit"
+     ],
+     "reason": "پہلے اپنے استاد کے قواعد جانچیں۔ پھر اپنی سوچ خود لگائیں۔ پھر حقائق کی تصدیق کریں۔ پھر اے آئی کی مدد کو کریڈٹ دیں۔ قواعد، سوچ، تصدیق، کریڈٹ۔"
+    }
+   ]
   },
   "zh": {
    "clues": [

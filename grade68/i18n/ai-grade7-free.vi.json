@@ -1,0 +1,91 @@
+{
+  "chrome": {
+    "h1": "Ai đang bị bỏ sót?",
+    "sub": "Một AI hoạt động rất tốt với một số người — nhưng lại sai với người khác. Lý do ẩn trong việc ai có mặt trong dữ liệu của nó. Hãy mở bốn ổ khóa để tìm ra ai đang bị bỏ sót.",
+    "briefLabel": "Nhiệm vụ của bạn",
+    "briefH": "Hãy làm thám tử về sự đại diện",
+    "briefP": "AI học từ các ví dụ. Khi một số nhóm hoặc tiếng nói bị bỏ ra khỏi những ví dụ đó, AI hiểu họ kém hơn — nên câu trả lời của nó có thể sai hoặc bất công với họ. Đọc các manh mối, rồi mở cả bốn ổ khóa. Mỗi ổ khóa hé lộ lý lẽ đằng sau câu trả lời.",
+    "footerText": "Breakout hiểu biết AI tạo sinh · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+    "winStamp": "ĐÃ KHÉP LẠI VỤ ÁN",
+    "winH": "Bạn đã mở được cả bốn ổ khóa!",
+    "winP": "Bạn đã học được rằng AI phản chiếu dữ liệu huấn luyện của nó, rằng các nhóm ít được đại diện sẽ nhận kết quả kém chính xác hơn, rằng việc hỏi 'ai đang thiếu ví dụ?' làm lộ ra khoảng trống, rằng dữ liệu đại diện hơn giúp AI công bằng hơn, và cách kiểm tra một kết quả xem có công bằng không. Làm rất sắc bén.",
+    "crumbSuite": "Breakout hiểu biết AI tạo sinh"
+  },
+  "clues": [
+    {
+      "nm": "Nó phản chiếu dữ liệu của nó",
+      "title": "Bạn chỉ học được điều bạn thấy",
+      "body": "Một AI học từ các ví dụ trong dữ liệu huấn luyện của nó. Nó chỉ có thể giỏi những điều nó thấy nhiều. Ai và điều gì xuất hiện nhiều nhất trong dữ liệu chính là điều AI hiểu rõ nhất."
+    },
+    {
+      "nm": "Những mảnh còn thiếu",
+      "title": "Một số tiếng nói bị bỏ ra ngoài",
+      "body": "Nếu một nhóm người, một ngôn ngữ, hay một nơi chốn hầu như không xuất hiện trong dữ liệu, AI có rất ít ví dụ để học. Nhóm đó bị ÍT ĐẠI DIỆN — AI hiểu họ kém hơn."
+    },
+    {
+      "nm": "Kết quả bất công",
+      "title": "Được với người này, không với người kia",
+      "body": "Khi một số người bị thiếu trong dữ liệu, câu trả lời của AI có thể kém chính xác hoặc thậm chí bất công với họ — trong khi vẫn hoạt động tốt với những nhóm được đại diện đầy đủ."
+    },
+    {
+      "nm": "Hãy hỏi câu hỏi mấu chốt",
+      "title": "Ai đang thiếu ví dụ?",
+      "body": "Câu hỏi thông minh nhất bạn có thể đặt ra về bất kỳ AI nào là: ai đang thiếu ví dụ? Gọi tên ai bị bỏ ra giúp bạn nhận ra chỗ AI có thể yếu hoặc bất công."
+    },
+    {
+      "nm": "Vá lại khoảng trống",
+      "title": "Dữ liệu đại diện hơn",
+      "body": "AI trở nên công bằng hơn khi những người xây dựng bổ sung dữ liệu đại diện hơn — ví dụ từ các nhóm, ngôn ngữ, và nơi chốn đã bị bỏ ra. Mục tiêu là dữ liệu phản ánh mọi người mà nó sẽ phục vụ."
+    },
+    {
+      "nm": "Hội diễn tài năng",
+      "title": "Một sự kiện của trường",
+      "body": "Hội diễn tài năng mùa xuân năm nay tổ chức ở nhà thi đấu, và năm ngoái một tiết mục song tấu ukulele đã đoạt giải nhất. Vui đấy — nhưng nó sẽ không giúp bạn mở được ổ khóa nào."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Vì sao nó sai với một số người",
+      "q": "Một công cụ AI hoạt động tốt với một số học sinh nhưng cứ sai với những học sinh khác. Đâu là lý do có khả năng nhất?",
+      "options": [
+        "AI cố tình chọn cách bất công với những học sinh đó",
+        "Những học sinh đó ít được đại diện trong dữ liệu, nên AI có ít ví dụ về họ hơn",
+        "AI luôn hoạt động y hệt nhau với mọi người, nên không có gì sai cả"
+      ],
+      "reason": "AI học từ các ví dụ. Khi một nhóm ít được đại diện trong dữ liệu huấn luyện, AI có ít ví dụ để học hơn, nên kết quả của nó cho họ có thể kém chính xác hơn."
+    },
+    {
+      "title": "Phát hiện các khoảng trống",
+      "q": "Đánh dấu MỌI lý do khiến một AI có thể hoạt động kém với một nhóm người nhất định.",
+      "items": [
+        "Nhóm đó hầu như không xuất hiện trong dữ liệu huấn luyện",
+        "Các ví dụ bằng ngôn ngữ hay phương ngữ của họ đã bị bỏ ra",
+        "Dữ liệu chủ yếu đại diện cho các nhóm khác thay vì họ",
+        "AI thấy ghét cá nhân nhóm người đó",
+        "Dữ liệu đã có sẵn rất nhiều ví dụ về nhóm đó"
+      ],
+      "reason": "Một AI gặp khó với một nhóm khi nhóm đó bị thiếu hoặc ít được đại diện trong dữ liệu của nó. AI không có cảm xúc cá nhân, và có nhiều ví dụ thì giúp ích chứ không gây hại."
+    },
+    {
+      "title": "Gọi tên cách khắc phục",
+      "q": "Để làm AI công bằng hơn, những người xây dựng bổ sung dữ liệu phản ánh tốt hơn mọi người mà nó sẽ phục vụ. Dữ liệu bao gồm mọi nhóm một cách công bằng được gọi là dữ liệu ______.",
+      "answer": [
+        "đại diện",
+        "có tính đại diện",
+        "đại diện hơn",
+        "sự đại diện"
+      ],
+      "reason": "Dữ liệu đại diện bao gồm mọi nhóm mà AI sẽ phục vụ. Đại diện tốt hơn nghĩa là ít người bị thiếu hơn, nên kết quả của AI chính xác và công bằng hơn."
+    },
+    {
+      "title": "Kiểm tra xem có công bằng không",
+      "q": "Một AI đưa ra câu trả lời có vẻ được với một số người nhưng không với người khác. Chạm vào các bước để kiểm tra sự công bằng theo đúng thứ tự.",
+      "pads": [
+        "👥 Hỏi câu trả lời được với ai",
+        "❓ Hỏi ai đang thiếu ví dụ",
+        "🌍 Đề xuất dữ liệu đại diện hơn"
+      ],
+      "reason": "Trước tiên hỏi câu trả lời được với AI. Rồi hỏi ai đang THIẾU ví dụ. Rồi đề xuất cách KHẮC PHỤC — dữ liệu đại diện hơn. Ai, Thiếu, Khắc phục."
+    }
+  ]
+}
