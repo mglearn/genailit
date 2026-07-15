@@ -132,12 +132,15 @@ function siDict() {
   for (const lg of SITE_LANGS) { d[lg] = {}; for (const k of Object.keys(SITE_I18N)) { const v = SITE_I18N[k][lg]; if (v) d[lg][k] = v; } }
   return d;
 }
-function langbar() { return `<div class="site-langbar"><span class="globe" aria-hidden="true">🌐</span><div data-i18n-picker></div></div>`; }
-function i18nScript(extra) {
-  const dict = siDict();
-  if (extra) for (const lg of SITE_LANGS) dict[lg] = Object.assign({}, dict[lg], extra[lg] || {});
-  return `<script src="assets/i18n.js"></script>
-<script>BreakoutI18n.register('site', ${JSON.stringify(dict)});</script>`;
+function cardDict() {
+  const d = {};
+  for (const lg of SITE_LANGS) { d[lg] = {}; for (const g of [3, 4, 5, 6, 7, 8]) { const U = ACT[g].B.UI[lg] || ACT[g].B.UI.en; d[lg]['card.g' + g + '.title'] = U['header.h1']; d[lg]['card.g' + g + '.sub'] = U['header.sub']; } }
+  return d;
+}
+function writeSiteI18nData() {
+  const base = siDict(), cards = cardDict(), dict = {};
+  for (const lg of SITE_LANGS) dict[lg] = Object.assign({}, base[lg], cards[lg]);
+  fs.writeFileSync(path.join(ROOT, 'assets', 'site-i18n-data.js'), 'window.SITE_I18N_DATA = ' + JSON.stringify(dict) + ';\n');
 }
 const SITE_LANG_CSS = `
   .site-langbar{position:absolute;top:14px;left:16px;z-index:60;display:flex;align-items:center;gap:6px}
@@ -185,7 +188,13 @@ function headMeta(depth, title, desc) {
 <meta name="twitter:description" content="${esc(desc)}">
 <meta name="twitter:image" content="${SITE_URL}/assets/og.png">`;
 }
-function shell({ depth = 0, title, extraHead = '', body }) {
+function shell({ depth = 0, title, extraHead = '', body, i18n = false }) {
+  const a = assets(depth);
+  const langbar = i18n ? `<div class="site-langbar"><span class="globe" aria-hidden="true">🌐</span><div data-i18n-picker></div></div>\n` : '';
+  const scripts = i18n ? `<script src="${a}/site-i18n-data.js"></script>
+<script src="${a}/i18n.js"></script>
+<script>BreakoutI18n.register('site', window.SITE_I18N_DATA);</script>
+` : '';
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -201,9 +210,9 @@ ${FONTS}
 </head>
 <body>
 <div class="wrap">
-${teacherNav(depth)}
+${langbar}${teacherNav(depth)}
 ${body}
-</div>
+${scripts}</div>
 </body>
 </html>
 `;
@@ -235,17 +244,7 @@ function card(grade, { depthToBand }) {
 function suiteLanding() {
   const free = [3, 4, 5].map(g => card(g, { depthToBand: 'grade35/' })).join('\n    ');
   const paid = [6, 7, 8].map(g => card(g, { depthToBand: 'grade68/' })).join('\n    ');
-  const cardsExtra = {};
-  for (const lg of SITE_LANGS) {
-    cardsExtra[lg] = {};
-    for (const g of [3, 4, 5, 6, 7, 8]) {
-      const U = ACT[g].B.UI[lg] || ACT[g].B.UI.en;
-      cardsExtra[lg]['card.g' + g + '.title'] = U['header.h1'];
-      cardsExtra[lg]['card.g' + g + '.sub'] = U['header.sub'];
-    }
-  }
-  const body = `  ${langbar()}
-  <div class="hero">
+  const body = `  <div class="hero">
     <div class="eyebrow" data-i18n="hero.eyebrow">${esc(si('hero.eyebrow'))}</div>
     <h1 data-i18n="hero.h1">${esc(si('hero.h1'))}</h1>
     <p class="lede" data-i18n="hero.lede">${esc(si('hero.lede'))}</p>
@@ -278,9 +277,8 @@ function suiteLanding() {
   <p class="section-note" data-i18n="clear.note">${esc(si('clear.note'))}</p>
   ${clearBlockI18n()}
   <p class="section-note" data-i18n-html="teacher.noteHtml">${si('teacher.noteHtml')}</p>
-${footer(0)}
-${i18nScript(cardsExtra)}`;
-  fs.writeFileSync(path.join(ROOT, 'index.html'), shell({ depth: 0, title: SUITE_EN + ' — Grades 3–8', body }));
+${footer(0)}`;
+  fs.writeFileSync(path.join(ROOT, 'index.html'), shell({ depth: 0, title: SUITE_EN + ' — Grades 3–8', body, i18n: true }));
 }
 
 // ---- BAND HUB ------------------------------------------------------------
@@ -837,6 +835,7 @@ ${footer(0)}`;
 }
 
 // ---- run -----------------------------------------------------------------
+writeSiteI18nData();
 suiteLanding();
 library();
 bandHub('grade35', [3, 4, 5], { paid: false, label: 'Grades 3–5 · Free', title: 'Grades 3–5', lede: 'The free tier. What AI is, how it learns from data, and how to prompt it and check its work — one breakout per grade, ready to share.' });
