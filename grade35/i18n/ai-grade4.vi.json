@@ -1,0 +1,86 @@
+{
+  "chrome": {
+    "h1": "Rác Vào, Rác Ra",
+    "sub": "Một trợ lý AI cứ liên tục đưa ra những câu trả lời sai và không công bằng. Vấn đề không phải là phép màu — mà là dữ liệu. Hãy mở bốn khóa để tìm ra lý do.",
+    "briefLabel": "Nhiệm Vụ Của Em",
+    "briefH": "Trở Thành Thám Tử Dữ Liệu",
+    "briefP": "Một AI chỉ thông minh bằng những ví dụ mà nó học được. Chúng ta gọi những ví dụ đó là dữ liệu. Hãy đọc các manh mối, rồi mở cả bốn khóa. Mỗi khóa có một lý do cho thấy vì sao đáp án đúng.",
+    "footerText": "Gen AI Literacy Breakouts · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+    "winStamp": "ĐÃ GIẢI ĐƯỢC BÍ ẨN",
+    "winH": "Em đã mở được cả bốn khóa!",
+    "winP": "Em đã học được rằng AI học từ dữ liệu, rằng dữ liệu một chiều hoặc kém dẫn đến phỏng đoán sai và không công bằng, rằng AI có thể bịa ra mọi thứ, và rằng ví dụ tốt hơn cùng nguồn đáng tin sẽ khắc phục được. Làm thám tử giỏi lắm!",
+    "crumbSuite": "Breakout hiểu biết AI tạo sinh"
+  },
+  "clues": [
+    {
+      "nm": "Rác Vào",
+      "title": "Ví dụ tệ, phỏng đoán tệ",
+      "body": "Một AI học từ dữ liệu, tức là các ví dụ. Nếu ví dụ quá ít, kém, hoặc một chiều, phỏng đoán của nó cũng sẽ tệ. Dân máy tính nói như thế này: rác vào, rác ra."
+    },
+    {
+      "nm": "Chỉ Có Táo Đỏ",
+      "title": "Một bài học một chiều",
+      "body": "Có người dạy một AI về táo mà chỉ dùng hình táo đỏ. Bây giờ nó nghĩ táo xanh KHÔNG phải là táo. Các ví dụ đã một chiều, nên phỏng đoán vừa sai vừa không công bằng."
+    },
+    {
+      "nm": "Sự Việc Bịa Đặt",
+      "title": "Nó có thể bịa ra mọi thứ",
+      "body": "Một AI viết bài tóm tắt sách và thêm vào một nhân vật hoàn toàn không có trong sách. AI có thể bịa ra những điều nghe có vẻ thật. Vì thế em phải kiểm tra công việc của nó với nguồn gốc thật sự."
+    },
+    {
+      "nm": "Nhiều Loại Hơn",
+      "title": "Cách khắc phục",
+      "body": "Để sửa AI về táo, em cho nó xem táo đỏ, táo xanh, VÀ táo vàng. Nhiều ví dụ hơn và nhiều LOẠI ví dụ hơn giúp nó đưa ra phỏng đoán công bằng và tốt hơn."
+    },
+    {
+      "nm": "Kiểm Tra Nguồn",
+      "title": "Tin vào nguồn",
+      "body": "Khi một AI đưa cho em một sự việc, hãy so sánh nó với một nguồn em tin cậy, như một cuốn sách thật hoặc thầy cô của em. Nếu AI và nguồn không khớp nhau, hãy tin vào nguồn, không phải phỏng đoán."
+    },
+    {
+      "nm": "Ngày Hội Thể Thao",
+      "title": "Một sự kiện của lớp",
+      "body": "Ngày hội thể thao của lớp là vào thứ Ba tới, và trò kéo co là món yêu thích của mọi người. Đây là một điều thú vị về lớp học — nhưng nó sẽ không giúp em mở bất kỳ khóa nào."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Vì Sao Nó Sai",
+      "q": "Vì sao AI về táo lại kết luận rằng một quả táo xanh là 'không phải táo'?",
+      "options": [
+        "Vì táo xanh thật ra không phải là táo",
+        "Vì nó chỉ học từ những ví dụ táo đỏ, nên dữ liệu của nó một chiều",
+        "Vì táo đổi màu mỗi khi có máy tính nhìn vào"
+      ],
+      "reason": "AI chỉ thấy táo đỏ, nên dữ liệu của nó một chiều. Dữ liệu một chiều đi vào thì phỏng đoán sai và không công bằng đi ra — rác vào, rác ra."
+    },
+    {
+      "title": "Gọi Tên Các Ví Dụ",
+      "q": "Những ví dụ mà một AI học được gọi là ______ của nó.",
+      "answer": ["dữ liệu", "dữ liệu học"],
+      "reason": "Những ví dụ mà một AI học được gọi là dữ liệu. Nếu dữ liệu kém hoặc một chiều, phỏng đoán của AI cũng vậy."
+    },
+    {
+      "title": "Làm Cho Nó Tốt Hơn",
+      "q": "Hãy chọn MỌI điều giúp phỏng đoán của một AI TỐT HƠN và CÔNG BẰNG HƠN.",
+      "items": [
+        "Cho nó nhiều loại ví dụ hơn, không chỉ một loại",
+        "Kiểm tra các sự việc của nó với một nguồn đáng tin cậy",
+        "Sửa những lỗi trong dữ liệu mà nó đã học",
+        "Chỉ cho nó xem một loại ví dụ duy nhất",
+        "Tin mọi câu trả lời mà không kiểm tra"
+      ],
+      "reason": "Dữ liệu tốt hơn và đa dạng hơn, cùng với việc kiểm tra sự việc với nguồn đáng tin, giúp phỏng đoán công bằng hơn. Dữ liệu một chiều và tin tưởng mù quáng khiến chúng tệ đi."
+    },
+    {
+      "title": "Sửa Bài Tóm Tắt",
+      "q": "Bài tóm tắt sách bằng AI của em có một nhân vật bịa đặt. Hãy chạm vào các bước để sửa theo đúng thứ tự.",
+      "pads": [
+        "🔎 Nhận ra chi tiết bịa đặt",
+        "📖 So sánh với cuốn sách thật",
+        "✏️ Tự em sửa lại bài tóm tắt"
+      ],
+      "reason": "Trước tiên NHẬN RA chi tiết có vẻ bịa đặt. Rồi SO SÁNH nó với cuốn sách thật. Sau đó tự em SỬA lại bài tóm tắt. Nhận ra, So sánh, Sửa."
+    }
+  ]
+}

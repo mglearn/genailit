@@ -1,0 +1,124 @@
+{
+  "id": "ai-grade4",
+  "grade": 4,
+  "confetti": ["#4338ca", "#06b6d4", "#7c3aed", "#0891b2", "#ffffff", "#a78bfa"],
+  "chrome": {
+    "eyebrow": {
+      "en": "Gen AI Literacy Breakout · Grade 4",
+      "es": "Breakout de alfabetización en IA generativa · Grado 4",
+      "vi": "Breakout hiểu biết AI tạo sinh · Lớp 4",
+      "ar": "تحدّي الثقافة في الذكاء الاصطناعي التوليدي · الصف 4",
+      "hi": "जनरेटिव AI साक्षरता ब्रेकआउट · कक्षा 4",
+      "ur": "جنریٹِو اے آئی خواندگی بریک آؤٹ · جماعت 4",
+      "zh": "生成式 AI 素养破解 · 4 年级"
+    },
+    "h1": "Garbage In, Garbage Out",
+    "sub": "An AI helper keeps giving wrong and unfair answers. The problem isn't magic — it's the data. Crack four locks to find out why.",
+    "briefLabel": "Your Mission",
+    "briefH": "Be a Data Detective",
+    "briefP": "An AI is only as smart as the examples it learns from. We call those examples data. Read the clues, then open all four locks. Each lock has a reason that shows why the answer is right.",
+    "footerText": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
+    "winStamp": "MYSTERY SOLVED",
+    "winH": "You cracked all four locks!",
+    "winP": "You learned that AI learns from data, that one-sided or bad data leads to wrong and unfair guesses, that AI can make things up, and that better examples and trusted sources fix it. Great detective work!"
+  },
+  "clues": [
+    {
+      "id": "c1",
+      "ico": "🗑️",
+      "nm": "Garbage In",
+      "title": "Bad examples, bad guesses",
+      "body": "An AI learns from data, which is just examples. If the examples are few, bad, or one-sided, its guesses will be bad too. Computer people say it like this: garbage in, garbage out."
+    },
+    {
+      "id": "c2",
+      "ico": "🍎",
+      "nm": "Only Red Apples",
+      "title": "A one-sided lesson",
+      "body": "Someone taught an AI about apples using only pictures of red apples. Now it thinks a green apple is NOT an apple. The examples were one-sided, so the guess is wrong and unfair."
+    },
+    {
+      "id": "c3",
+      "ico": "🤥",
+      "nm": "Made-Up Facts",
+      "title": "It can invent things",
+      "body": "An AI wrote a book report and added a character who is not in the book at all. AI can make up things that sound true. That is why you check its work against the real source."
+    },
+    {
+      "id": "c4",
+      "ico": "🌈",
+      "nm": "More Kinds",
+      "title": "How to fix it",
+      "body": "To fix the apple AI, you show it red, green, AND yellow apples. More examples and more KINDS of examples help it make fairer, better guesses."
+    },
+    {
+      "id": "c5",
+      "ico": "🔎",
+      "nm": "Check the Source",
+      "title": "Trust the source",
+      "body": "When an AI gives you a fact, compare it to a source you trust, like a real book or your teacher. If the AI and the source disagree, trust the source, not the guess."
+    },
+    {
+      "id": "c6",
+      "ico": "🎈",
+      "nm": "Field Day",
+      "title": "A class event",
+      "body": "The class field day is next Tuesday, and the tug-of-war is everyone's favorite. This is a fun fact about the class — but it will not help you open any lock.",
+      "decoy": true
+    }
+  ],
+  "locks": [
+    {
+      "id": "L1",
+      "type": "mc",
+      "color": "#4338ca",
+      "title": "Why It Was Wrong",
+      "q": "Why did the apple AI decide a green apple was 'not an apple'?",
+      "options": [
+        "Because green apples are not really apples",
+        "Because it only learned from red-apple examples, so its data was one-sided",
+        "Because apples change color whenever a computer looks at them"
+      ],
+      "answerIndex": 1,
+      "reason": "The AI only saw red apples, so its data was one-sided. One-sided data in means wrong, unfair guesses out — garbage in, garbage out."
+    },
+    {
+      "id": "L2",
+      "type": "word",
+      "color": "#7c3aed",
+      "title": "Name the Examples",
+      "q": "The examples an AI learns from are called its ______.",
+      "answer": ["data", "the data"],
+      "reason": "The examples an AI learns from are called data. If the data is bad or one-sided, the AI's guesses are too."
+    },
+    {
+      "id": "L3",
+      "type": "multi",
+      "color": "#0891b2",
+      "title": "Make It Better",
+      "q": "Check EVERY thing that would make an AI's guesses BETTER and FAIRER.",
+      "items": [
+        { "t": "Giving it more kinds of examples, not just one kind", "strong": true },
+        { "t": "Checking its facts against a trusted source", "strong": true },
+        { "t": "Fixing the mistakes in the data it learned from", "strong": true },
+        { "t": "Only ever showing it one kind of example", "strong": false },
+        { "t": "Believing every answer without checking", "strong": false }
+      ],
+      "reason": "Better and more varied data, plus checking facts against trusted sources, makes guesses fairer. One-sided data and blind trust make them worse."
+    },
+    {
+      "id": "L4",
+      "type": "seq",
+      "color": "#0d9488",
+      "title": "Fix the Report",
+      "q": "Your AI book report has a made-up character. Tap the steps to fix it in the RIGHT order.",
+      "pads": [
+        { "k": "notice", "e": "🔎 Notice the made-up fact", "c": "#4338ca" },
+        { "k": "compare", "e": "📖 Compare it to the real book", "c": "#7c3aed" },
+        { "k": "fix", "e": "✏️ Fix the report yourself", "c": "#0891b2" }
+      ],
+      "answer": ["notice", "compare", "fix"],
+      "reason": "First NOTICE the fact that seems made up. Then COMPARE it to the real book. Then FIX the report yourself. Notice, Compare, Fix."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "ai-grade8",
+  "grade": 8,
+  "confetti": ["#4338ca", "#06b6d4", "#7c3aed", "#0891b2", "#ffffff", "#a78bfa"],
+  "chrome": {
+    "eyebrow": {
+      "en": "Gen AI Literacy Breakout · Grade 8",
+      "es": "Breakout de alfabetización en IA generativa · Grado 8",
+      "vi": "Breakout hiểu biết AI tạo sinh · Lớp 8",
+      "ar": "تحدّي الثقافة في الذكاء الاصطناعي التوليدي · الصف 8",
+      "hi": "जनरेटिव AI साक्षरता ब्रेकआउट · कक्षा 8",
+      "ur": "جنریٹِو اے آئی خواندگی بریک آؤٹ · جماعت 8",
+      "zh": "生成式 AI 素养破解 · 8 年级"
+    },
+    "h1": "Build with AI, Responsibly",
+    "sub": "You're allowed to create with AI — but doing it honestly takes judgment. Crack four locks to learn how to use AI as a tool without crossing a line.",
+    "briefLabel": "Your Mission",
+    "briefH": "Be a Responsible Creator",
+    "briefP": "Generative AI is a powerful creation tool, and using it well is a real skill. But you stay the author — and the one responsible. Read the clues, then open all four locks. Each lock reveals the reasoning behind the answer.",
+    "footerText": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
+    "winStamp": "CASE CLOSED",
+    "winH": "You cracked all four locks!",
+    "winP": "You learned to disclose when AI helped, to verify and revise its work, to respect others' creations, and to keep private information out of AI tools. That's responsible building."
+  },
+  "clues": [
+    {
+      "id": "c1",
+      "ico": "🛠️",
+      "nm": "AI as a Tool",
+      "title": "You're still the author",
+      "body": "Using AI to brainstorm or draft is a real skill. But you remain the author: you plan it, you make the decisions, and you are responsible for the final work you turn in."
+    },
+    {
+      "id": "c2",
+      "ico": "🏷️",
+      "nm": "Say So",
+      "title": "Honesty means disclosing",
+      "body": "Being honest means disclosing when AI helped — a short note like 'drafted with an AI assistant.' Passing AI work off as entirely your own is dishonest."
+    },
+    {
+      "id": "c3",
+      "ico": "✔️",
+      "nm": "You Verify",
+      "title": "Its mistakes become yours",
+      "body": "AI can be wrong or make things up. You must verify the facts and fix the errors before you submit. If you don't, its mistakes become your mistakes."
+    },
+    {
+      "id": "c4",
+      "ico": "©️",
+      "nm": "Whose Work?",
+      "title": "Respect other creators",
+      "body": "AI can output text or images that copy someone else's work. Respect creators: don't claim that work as original, and don't use it where you don't have permission."
+    },
+    {
+      "id": "c5",
+      "ico": "🔒",
+      "nm": "Keep It Private",
+      "title": "Guard personal data",
+      "body": "Don't paste private information — real names, passwords, addresses, personal details — into an AI tool. Once you send it, you don't control where that data goes."
+    },
+    {
+      "id": "c6",
+      "ico": "🎬",
+      "nm": "Movie Night",
+      "title": "A grade event",
+      "body": "The eighth-grade movie night features a space adventure film and unlimited popcorn. A fun plan — but it will not help you open any lock.",
+      "decoy": true
+    }
+  ],
+  "locks": [
+    {
+      "id": "L1",
+      "type": "mc",
+      "color": "#4338ca",
+      "title": "The Responsible Move",
+      "q": "You used an AI to help draft an essay. What is the responsible thing to do?",
+      "options": [
+        "Turn it in as-is and claim you wrote every word yourself",
+        "Verify the facts, revise it, and disclose that AI helped",
+        "Paste in classmates' personal details to make it longer"
+      ],
+      "answerIndex": 1,
+      "reason": "You stay responsible for the work, so you verify and revise it, and you're honest by disclosing that AI helped. Claiming it as fully your own, or leaking others' data, is not responsible."
+    },
+    {
+      "id": "L2",
+      "type": "multi",
+      "color": "#7c3aed",
+      "title": "Responsible Habits",
+      "q": "Check EVERY responsible habit when creating with AI.",
+      "items": [
+        { "t": "Disclosing that an AI helped with the work", "strong": true },
+        { "t": "Verifying facts and fixing errors before submitting", "strong": true },
+        { "t": "Keeping private information out of AI tools", "strong": true },
+        { "t": "Claiming AI-generated work as entirely your own", "strong": false },
+        { "t": "Sharing someone's personal details with a chatbot", "strong": false }
+      ],
+      "reason": "Disclosing AI's help, verifying its work, and protecting private data are responsible. Claiming its work as your own or leaking personal details are not."
+    },
+    {
+      "id": "L3",
+      "type": "word",
+      "color": "#0891b2",
+      "title": "Be Honest About It",
+      "q": "Being honest that an AI helped you — instead of hiding it — means you ______ its use.",
+      "answer": ["disclose", "disclosed", "disclosing", "credit", "cite", "acknowledge"],
+      "reason": "Disclosing that AI helped is the honest choice; hiding it and claiming the work as entirely your own is not."
+    },
+    {
+      "id": "L4",
+      "type": "seq",
+      "color": "#0d9488",
+      "title": "Create Responsibly",
+      "q": "You'll use an AI to help make a class presentation. Tap the responsible steps in the RIGHT order.",
+      "pads": [
+        { "k": "plan", "e": "🧠 Plan your own idea first", "c": "#4338ca" },
+        { "k": "draft", "e": "🤖 Draft with the AI's help", "c": "#7c3aed" },
+        { "k": "verify", "e": "✔️ Verify and revise the facts", "c": "#0891b2" },
+        { "k": "credit", "e": "🏷️ Credit the AI's help", "c": "#6d28d9" }
+      ],
+      "answer": ["plan", "draft", "verify", "credit"],
+      "reason": "First PLAN your own idea. Then DRAFT with the AI's help. Then VERIFY and revise the facts. Then CREDIT the AI's help. Plan, Draft, Verify, Credit."
+    }
+  ]
+}

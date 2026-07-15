@@ -1,0 +1,87 @@
+{
+  "chrome": {
+    "h1": "Crea con IA, de forma responsable",
+    "sub": "Tienes permitido crear con IA, pero hacerlo con honestidad requiere criterio. Abre cuatro candados para aprender a usar la IA como herramienta sin cruzar la línea.",
+    "briefLabel": "Tu misión",
+    "briefH": "Sé un creador responsable",
+    "briefP": "La IA generativa es una poderosa herramienta de creación, y usarla bien es una verdadera habilidad. Pero tú sigues siendo el autor, y el responsable. Lee las pistas y luego abre los cuatro candados. Cada candado revela el razonamiento detrás de la respuesta.",
+    "footerText": "Breakouts de alfabetización en IA generativa · Funciona por completo en tu navegador — sin inicios de sesión, sin datos recopilados.",
+    "winStamp": "CASO CERRADO",
+    "winH": "¡Abriste los cuatro candados!",
+    "winP": "Aprendiste a divulgar cuando la IA ayudó, a verificar y revisar su trabajo, a respetar las creaciones de los demás, y a mantener la información privada fuera de las herramientas de IA. Eso es crear de forma responsable.",
+    "crumbSuite": "Breakout de alfabetización en IA generativa"
+  },
+  "clues": [
+    {
+      "nm": "La IA como herramienta",
+      "title": "Tú sigues siendo el autor",
+      "body": "Usar la IA para generar ideas o borradores es una verdadera habilidad. Pero tú sigues siendo el autor: tú lo planeas, tú tomas las decisiones y tú eres responsable del trabajo final que entregas."
+    },
+    {
+      "nm": "Dilo",
+      "title": "La honestidad es divulgar",
+      "body": "Ser honesto significa divulgar cuando la IA ayudó, una nota corta como 'redactado con un asistente de IA'. Hacer pasar el trabajo de la IA como totalmente tuyo es deshonesto."
+    },
+    {
+      "nm": "Tú verificas",
+      "title": "Sus errores se vuelven tuyos",
+      "body": "La IA puede equivocarse o inventar cosas. Debes verificar los datos y corregir los errores antes de entregar. Si no lo haces, sus errores se vuelven tus errores."
+    },
+    {
+      "nm": "¿De quién es el trabajo?",
+      "title": "Respeta a otros creadores",
+      "body": "La IA puede producir texto o imágenes que copian el trabajo de otra persona. Respeta a los creadores: no reclames ese trabajo como original y no lo uses donde no tengas permiso."
+    },
+    {
+      "nm": "Mantenlo privado",
+      "title": "Protege los datos personales",
+      "body": "No pegues información privada —nombres reales, contraseñas, direcciones, datos personales— en una herramienta de IA. Una vez que la envías, no controlas a dónde van esos datos."
+    },
+    {
+      "nm": "Noche de película",
+      "title": "Un evento del grado",
+      "body": "La noche de película de octavo grado presenta una película de aventura espacial y palomitas sin límite. Un plan divertido, pero no te ayudará a abrir ningún candado."
+    }
+  ],
+  "locks": [
+    {
+      "title": "La decisión responsable",
+      "q": "Usaste una IA para ayudar a redactar un ensayo. ¿Qué es lo responsable que debes hacer?",
+      "options": [
+        "Entregarlo tal cual y afirmar que escribiste cada palabra tú mismo",
+        "Verificar los datos, revisarlo y divulgar que la IA ayudó",
+        "Pegar los datos personales de tus compañeros para hacerlo más largo"
+      ],
+      "reason": "Tú sigues siendo responsable del trabajo, así que lo verificas y lo revisas, y eres honesto al divulgar que la IA ayudó. Reclamarlo como totalmente tuyo, o filtrar los datos de otros, no es responsable."
+    },
+    {
+      "title": "Hábitos responsables",
+      "q": "Marca TODOS los hábitos responsables al crear con IA.",
+      "items": [
+        "Divulgar que una IA ayudó con el trabajo",
+        "Verificar los datos y corregir los errores antes de entregar",
+        "Mantener la información privada fuera de las herramientas de IA",
+        "Reclamar el trabajo generado por IA como totalmente tuyo",
+        "Compartir los datos personales de alguien con un chatbot"
+      ],
+      "reason": "Divulgar la ayuda de la IA, verificar su trabajo y proteger los datos privados es responsable. Reclamar su trabajo como tuyo o filtrar datos personales no lo es."
+    },
+    {
+      "title": "Sé honesto al respecto",
+      "q": "Ser honesto en que una IA te ayudó —en vez de ocultarlo— significa que ______ su uso.",
+      "answer": ["divulgas", "divulgar", "declaras", "reconoces", "acreditas", "citas"],
+      "reason": "Divulgar que la IA ayudó es la opción honesta; ocultarlo y reclamar el trabajo como totalmente tuyo no lo es."
+    },
+    {
+      "title": "Crea de forma responsable",
+      "q": "Vas a usar una IA para ayudar a hacer una presentación de clase. Toca los pasos responsables en el orden CORRECTO.",
+      "pads": [
+        "🧠 Planea tu propia idea primero",
+        "🤖 Redacta con la ayuda de la IA",
+        "✔️ Verifica y revisa los datos",
+        "🏷️ Acredita la ayuda de la IA"
+      ],
+      "reason": "Primero PLANEA tu propia idea. Luego REDACTA con la ayuda de la IA. Después VERIFICA y revisa los datos. Por último ACREDITA la ayuda de la IA. Planea, Redacta, Verifica, Acredita."
+    }
+  ]
+}

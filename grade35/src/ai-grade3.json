@@ -1,0 +1,124 @@
+{
+  "id": "ai-grade3",
+  "grade": 3,
+  "confetti": ["#4338ca", "#06b6d4", "#7c3aed", "#0891b2", "#ffffff", "#a78bfa"],
+  "chrome": {
+    "eyebrow": {
+      "en": "Gen AI Literacy Breakout · Grade 3",
+      "es": "Breakout de alfabetización en IA generativa · Grado 3",
+      "vi": "Breakout hiểu biết AI tạo sinh · Lớp 3",
+      "ar": "تحدّي الثقافة في الذكاء الاصطناعي التوليدي · الصف 3",
+      "hi": "जनरेटिव AI साक्षरता ब्रेकआउट · कक्षा 3",
+      "ur": "جنریٹِو اے آئی خواندگی بریک آؤٹ · جماعت 3",
+      "zh": "生成式 AI 素养破解 · 3 年级"
+    },
+    "h1": "Meet the Machine that Guesses",
+    "sub": "A helper robot in the classroom keeps making guesses. How does it know things? Crack four locks to find out how a guessing machine really works.",
+    "briefLabel": "Your Mission",
+    "briefH": "Be an AI Detective",
+    "briefP": "Computers can now make guesses that seem smart. We call this artificial intelligence, or AI. Read the clues, then open all four locks. Each lock has a reason that shows why the answer is right.",
+    "footerText": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
+    "winStamp": "MYSTERY SOLVED",
+    "winH": "You cracked all four locks!",
+    "winP": "You learned that AI makes guesses by finding patterns, that it learns from examples called data, that it can be wrong so you check its work, and that your own ideas come first. Great detective work!"
+  },
+  "clues": [
+    {
+      "id": "c1",
+      "ico": "🤖",
+      "nm": "The Guesser",
+      "title": "What is AI?",
+      "body": "AI is a computer tool that makes a guess. It is not alive and it does not think or feel like you. It finds patterns in lots of examples and uses them to guess. That is why we call it a guessing machine."
+    },
+    {
+      "id": "c2",
+      "ico": "🐱",
+      "nm": "Many Examples",
+      "title": "How does it learn?",
+      "body": "To teach an AI to spot a cat, people show it many, many pictures of cats. The examples you give an AI are called data. The more good examples it sees, the better its guesses get."
+    },
+    {
+      "id": "c3",
+      "ico": "✅",
+      "nm": "Check It",
+      "title": "Is it always right?",
+      "body": "No. An AI can sound very sure and still be wrong, because it is only guessing. Smart users always check an AI's answer against what they know or a source they trust."
+    },
+    {
+      "id": "c4",
+      "ico": "🎨",
+      "nm": "Your Idea First",
+      "title": "Who is the boss?",
+      "body": "An AI can help you make a poem or a picture. But the idea is yours, and checking the work is your job too. The AI is a helper, not the boss."
+    },
+    {
+      "id": "c5",
+      "ico": "🧩",
+      "nm": "Find the Pattern",
+      "title": "How does it guess?",
+      "body": "AI guesses by finding patterns. If almost every 'dog' example has fur and four legs, the AI learns that pattern. Then it guesses a new furry, four-legged picture might be a dog too."
+    },
+    {
+      "id": "c6",
+      "ico": "🍕",
+      "nm": "Pizza Friday",
+      "title": "A class tradition",
+      "body": "Every Friday the class shares pizza, and the favorite is cheese. This is a fun fact about the class — but it will not help you open any lock.",
+      "decoy": true
+    }
+  ],
+  "locks": [
+    {
+      "id": "L1",
+      "type": "mc",
+      "color": "#4338ca",
+      "title": "What AI Really Does",
+      "q": "What does an AI guessing machine really do?",
+      "options": [
+        "It makes a guess by finding patterns in lots of examples",
+        "It is alive and has real feelings like a person",
+        "It always knows the true answer and is never wrong"
+      ],
+      "answerIndex": 0,
+      "reason": "AI is a tool that finds patterns in many examples and uses them to make a guess. It is not alive, and because it is guessing, it is not always right."
+    },
+    {
+      "id": "L2",
+      "type": "multi",
+      "color": "#7c3aed",
+      "title": "How AI Learns",
+      "q": "Check EVERY true thing about how an AI learns to make guesses.",
+      "items": [
+        { "t": "It learns from many examples that people give it", "strong": true },
+        { "t": "The examples it learns from are called data", "strong": true },
+        { "t": "More good examples help it make better guesses", "strong": true },
+        { "t": "It was born already knowing every answer", "strong": false },
+        { "t": "It can guess perfectly without seeing any examples", "strong": false }
+      ],
+      "reason": "An AI learns patterns from examples, and those examples are called data. More good data means better guesses. It was not born knowing things, and it cannot guess well with no examples at all."
+    },
+    {
+      "id": "L3",
+      "type": "word",
+      "color": "#0891b2",
+      "title": "Trust, but Verify",
+      "q": "An AI answer can sound sure but still be wrong. Before you trust it, you should ______ it.",
+      "answer": ["check", "check it", "checkit", "verify", "double check", "double-check", "doublecheck"],
+      "reason": "Because an AI is only guessing, it can be confidently wrong. You check its answer against what you know or a trusted source before you use it."
+    },
+    {
+      "id": "L4",
+      "type": "seq",
+      "color": "#0d9488",
+      "title": "Use an AI Helper Well",
+      "q": "You use an AI helper for a class poster. Tap the steps in the RIGHT order.",
+      "pads": [
+        { "k": "check", "e": "✅ Check if it is right", "c": "#4338ca" },
+        { "k": "ask", "e": "📝 Ask with a clear request", "c": "#7c3aed" },
+        { "k": "read", "e": "👀 Read what it made", "c": "#0891b2" }
+      ],
+      "answer": ["ask", "read", "check"],
+      "reason": "First ASK with a clear request. Then READ what the AI made. Then CHECK if it is right before you use it. Ask, Read, Check."
+    }
+  ]
+}

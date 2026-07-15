@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<title>The Prompt Lab — Gen AI Literacy Breakouts</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../assets/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="manifest" href="../assets/site.webmanifest">
+<meta name="theme-color" content="#4338ca">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Gen AI Literacy Breakouts">
+<meta property="og:title" content="The Prompt Lab">
+<meta property="og:description" content="Two students typed the same idea into an AI and got very different results. The secret was in the prompt. Crack four locks to learn how to ask an AI well.">
+<meta property="og:image" content="https://mglearn.github.io/genailit/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://mglearn.github.io/genailit/assets/og.png">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>:root{--navy:#4338ca;--navy-d:#312e81;--red:#c1121f;--red-d:#8b0d16;--gold:#06b6d4;--gold-d:#0e7490;--paper:#f5f6ff;--ink:#14203a;--ink-soft:#4b5a78;--card:#fff;--line:#e0e7ff;--good:#2f9e44;--bad:#e03131;--c1:#4338ca;--c2:#7c3aed;--c3:#0891b2;--c4:#06b6d4;--c5:#6d28d9;--bg-a:rgba(6,182,212,.12);--bg-b:rgba(67,56,202,.10)}</style>
+<link rel="stylesheet" href="../assets/breakout.css">
+</head>
+<body>
+<canvas id="confetti"></canvas>
+<div class="wrap">
+  <div class="langbar"><span class="globe" aria-hidden="true">🌐</span><div data-i18n-picker></div></div>
+  <div class="crumb"><a href="ai-grade5.html" data-i18n="crumb.teacher">‹ Teacher launch</a> · <a href="index.html" data-i18n="crumb.suite">Gen AI Literacy Breakouts</a></div>
+
+  <header class="top">
+    <div class="eyebrow" data-i18n="header.eyebrow">Gen AI Literacy Breakout · Grade 5</div>
+    <h1 data-i18n="header.h1">The Prompt Lab</h1>
+    <p class="sub" data-i18n="header.sub">Two students typed the same idea into an AI and got very different results. The secret was in the prompt. Crack four locks to learn how to ask an AI well.</p>
+  </header>
+
+  <div class="progress-wrap">
+    <span class="pcount" id="pcount">0 of 4 locks open</span>
+    <div class="lockdots" id="lockdots"></div>
+    <button class="resetbtn" id="resetBtn" data-i18n="ui.reset">↺ Reset</button>
+  </div>
+
+  <div class="brief">
+    <span class="tag" data-i18n="brief.label">Your Mission</span>
+    <h2 data-i18n="brief.h">Be a Prompt Scientist</h2>
+    <p data-i18n="brief.p">The instruction you give an AI is called a prompt. A clear prompt is like a good set of steps — it gets a better result. Read the clues, then open all four locks. Each lock has a reason that shows why the answer is right.</p>
+  </div>
+
+  <div class="section-title" data-i18n="sect.clues">🔍 The Clues</div>
+  <p class="hint" data-i18n="sect.cluesHint">Tap each clue to read it. You can open them again anytime.</p>
+  <div class="clue-grid" id="clueGrid"></div>
+
+  <div class="section-title" data-i18n="sect.locks">🔒 The Locks</div>
+  <p class="hint" data-i18n="sect.locksHint">Use the clues to open each lock.</p>
+  <div class="locks" id="locks"></div>
+
+  <footer>
+    <span data-i18n="footer.text">Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.</span> · <a href="policy.html" data-i18n="footer.privacy">Privacy &amp; compliance</a><br>
+    <span style="opacity:.7" data-i18n="footer.disclaimer">Translations are AI-seeded and pending native-speaker review.</span>
+  </footer>
+</div>
+
+<div class="modal-bg" id="modalBg"><div class="modal" id="modal"></div></div>
+<div class="win" id="win"><div class="win-card">
+  <div class="stamp" data-i18n="win.stamp">MYSTERY SOLVED</div>
+  <h2 data-i18n="win.h">You cracked all four locks!</h2>
+  <p data-i18n="win.p">You learned that a prompt is a clear instruction, that strong prompts name the task, details, and format, that you refine and try again, and that you always check the facts. Great work, scientist!</p>
+  <button id="winReplay" data-i18n="ui.playagain">Play Again</button>
+</div></div>
+
+<script src="locales/ai-grade5.js"></script>
+<script src="../assets/i18n.js"></script>
+<script src="../assets/breakout.js"></script>
+</body>
+</html>

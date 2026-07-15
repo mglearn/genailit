@@ -1,0 +1,124 @@
+{
+  "id": "ai-grade7",
+  "grade": 7,
+  "confetti": ["#4338ca", "#06b6d4", "#7c3aed", "#0891b2", "#ffffff", "#a78bfa"],
+  "chrome": {
+    "eyebrow": {
+      "en": "Gen AI Literacy Breakout · Grade 7",
+      "es": "Breakout de alfabetización en IA generativa · Grado 7",
+      "vi": "Breakout hiểu biết AI tạo sinh · Lớp 7",
+      "ar": "تحدّي الثقافة في الذكاء الاصطناعي التوليدي · الصف 7",
+      "hi": "जनरेटिव AI साक्षरता ब्रेकआउट · कक्षा 7",
+      "ur": "جنریٹِو اے آئی خواندگی بریک آؤٹ · جماعت 7",
+      "zh": "生成式 AI 素养破解 · 7 年级"
+    },
+    "h1": "Bias in the Machine",
+    "sub": "An AI keeps giving answers that quietly favor one side. It isn't an accident — it's the data. Crack four locks to trace where bias comes from.",
+    "briefLabel": "Your Mission",
+    "briefH": "Be a Bias Investigator",
+    "briefP": "AI reflects the data it learned from and the choices of the people who built it. When that data leans, so do the answers. Read the clues, then open all four locks. Each lock reveals the reasoning behind the answer.",
+    "footerText": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
+    "winStamp": "CASE CLOSED",
+    "winH": "You cracked all four locks!",
+    "winP": "You learned that AI reflects its training data, that bias comes from skewed data, missing examples, and human choices, that it can amplify stereotypes at scale, and how to evaluate an AI's answer critically. Sharp work."
+  },
+  "clues": [
+    {
+      "id": "c1",
+      "ico": "⚖️",
+      "nm": "What Is Bias?",
+      "title": "An unfair lean",
+      "body": "Bias is an unfair leaning toward or against something. An AI is biased when its answers unfairly favor some people, groups, or ideas over others — even when no one meant for it to."
+    },
+    {
+      "id": "c2",
+      "ico": "📊",
+      "nm": "It Reflects Its Data",
+      "title": "Patterns in, patterns out",
+      "body": "AI learns patterns from training data. If that data mostly shows one group, one language, or one point of view, the AI's answers lean that way too. It reflects what it was fed."
+    },
+    {
+      "id": "c3",
+      "ico": "🕳️",
+      "nm": "Who's Missing?",
+      "title": "Bias from absence",
+      "body": "Bias also comes from what is LEFT OUT. If examples of some people, places, or viewpoints are missing from the data, the AI represents them poorly — or not at all."
+    },
+    {
+      "id": "c4",
+      "ico": "👥",
+      "nm": "Human Choices",
+      "title": "It starts with people",
+      "body": "People choose the data and set the rules. Their blind spots can become the AI's blind spots. Bias isn't only inside the machine — it starts with human choices."
+    },
+    {
+      "id": "c5",
+      "ico": "📢",
+      "nm": "At Scale",
+      "title": "One slant, millions of times",
+      "body": "A biased AI doesn't make a single mistake — it repeats the same slant to millions of users. That can spread stereotypes and misinformation quickly and widely."
+    },
+    {
+      "id": "c6",
+      "ico": "🎸",
+      "nm": "Talent Show",
+      "title": "A school event",
+      "body": "The spring talent show is in the gym this year, and last year a ukulele duet took first place. Fun to know — but it will not help you open any lock.",
+      "decoy": true
+    }
+  ],
+  "locks": [
+    {
+      "id": "L1",
+      "type": "mc",
+      "color": "#4338ca",
+      "title": "Where Bias Begins",
+      "q": "Why might an AI give biased answers?",
+      "options": [
+        "Because computers have personal opinions and feelings",
+        "Because it learned from data that over-represents some views and leaves others out",
+        "Because bias is impossible in anything a computer does"
+      ],
+      "answerIndex": 1,
+      "reason": "AI has no opinions of its own. It reflects its training data — so when that data over-represents some views and omits others, the answers come out biased."
+    },
+    {
+      "id": "L2",
+      "type": "multi",
+      "color": "#7c3aed",
+      "title": "Sources of Bias",
+      "q": "Check EVERY place bias in an AI can come from.",
+      "items": [
+        { "t": "Training data that over-represents one group or view", "strong": true },
+        { "t": "Important examples being missing from the data", "strong": true },
+        { "t": "The choices and blind spots of the people who built it", "strong": true },
+        { "t": "The AI personally disliking certain people", "strong": false },
+        { "t": "Careful, balanced data drawn from many sources", "strong": false }
+      ],
+      "reason": "Bias comes from skewed data, missing examples, and human choices. An AI has no personal feelings, and balanced data reduces bias rather than causing it."
+    },
+    {
+      "id": "L3",
+      "type": "word",
+      "color": "#0891b2",
+      "title": "Name the Harm",
+      "q": "A biased AI can repeat an unfair, oversimplified idea about a whole group. That idea is called a ______.",
+      "answer": ["stereotype", "stereotypes", "a stereotype"],
+      "reason": "An unfair, oversimplified idea about a whole group is a stereotype, and a biased AI can spread stereotypes to many people at once."
+    },
+    {
+      "id": "L4",
+      "type": "seq",
+      "color": "#0d9488",
+      "title": "Evaluate the Answer",
+      "q": "An AI gives you a one-sided answer about a topic. Tap the steps to evaluate it in the RIGHT order.",
+      "pads": [
+        { "k": "ask", "e": "🤔 Ask what data it learned from", "c": "#4338ca" },
+        { "k": "missing", "e": "🕳️ Ask whose view is missing", "c": "#7c3aed" },
+        { "k": "crosscheck", "e": "🔎 Cross-check other sources", "c": "#0891b2" }
+      ],
+      "answer": ["ask", "missing", "crosscheck"],
+      "reason": "First ASK what data it learned from. Then ask whose view is MISSING. Then CROSS-CHECK against other sources. Ask, Missing, Cross-check."
+    }
+  ]
+}

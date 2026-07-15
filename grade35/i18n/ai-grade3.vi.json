@@ -1,0 +1,86 @@
+{
+  "chrome": {
+    "h1": "Gặp Gỡ Cỗ Máy Biết Đoán",
+    "sub": "Một chú robot giúp việc trong lớp cứ liên tục đưa ra phỏng đoán. Làm sao nó biết mọi thứ? Hãy mở bốn khóa để khám phá cách một cỗ máy biết đoán thật sự hoạt động.",
+    "briefLabel": "Nhiệm Vụ Của Em",
+    "briefH": "Trở Thành Thám Tử AI",
+    "briefP": "Máy tính giờ đây có thể đưa ra những phỏng đoán trông có vẻ thông minh. Chúng ta gọi đó là trí tuệ nhân tạo, hay AI. Hãy đọc các manh mối, rồi mở cả bốn khóa. Mỗi khóa có một lý do cho thấy vì sao đáp án đúng.",
+    "footerText": "Gen AI Literacy Breakouts · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+    "winStamp": "ĐÃ GIẢI ĐƯỢC BÍ ẨN",
+    "winH": "Em đã mở được cả bốn khóa!",
+    "winP": "Em đã học được rằng AI đưa ra phỏng đoán bằng cách tìm ra các mẫu, rằng nó học từ các ví dụ gọi là dữ liệu, rằng nó có thể sai nên em phải kiểm tra lại, và rằng ý tưởng của chính em mới là quan trọng nhất. Làm thám tử giỏi lắm!",
+    "crumbSuite": "Breakout hiểu biết AI tạo sinh"
+  },
+  "clues": [
+    {
+      "nm": "Kẻ Biết Đoán",
+      "title": "AI là gì?",
+      "body": "AI là một công cụ máy tính đưa ra phỏng đoán. Nó không phải là sinh vật sống và nó không suy nghĩ hay cảm nhận như em. Nó tìm các mẫu trong rất nhiều ví dụ và dùng chúng để đoán. Vì thế chúng ta gọi nó là cỗ máy biết đoán."
+    },
+    {
+      "nm": "Nhiều Ví Dụ",
+      "title": "Nó học như thế nào?",
+      "body": "Để dạy một AI nhận ra con mèo, người ta cho nó xem rất, rất nhiều hình con mèo. Những ví dụ mà em đưa cho AI được gọi là dữ liệu. Càng có nhiều ví dụ tốt, phỏng đoán của nó càng chính xác hơn."
+    },
+    {
+      "nm": "Hãy Kiểm Tra",
+      "title": "Nó luôn đúng phải không?",
+      "body": "Không. Một AI có thể nghe rất chắc chắn mà vẫn sai, vì nó chỉ đang đoán thôi. Người dùng thông minh luôn kiểm tra câu trả lời của AI với điều mình đã biết hoặc một nguồn mình tin cậy."
+    },
+    {
+      "nm": "Ý Tưởng Của Em Trước",
+      "title": "Ai là người chỉ huy?",
+      "body": "Một AI có thể giúp em làm một bài thơ hay một bức tranh. Nhưng ý tưởng là của em, và kiểm tra công việc cũng là nhiệm vụ của em. AI là người giúp việc, không phải người chỉ huy."
+    },
+    {
+      "nm": "Tìm Ra Mẫu",
+      "title": "Nó đoán như thế nào?",
+      "body": "AI đoán bằng cách tìm ra các mẫu. Nếu hầu như mọi ví dụ về 'chó' đều có lông và bốn chân, AI sẽ học được mẫu đó. Rồi nó đoán rằng một bức hình mới có lông và bốn chân cũng có thể là con chó."
+    },
+    {
+      "nm": "Thứ Sáu Ăn Pizza",
+      "title": "Một truyền thống của lớp",
+      "body": "Mỗi thứ Sáu cả lớp cùng ăn pizza, và món yêu thích là pizza phô mai. Đây là một điều thú vị về lớp học — nhưng nó sẽ không giúp em mở bất kỳ khóa nào."
+    }
+  ],
+  "locks": [
+    {
+      "title": "AI Thật Sự Làm Gì",
+      "q": "Một cỗ máy biết đoán AI thật sự làm gì?",
+      "options": [
+        "Nó đưa ra phỏng đoán bằng cách tìm các mẫu trong rất nhiều ví dụ",
+        "Nó là sinh vật sống và có cảm xúc thật như con người",
+        "Nó luôn biết đáp án đúng và không bao giờ sai"
+      ],
+      "reason": "AI là một công cụ tìm các mẫu trong nhiều ví dụ và dùng chúng để đưa ra phỏng đoán. Nó không phải sinh vật sống, và vì nó chỉ đang đoán nên không phải lúc nào cũng đúng."
+    },
+    {
+      "title": "AI Học Như Thế Nào",
+      "q": "Hãy chọn MỌI điều đúng về cách một AI học để đưa ra phỏng đoán.",
+      "items": [
+        "Nó học từ nhiều ví dụ mà người ta cho nó",
+        "Những ví dụ mà nó học được gọi là dữ liệu",
+        "Càng nhiều ví dụ tốt thì nó càng đoán giỏi hơn",
+        "Nó sinh ra đã biết sẵn mọi câu trả lời",
+        "Nó có thể đoán hoàn hảo mà không cần xem ví dụ nào"
+      ],
+      "reason": "Một AI học các mẫu từ các ví dụ, và những ví dụ đó được gọi là dữ liệu. Nhiều dữ liệu tốt hơn nghĩa là phỏng đoán tốt hơn. Nó không sinh ra đã biết sẵn, và không thể đoán giỏi nếu hoàn toàn không có ví dụ."
+    },
+    {
+      "title": "Tin Nhưng Phải Kiểm Chứng",
+      "q": "Một câu trả lời của AI có thể nghe chắc chắn nhưng vẫn sai. Trước khi tin nó, em nên ______ nó.",
+      "answer": ["kiểm tra", "kiểm tra lại", "kiểm chứng", "xác minh", "đối chiếu"],
+      "reason": "Vì AI chỉ đang đoán nên nó có thể sai một cách rất tự tin. Em phải kiểm tra câu trả lời của nó với điều mình đã biết hoặc một nguồn đáng tin cậy trước khi dùng."
+    },
+    {
+      "title": "Dùng Trợ Lý AI Cho Đúng",
+      "q": "Em dùng một trợ lý AI để làm áp phích cho lớp. Hãy chạm vào các bước theo đúng thứ tự.",
+      "pads": [
+        "✅ Kiểm tra xem có đúng không",
+        "📝 Hỏi bằng một yêu cầu rõ ràng",
+        "👀 Đọc những gì nó tạo ra"
+      ],
+      "reason": "Trước tiên HỎI bằng một yêu cầu rõ ràng. Rồi ĐỌC những gì AI tạo ra. Sau đó KIỂM TRA xem có đúng không trước khi dùng. Hỏi, Đọc, Kiểm tra."
+    }
+  ]
+}

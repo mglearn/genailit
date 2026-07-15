@@ -1,0 +1,85 @@
+{
+  "chrome": {
+    "h1": "Phòng Thí Nghiệm Câu Lệnh",
+    "sub": "Hai học sinh gõ cùng một ý tưởng vào AI và nhận được kết quả rất khác nhau. Bí mật nằm ở câu lệnh (prompt). Hãy mở bốn khóa để học cách ra lệnh cho AI thật tốt.",
+    "briefLabel": "Nhiệm Vụ Của Em",
+    "briefH": "Trở Thành Nhà Khoa Học Câu Lệnh",
+    "briefP": "Chỉ dẫn mà em đưa cho một AI được gọi là câu lệnh (prompt). Một câu lệnh rõ ràng giống như một bộ các bước tốt — nó cho kết quả tốt hơn. Hãy đọc các manh mối, rồi mở cả bốn khóa. Mỗi khóa có một lý do cho thấy vì sao đáp án đúng.",
+    "footerText": "Gen AI Literacy Breakouts · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+    "winStamp": "ĐÃ GIẢI ĐƯỢC BÍ ẨN",
+    "winH": "Em đã mở được cả bốn khóa!",
+    "winP": "Em đã học được rằng một câu lệnh là một chỉ dẫn rõ ràng, rằng câu lệnh mạnh nêu ra nhiệm vụ, chi tiết và định dạng, rằng em phải tinh chỉnh và thử lại, và rằng em luôn kiểm tra các sự việc. Làm tốt lắm, nhà khoa học!",
+    "crumbSuite": "Breakout hiểu biết AI tạo sinh"
+  },
+  "clues": [
+    {
+      "nm": "Câu Lệnh Là Gì?",
+      "title": "Chỉ dẫn mà em đưa ra",
+      "body": "Câu lệnh (prompt) là chỉ dẫn mà em gõ cho một AI. Cũng giống như chỉ đường cho một người bạn, chỉ dẫn càng rõ ràng thì kết quả càng tốt. Một câu lệnh mơ hồ cho một câu trả lời mơ hồ."
+    },
+    {
+      "nm": "Ba Phần",
+      "title": "Câu lệnh mạnh nêu ra điều gì",
+      "body": "Một câu lệnh mạnh nêu ra ba điều: NHIỆM VỤ (làm gì), CHI TIẾT (chủ đề, độ dài, dành cho ai), và ĐỊNH DẠNG (một danh sách, một bài thơ, một đoạn văn). Nhiệm vụ, chi tiết, định dạng — đó là ba phần."
+    },
+    {
+      "nm": "Thử Lại",
+      "title": "Cải thiện và lặp lại",
+      "body": "Nếu câu trả lời đầu tiên không như em muốn, đừng bỏ cuộc. Em thay đổi câu lệnh và thử lại. Việc cải thiện câu lệnh và thử lại được gọi là tinh chỉnh."
+    },
+    {
+      "nm": "Em Là Người Phán Xét",
+      "title": "So sánh và lựa chọn",
+      "body": "Một AI có thể đưa ra hai câu trả lời khác nhau cho cùng một câu lệnh. Em so sánh chúng và chọn câu tốt nhất. Em là người phán xét — AI thì không."
+    },
+    {
+      "nm": "Kiểm Tra Sự Việc",
+      "title": "Tự tin không có nghĩa là đúng",
+      "body": "Ngay cả một câu trả lời nghe rất hay cũng có thể giấu một sự việc sai. Trước khi dùng những gì AI đưa cho em, hãy kiểm tra các sự việc với một nguồn em tin cậy."
+    },
+    {
+      "nm": "Chuột Hamster Của Lớp",
+      "title": "Thú cưng của lớp học",
+      "body": "Chú hamster của lớp tên là Waffles, mỗi đêm chạy trên bánh xe và rất thích hạt hướng dương. Đây là một điều thú vị — nhưng nó sẽ không giúp em mở bất kỳ khóa nào."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Vì Sao Rõ Ràng Thắng",
+      "q": "Vì sao một câu lệnh rõ ràng, cụ thể lại hiệu quả hơn một câu lệnh mơ hồ?",
+      "options": [
+        "Vì AI có thể đọc được suy nghĩ của em nếu em gõ đủ nhanh",
+        "Vì chỉ dẫn rõ ràng cho AI biết chính xác điều em muốn, như một lời chỉ đường tốt",
+        "Vì câu lệnh mơ hồ làm hỏng máy tính"
+      ],
+      "reason": "Một câu lệnh là một chỉ dẫn. Chỉ dẫn rõ ràng, cụ thể cho AI biết chính xác điều em muốn, nên em nhận được kết quả tốt hơn — giống như một lời chỉ đường rõ ràng."
+    },
+    {
+      "title": "Ba Phần",
+      "q": "Một câu lệnh mạnh nêu ra bao nhiêu phần — nhiệm vụ, chi tiết, và định dạng? Hãy gõ con số.",
+      "reason": "Một câu lệnh mạnh nêu ra ba phần: nhiệm vụ, chi tiết, và định dạng. Nêu ra cả ba sẽ cho kết quả tốt hơn."
+    },
+    {
+      "title": "Thói Quen Ra Câu Lệnh Thông Minh",
+      "q": "Hãy chọn MỌI thói quen của một người viết câu lệnh thông minh.",
+      "items": [
+        "Đưa ra chỉ dẫn rõ ràng, cụ thể",
+        "Tinh chỉnh câu lệnh và thử lại nếu cần",
+        "Kiểm tra các sự việc trước khi dùng câu trả lời",
+        "Gõ một từ mơ hồ và dùng bất cứ thứ gì hiện ra",
+        "Tin một câu trả lời chỉ vì nó nghe có vẻ tự tin"
+      ],
+      "reason": "Ra câu lệnh thông minh nghĩa là rõ ràng, tinh chỉnh khi cần, và kiểm tra sự việc. Câu lệnh mơ hồ và tin tưởng mù quáng không phải là thói quen thông minh."
+    },
+    {
+      "title": "Cải Thiện Kết Quả",
+      "q": "Kết quả đầu tiên của em quá dài và lệch chủ đề. Hãy chạm vào các bước để cải thiện theo đúng thứ tự.",
+      "pads": [
+        "✍️ Thêm những chi tiết còn thiếu",
+        "🔁 Thử câu lệnh mới",
+        "🔎 Kiểm tra các sự việc"
+      ],
+      "reason": "Trước tiên THÊM những chi tiết còn thiếu vào câu lệnh. Rồi THỬ LẠI với câu lệnh rõ ràng hơn. Sau đó KIỂM TRA các sự việc trước khi dùng. Thêm, Thử lại, Kiểm tra."
+    }
+  ]
+}

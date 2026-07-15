@@ -1,0 +1,87 @@
+{
+  "chrome": {
+    "h1": "Sáng Tạo Với AI Một Cách Có Trách Nhiệm",
+    "sub": "Em được phép sáng tạo với AI — nhưng làm điều đó một cách trung thực đòi hỏi óc phán đoán. Hãy mở bốn khóa để học cách dùng AI như một công cụ mà không vượt qua ranh giới.",
+    "briefLabel": "Nhiệm Vụ Của Em",
+    "briefH": "Trở Thành Người Sáng Tạo Có Trách Nhiệm",
+    "briefP": "AI tạo sinh là một công cụ sáng tạo mạnh mẽ, và dùng nó tốt là một kỹ năng thật sự. Nhưng em vẫn là tác giả — và là người chịu trách nhiệm. Hãy đọc các manh mối, rồi mở cả bốn khóa. Mỗi khóa hé lộ lập luận đằng sau đáp án.",
+    "footerText": "Gen AI Literacy Breakouts · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+    "winStamp": "ĐÃ KHÉP LẠI VỤ ÁN",
+    "winH": "Em đã mở được cả bốn khóa!",
+    "winP": "Em đã học được cách công khai khi AI đã giúp, cách xác minh và chỉnh sửa lại công việc của nó, cách tôn trọng sáng tạo của người khác, và cách giữ thông tin riêng tư ngoài các công cụ AI. Đó là sáng tạo có trách nhiệm.",
+    "crumbSuite": "Breakout hiểu biết AI tạo sinh"
+  },
+  "clues": [
+    {
+      "nm": "AI Như Một Công Cụ",
+      "title": "Em vẫn là tác giả",
+      "body": "Dùng AI để động não hoặc soạn bản nháp là một kỹ năng thật sự. Nhưng em vẫn là tác giả: em lên kế hoạch, em ra quyết định, và em chịu trách nhiệm cho tác phẩm cuối cùng em nộp."
+    },
+    {
+      "nm": "Hãy Nói Rõ",
+      "title": "Trung thực nghĩa là công khai",
+      "body": "Trung thực nghĩa là công khai khi AI đã giúp — một ghi chú ngắn như 'soạn nháp với sự trợ giúp của một trợ lý AI.' Nhận hết công việc của AI là của riêng mình là không trung thực."
+    },
+    {
+      "nm": "Em Phải Xác Minh",
+      "title": "Lỗi của nó trở thành lỗi của em",
+      "body": "AI có thể sai hoặc bịa ra mọi thứ. Em phải xác minh các sự việc và sửa các lỗi trước khi nộp. Nếu không, lỗi của nó sẽ trở thành lỗi của em."
+    },
+    {
+      "nm": "Công Việc Của Ai?",
+      "title": "Tôn trọng những người sáng tạo khác",
+      "body": "AI có thể tạo ra văn bản hoặc hình ảnh sao chép tác phẩm của người khác. Hãy tôn trọng người sáng tạo: đừng nhận tác phẩm đó là nguyên gốc, và đừng dùng nó ở nơi em không có phép."
+    },
+    {
+      "nm": "Giữ Riêng Tư",
+      "title": "Bảo vệ dữ liệu cá nhân",
+      "body": "Đừng dán thông tin riêng tư — tên thật, mật khẩu, địa chỉ, chi tiết cá nhân — vào một công cụ AI. Một khi em gửi đi, em không còn kiểm soát được dữ liệu đó đi đâu."
+    },
+    {
+      "nm": "Đêm Xem Phim",
+      "title": "Một sự kiện của khối lớp",
+      "body": "Đêm xem phim của khối lớp tám chiếu một bộ phim phiêu lưu không gian và bắp rang bơ không giới hạn. Một kế hoạch vui — nhưng nó sẽ không giúp em mở bất kỳ khóa nào."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Hành Động Có Trách Nhiệm",
+      "q": "Em đã dùng một AI để giúp soạn nháp một bài luận. Điều có trách nhiệm cần làm là gì?",
+      "options": [
+        "Nộp nguyên như vậy và nhận rằng em tự viết từng chữ",
+        "Xác minh các sự việc, chỉnh sửa lại, và công khai rằng AI đã giúp",
+        "Dán thông tin cá nhân của bạn cùng lớp vào để bài dài hơn"
+      ],
+      "reason": "Em vẫn chịu trách nhiệm cho tác phẩm, nên em xác minh và chỉnh sửa lại, và em trung thực bằng cách công khai rằng AI đã giúp. Nhận nó hoàn toàn là của mình, hoặc làm lộ dữ liệu của người khác, là không có trách nhiệm."
+    },
+    {
+      "title": "Thói Quen Có Trách Nhiệm",
+      "q": "Hãy chọn MỌI thói quen có trách nhiệm khi sáng tạo với AI.",
+      "items": [
+        "Công khai rằng một AI đã giúp với công việc",
+        "Xác minh sự việc và sửa lỗi trước khi nộp",
+        "Giữ thông tin riêng tư ngoài các công cụ AI",
+        "Nhận tác phẩm do AI tạo ra là hoàn toàn của riêng mình",
+        "Chia sẻ chi tiết cá nhân của ai đó với một chatbot"
+      ],
+      "reason": "Công khai sự trợ giúp của AI, xác minh công việc của nó, và bảo vệ dữ liệu riêng tư là có trách nhiệm. Nhận công việc của nó là của mình hoặc làm lộ chi tiết cá nhân thì không."
+    },
+    {
+      "title": "Hãy Trung Thực Về Điều Đó",
+      "q": "Trung thực rằng một AI đã giúp em — thay vì giấu đi — nghĩa là em ______ việc dùng nó.",
+      "answer": ["công khai", "tiết lộ", "ghi công", "trích dẫn", "thừa nhận"],
+      "reason": "Công khai rằng AI đã giúp là lựa chọn trung thực; giấu đi và nhận tác phẩm là hoàn toàn của riêng mình thì không."
+    },
+    {
+      "title": "Sáng Tạo Có Trách Nhiệm",
+      "q": "Em sẽ dùng một AI để giúp làm bài thuyết trình cho lớp. Hãy chạm vào các bước có trách nhiệm theo đúng thứ tự.",
+      "pads": [
+        "🧠 Lên ý tưởng của riêng em trước",
+        "🤖 Soạn nháp với sự trợ giúp của AI",
+        "✔️ Xác minh và chỉnh sửa lại các sự việc",
+        "🏷️ Ghi công sự trợ giúp của AI"
+      ],
+      "reason": "Trước tiên LÊN KẾ HOẠCH ý tưởng của riêng em. Rồi SOẠN NHÁP với sự trợ giúp của AI. Sau đó XÁC MINH và chỉnh sửa lại các sự việc. Cuối cùng GHI CÔNG sự trợ giúp của AI. Lên kế hoạch, Soạn nháp, Xác minh, Ghi công."
+    }
+  ]
+}

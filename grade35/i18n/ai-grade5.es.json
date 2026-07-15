@@ -1,0 +1,85 @@
+{
+  "chrome": {
+    "h1": "El laboratorio de prompts",
+    "sub": "Dos estudiantes escribieron la misma idea en una IA y obtuvieron resultados muy distintos. El secreto estaba en el prompt. Abre cuatro candados para aprender a pedirle bien a una IA.",
+    "briefLabel": "Tu misión",
+    "briefH": "Sé un científico de prompts",
+    "briefP": "La instrucción que le das a una IA se llama prompt. Un prompt claro es como un buen conjunto de pasos: obtiene un mejor resultado. Lee las pistas y luego abre los cuatro candados. Cada candado tiene una razón que muestra por qué la respuesta es correcta.",
+    "footerText": "Breakouts de alfabetización en IA generativa · Funciona por completo en tu navegador — sin inicios de sesión, sin datos recopilados.",
+    "winStamp": "MISTERIO RESUELTO",
+    "winH": "¡Abriste los cuatro candados!",
+    "winP": "Aprendiste que un prompt es una instrucción clara, que los prompts fuertes nombran la tarea, los detalles y el formato, que refinas y vuelves a intentar, y que siempre revisas los datos. ¡Gran trabajo, científico!",
+    "crumbSuite": "Breakout de alfabetización en IA generativa"
+  },
+  "clues": [
+    {
+      "nm": "¿Qué es un prompt?",
+      "title": "La instrucción que le das",
+      "body": "Un prompt es la instrucción que le escribes a una IA. Igual que dar indicaciones a un amigo, instrucciones más claras obtienen mejores resultados. Un prompt vago obtiene una respuesta vaga."
+    },
+    {
+      "nm": "Tres partes",
+      "title": "Lo que nombra un prompt fuerte",
+      "body": "Un prompt fuerte nombra tres cosas: la TAREA (qué hacer), los DETALLES (tema, extensión, para quién es) y el FORMATO (una lista, un poema, un párrafo). Tarea, detalles, formato: eso son tres partes."
+    },
+    {
+      "nm": "Intenta de nuevo",
+      "title": "Mejora y repite",
+      "body": "Si la primera respuesta no es lo que querías, no te rindas. Cambias el prompt e intentas de nuevo. Mejorar tu prompt y volver a intentar se llama refinar."
+    },
+    {
+      "nm": "Tú eres el juez",
+      "title": "Compara y elige",
+      "body": "Una IA puede dar dos respuestas distintas al mismo prompt. Tú las comparas y eliges la mejor. Tú eres el juez, la IA no."
+    },
+    {
+      "nm": "Revisa los datos",
+      "title": "Seguro no es correcto",
+      "body": "Hasta una respuesta que suena estupenda puede esconder un dato equivocado. Antes de usar lo que te da una IA, revisa los datos comparándolos con una fuente en la que confíes."
+    },
+    {
+      "nm": "El hámster de la clase",
+      "title": "La mascota del salón",
+      "body": "El hámster de la clase, Waffles, corre en su rueda todas las noches y le encantan las semillas de girasol. Este es un dato divertido, pero no te ayudará a abrir ningún candado."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Por qué gana lo claro",
+      "q": "¿Por qué un prompt claro y específico funciona mejor que uno vago?",
+      "options": [
+        "Porque la IA puede leerte la mente si escribes lo bastante rápido",
+        "Porque las instrucciones claras le dicen a la IA exactamente lo que quieres, como buenas indicaciones",
+        "Porque los prompts vagos descomponen la computadora"
+      ],
+      "reason": "Un prompt es una instrucción. Instrucciones claras y específicas le dicen a la IA exactamente lo que quieres, así que obtienes un mejor resultado, igual que con indicaciones claras."
+    },
+    {
+      "title": "Las tres partes",
+      "q": "¿Cuántas partes nombra un prompt fuerte: la tarea, los detalles y el formato? Escribe el número.",
+      "reason": "Un prompt fuerte nombra tres partes: la tarea, los detalles y el formato. Nombrar las tres obtiene un mejor resultado."
+    },
+    {
+      "title": "Hábitos de prompts inteligentes",
+      "q": "Marca TODOS los hábitos de quien escribe prompts inteligentes.",
+      "items": [
+        "Dar instrucciones claras y específicas",
+        "Refinar el prompt y volver a intentar si hace falta",
+        "Revisar los datos antes de usar la respuesta",
+        "Escribir una palabra vaga y usar lo que salga",
+        "Creer una respuesta solo porque suena segura"
+      ],
+      "reason": "Escribir prompts de forma inteligente significa ser claro, refinar cuando hace falta y revisar los datos. Los prompts vagos y la confianza ciega no son hábitos inteligentes."
+    },
+    {
+      "title": "Mejora el resultado",
+      "q": "Tu primer resultado es demasiado largo y no toca el tema. Toca los pasos para mejorarlo en el orden CORRECTO.",
+      "pads": [
+        "✍️ Agrega los detalles que faltan",
+        "🔁 Prueba el nuevo prompt",
+        "🔎 Revisa los datos"
+      ],
+      "reason": "Primero AGREGA los detalles que faltan a tu prompt. Luego VUELVE A PROBAR con el prompt más claro. Después REVISA los datos antes de usarlo. Agrega, Prueba, Revisa."
+    }
+  ]
+}

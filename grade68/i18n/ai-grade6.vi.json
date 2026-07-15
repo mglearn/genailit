@@ -1,0 +1,86 @@
+{
+  "chrome": {
+    "h1": "Thật Hay Do AI Tạo Ra?",
+    "sub": "Một bức ảnh và một câu trích dẫn đang lan truyền nhanh trên mạng — và không cái nào là thật. AI tạo sinh đã tạo ra chúng. Hãy mở bốn khóa để học cách phân biệt.",
+    "briefLabel": "Nhiệm Vụ Của Em",
+    "briefH": "Trở Thành Điều Tra Viên Truyền Thông",
+    "briefP": "AI tạo sinh có thể tạo ra hình ảnh, văn bản và giọng nói trông và nghe có vẻ thật nhưng chưa từng được chụp hay ghi âm. Hãy đọc các manh mối, rồi mở cả bốn khóa. Mỗi khóa hé lộ lập luận đằng sau đáp án.",
+    "footerText": "Gen AI Literacy Breakouts · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+    "winStamp": "ĐÃ KHÉP LẠI VỤ ÁN",
+    "winH": "Em đã mở được cả bốn khóa!",
+    "winP": "Em đã học được rằng AI tạo sinh tạo ra truyền thông chân thực nhưng không có thật, cách nhận ra các dấu hiệu đặc trưng, rằng chatbot có thể tạo ra ảo giác (bịa đặt) những sự việc và nguồn sai, và phải xác minh trước khi chia sẻ. Điều tra sắc bén lắm.",
+    "crumbSuite": "Breakout hiểu biết AI tạo sinh"
+  },
+  "clues": [
+    {
+      "nm": "AI Đã Tạo Ra Cái Này",
+      "title": "Chân thực không có nghĩa là thật",
+      "body": "AI tạo sinh có thể tạo ra hình ảnh, văn bản và giọng nói hoàn toàn mới từ một câu lệnh. Không cái nào được chụp hay ghi âm — AI đã tạo ra nó. Trông chân thực không có nghĩa là nó có thật."
+    },
+    {
+      "nm": "Dấu Hiệu Đặc Trưng",
+      "title": "Chi tiết nhỏ sai lệch",
+      "body": "Hình ảnh do AI tạo thường sai ở những chi tiết nhỏ: thừa ngón tay, chữ nhòe nhoẹt trên biển báo, đôi khuyên tai không khớp, hoặc nền hòa lẫn vào nhau. Những chi tiết lạ hoặc bất khả thi là một dấu hiệu cảnh báo."
+    },
+    {
+      "nm": "Nguồn Bịa Đặt",
+      "title": "Tự tin nhưng sai sự thật",
+      "body": "Khi được hỏi về sự việc, đôi khi chatbot bịa ra một câu trích dẫn hoặc nêu một nguồn không hề tồn tại. Câu chữ tự tin không phải là bằng chứng. Khi một AI khẳng định điều sai như thế này, người ta gọi đó là ảo giác (bịa đặt)."
+    },
+    {
+      "nm": "Xác Minh Trước Đã",
+      "title": "Tìm ra nguồn gốc",
+      "body": "Trước khi tin hay chia sẻ, hãy đối chiếu nó với một nguồn đáng tin cậy: một hãng tin uy tín, người tạo ra bản gốc, hoặc tìm kiếm hình ảnh ngược. Không có nguồn đáng tin nghĩa là càng có lý do để nghi ngờ."
+    },
+    {
+      "nm": "Giọng Nói Nhân Bản",
+      "title": "Giọng nói có thể bị làm giả",
+      "body": "Chỉ từ một đoạn ngắn, AI có thể sao chép giọng của một người và khiến giọng đó 'nói' những điều họ chưa từng nói. Nghe một giọng nói quen thuộc không còn là bằng chứng rằng người đó thật sự đã nói vậy."
+    },
+    {
+      "nm": "Màu Của Đội",
+      "title": "Tinh thần trường lớp",
+      "body": "Màu của đội trường là xanh lá và vàng, và linh vật là một con chim ưng tên Swoop. Tinh thần trường lớp tốt đấy — nhưng nó sẽ không giúp em mở bất kỳ khóa nào."
+    }
+  ],
+  "locks": [
+    {
+      "title": "'Do AI Tạo Ra' Nghĩa Là Gì",
+      "q": "Khi một bức ảnh là 'do AI tạo ra' thì điều đó nghĩa là gì?",
+      "options": [
+        "Một máy ảnh đã chụp một cảnh thật đúng như nó diễn ra",
+        "Một AI đã tạo ra bức ảnh từ một câu lệnh — nó có thể trông thật nhưng chưa từng được chụp",
+        "Nó luôn dễ nhận ra và không bao giờ có thể đánh lừa ai"
+      ],
+      "reason": "Một bức ảnh do AI tạo ra được tạo từ một câu lệnh, không phải được máy ảnh ghi lại. Nó có thể trông hoàn toàn thật, và đó chính là lý do nó có thể đánh lừa người ta."
+    },
+    {
+      "title": "Dấu Hiệu Của Đồ Giả",
+      "q": "Hãy chọn MỌI dấu hiệu cho thấy một bức ảnh hoặc lời khẳng định CÓ THỂ do AI tạo ra hoặc là giả.",
+      "items": [
+        "Bàn tay, hàm răng, hoặc chữ trong ảnh trông nhòe nhoẹt hoặc sai",
+        "Không có nguồn đáng tin và không có người tạo ra bản gốc",
+        "Không thể tìm thấy câu trích dẫn hoặc nguồn ở bất kỳ đâu khác",
+        "Một hãng tin uy tín cũng đưa tin với bằng chứng",
+        "Người chụp ảnh gốc được biết đến và có thể xác minh"
+      ],
+      "reason": "Chi tiết nhòe nhoẹt, không có nguồn truy vết được, và trích dẫn không tìm thấy đều cho thấy khả năng là đồ giả. Một người tạo ra có thể xác minh hoặc bằng chứng của hãng tin uy tín thì chỉ về hướng ngược lại."
+    },
+    {
+      "title": "Gọi Tên Lỗi",
+      "q": "Khi một chatbot khẳng định một sự việc sai hoặc bịa ra một nguồn mà nghe có vẻ chắc chắn, ta nói nó đã tạo ra một ______.",
+      "answer": ["ảo giác", "ảo giác bịa đặt", "sự bịa đặt", "hiện tượng ảo giác"],
+      "reason": "Một AI có thể khẳng định sự việc sai hoặc bịa ra nguồn với sự tự tin hoàn toàn — đó gọi là ảo giác (bịa đặt), và đó là lý do em phải xác minh trước khi tin."
+    },
+    {
+      "title": "Kiểm Tra Trước Khi Chia Sẻ",
+      "q": "Một bức ảnh gây sốc đang lan truyền trên mạng. Hãy chạm vào các bước để kiểm tra theo đúng thứ tự.",
+      "pads": [
+        "🔍 Xem xét các chi tiết để tìm lỗi",
+        "📰 Tìm một nguồn đáng tin cậy",
+        "🧠 Quyết định trước khi chia sẻ"
+      ],
+      "reason": "Trước tiên XEM XÉT bức ảnh để tìm lỗi của AI. Rồi tìm một NGUỒN đáng tin cậy xác nhận nó. Sau đó QUYẾT ĐỊNH trước khi chia sẻ. Xem xét, Nguồn, Quyết định."
+    }
+  ]
+}

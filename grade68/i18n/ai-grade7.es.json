@@ -1,0 +1,86 @@
+{
+  "chrome": {
+    "h1": "El sesgo en la máquina",
+    "sub": "Una IA sigue dando respuestas que en silencio favorecen a un lado. No es un accidente: son los datos. Abre cuatro candados para rastrear de dónde viene el sesgo.",
+    "briefLabel": "Tu misión",
+    "briefH": "Sé un investigador de sesgos",
+    "briefP": "La IA refleja los datos de los que aprendió y las decisiones de las personas que la construyeron. Cuando esos datos se inclinan, las respuestas también. Lee las pistas y luego abre los cuatro candados. Cada candado revela el razonamiento detrás de la respuesta.",
+    "footerText": "Breakouts de alfabetización en IA generativa · Funciona por completo en tu navegador — sin inicios de sesión, sin datos recopilados.",
+    "winStamp": "CASO CERRADO",
+    "winH": "¡Abriste los cuatro candados!",
+    "winP": "Aprendiste que la IA refleja sus datos de entrenamiento, que el sesgo viene de datos desequilibrados, de ejemplos ausentes y de decisiones humanas, que puede amplificar estereotipos a gran escala, y cómo evaluar críticamente la respuesta de una IA. Buen trabajo.",
+    "crumbSuite": "Breakout de alfabetización en IA generativa"
+  },
+  "clues": [
+    {
+      "nm": "¿Qué es el sesgo?",
+      "title": "Una inclinación injusta",
+      "body": "El sesgo es una inclinación injusta a favor o en contra de algo. Una IA está sesgada cuando sus respuestas favorecen injustamente a ciertas personas, grupos o ideas por encima de otros, aunque nadie lo haya querido."
+    },
+    {
+      "nm": "Refleja sus datos",
+      "title": "Patrones que entran, patrones que salen",
+      "body": "La IA aprende patrones de los datos de entrenamiento. Si esos datos muestran sobre todo a un grupo, un idioma o un punto de vista, las respuestas de la IA se inclinan hacia ahí también. Refleja lo que se le dio."
+    },
+    {
+      "nm": "¿Quién falta?",
+      "title": "Sesgo por ausencia",
+      "body": "El sesgo también viene de lo que se DEJA FUERA. Si faltan en los datos ejemplos de algunas personas, lugares o puntos de vista, la IA los representa mal, o no los representa en absoluto."
+    },
+    {
+      "nm": "Decisiones humanas",
+      "title": "Empieza con las personas",
+      "body": "Las personas eligen los datos y fijan las reglas. Sus puntos ciegos pueden convertirse en los puntos ciegos de la IA. El sesgo no está solo dentro de la máquina: empieza con decisiones humanas."
+    },
+    {
+      "nm": "A gran escala",
+      "title": "Una inclinación, millones de veces",
+      "body": "Una IA sesgada no comete un solo error: repite la misma inclinación a millones de usuarios. Eso puede propagar estereotipos y desinformación de forma rápida y amplia."
+    },
+    {
+      "nm": "Show de talentos",
+      "title": "Un evento escolar",
+      "body": "El show de talentos de primavera es en el gimnasio este año, y el año pasado un dúo de ukelele ganó el primer lugar. Divertido de saber, pero no te ayudará a abrir ningún candado."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Dónde empieza el sesgo",
+      "q": "¿Por qué una IA podría dar respuestas sesgadas?",
+      "options": [
+        "Porque las computadoras tienen opiniones y sentimientos personales",
+        "Porque aprendió de datos que sobrerrepresentan algunas ideas y dejan otras fuera",
+        "Porque el sesgo es imposible en cualquier cosa que haga una computadora"
+      ],
+      "reason": "La IA no tiene opiniones propias. Refleja sus datos de entrenamiento, así que cuando esos datos sobrerrepresentan algunas ideas y omiten otras, las respuestas salen sesgadas."
+    },
+    {
+      "title": "Fuentes del sesgo",
+      "q": "Marca TODOS los lugares de donde puede venir el sesgo de una IA.",
+      "items": [
+        "Datos de entrenamiento que sobrerrepresentan a un grupo o punto de vista",
+        "Ejemplos importantes que faltan en los datos",
+        "Las decisiones y los puntos ciegos de las personas que la construyeron",
+        "Que a la IA le desagraden personalmente ciertas personas",
+        "Datos cuidadosos y equilibrados tomados de muchas fuentes"
+      ],
+      "reason": "El sesgo viene de datos desequilibrados, ejemplos ausentes y decisiones humanas. Una IA no tiene sentimientos personales, y los datos equilibrados reducen el sesgo en lugar de causarlo."
+    },
+    {
+      "title": "Nombra el daño",
+      "q": "Una IA sesgada puede repetir una idea injusta y simplificada sobre todo un grupo. Esa idea se llama un ______.",
+      "answer": ["estereotipo", "estereotipos", "un estereotipo"],
+      "reason": "Una idea injusta y simplificada sobre todo un grupo es un estereotipo, y una IA sesgada puede difundir estereotipos a muchas personas a la vez."
+    },
+    {
+      "title": "Evalúa la respuesta",
+      "q": "Una IA te da una respuesta parcial sobre un tema. Toca los pasos para evaluarla en el orden CORRECTO.",
+      "pads": [
+        "🤔 Pregunta de qué datos aprendió",
+        "🕳️ Pregunta qué punto de vista falta",
+        "🔎 Compara con otras fuentes"
+      ],
+      "reason": "Primero PREGUNTA de qué datos aprendió. Luego pregunta qué punto de vista FALTA. Después COMPARA con otras fuentes. Pregunta, Falta, Compara."
+    }
+  ]
+}

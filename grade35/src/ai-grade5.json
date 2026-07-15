@@ -1,0 +1,125 @@
+{
+  "id": "ai-grade5",
+  "grade": 5,
+  "confetti": ["#4338ca", "#06b6d4", "#7c3aed", "#0891b2", "#ffffff", "#a78bfa"],
+  "chrome": {
+    "eyebrow": {
+      "en": "Gen AI Literacy Breakout · Grade 5",
+      "es": "Breakout de alfabetización en IA generativa · Grado 5",
+      "vi": "Breakout hiểu biết AI tạo sinh · Lớp 5",
+      "ar": "تحدّي الثقافة في الذكاء الاصطناعي التوليدي · الصف 5",
+      "hi": "जनरेटिव AI साक्षरता ब्रेकआउट · कक्षा 5",
+      "ur": "جنریٹِو اے آئی خواندگی بریک آؤٹ · جماعت 5",
+      "zh": "生成式 AI 素养破解 · 5 年级"
+    },
+    "h1": "The Prompt Lab",
+    "sub": "Two students typed the same idea into an AI and got very different results. The secret was in the prompt. Crack four locks to learn how to ask an AI well.",
+    "briefLabel": "Your Mission",
+    "briefH": "Be a Prompt Scientist",
+    "briefP": "The instruction you give an AI is called a prompt. A clear prompt is like a good set of steps — it gets a better result. Read the clues, then open all four locks. Each lock has a reason that shows why the answer is right.",
+    "footerText": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
+    "winStamp": "MYSTERY SOLVED",
+    "winH": "You cracked all four locks!",
+    "winP": "You learned that a prompt is a clear instruction, that strong prompts name the task, details, and format, that you refine and try again, and that you always check the facts. Great work, scientist!"
+  },
+  "clues": [
+    {
+      "id": "c1",
+      "ico": "💬",
+      "nm": "What's a Prompt?",
+      "title": "The instruction you give",
+      "body": "A prompt is the instruction you type to an AI. Just like giving directions to a friend, clearer instructions get better results. A vague prompt gets a vague answer."
+    },
+    {
+      "id": "c2",
+      "ico": "📋",
+      "nm": "Three Parts",
+      "title": "What a strong prompt names",
+      "body": "A strong prompt names three things: the TASK (what to do), the DETAILS (topic, length, who it's for), and the FORMAT (a list, a poem, a paragraph). Task, details, format — that's three parts."
+    },
+    {
+      "id": "c3",
+      "ico": "🔁",
+      "nm": "Try Again",
+      "title": "Improve and repeat",
+      "body": "If the first answer isn't what you wanted, don't give up. You change the prompt and try again. Improving your prompt and re-trying is called refining."
+    },
+    {
+      "id": "c4",
+      "ico": "⚖️",
+      "nm": "You're the Judge",
+      "title": "Compare and choose",
+      "body": "An AI can give two different answers to the very same prompt. You compare them and pick the best one. You are the judge — the AI is not."
+    },
+    {
+      "id": "c5",
+      "ico": "🔎",
+      "nm": "Check the Facts",
+      "title": "Confident isn't correct",
+      "body": "Even a great-sounding answer can hide a wrong fact. Before you use what an AI gives you, check the facts against a source you trust."
+    },
+    {
+      "id": "c6",
+      "ico": "🐹",
+      "nm": "Class Hamster",
+      "title": "The classroom pet",
+      "body": "The class hamster, Waffles, runs on his wheel every night and loves sunflower seeds. This is a fun fact — but it will not help you open any lock.",
+      "decoy": true
+    }
+  ],
+  "locks": [
+    {
+      "id": "L1",
+      "type": "mc",
+      "color": "#4338ca",
+      "title": "Why Clear Wins",
+      "q": "Why does a clear, specific prompt work better than a vague one?",
+      "options": [
+        "Because the AI can read your mind if you type fast enough",
+        "Because clear instructions tell the AI exactly what you want, like good directions",
+        "Because vague prompts break the computer"
+      ],
+      "answerIndex": 1,
+      "reason": "A prompt is an instruction. Clear, specific instructions tell the AI exactly what you want, so you get a better result — just like clear directions."
+    },
+    {
+      "id": "L2",
+      "type": "digit",
+      "color": "#7c3aed",
+      "title": "The Three Parts",
+      "q": "A strong prompt names how many parts — the task, the details, and the format? Type the number.",
+      "len": 1,
+      "answer": ["3"],
+      "reason": "A strong prompt names three parts: the task, the details, and the format. Naming all three gets a better result."
+    },
+    {
+      "id": "L3",
+      "type": "multi",
+      "color": "#0891b2",
+      "title": "Smart Prompt Habits",
+      "q": "Check EVERY habit of a smart prompt writer.",
+      "items": [
+        { "t": "Giving clear, specific instructions", "strong": true },
+        { "t": "Refining the prompt and trying again if needed", "strong": true },
+        { "t": "Checking the facts before using the answer", "strong": true },
+        { "t": "Typing one vague word and using whatever comes out", "strong": false },
+        { "t": "Believing an answer just because it sounds confident", "strong": false }
+      ],
+      "reason": "Smart prompting means being clear, refining when needed, and checking facts. Vague prompts and blind trust are not smart habits."
+    },
+    {
+      "id": "L4",
+      "type": "seq",
+      "color": "#0d9488",
+      "title": "Improve the Result",
+      "q": "Your first result is too long and misses the topic. Tap the steps to improve it in the RIGHT order.",
+      "pads": [
+        { "k": "add", "e": "✍️ Add the missing details", "c": "#4338ca" },
+        { "k": "retry", "e": "🔁 Try the new prompt", "c": "#7c3aed" },
+        { "k": "check", "e": "🔎 Check the facts", "c": "#0891b2" }
+      ],
+      "answer": ["add", "retry", "check"],
+      "reason": "First ADD the missing details to your prompt. Then RETRY with the clearer prompt. Then CHECK the facts before you use it. Add, Retry, Check."
+    }
+  ]
+}

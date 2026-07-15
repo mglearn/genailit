@@ -1,0 +1,86 @@
+{
+  "chrome": {
+    "h1": "¿Real o generado?",
+    "sub": "Una foto y una cita se difunden rápido en internet, y ninguna es real. Las creó la IA generativa. Abre cuatro candados para aprender a distinguirlas.",
+    "briefLabel": "Tu misión",
+    "briefH": "Sé un investigador de medios",
+    "briefP": "La IA generativa puede producir imágenes, textos y voces que se ven y suenan reales pero que nunca se fotografiaron ni se grabaron. Lee las pistas y luego abre los cuatro candados. Cada candado revela el razonamiento detrás de la respuesta.",
+    "footerText": "Breakouts de alfabetización en IA generativa · Funciona por completo en tu navegador — sin inicios de sesión, sin datos recopilados.",
+    "winStamp": "CASO CERRADO",
+    "winH": "¡Abriste los cuatro candados!",
+    "winP": "Aprendiste que la IA generativa crea medios realistas que no son reales, cómo detectar las señales reveladoras, que los chatbots pueden alucinar datos y fuentes falsas, y a verificar antes de compartir. Buena investigación.",
+    "crumbSuite": "Breakout de alfabetización en IA generativa"
+  },
+  "clues": [
+    {
+      "nm": "Esto lo hizo",
+      "title": "Realista no es real",
+      "body": "La IA generativa puede crear imágenes, textos y voces totalmente nuevos a partir de un prompt. Nada de eso se fotografió ni se grabó: la IA lo generó. Verse realista no significa que sea real."
+    },
+    {
+      "nm": "Señales reveladoras",
+      "title": "Los pequeños detalles fallan",
+      "body": "Las imágenes de IA a menudo fallan en cosas pequeñas: dedos de más, texto ilegible en un letrero, aretes que no combinan o fondos que se mezclan. Los detalles raros o imposibles son una señal de alerta."
+    },
+    {
+      "nm": "Fuentes inventadas",
+      "title": "Seguro pero falso",
+      "body": "Al pedirle datos, un chatbot a veces inventa una cita o nombra una fuente que no existe. Una redacción segura no es prueba. Cuando una IA afirma algo falso así, se llama alucinación."
+    },
+    {
+      "nm": "Verifica primero",
+      "title": "Encuentra el origen",
+      "body": "Antes de creer o compartir, compáralo con una fuente confiable: un medio de noticias conocido, el creador original o una búsqueda inversa de imágenes. Si no hay una fuente confiable, hay más razones para dudar."
+    },
+    {
+      "nm": "Voz clonada",
+      "title": "Las voces se pueden falsificar",
+      "body": "A partir de un clip corto, la IA puede copiar la voz de una persona y hacer que 'diga' cosas que nunca dijo. Oír una voz conocida ya no es prueba de que esa persona realmente lo dijo."
+    },
+    {
+      "nm": "Colores del equipo",
+      "title": "Espíritu escolar",
+      "body": "Los colores del equipo de la escuela son verde y dorado, y la mascota es un halcón llamado Swoop. Buen espíritu escolar, pero no te ayudará a abrir ningún candado."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Qué significa 'generado por IA'",
+      "q": "¿Qué significa que una imagen sea 'generada por IA'?",
+      "options": [
+        "Una cámara fotografió una escena real tal como ocurrió",
+        "Una IA creó la imagen a partir de un prompt: puede verse real pero nunca se fotografió",
+        "Siempre es obvio y jamás podría engañar a nadie"
+      ],
+      "reason": "Una imagen generada por IA se crea a partir de un prompt, no la capta una cámara. Puede verse totalmente real, y por eso mismo puede engañar a la gente."
+    },
+    {
+      "title": "Señales de una falsificación",
+      "q": "Marca TODAS las señales de que una foto o afirmación PODRÍA ser generada por IA o falsa.",
+      "items": [
+        "Las manos, los dientes o el texto de la imagen se ven distorsionados o mal",
+        "No hay ninguna fuente confiable ni un creador original",
+        "Una cita o fuente no se puede encontrar en ningún otro lugar",
+        "Un medio de noticias confiable también lo reporta con pruebas",
+        "El fotógrafo original es conocido y verificable"
+      ],
+      "reason": "Detalles distorsionados, ninguna fuente rastreable y citas imposibles de encontrar apuntan a una posible falsificación. Un creador verificable o las pruebas de un medio confiable apuntan a lo contrario."
+    },
+    {
+      "title": "Nombra el error",
+      "q": "Cuando un chatbot afirma un dato falso o inventa una fuente pero suena seguro, decimos que produjo una ______.",
+      "answer": ["alucinación", "alucinaciones", "alucinar", "una alucinación"],
+      "reason": "Una IA puede afirmar datos falsos o inventar fuentes con total confianza: eso se llama alucinación, y por eso verificas antes de confiar en ella."
+    },
+    {
+      "title": "Verifica antes de compartir",
+      "q": "Una imagen impactante circula en internet. Toca los pasos para revisarla en el orden CORRECTO.",
+      "pads": [
+        "🔍 Inspecciona los detalles buscando errores",
+        "📰 Busca una fuente confiable",
+        "🧠 Decide antes de compartir"
+      ],
+      "reason": "Primero INSPECCIONA la imagen buscando errores de IA. Luego busca una FUENTE confiable que lo confirme. Después DECIDE antes de compartir. Inspecciona, Fuente, Decide."
+    }
+  ]
+}

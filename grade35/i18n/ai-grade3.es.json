@@ -1,0 +1,86 @@
+{
+  "chrome": {
+    "h1": "Conoce la máquina que adivina",
+    "sub": "Un robot ayudante en el salón no deja de adivinar. ¿Cómo sabe las cosas? Abre cuatro candados para descubrir cómo funciona de verdad una máquina que adivina.",
+    "briefLabel": "Tu misión",
+    "briefH": "Sé un detective de la IA",
+    "briefP": "Las computadoras ya pueden hacer adivinanzas que parecen inteligentes. A esto lo llamamos inteligencia artificial, o IA. Lee las pistas y luego abre los cuatro candados. Cada candado tiene una razón que muestra por qué la respuesta es correcta.",
+    "footerText": "Breakouts de alfabetización en IA generativa · Funciona por completo en tu navegador — sin inicios de sesión, sin datos recopilados.",
+    "winStamp": "MISTERIO RESUELTO",
+    "winH": "¡Abriste los cuatro candados!",
+    "winP": "Aprendiste que la IA adivina encontrando patrones, que aprende de ejemplos llamados datos, que puede equivocarse y por eso revisas su trabajo, y que tus propias ideas van primero. ¡Excelente trabajo de detective!",
+    "crumbSuite": "Breakout de alfabetización en IA generativa"
+  },
+  "clues": [
+    {
+      "nm": "La adivinadora",
+      "title": "¿Qué es la IA?",
+      "body": "La IA es una herramienta de computadora que hace una adivinanza. No está viva y no piensa ni siente como tú. Encuentra patrones en muchos ejemplos y los usa para adivinar. Por eso la llamamos una máquina que adivina."
+    },
+    {
+      "nm": "Muchos ejemplos",
+      "title": "¿Cómo aprende?",
+      "body": "Para enseñarle a una IA a reconocer un gato, las personas le muestran muchísimas fotos de gatos. Los ejemplos que le das a una IA se llaman datos. Mientras más buenos ejemplos ve, mejores son sus adivinanzas."
+    },
+    {
+      "nm": "Revísalo",
+      "title": "¿Siempre acierta?",
+      "body": "No. Una IA puede sonar muy segura y aun así equivocarse, porque solo está adivinando. Los usuarios inteligentes siempre comparan la respuesta de una IA con lo que saben o con una fuente en la que confían."
+    },
+    {
+      "nm": "Tu idea primero",
+      "title": "¿Quién manda?",
+      "body": "Una IA te puede ayudar a hacer un poema o un dibujo. Pero la idea es tuya, y revisar el trabajo también es tu tarea. La IA es una ayudante, no la jefa."
+    },
+    {
+      "nm": "Encuentra el patrón",
+      "title": "¿Cómo adivina?",
+      "body": "La IA adivina encontrando patrones. Si casi todos los ejemplos de 'perro' tienen pelo y cuatro patas, la IA aprende ese patrón. Luego adivina que una foto nueva con pelo y cuatro patas también podría ser un perro."
+    },
+    {
+      "nm": "Viernes de pizza",
+      "title": "Una tradición del salón",
+      "body": "Todos los viernes la clase comparte pizza, y la favorita es la de queso. Este es un dato divertido sobre la clase, pero no te ayudará a abrir ningún candado."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Lo que la IA hace de verdad",
+      "q": "¿Qué hace en realidad una máquina que adivina con IA?",
+      "options": [
+        "Hace una adivinanza encontrando patrones en muchos ejemplos",
+        "Está viva y tiene sentimientos reales como una persona",
+        "Siempre sabe la respuesta verdadera y nunca se equivoca"
+      ],
+      "reason": "La IA es una herramienta que encuentra patrones en muchos ejemplos y los usa para adivinar. No está viva y, como está adivinando, no siempre acierta."
+    },
+    {
+      "title": "Cómo aprende la IA",
+      "q": "Marca TODO lo que sea verdad sobre cómo una IA aprende a adivinar.",
+      "items": [
+        "Aprende de muchos ejemplos que las personas le dan",
+        "Los ejemplos de los que aprende se llaman datos",
+        "Más buenos ejemplos la ayudan a adivinar mejor",
+        "Nació ya sabiendo todas las respuestas",
+        "Puede adivinar a la perfección sin ver ningún ejemplo"
+      ],
+      "reason": "Una IA aprende patrones de los ejemplos, y esos ejemplos se llaman datos. Más buenos datos significan mejores adivinanzas. No nació sabiendo cosas, y no puede adivinar bien sin ningún ejemplo."
+    },
+    {
+      "title": "Confía, pero verifica",
+      "q": "La respuesta de una IA puede sonar segura y aun así estar mal. Antes de confiar en ella, debes ______ la.",
+      "answer": ["revisar", "revisarla", "verificar", "verificarla", "comprobar"],
+      "reason": "Como una IA solo está adivinando, puede equivocarse con total seguridad. Revisas su respuesta comparándola con lo que sabes o con una fuente confiable antes de usarla."
+    },
+    {
+      "title": "Usa bien una ayudante de IA",
+      "q": "Usas una ayudante de IA para un cartel de la clase. Toca los pasos en el orden CORRECTO.",
+      "pads": [
+        "✅ Revisa si está bien",
+        "📝 Pide con una petición clara",
+        "👀 Lee lo que hizo"
+      ],
+      "reason": "Primero PIDE con una petición clara. Luego LEE lo que hizo la IA. Después REVISA si está bien antes de usarlo. Pide, Lee, Revisa."
+    }
+  ]
+}

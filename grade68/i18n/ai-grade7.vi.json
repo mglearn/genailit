@@ -1,0 +1,86 @@
+{
+  "chrome": {
+    "h1": "Thiên Kiến Trong Cỗ Máy",
+    "sub": "Một AI cứ liên tục đưa ra những câu trả lời âm thầm thiên về một phía. Đó không phải tai nạn — mà là do dữ liệu. Hãy mở bốn khóa để truy tìm nguồn gốc của thiên kiến.",
+    "briefLabel": "Nhiệm Vụ Của Em",
+    "briefH": "Trở Thành Điều Tra Viên Thiên Kiến",
+    "briefP": "AI phản ánh dữ liệu mà nó đã học và những lựa chọn của những người tạo ra nó. Khi dữ liệu đó nghiêng lệch, câu trả lời cũng nghiêng lệch theo. Hãy đọc các manh mối, rồi mở cả bốn khóa. Mỗi khóa hé lộ lập luận đằng sau đáp án.",
+    "footerText": "Gen AI Literacy Breakouts · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+    "winStamp": "ĐÃ KHÉP LẠI VỤ ÁN",
+    "winH": "Em đã mở được cả bốn khóa!",
+    "winP": "Em đã học được rằng AI phản ánh dữ liệu huấn luyện của nó, rằng thiên kiến đến từ dữ liệu lệch, ví dụ thiếu sót, và lựa chọn của con người, rằng nó có thể khuếch đại định kiến trên quy mô lớn, và cách đánh giá câu trả lời của AI một cách phản biện. Làm việc sắc bén lắm.",
+    "crumbSuite": "Breakout hiểu biết AI tạo sinh"
+  },
+  "clues": [
+    {
+      "nm": "Thiên Kiến Là Gì?",
+      "title": "Một sự nghiêng lệch không công bằng",
+      "body": "Thiên kiến là sự nghiêng lệch không công bằng ủng hộ hoặc chống lại điều gì đó. Một AI mang thiên kiến khi câu trả lời của nó thiên vị một cách không công bằng cho một số người, nhóm, hoặc ý tưởng hơn những cái khác — dù không ai cố ý như vậy."
+    },
+    {
+      "nm": "Nó Phản Ánh Dữ Liệu",
+      "title": "Mẫu vào, mẫu ra",
+      "body": "AI học các mẫu từ dữ liệu huấn luyện. Nếu dữ liệu đó chủ yếu thể hiện một nhóm, một ngôn ngữ, hoặc một quan điểm, thì câu trả lời của AI cũng nghiêng theo hướng đó. Nó phản ánh những gì được cho ăn."
+    },
+    {
+      "nm": "Ai Đang Bị Bỏ Sót?",
+      "title": "Thiên kiến do vắng mặt",
+      "body": "Thiên kiến cũng đến từ những gì bị BỎ SÓT. Nếu ví dụ về một số người, nơi chốn, hoặc quan điểm bị thiếu trong dữ liệu, AI sẽ thể hiện họ một cách kém cỏi — hoặc hoàn toàn không thể hiện."
+    },
+    {
+      "nm": "Lựa Chọn Của Con Người",
+      "title": "Nó bắt đầu từ con người",
+      "body": "Con người chọn dữ liệu và đặt ra các quy tắc. Điểm mù của họ có thể trở thành điểm mù của AI. Thiên kiến không chỉ nằm bên trong cỗ máy — nó bắt đầu từ những lựa chọn của con người."
+    },
+    {
+      "nm": "Trên Quy Mô Lớn",
+      "title": "Một sự nghiêng lệch, hàng triệu lần",
+      "body": "Một AI mang thiên kiến không mắc một lỗi duy nhất — nó lặp lại cùng một sự nghiêng lệch cho hàng triệu người dùng. Điều đó có thể lan truyền định kiến và thông tin sai lệch nhanh chóng và rộng khắp."
+    },
+    {
+      "nm": "Buổi Biểu Diễn Tài Năng",
+      "title": "Một sự kiện của trường",
+      "body": "Buổi biểu diễn tài năng mùa xuân năm nay tổ chức ở nhà thi đấu, và năm ngoái một tiết mục song tấu ukulele đã đoạt giải nhất. Vui đấy — nhưng nó sẽ không giúp em mở bất kỳ khóa nào."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Thiên Kiến Bắt Đầu Từ Đâu",
+      "q": "Vì sao một AI có thể đưa ra những câu trả lời mang thiên kiến?",
+      "options": [
+        "Vì máy tính có quan điểm và cảm xúc cá nhân",
+        "Vì nó học từ dữ liệu thể hiện quá mức một số quan điểm và bỏ sót những cái khác",
+        "Vì thiên kiến là điều không thể xảy ra trong bất cứ việc gì máy tính làm"
+      ],
+      "reason": "AI không có quan điểm riêng. Nó phản ánh dữ liệu huấn luyện của mình — nên khi dữ liệu đó thể hiện quá mức một số quan điểm và bỏ sót những cái khác, câu trả lời sẽ mang thiên kiến."
+    },
+    {
+      "title": "Nguồn Gốc Của Thiên Kiến",
+      "q": "Hãy chọn MỌI nơi mà thiên kiến trong một AI có thể đến từ đó.",
+      "items": [
+        "Dữ liệu huấn luyện thể hiện quá mức một nhóm hoặc một quan điểm",
+        "Những ví dụ quan trọng bị thiếu trong dữ liệu",
+        "Những lựa chọn và điểm mù của những người tạo ra nó",
+        "AI đích thân không ưa một số người nhất định",
+        "Dữ liệu cẩn thận, cân bằng, lấy từ nhiều nguồn"
+      ],
+      "reason": "Thiên kiến đến từ dữ liệu lệch, ví dụ thiếu sót, và lựa chọn của con người. Một AI không có cảm xúc cá nhân, và dữ liệu cân bằng làm giảm thiên kiến chứ không gây ra nó."
+    },
+    {
+      "title": "Gọi Tên Tác Hại",
+      "q": "Một AI mang thiên kiến có thể lặp lại một quan niệm không công bằng, quá đơn giản về cả một nhóm người. Quan niệm đó được gọi là ______.",
+      "answer": ["định kiến", "định kiến rập khuôn", "khuôn mẫu định kiến", "sự định kiến"],
+      "reason": "Một quan niệm không công bằng, quá đơn giản về cả một nhóm người là định kiến, và một AI mang thiên kiến có thể lan truyền định kiến đến nhiều người cùng một lúc."
+    },
+    {
+      "title": "Đánh Giá Câu Trả Lời",
+      "q": "Một AI đưa cho em một câu trả lời một chiều về một chủ đề. Hãy chạm vào các bước để đánh giá theo đúng thứ tự.",
+      "pads": [
+        "🤔 Hỏi nó đã học từ dữ liệu nào",
+        "🕳️ Hỏi quan điểm của ai đang bị thiếu",
+        "🔎 Đối chiếu với các nguồn khác"
+      ],
+      "reason": "Trước tiên HỎI nó đã học từ dữ liệu nào. Rồi hỏi quan điểm của ai đang bị THIẾU. Sau đó ĐỐI CHIẾU với các nguồn khác. Hỏi, Thiếu, Đối chiếu."
+    }
+  ]
+}

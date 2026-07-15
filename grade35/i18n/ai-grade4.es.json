@@ -1,0 +1,86 @@
+{
+  "chrome": {
+    "h1": "Basura entra, basura sale",
+    "sub": "Una ayudante de IA sigue dando respuestas equivocadas e injustas. El problema no es magia: son los datos. Abre cuatro candados para descubrir por qué.",
+    "briefLabel": "Tu misión",
+    "briefH": "Sé un detective de datos",
+    "briefP": "Una IA es tan inteligente como los ejemplos de los que aprende. A esos ejemplos los llamamos datos. Lee las pistas y luego abre los cuatro candados. Cada candado tiene una razón que muestra por qué la respuesta es correcta.",
+    "footerText": "Breakouts de alfabetización en IA generativa · Funciona por completo en tu navegador — sin inicios de sesión, sin datos recopilados.",
+    "winStamp": "MISTERIO RESUELTO",
+    "winH": "¡Abriste los cuatro candados!",
+    "winP": "Aprendiste que la IA aprende de los datos, que los datos parciales o malos llevan a adivinanzas equivocadas e injustas, que la IA puede inventar cosas, y que mejores ejemplos y fuentes confiables lo arreglan. ¡Excelente trabajo de detective!",
+    "crumbSuite": "Breakout de alfabetización en IA generativa"
+  },
+  "clues": [
+    {
+      "nm": "Basura entra",
+      "title": "Malos ejemplos, malas adivinanzas",
+      "body": "Una IA aprende de datos, que son solo ejemplos. Si los ejemplos son pocos, malos o parciales, sus adivinanzas también serán malas. La gente de la computación lo dice así: basura entra, basura sale."
+    },
+    {
+      "nm": "Solo manzanas rojas",
+      "title": "Una lección parcial",
+      "body": "Alguien le enseñó a una IA sobre manzanas usando solo fotos de manzanas rojas. Ahora cree que una manzana verde NO es una manzana. Los ejemplos fueron parciales, así que la adivinanza es equivocada e injusta."
+    },
+    {
+      "nm": "Datos inventados",
+      "title": "Puede inventar cosas",
+      "body": "Una IA escribió un informe de un libro y agregó un personaje que no está para nada en el libro. La IA puede inventar cosas que suenan ciertas. Por eso comparas su trabajo con la fuente real."
+    },
+    {
+      "nm": "Más variedad",
+      "title": "Cómo arreglarlo",
+      "body": "Para arreglar la IA de las manzanas, le muestras manzanas rojas, verdes Y amarillas. Más ejemplos y más TIPOS de ejemplos la ayudan a adivinar de forma más justa y mejor."
+    },
+    {
+      "nm": "Revisa la fuente",
+      "title": "Confía en la fuente",
+      "body": "Cuando una IA te da un dato, compáralo con una fuente en la que confíes, como un libro real o tu maestro. Si la IA y la fuente no coinciden, confía en la fuente, no en la adivinanza."
+    },
+    {
+      "nm": "Día de campo",
+      "title": "Un evento de la clase",
+      "body": "El día de campo de la clase es el próximo martes, y la cuerda es el juego favorito de todos. Este es un dato divertido sobre la clase, pero no te ayudará a abrir ningún candado."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Por qué se equivocó",
+      "q": "¿Por qué la IA de las manzanas decidió que una manzana verde 'no era una manzana'?",
+      "options": [
+        "Porque las manzanas verdes en realidad no son manzanas",
+        "Porque solo aprendió de ejemplos de manzanas rojas, así que sus datos eran parciales",
+        "Porque las manzanas cambian de color cada vez que una computadora las mira"
+      ],
+      "reason": "La IA solo vio manzanas rojas, así que sus datos eran parciales. Datos parciales que entran significan adivinanzas equivocadas e injustas que salen: basura entra, basura sale."
+    },
+    {
+      "title": "Nombra los ejemplos",
+      "q": "Los ejemplos de los que aprende una IA se llaman sus ______.",
+      "answer": ["datos", "los datos"],
+      "reason": "Los ejemplos de los que aprende una IA se llaman datos. Si los datos son malos o parciales, las adivinanzas de la IA también lo son."
+    },
+    {
+      "title": "Hazla mejor",
+      "q": "Marca TODO lo que haría que las adivinanzas de una IA sean MEJORES y MÁS JUSTAS.",
+      "items": [
+        "Darle más tipos de ejemplos, no solo un tipo",
+        "Comparar sus datos con una fuente confiable",
+        "Corregir los errores en los datos de los que aprendió",
+        "Mostrarle siempre solo un tipo de ejemplo",
+        "Creer cada respuesta sin revisarla"
+      ],
+      "reason": "Datos mejores y más variados, junto con comparar los datos con fuentes confiables, hace que las adivinanzas sean más justas. Los datos parciales y la confianza ciega las empeoran."
+    },
+    {
+      "title": "Arregla el informe",
+      "q": "Tu informe de libro hecho con IA tiene un personaje inventado. Toca los pasos para arreglarlo en el orden CORRECTO.",
+      "pads": [
+        "🔎 Nota el dato inventado",
+        "📖 Compáralo con el libro real",
+        "✏️ Arregla el informe tú mismo"
+      ],
+      "reason": "Primero NOTA el dato que parece inventado. Luego COMPÁRALO con el libro real. Después ARREGLA el informe tú mismo. Nota, Compara, Arregla."
+    }
+  ]
+}
