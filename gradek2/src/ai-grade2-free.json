@@ -1,0 +1,127 @@
+{
+  "id": "ai-grade2-free",
+  "grade": 2,
+  "tier": "free",
+  "icon": "🗣️",
+  "teks": "§126.7",
+  "confetti": ["#4338ca", "#06b6d4", "#7c3aed", "#0891b2", "#ffffff", "#a78bfa"],
+  "chrome": {
+    "eyebrow": {
+      "en": "Gen AI Literacy Breakout · Grade 2",
+      "es": "Breakout de alfabetización en IA generativa · Grado 2",
+      "vi": "Breakout hiểu biết AI tạo sinh · Lớp 2",
+      "ar": "تحدّي الثقافة في الذكاء الاصطناعي التوليدي · الصف 2",
+      "hi": "जनरेटिव एआई साक्षरता ब्रेकआउट · कक्षा 2",
+      "ur": "جنریٹو اے آئی خواندگی بریک آؤٹ · جماعت 2",
+      "zh": "生成式AI素养破解 · 二 年级"
+    },
+    "h1": "Say It Clearly",
+    "sub": "An AI helper guesses from what you say. If you say it clearly, you get a better answer. Open four locks to become a clear asker.",
+    "briefLabel": "Your Mission",
+    "briefH": "Be a Clear Asker",
+    "briefP": "An AI helper is a computer helper that makes guesses. It guesses from the words you give it. Read the clues, then open all four locks. Each lock has a reason that shows why the answer is right.",
+    "footerText": "Gen AI Literacy Breakouts · Runs entirely in your browser — no logins, no data collected.",
+    "winStamp": "CASE CLOSED",
+    "winH": "You opened all four locks!",
+    "winP": "You learned that an AI helper guesses from your words, that a clear ask gets a better answer, and that fuzzy words get a fuzzy guess. It can still be wrong, so you check. Great work!"
+  },
+  "clues": [
+    {
+      "id": "c1",
+      "ico": "🗣️",
+      "nm": "It Hears Your Words",
+      "title": "How it guesses",
+      "body": "An AI helper is a computer helper that makes guesses. It reads the words you give it, then guesses an answer that matches your words."
+    },
+    {
+      "id": "c2",
+      "ico": "🌫️",
+      "nm": "Fuzzy Words",
+      "title": "A fuzzy ask",
+      "body": "If you say only \"make something,\" the AI helper does not know what you want. A fuzzy ask gets a fuzzy guess that may not fit."
+    },
+    {
+      "id": "c3",
+      "ico": "🎯",
+      "nm": "Clear Words",
+      "title": "A clear ask",
+      "body": "If you say \"draw a happy blue fish in the sea,\" the AI helper knows exactly what you mean. A clear ask gets a better answer."
+    },
+    {
+      "id": "c4",
+      "ico": "🧩",
+      "nm": "Add Details",
+      "title": "Say more",
+      "body": "Details help. Tell the AI helper the color, the size, or the place. The more clear details you add, the closer the answer will be."
+    },
+    {
+      "id": "c5",
+      "ico": "✅",
+      "nm": "Still Check",
+      "title": "It can be wrong",
+      "body": "Even a clear ask can get a wrong answer, because the AI helper is still guessing. So you read the answer and check it every time."
+    },
+    {
+      "id": "c6",
+      "ico": "🐝",
+      "nm": "Busy Bee",
+      "title": "A buzzy fact",
+      "body": "A bee can visit many flowers in one day to gather nectar. That is neat, but it will not open a lock.",
+      "decoy": true
+    }
+  ],
+  "locks": [
+    {
+      "id": "L1",
+      "type": "mc",
+      "color": "#4338ca",
+      "title": "What Helps Most",
+      "q": "What helps an AI helper give you a better answer?",
+      "options": [
+        "Telling it clearly what you want",
+        "Using fuzzy words it cannot understand",
+        "Saying nothing at all and hoping"
+      ],
+      "answerIndex": 0,
+      "reason": "An AI helper guesses from your words. When you tell it clearly what you want, it can give a better answer. Fuzzy words or no words lead to a fuzzy guess."
+    },
+    {
+      "id": "L2",
+      "type": "multi",
+      "color": "#7c3aed",
+      "title": "Clear Asks",
+      "q": "Tap EVERY ask that is clear enough for a good answer.",
+      "items": [
+        { "t": "Draw a red kite flying in a blue sky", "strong": true },
+        { "t": "Write a short poem about my puppy", "strong": true },
+        { "t": "Make a list of three fruits that are green", "strong": true },
+        { "t": "Just make a thing for me", "strong": false },
+        { "t": "Do something, I do not care what", "strong": false }
+      ],
+      "reason": "Clear asks name what you want, like a red kite or a poem about a puppy. Fuzzy asks like \"make a thing\" do not tell the AI helper enough to guess well."
+    },
+    {
+      "id": "L3",
+      "type": "word",
+      "color": "#0891b2",
+      "title": "The Magic Word",
+      "q": "To get a better answer, you must tell the AI helper what you want in a ______ way.",
+      "answer": ["clear", "clearly", "a clear", "simple"],
+      "reason": "A clear ask helps the AI helper make a better guess. When your words are clear, its answer fits what you really want."
+    },
+    {
+      "id": "L4",
+      "type": "seq",
+      "color": "#0d9488",
+      "title": "Ask the Right Way",
+      "q": "You want the AI helper to draw a picture. Tap the steps in the RIGHT order.",
+      "pads": [
+        { "k": "check", "e": "✅ Check the answer", "c": "#4338ca" },
+        { "k": "think", "e": "💭 Think what you want", "c": "#7c3aed" },
+        { "k": "ask", "e": "🗣️ Ask in clear words", "c": "#0891b2" }
+      ],
+      "answer": ["think", "ask", "check"],
+      "reason": "First THINK about what you want. Then ASK in clear words. Then CHECK the answer, because the AI helper can still be wrong."
+    }
+  ]
+}

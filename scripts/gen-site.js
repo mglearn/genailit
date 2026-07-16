@@ -25,15 +25,30 @@ const FONTS = '<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght
 const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 // grade -> {band, icon, teks, tier}. FOCUS[grade] = [[focus, substrand] x4] aligned to L1..L4 order.
+// Grades are keyed by SLUG ('K','1'..'8'); `num` is the numeric value used only
+// for sorting (K == 0). Slugs double as the id suffix (ai-grade{slug}) and the
+// on-screen grade label ("Grade K"), so display and file names stay correct.
 const META = {
-  3: { band: 'grade35', icon: '🤖', teks: '§126.8', tier: 'paid' },
-  4: { band: 'grade35', icon: '🗑️', teks: '§126.9', tier: 'paid' },
-  5: { band: 'grade35', icon: '🧪', teks: '§126.10', tier: 'paid' },
-  6: { band: 'grade68', icon: '🖼️', teks: '§126.17', tier: 'paid' },
-  7: { band: 'grade68', icon: '⚖️', teks: '§126.18', tier: 'paid' },
-  8: { band: 'grade68', icon: '🛠️', teks: '§126.19', tier: 'paid' },
+  K: { band: 'gradek2', num: 0, icon: '🧸', teks: '§126.5', tier: 'paid' },
+  1: { band: 'gradek2', num: 1, icon: '🔎', teks: '§126.6', tier: 'paid' },
+  2: { band: 'gradek2', num: 2, icon: '💬', teks: '§126.7', tier: 'paid' },
+  3: { band: 'grade35', num: 3, icon: '🤖', teks: '§126.8', tier: 'paid' },
+  4: { band: 'grade35', num: 4, icon: '🗑️', teks: '§126.9', tier: 'paid' },
+  5: { band: 'grade35', num: 5, icon: '🧪', teks: '§126.10', tier: 'paid' },
+  6: { band: 'grade68', num: 6, icon: '🖼️', teks: '§126.17', tier: 'paid' },
+  7: { band: 'grade68', num: 7, icon: '⚖️', teks: '§126.18', tier: 'paid' },
+  8: { band: 'grade68', num: 8, icon: '🛠️', teks: '§126.19', tier: 'paid' },
 };
+// Ordered grade slugs and band presentation labels (single source of truth).
+const GRADES = ['K', '1', '2', '3', '4', '5', '6', '7', '8'];
+const BANDS = ['gradek2', 'grade35', 'grade68'];
+const BAND_NAME = { gradek2: 'Grades K–2', grade35: 'Grades 3–5', grade68: 'Grades 6–8' };
+const BAND_SHORT = { gradek2: 'K-2', grade35: '3-5', grade68: '6-8' };
+const gradeSlug = num => (num === 0 ? 'K' : String(num));
 const FOCUS = {
+  K: [['Telling an AI helper from a living thing', '(c)(1)'], ['Knowing an AI can be wrong', '(c)(11)'], ['Keeping private things private from a bot', '(c)(11)'], ['Asking a grown-up before using AI', '(c)(11)']],
+  1: [['AI makes guesses from examples', '(c)(5)'], ['Checking an AI answer', '(c)(11)'], ['Telling AI clearly what you want', '(c)(2)'], ['AI can make mistakes', '(c)(1)']],
+  2: [['Telling AI-made from human-made', '(c)(4)'], ['Double-checking an AI answer', '(c)(11)'], ['Writing a clear instruction (prompt)', '(c)(2)'], ['Saying when AI helped you', '(c)(3)']],
   3: [['What an AI actually does (pattern-guessing)', '(c)(1)'], ['Learning from examples called data', '(c)(5)'], ['Verifying an AI answer', '(c)(12)'], ['Using an AI helper well', '(c)(11)']],
   4: [['One-sided data leads to wrong guesses', '(c)(6)'], ['Naming the examples an AI learns from (data)', '(c)(5)'], ['Improving fairness with better data', '(c)(6)'], ['Fixing an AI hallucination against a source', '(c)(11)']],
   5: [['Why clear, specific prompts work', '(c)(2)'], ['The parts of a strong prompt', '(c)(2)'], ['Habits of a smart prompt writer', '(c)(11)'], ['Refining a prompt and verifying facts', '(c)(3)']],
@@ -117,6 +132,9 @@ function teacherNav(depth) {
 
 // ---- per-activity lesson data (big idea, EQ, objectives, vocab) -----------
 const LESSON = {
+  K: { big: 'AI helpers are computer tools that make guesses; a grown-up helps you use them, and you keep private things private.', eq: 'What is an AI helper, and how do you use it safely with a grown-up?', obj: 'Students will tell an AI helper from a living thing, know AI can be wrong, and ask a trusted adult before using AI.', lang: 'Students will use AI helper, guess, and ask to tell how to use AI safely, using a sentence stem and pictures.', vocab: 'AI helper, robot, guess, private, ask', success: 'I can point to an AI helper, say it can be wrong, and name a grown-up to ask.' },
+  1: { big: 'AI makes guesses from examples it has seen; it can be wrong, so you check, and you tell it clearly what you want.', eq: 'How does an AI make a guess, and what do you do when it might be wrong?', obj: 'Students will explain that AI guesses from examples, check an answer, and give a clear instruction.', lang: 'Students will use guess, examples, and check to explain how AI works, using a sentence stem.', vocab: 'guess, examples, data, check, clear instruction', success: 'I can say AI guesses from examples and name one way to check its answer.' },
+  2: { big: 'You can tell AI-made from human-made, double-check what AI says, write a clear prompt, and say when AI helped.', eq: 'How do you check what an AI makes, and how do you use it honestly?', obj: 'Students will distinguish AI-made from human-made, verify an AI answer, write a clear prompt, and disclose AI help.', lang: 'Students will use AI-made, double-check, and prompt to explain honest AI use.', vocab: 'AI-made, human-made, double-check, prompt, credit', success: 'I can double-check an AI answer and tell when AI helped me.' },
   3: { big: 'AI is a tool that makes predictions by finding patterns in examples (data). It is not alive and is not always right, so you check its work.', eq: 'How does an AI "know" things, and when should you trust its answer?', obj: 'Students will explain that AI makes guesses from patterns in data and name at least one way to check an AI’s answer.', lang: 'Students will use the words pattern, data, and check to explain how an AI helper works, using a sentence stem.', vocab: 'artificial intelligence (AI), pattern, data, guess/predict, check', success: 'I can explain how AI makes a guess and name one way to check it.' },
   4: { big: 'An AI is only as good as its data; limited or one-sided data produces wrong or unfair results, and AI can make things up.', eq: 'Why does an AI sometimes give wrong or unfair answers?', obj: 'Students will explain how one-sided or poor data leads to biased or false AI output and describe how better data and trusted sources improve it.', lang: 'Students will use data, one-sided, and fair/unfair to explain why an AI answer was wrong.', vocab: 'data, training examples, one-sided, hallucination (made-up facts), trusted source', success: 'I can explain how bad data causes bad guesses and name a way to fix it.' },
   5: { big: 'A prompt is a clear set of instructions (an algorithm); clear prompts, refining, and verifying produce better AI results.', eq: 'How do you ask an AI clearly, and how do you know if the answer is good?', obj: 'Students will build a clear prompt (task, details, format), refine it, and verify the result before using it.', lang: 'Students will use prompt, task, details, format, and refine to describe how to improve an AI result.', vocab: 'prompt, task, details, format, refine, verify', success: 'I can name the parts of a strong prompt and describe how to refine and check a result.' },
@@ -136,7 +154,7 @@ function siDict() {
 }
 function cardDict() {
   const d = {};
-  for (const lg of SITE_LANGS) { d[lg] = {}; for (const g of [3, 4, 5, 6, 7, 8]) { const U = ACT[g].B.UI[lg] || ACT[g].B.UI.en; d[lg]['card.g' + g + '.title'] = U['header.h1']; d[lg]['card.g' + g + '.sub'] = U['header.sub']; } }
+  for (const lg of SITE_LANGS) { d[lg] = {}; for (const g of GRADES) { const U = ACT[g].B.UI[lg] || ACT[g].B.UI.en; d[lg]['card.g' + g + '.title'] = U['header.h1']; d[lg]['card.g' + g + '.sub'] = U['header.sub']; } }
   return d;
 }
 // ---- auto-keyed strings (content-hash keys; no hand-naming) ---------------
@@ -183,7 +201,7 @@ function dashboard() {
     ${stat(total, 'Activities')}
     ${stat(free, 'Free featured', true)}
     ${stat(licensed, 'Licensed')}
-    ${stat('3–8', 'Grades')}
+    ${stat('K–8', 'Grades')}
     ${stat(7, 'Languages')}
   </div>`;
 }
@@ -205,22 +223,23 @@ function loadBreakout(grade) {
   return fn({});
 }
 const ACT = {};
-for (const g of Object.keys(META)) ACT[g] = { id: 'ai-grade' + g, grade: +g, ...META[g], B: loadBreakout(g) };
+for (const g of GRADES) ACT[g] = { id: 'ai-grade' + g, slug: g, ...META[g], grade: META[g].num, B: loadBreakout(g) };
 
 // The free FEATURED lessons (one per grade) — scanned from the -free locales.
 const PRIMARY_SUB = {
+  'ai-gradeK-free': '(c)(1)', 'ai-grade1-free': '(c)(11)', 'ai-grade2-free': '(c)(2)',
   'ai-grade3-free': '(c)(11)', 'ai-grade4-free': '(c)(5)', 'ai-grade5-free': '(c)(2)',
   'ai-grade6-free': '(c)(7)', 'ai-grade7-free': '(c)(6)', 'ai-grade8-free': '(c)(12)',
 };
 function scanFree() {
   const out = [];
-  for (const band of ['grade35', 'grade68']) {
+  for (const band of BANDS) {
     const dir = path.join(ROOT, band, 'locales');
     if (!fs.existsSync(dir)) continue;
     for (const f of fs.readdirSync(dir).sort()) {
       if (!/-free\.js$/.test(f)) continue;
       const B = new Function('window', fs.readFileSync(path.join(dir, f), 'utf8') + '\nreturn window.BREAKOUT;')({});
-      out.push({ id: B.id, grade: B.grade, band, tier: 'free', icon: B.icon, teks: B.teks, B });
+      out.push({ id: B.id, grade: B.grade, slug: gradeSlug(B.grade), band, tier: 'free', icon: B.icon, teks: B.teks, B });
     }
   }
   return out.sort((a, b) => a.grade - b.grade);
@@ -229,7 +248,7 @@ const FREE = scanFree();
 function freeFocus(a) { return a.B.CONTENT.en.locks.map(l => [l.title, PRIMARY_SUB[a.id] || '(c)(2)']); }
 
 // ---- shared shell --------------------------------------------------------
-const OG_DESC = 'Critical Thinking Online Breakouts for Generative AI Literacy — grades 3–8, TEKS-aligned, in 7 languages. Runs in the browser; no logins, no data collected.';
+const OG_DESC = 'Critical Thinking Online Breakouts for Generative AI Literacy — grades K–8, TEKS-aligned, in 7 languages. Runs in the browser; no logins, no data collected.';
 function assets(depth) { return depth ? '../assets' : 'assets'; }
 function headMeta(depth, title, desc) {
   const a = assets(depth);
@@ -307,7 +326,7 @@ function actCard(a, kind, depth) {
   const U = a.B.UI.en, p = depth ? '../' : '';
   const href = locked ? `${p}${a.band}/${a.id}.html` : `${p}${a.band}/${a.id}-student.html`;
   return `<a class="card${locked ? ' locked' : ''}" href="${href}">
-    <span class="badge">${S('Grade')} ${a.grade} · ${a.teks}</span>
+    <span class="badge">${S('Grade')} ${a.slug} · ${a.teks}</span>
     <div class="ico">${a.icon}</div>
     <div class="ctitle">${S(U['header.h1'])}</div>
     <div class="cdesc">${S(U['header.sub'])}</div>
@@ -319,14 +338,16 @@ function actCard(a, kind, depth) {
 // ---- SUITE LANDING -------------------------------------------------------
 function suiteLanding() {
   const freeCards = FREE.map(a => actCard(a, 'free', 0)).join('\n    ');
-  const paidCards = [3, 4, 5, 6, 7, 8].map(g => actCard(ACT[g], 'licensed', 0)).join('\n    ');
+  const paidCards = GRADES.map(g => actCard(ACT[g], 'licensed', 0)).join('\n    ');
   const body = `  <div class="hero">
     <div class="eyebrow" data-i18n="hero.eyebrow">${esc(si('hero.eyebrow'))}</div>
     <h1 data-i18n="hero.h1">${esc(si('hero.h1'))}</h1>
     <p class="lede" data-i18n="hero.lede">${esc(si('hero.lede'))}</p>
     <div class="btnrow">
-      ${E('a', 'Grades 3–5', 'class="btn" href="grade35/index.html"')}
+      ${E('a', 'Grades K–2', 'class="btn" href="gradek2/index.html"')}
+      ${E('a', 'Grades 3–5', 'class="btn ghost" href="grade35/index.html"')}
       ${E('a', 'Grades 6–8', 'class="btn ghost" href="grade68/index.html"')}
+      <a class="btn ghost" href="arcade/index.html" data-i18n="btn.arcade">${esc(si('btn.arcade') || 'Arcade')}</a>
       <a class="btn ghost" href="library.html" data-i18n="btn.library">${esc(si('btn.library'))}</a>
       <a class="btn ghost" href="guide.html" data-i18n="btn.guide">${esc(si('btn.guide'))}</a>
     </div>
@@ -356,7 +377,7 @@ function suiteLanding() {
   ${clearBlockI18n()}
   <p class="section-note" data-i18n-html="teacher.noteHtml">${si('teacher.noteHtml')}</p>
 ${footer(0)}`;
-  fs.writeFileSync(path.join(ROOT, 'index.html'), shell({ depth: 0, title: SUITE_EN + ' — Grades 3–8', body, i18n: true }));
+  fs.writeFileSync(path.join(ROOT, 'index.html'), shell({ depth: 0, title: SUITE_EN + ' — Grades K–8', body, i18n: true }));
 }
 
 // ---- BAND HUB ------------------------------------------------------------
@@ -383,7 +404,7 @@ ${footer(1, 'policy.html')}`;
 
 // ---- TEACHER LAUNCH PAGE (no answers) ------------------------------------
 function teacherPage(a, focus) {
-  const grade = a.grade, U = a.B.UI.en, locks = a.B.CONTENT.en.locks;
+  const grade = a.slug, U = a.B.UI.en, locks = a.B.CONTENT.en.locks;
   const rows = locks.map((l, i) => `<tr><td><span class="lk">${S('Lock')} ${i + 1}</span><br><span class="small">${S(l.title)}</span></td>
       <td>${S(focus[i][0])}</td>
       <td><span class="pill sub">${focus[i][1]}</span> ${S(SUBSTRANDS[focus[i][1]])}</td></tr>`).join('\n    ');
@@ -393,7 +414,7 @@ function teacherPage(a, focus) {
   const clearUl = '<li><strong>Claim</strong> — for each lock, decide what answer it is really asking for, and make it specific.</li><li><strong>Lens</strong> — notice what you already assume before you choose.</li><li><strong>Evidence</strong> — weigh the six clues; “' + esc(decoy) + '” is true but off-topic, so it is not evidence for any lock.</li><li><strong>Alternatives</strong> — the multiple-choice and multi-select locks force a comparison of competing options.</li><li><strong>Response</strong> — the reason revealed after each lock models the justified answer to act on.</li>';
   const stdNote = 'Aligned to Texas TEKS Technology Applications, Grade ' + grade + ', <strong>' + a.teks + '</strong> — the AI-adjacent strands (' + STRAND_SUMMARY + '), subsections ' + substrandsUsed.join(', ') + '. Skills are paraphrased; read the official standard at <a href="https://tea.texas.gov" target="_blank" rel="noopener">tea.texas.gov</a>. This page shows the reasoning focus of each lock — <strong>not the answers.</strong>';
   const classroom = '<li><strong>Warm up (5 min).</strong> Ask: “' + esc(U['brief.h']) + '” — what does this mean when working with AI? Surface prior experience before the activity.</li><li><strong>Model one clue.</strong> Open a single clue together and think aloud: what does this tell us, and which lock might it help?</li><li><strong>Reason, don’t guess.</strong> Require students to say <em>why</em> before checking a lock. After each solve, read the revealed <em>reason</em> and compare it to their thinking.</li><li><strong>Spot the decoy.</strong> One clue is true but useless. Debrief which one and how they knew — a core evaluation skill that mirrors judging an AI’s output.</li><li><strong>Language support.</strong> The 🌐 picker offers 7 languages; pair newcomers to discuss clues in their home language, then answer.</li><li><strong>Extend.</strong> Have students find (or safely describe) a real example of the focus skill — a biased result, a hallucination, a good prompt — without using any real product’s screenshots.</li>';
-  const body = `  <div class="crumb">${E('a', '‹ ' + (a.band === 'grade35' ? 'Grades 3–5' : 'Grades 6–8') + ' hub', 'href="index.html"')} · ${E('a', 'Suite home', 'href="../index.html"')}</div>
+  const body = `  <div class="crumb">${E('a', '‹ ' + BAND_NAME[a.band] + ' hub', 'href="index.html"')} · ${E('a', 'Suite home', 'href="../index.html"')}</div>
   <div class="hero">
     <div class="eyebrow${a.tier === 'paid' ? ' gold' : ''}">${S('Teacher launch')} · ${S('Grade')} ${grade} · TEKS ${a.teks}</div>
     ${E('h1', U['header.h1'])}
@@ -460,8 +481,9 @@ function correlation() {
     ${EH('p', 'How each breakout aligns to the Texas TEKS Technology Applications AI-adjacent strands (' + STRAND_SUMMARY + ') — adopted 2022, implemented 2024–25, required K–8. This suite deliberately complements, rather than duplicates, the Digital Citizenship strand.', 'class="lede"')}
   </div>
   <div class="panel tip"><strong>${S('Substrands used across the suite:')}</strong>${legend}</div>
-  ${bandTable('Grades 3–5 (free tier)', [3, 4, 5])}
-  ${bandTable('Grades 6–8 (licensed tier)', [6, 7, 8])}
+  ${bandTable('Grades K–2', ['K', '1', '2'])}
+  ${bandTable('Grades 3–5', [3, 4, 5])}
+  ${bandTable('Grades 6–8', [6, 7, 8])}
   ${EH('div', 'Skills are <strong>paraphrased</strong> to respect TEA’s copyright — no official standard text is reproduced. Cite the § number and read the source at <a href="https://tea.texas.gov" target="_blank" rel="noopener">tea.texas.gov</a>. Alignment is a good-faith mapping for planning and is not legal advice.', 'class="disclaimer"')}
 ${footer(0)}`;
   fs.writeFileSync(path.join(ROOT, 'correlation.html'), shell({ depth: 0, title: 'TEKS Correlation Guide — ' + SUITE_EN, body, i18n: true }));
@@ -474,11 +496,11 @@ function guide() {
   <div class="hero">
     ${E('div', 'Teacher guide', 'class="eyebrow"')}
     ${E('h1', 'Curriculum Guide')}
-    ${E('p', 'Purpose, design, and how to run the ' + SUITE_EN + ' across grades 3–8.', 'class="lede"')}
+    ${E('p', 'Purpose, design, and how to run the ' + SUITE_EN + ' across grades K–8.', 'class="lede"')}
   </div>
 
   ${E('h2', 'Purpose')}
-  ${EH('p', 'The suite builds <strong>generative-AI literacy through reasoning</strong>. Every activity aligns to the Texas TEKS Technology Applications AI-adjacent strands — ' + STRAND_SUMMARY + ' — but the deeper goal is <em>critical thinking</em>: students weigh evidence, reject a decoy, and justify each answer before they check it. The through-line across all six grades is simple and durable: <em>AI makes guesses from patterns in data, it can be confidently wrong, so you verify.</em>')}
+  ${EH('p', 'The suite builds <strong>generative-AI literacy through reasoning</strong>. Every activity aligns to the Texas TEKS Technology Applications AI-adjacent strands — ' + STRAND_SUMMARY + ' — but the deeper goal is <em>critical thinking</em>: students weigh evidence, reject a decoy, and justify each answer before they check it. The through-line across all grades is simple and durable: <em>AI makes guesses from patterns in data, it can be confidently wrong, so you verify.</em>')}
 
   ${E('h2', 'The CLEAR thinking process')}
   ${EH('p', 'Each lock is designed so a correct guess is not enough — students should be able to explain the <em>reason</em>, which the activity reveals after every solve. That habit is the <strong>CLEAR thinking process</strong>, a simple critical-thinking checklist students can carry into any claim, source, or AI answer they meet:')}
@@ -489,7 +511,7 @@ function guide() {
   <div class="panel">${EH('ul', deploy)}</div>
 
   ${E('h2', 'Free vs. licensed')}
-  <div class="panel gold">${EH('p', '<strong>Free featured lessons — one per grade.</strong> Each grade has a free, fully-playable featured breakout on the home page. Use them with anyone, anywhere — no login, nothing collected.')}${EH('p', '<strong>The full curriculum — licensed.</strong> The complete per-grade lessons (Grades 3–8) are included with a paid license and served through an authenticated session. Teacher pages and this guide remain open so you can evaluate before you buy.')}</div>
+  <div class="panel gold">${EH('p', '<strong>Free featured lessons — one per grade.</strong> Each grade has a free, fully-playable featured breakout on the home page. Use them with anyone, anywhere — no login, nothing collected.')}${EH('p', '<strong>The full curriculum — licensed.</strong> The complete per-grade lessons (Grades K–8) are included with a paid license and served through an authenticated session. Teacher pages and this guide remain open so you can evaluate before you buy.')}</div>
 
   ${E('h2', 'A note on accuracy')}
   ${EH('p', 'AI moves fast, but these activities teach durable ideas — patterns, data, bias, verification, disclosure — not product features. Content uses generic terms (an AI helper, a chatbot, an image generator) and avoids brand names so it stays accurate as tools change.')}
@@ -562,6 +584,9 @@ ${footer(1, null)}`;
 // ---- SEARCHABLE LIBRARY --------------------------------------------------
 // Curated, leak-safe search keywords per grade (no answers / no paid content).
 const KEYWORDS = {
+  K: ['ai helper', 'robot', 'guess', 'private', 'ask a grown-up', 'trusted adult', 'safe', 'artificial intelligence'],
+  1: ['ai', 'guess', 'examples', 'data', 'check', 'verify', 'clear instruction', 'prompt'],
+  2: ['ai-made', 'human-made', 'double-check', 'verify', 'prompt', 'credit', 'artificial intelligence'],
   3: ['artificial intelligence', 'ai', 'machine learning', 'patterns', 'prediction', 'guessing', 'data', 'examples', 'check', 'verify'],
   4: ['data', 'training data', 'bias', 'one-sided data', 'hallucination', 'made-up facts', 'accuracy', 'trusted sources', 'fairness'],
   5: ['prompt', 'prompting', 'prompt engineering', 'instructions', 'algorithm', 'refine', 'iterate', 'compare', 'verify', 'task details format'],
@@ -575,9 +600,9 @@ function catEntry(a, focus) {
   const clueNames = a.B.CONTENT.en.clues.map(c => c.nm);
   const lockTitles = a.B.CONTENT.en.locks.map(l => l.title);
   const hay = [U['header.h1'], U['header.sub'], a.teks, ...focus.map(f => f[0]), ...lockTitles, ...clueNames,
-    ...(KEYWORDS[a.grade] || []), ...subs.map(s => SUBSTRANDS[s])].join(' ').toLowerCase();
+    ...(KEYWORDS[a.slug] || []), ...subs.map(s => SUBSTRANDS[s])].join(' ').toLowerCase();
   return {
-    grade: a.grade, band: a.band === 'grade35' ? '3-5' : '6-8', teks: a.teks, tier: a.tier, icon: a.icon,
+    grade: a.grade, slug: a.slug, band: BAND_SHORT[a.band], teks: a.teks, tier: a.tier, icon: a.icon,
     title: U['header.h1'], sub: U['header.sub'], focus: focus.map(f => f[0]), subs,
     href: `${a.band}/${a.id}` + (a.tier === 'paid' ? '.html' : '-student.html'),
     hay,
@@ -585,7 +610,7 @@ function catEntry(a, focus) {
 }
 function buildCatalog() {
   const out = [];
-  for (const g of Object.keys(META)) out.push(catEntry(ACT[g], FOCUS[g]));
+  for (const g of GRADES) out.push(catEntry(ACT[g], FOCUS[g]));
   for (const a of FREE) out.push(catEntry(a, freeFocus(a)));
   return out.sort((x, y) => x.grade - y.grade || (x.tier < y.tier ? -1 : 1));
 }
@@ -603,6 +628,7 @@ function library() {
     <input id="q" class="search" type="search" placeholder="Search: patterns, data, prompt, bias, hallucination, §126.17 …" aria-label="Search activities" autocomplete="off">
     <div class="filters">
       <span class="fgroup"><span class="flabel">Band</span>
+        <button class="chip" data-band="K-2">Grades K–2</button>
         <button class="chip" data-band="3-5">Grades 3–5</button>
         <button class="chip" data-band="6-8">Grades 6–8</button></span>
       <span class="fgroup"><span class="flabel">Tier</span>
@@ -655,7 +681,7 @@ ${footer(0)}`;
     grid.innerHTML = list.map(function(a){
       var locked = a.tier==='paid';
       return '<a class="card'+(locked?' locked':'')+'" href="'+a.href+'">'
-        + '<span class="badge">Grade '+a.grade+' · '+esc(a.teks)+'</span>'
+        + '<span class="badge">Grade '+a.slug+' · '+esc(a.teks)+'</span>'
         + '<div class="ico">'+a.icon+'</div>'
         + '<div class="ctitle">'+hi(a.title,state.q)+'</div>'
         + '<div class="cdesc">'+hi(a.sub,state.q)+'</div>'
@@ -688,7 +714,7 @@ ${footer(0)}`;
 
 // ---- SCOPE & SEQUENCE ----------------------------------------------------
 function scope() {
-  const rows = [3, 4, 5, 6, 7, 8].map(g => {
+  const rows = GRADES.map(g => {
     const a = ACT[g], U = a.B.UI.en, L = LESSON[g], subs = [...new Set(FOCUS[g].map(f => f[1]))].sort();
     return `<tr>
         <td><span class="lk">${S('Grade')} ${g}</span><br><span class="small">${S(a.tier === 'paid' ? 'licensed' : 'free')} · ${a.teks}</span></td>
@@ -703,10 +729,10 @@ function scope() {
   <div class="hero">
     ${E('div', 'Scope & sequence', 'class="eyebrow"')}
     ${E('h1', 'Scope & Sequence')}
-    ${EH('p', 'The six breakouts build one durable idea across grades 3–8: <em>AI makes guesses from patterns in data, it can be confidently wrong, so you verify.</em> Each grade adds the next layer of that arc.', 'class="lede"')}
+    ${EH('p', 'The breakouts build one durable idea across grades K–8: <em>AI makes guesses from patterns in data, it can be confidently wrong, so you verify.</em> Each grade adds the next layer of that arc.', 'class="lede"')}
   </div>
 
-  ${EH('div', '<strong>The learning arc:</strong> pattern &amp; prediction (Gr 3) → data quality &amp; bias-from-data (Gr 4) → clear prompting &amp; verifying (Gr 5) → spotting generated media (Gr 6) → where bias comes from (Gr 7) → creating responsibly (Gr 8). Vocabulary compounds — <em>data</em> introduced in Gr 3–4 returns inside <em>training data</em> and <em>bias</em> in Gr 7.', 'class="panel gold"')}
+  ${EH('div', '<strong>The learning arc:</strong> meet AI helpers &amp; ask a grown-up (Gr K) → AI guesses from examples, check it (Gr 1) → AI-made vs human-made, double-check &amp; clear prompts (Gr 2) → pattern &amp; prediction (Gr 3) → data quality &amp; bias-from-data (Gr 4) → clear prompting &amp; verifying (Gr 5) → spotting generated media (Gr 6) → where bias comes from (Gr 7) → creating responsibly (Gr 8). Vocabulary compounds — <em>data</em> introduced in Gr 3–4 returns inside <em>training data</em> and <em>bias</em> in Gr 7.', 'class="panel gold"')}
 
   <div class="tbl-wrap"><table>
     ${E('caption', 'Grade · activity & big idea · essential question · key vocabulary · TEKS substrands')}
@@ -740,7 +766,7 @@ function lessons() {
     ['11 · Teacher reflection', '<ul><li>What worked, and what evidence showed students learned?</li><li>Who needs reteaching, and who is ready for extension?</li><li>Which clue or lock caused the most productive struggle?</li><li>What will you change next time?</li></ul>'],
   ];
   const secHtml = sections.map(([h, p]) => `<div class="panel">${EH('h3', h, 'style="margin-top:0"')}${EH('div', p)}</div>`).join('\n  ');
-  const examples = [3, 4, 5, 6, 7, 8].map(g => {
+  const examples = GRADES.map(g => {
     const a = ACT[g], U = a.B.UI.en, L = LESSON[g];
     return `<div class="akact">
     ${EH('h3', 'Grade ' + g + ' — ' + esc(U['header.h1']) + ' <span class="small">(' + a.teks + ' · ' + (a.tier === 'paid' ? 'licensed' : 'free') + ')</span>')}
@@ -863,6 +889,7 @@ ${footer(0)}`;
 // ---- run -----------------------------------------------------------------
 suiteLanding();
 library();
+bandHub('gradek2', ['K', '1', '2'], { paid: true, label: 'Grades K–2 · Licensed', title: 'Grades K–2', lede: 'The full early-elementary lessons — what an AI helper is, how it makes guesses, checking its answers, and using it safely with a grown-up. Included with a paid license; each grade also has a free featured lesson on the home page.' });
 bandHub('grade35', [3, 4, 5], { paid: true, label: 'Grades 3–5 · Licensed', title: 'Grades 3–5', lede: 'The full elementary lessons — what AI is, how it learns from data, and how to prompt it and check its work. Included with a paid license; each grade also has a free featured lesson on the home page.' });
 bandHub('grade68', [6, 7, 8], { paid: true, label: 'Grades 6–8 · Licensed', title: 'Grades 6–8', lede: 'The full middle-school lessons — spotting AI-generated media, tracing where bias comes from, and creating with AI responsibly. Included with a paid license; each grade also has a free featured lesson on the home page.' });
 correlation();
@@ -871,11 +898,13 @@ scope();
 lessons();
 udl();
 elps();
+implementation('gradek2', ['K', '1', '2'], { paid: true, hub: 'Grades K–2', title: 'Grades K–2 Implementation Plan', lede: 'Pacing, prerequisites, and extensions for the early-elementary band.', prereq: 'Students should be able to listen to a short read-aloud and tap or click large tiles; reading is emerging, so plan to read clues aloud and model the first lock.', extend: 'Connect to class routines: name your class AI helper examples, practice a clear instruction together, and make a “check it” habit chart.' });
 implementation('grade35', [3, 4, 5], { paid: false, hub: 'Grades 3–5', title: 'Grades 3–5 Implementation Plan', lede: 'Pacing, prerequisites, and extensions for the free elementary band.', prereq: 'Students should be comfortable reading short paragraphs and clicking/tapping tiles.', extend: 'Connect to a class agreement on checking facts and giving credit; revisit the "AI guesses from patterns" idea across the year.' });
 implementation('grade68', [6, 7, 8], { paid: true, hub: 'Grades 6–8', title: 'Grades 6–8 Implementation Plan', lede: 'Pacing, prerequisites, and extensions for the licensed middle-school band.', prereq: 'Students should be able to evaluate short arguments and are ready for real vocabulary: training data, bias, hallucination, disclosure.', extend: 'Bridge to a media-literacy or intro-to-CS unit; have students evaluate a teacher-vetted example of AI output using the Grade 6–8 criteria.' });
+policy('gradek2', 'Grades K–2');
 policy('grade35', 'Grades 3–5');
 policy('grade68', 'Grades 6–8');
-for (const g of Object.keys(META)) teacherPage(ACT[g], FOCUS[g]);
+for (const g of GRADES) teacherPage(ACT[g], FOCUS[g]);
 for (const a of FREE) teacherPage(a, freeFocus(a));
 
 persistAuto();

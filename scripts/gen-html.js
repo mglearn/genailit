@@ -12,7 +12,7 @@ const fs = require('fs');
 const path = require('path');
 const { SITE_URL, SUITE_EN } = require('./config');
 const ROOT = path.join(__dirname, '..');
-const BANDS = { grade35: [3, 4, 5], grade68: [6, 7, 8] };
+const BANDS = { gradek2: [0, 1, 2], grade35: [3, 4, 5], grade68: [6, 7, 8] };  // K == grade 0
 
 // Gen AI suite palette — indigo primary, cyan accent, violet/teal lock colors.
 const ROOTVARS = ':root{--navy:#4338ca;--navy-d:#312e81;--red:#c1121f;--red-d:#8b0d16;--gold:#06b6d4;--gold-d:#0e7490;--paper:#f5f6ff;--ink:#14203a;--ink-soft:#4b5a78;--card:#fff;--line:#e0e7ff;--good:#2f9e44;--bad:#e03131;--c1:#4338ca;--c2:#7c3aed;--c3:#0891b2;--c4:#06b6d4;--c5:#6d28d9;--bg-a:rgba(6,182,212,.12);--bg-b:rgba(67,56,202,.10)}';

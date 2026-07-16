@@ -25,7 +25,7 @@ const { COMMON, LANGS: NONEN } = require('../assets/build-ml.js');
 const { SUITE_EN } = require('./config');
 
 const ROOT = path.join(__dirname, '..');
-const BANDS = { grade35: [3, 4, 5], grade68: [6, 7, 8] };
+const BANDS = { gradek2: [0, 1, 2], grade35: [3, 4, 5], grade68: [6, 7, 8] };  // K == grade 0
 
 // English shared chrome — the 21 suite-agnostic keys, byte-matched to COMMON's
 // key set. (COMMON in build-ml.js holds only the non-English values.)
