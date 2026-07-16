@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<title>Double-Check Dash — Critical Thinking Arcade</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../assets/favicon.ico" sizes="16x16 32x32 48x48">
+<meta name="theme-color" content="#4338ca">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>:root{--navy:#4338ca;--navy-d:#312e81;--red:#c1121f;--red-d:#8b0d16;--gold:#06b6d4;--gold-d:#0e7490;--paper:#f5f6ff;--ink:#14203a;--ink-soft:#4b5a78;--card:#fff;--line:#e0e7ff;--good:#2f9e44;--bad:#e03131;--c1:#4338ca;--c2:#7c3aed;--c3:#0891b2;--c4:#06b6d4;--c5:#6d28d9;--bg-a:rgba(6,182,212,.12);--bg-b:rgba(67,56,202,.10)}</style>
+<link rel="stylesheet" href="../assets/arcade.css">
+</head>
+<body>
+<div class="awrap"><div id="game"></div></div>
+<script>
+window.ARCADE_DATA = {
+  id: 'ai-double-check-dash',
+  icon: '🔍',
+  seconds: 45,
+  ctaHref: '../index.html',
+  i18n: {
+    en: {
+      title: 'Double-Check Dash',
+      sub: 'Sort each AI habit fast: SMART or RISKY?',
+      prompt: 'This AI habit is…',
+      left: 'Smart ✅',
+      right: 'Risky ⚠️',
+      clear: 'AI guesses from patterns and can be confidently wrong — checking is the smart move (CLEAR: Evidence).',
+      startP: 'Read each habit, then tap Smart or Risky (or press ◀ ▶). 3 lives, 45 seconds.'
+    },
+    es: {
+      title: 'Carrera de Doble Chequeo',
+      sub: 'Clasifica rápido cada hábito con la IA: ¿LISTO o ARRIESGADO?',
+      prompt: 'Este hábito con la IA es…',
+      left: 'Listo ✅',
+      right: 'Arriesgado ⚠️',
+      clear: 'La IA adivina a partir de patrones y puede equivocarse con mucha seguridad — verificar es lo listo (CLEAR: Pruebas).',
+      startP: 'Lee cada hábito y toca Listo o Arriesgado (o pulsa ◀ ▶). 3 vidas, 45 segundos.'
+    },
+    vi: {
+      title: 'Cuộc Đua Kiểm Tra Kỹ',
+      sub: 'Phân loại nhanh từng thói quen dùng AI: KHÔN NGOAN hay RỦI RO?',
+      prompt: 'Thói quen dùng AI này là…',
+      left: 'Khôn ngoan ✅',
+      right: 'Rủi ro ⚠️',
+      clear: 'AI đoán dựa trên khuôn mẫu và có thể sai một cách rất tự tin — kiểm tra mới là khôn ngoan (CLEAR: Bằng chứng).',
+      startP: 'Đọc từng thói quen, rồi chạm Khôn ngoan hoặc Rủi ro (hoặc bấm ◀ ▶). 3 mạng, 45 giây.'
+    },
+    ar: {
+      title: 'سباق التحقق المزدوج',
+      sub: 'صنّف كل عادة مع الذكاء الاصطناعي بسرعة: ذكية أم خطِرة؟',
+      prompt: 'هذه العادة مع الذكاء الاصطناعي…',
+      left: 'ذكية ✅',
+      right: 'خطِرة ⚠️',
+      clear: 'الذكاء الاصطناعي يخمّن من الأنماط وقد يخطئ بثقة — التحقق هو التصرّف الذكي (CLEAR: الأدلة).',
+      startP: 'اقرأ كل عادة، ثم اضغط ذكية أو خطِرة (أو اضغط ◀ ▶). ٣ أرواح، ٤٥ ثانية.'
+    },
+    hi: {
+      title: 'डबल-चेक दौड़',
+      sub: 'हर एआई आदत को झट से छांटो: समझदार या जोखिम भरी?',
+      prompt: 'यह एआई आदत है…',
+      left: 'समझदार ✅',
+      right: 'जोखिम भरी ⚠️',
+      clear: 'एआई पैटर्न से अंदाज़ा लगाता है और पूरे भरोसे से गलत हो सकता है — जांचना ही समझदारी है (CLEAR: सबूत)।',
+      startP: 'हर आदत पढ़ो, फिर समझदार या जोखिम भरी दबाओ (या ◀ ▶ दबाओ)। 3 जान, 45 सेकंड।'
+    },
+    ur: {
+      title: 'ڈبل چیک دوڑ',
+      sub: 'ہر اے آئی عادت کو جلدی سے چھانٹو: سمجھدار یا خطرناک؟',
+      prompt: 'یہ اے آئی عادت ہے…',
+      left: 'سمجھدار ✅',
+      right: 'خطرناک ⚠️',
+      clear: 'اے آئی نمونوں سے اندازہ لگاتا ہے اور پورے بھروسے سے غلط ہو سکتا ہے — جانچنا ہی سمجھداری ہے (CLEAR: ثبوت)۔',
+      startP: 'ہر عادت پڑھو، پھر سمجھدار یا خطرناک دبائیں (یا ◀ ▶ دبائیں)۔ 3 جانیں، 45 سیکنڈ۔'
+    },
+    zh: {
+      title: '再核对冲刺',
+      sub: '快速给每个使用人工智能的习惯分类：聪明还是有风险？',
+      prompt: '这个使用人工智能的习惯是…',
+      left: '聪明 ✅',
+      right: '有风险 ⚠️',
+      clear: '人工智能靠模式猜测，可能自信满满却出错——核对才是聪明之举（CLEAR：证据）。',
+      startP: '读一读每个习惯，然后点聪明或有风险（或按 ◀ ▶）。3 条命，45 秒。'
+    }
+  },
+  items: [
+    { emoji: '🔎', side: 'left',  i18n: { en: 'Checking an AI fact against a trusted site', es: 'Comprobar un dato de la IA en un sitio de confianza', vi: 'Kiểm tra một thông tin của AI với trang web đáng tin cậy', ar: 'التحقق من معلومة من الذكاء الاصطناعي عبر موقع موثوق', hi: 'एआई की जानकारी को किसी भरोसेमंद साइट से जांचना', ur: 'اے آئی کی معلومات کو کسی بھروسے مند سائٹ سے جانچنا', zh: '把人工智能给的信息拿到可信网站上核对' } },
+    { emoji: '📋', side: 'right', i18n: { en: 'Copying an AI answer without reading it', es: 'Copiar una respuesta de la IA sin leerla', vi: 'Sao chép câu trả lời của AI mà không đọc', ar: 'نسخ إجابة الذكاء الاصطناعي دون قراءتها', hi: 'एआई का जवाब बिना पढ़े नकल कर लेना', ur: 'اے آئی کا جواب بغیر پڑھے نقل کر لینا', zh: '不看就直接抄人工智能的答案' } },
+    { emoji: '🧑‍🏫', side: 'left', i18n: { en: 'Asking AI, then asking a grown-up too', es: 'Preguntar a la IA y también a una persona adulta', vi: 'Hỏi AI, rồi hỏi thêm người lớn', ar: 'سؤال الذكاء الاصطناعي ثم سؤال شخص بالغ أيضًا', hi: 'एआई से पूछना, फिर किसी बड़े से भी पूछना', ur: 'اے آئی سے پوچھنا، پھر کسی بڑے سے بھی پوچھنا', zh: '问人工智能，然后也问问大人' } },
+    { emoji: '🥴', side: 'right', i18n: { en: 'Believing AI just because it sounds sure', es: 'Creer a la IA solo porque suena muy segura', vi: 'Tin AI chỉ vì nó nghe có vẻ chắc chắn', ar: 'تصديق الذكاء الاصطناعي لمجرد أنه يبدو واثقًا', hi: 'एआई पर सिर्फ इसलिए भरोसा करना क्योंकि वह पक्का लगता है', ur: 'اے آئی پر صرف اس لیے یقین کرنا کہ وہ پُریقین لگتا ہے', zh: '仅仅因为人工智能听起来很有把握就相信它' } },
+    { emoji: '💡', side: 'left',  i18n: { en: 'Using AI to brainstorm, then verifying', es: 'Usar la IA para generar ideas y luego verificar', vi: 'Dùng AI để nghĩ ý tưởng, rồi kiểm chứng', ar: 'استخدام الذكاء الاصطناعي لتوليد الأفكار ثم التحقق', hi: 'विचार सोचने के लिए एआई का उपयोग करना, फिर जांचना', ur: 'خیالات سوچنے کے لیے اے آئی استعمال کرنا، پھر جانچنا', zh: '用人工智能想点子，然后再去核实' } },
+    { emoji: '📢', side: 'right', i18n: { en: 'Sharing an AI answer you never checked', es: 'Compartir una respuesta de la IA que nunca verificaste', vi: 'Chia sẻ câu trả lời của AI mà bạn chưa hề kiểm tra', ar: 'مشاركة إجابة من الذكاء الاصطناعي لم تتحقق منها أبدًا', hi: 'एआई का ऐसा जवाब साझा करना जिसे तुमने कभी जांचा नहीं', ur: 'اے آئی کا ایسا جواب شیئر کرنا جسے تم نے کبھی جانچا نہیں', zh: '分享一个你从没核对过的人工智能答案' } },
+    { emoji: '✍️', side: 'left',  i18n: { en: 'Rewriting an AI draft in your own words', es: 'Reescribir un borrador de la IA con tus propias palabras', vi: 'Viết lại bản nháp của AI bằng lời của chính bạn', ar: 'إعادة كتابة مسودة الذكاء الاصطناعي بكلماتك الخاصة', hi: 'एआई के मसौदे को अपने शब्दों में फिर से लिखना', ur: 'اے آئی کے مسودے کو اپنے الفاظ میں دوبارہ لکھنا', zh: '用你自己的话重写人工智能的草稿' } },
+    { emoji: '🎭', side: 'right', i18n: { en: 'Trusting made-up “facts” from a chatbot', es: 'Confiar en “datos” inventados por un chatbot', vi: 'Tin vào những “sự thật” bịa đặt từ một chatbot', ar: 'تصديق «حقائق» مختلقة من روبوت محادثة', hi: 'चैटबॉट के गढ़े हुए “तथ्यों” पर भरोसा करना', ur: 'چیٹ بوٹ کے گھڑے ہوئے ”حقائق“ پر یقین کرنا', zh: '相信聊天机器人编造的“事实”' } },
+    { emoji: '🙋', side: 'left',  i18n: { en: 'Telling your teacher you used AI to help', es: 'Decirle a tu maestro que usaste la IA para ayudarte', vi: 'Nói với thầy cô rằng bạn đã dùng AI để hỗ trợ', ar: 'إخبار معلّمك بأنك استعنت بالذكاء الاصطناعي', hi: 'अपने शिक्षक को बताना कि तुमने मदद के लिए एआई का उपयोग किया', ur: 'اپنے استاد کو بتانا کہ تم نے مدد کے لیے اے آئی استعمال کیا', zh: '告诉老师你用了人工智能来帮忙' } },
+    { emoji: '🏠', side: 'right', i18n: { en: 'Typing your home address into a chatbot', es: 'Escribir la dirección de tu casa en un chatbot', vi: 'Gõ địa chỉ nhà của bạn vào một chatbot', ar: 'كتابة عنوان منزلك في روبوت محادثة', hi: 'चैटबॉट में अपने घर का पता टाइप करना', ur: 'چیٹ بوٹ میں اپنے گھر کا پتہ ٹائپ کرنا', zh: '把你家的地址输进聊天机器人' } },
+    { emoji: '📚', side: 'left',  i18n: { en: 'Reading two sources to confirm AI’s claim', es: 'Leer dos fuentes para confirmar lo que dice la IA', vi: 'Đọc hai nguồn để xác nhận điều AI nói', ar: 'قراءة مصدرين للتأكد مما قاله الذكاء الاصطناعي', hi: 'एआई के दावे की पुष्टि के लिए दो स्रोत पढ़ना', ur: 'اے آئی کے دعوے کی تصدیق کے لیے دو ذرائع پڑھنا', zh: '读两个来源来确认人工智能的说法' } },
+    { emoji: '🤖', side: 'right', i18n: { en: 'Assuming AI is always right', es: 'Suponer que la IA siempre tiene la razón', vi: 'Cho rằng AI luôn luôn đúng', ar: 'افتراض أن الذكاء الاصطناعي على صواب دائمًا', hi: 'यह मान लेना कि एआई हमेशा सही होता है', ur: 'یہ فرض کر لینا کہ اے آئی ہمیشہ درست ہوتا ہے', zh: '认定人工智能永远是对的' } }
+  ]
+};
+</script>
+<script src="../assets/arcade.js"></script>
+</body>
+</html>

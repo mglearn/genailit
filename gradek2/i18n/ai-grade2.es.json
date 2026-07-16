@@ -1,0 +1,85 @@
+{
+  "chrome": {
+    "h1": "Usa la IA con honestidad",
+    "sub": "Un ayudante de IA te puede ayudar a hacer cosas. Pero se puede equivocar, y debes decir la verdad sobre su ayuda. Abre cuatro candados para usar la IA de la forma honesta.",
+    "briefLabel": "Tu misión",
+    "briefH": "Sé un ayudante honesto",
+    "briefP": "Un ayudante de IA es un ayudante de computadora que hace conjeturas. Cuando te ayuda, revisas su trabajo dos veces y dices la verdad sobre su ayuda. Lee las pistas, luego abre los cuatro candados. Cada candado tiene una razón que muestra por qué la respuesta es correcta.",
+    "footerText": "Breakouts de alfabetización en IA generativa · Funciona todo en tu navegador — sin cuentas, sin datos guardados.",
+    "winStamp": "CASO CERRADO",
+    "winH": "¡Abriste los cuatro candados!",
+    "winP": "Aprendiste a distinguir el trabajo hecho por IA del trabajo hecho por personas, a revisar dos veces una respuesta de IA, que una petición clara se llama prompt, y a dar crédito cuando la IA te ayudó. Honesto e inteligente. ¡Buen trabajo!",
+    "crumbSuite": "Breakouts de alfabetización en IA generativa"
+  },
+  "clues": [
+    {
+      "nm": "Hecho por IA",
+      "title": "Hecho por una máquina",
+      "body": "Un ayudante de IA puede hacer palabras e imágenes. El trabajo que un ayudante de computadora hizo a partir de tu prompt es hecho por IA. Vino de una máquina que adivina, no de la mano de una persona."
+    },
+    {
+      "nm": "Hecho por personas",
+      "title": "Hecho por una persona",
+      "body": "Cuando dibujas una imagen tú mismo o escribes tu propia historia, eso es hecho por una persona. Una persona viva lo hizo con sus propias ideas y manos."
+    },
+    {
+      "nm": "Revisa dos veces",
+      "title": "Compruébalo dos veces",
+      "body": "Un ayudante de IA solo está adivinando, así que se puede equivocar. Los niños inteligentes revisan la respuesta dos veces. Pregúntale a un adulto, o busca en una fuente de confianza, antes de usarla."
+    },
+    {
+      "nm": "Tu prompt",
+      "title": "La petición clara",
+      "body": "La petición clara que escribes a un ayudante de IA tiene un nombre. Se llama prompt. Un buen prompt le dice al ayudante de IA exactamente lo que quieres."
+    },
+    {
+      "nm": "Da crédito",
+      "title": "Di la verdad",
+      "body": "Si un ayudante de IA te ayudó a hacer algo, di la verdad. Di que la IA ayudó. Dar crédito es honesto, y muestra lo que tú hiciste y lo que hizo la IA."
+    },
+    {
+      "nm": "Dientes de tiburón",
+      "title": "Un dato con dientes",
+      "body": "Un tiburón puede crecer dientes nuevos toda su vida para reemplazar los viejos. Eso es genial, pero no abrirá ningún candado."
+    }
+  ],
+  "locks": [
+    {
+      "title": "¿Quién lo hizo?",
+      "q": "¿Cuál está hecho por IA, no por una persona?",
+      "options": [
+        "Una historia que un ayudante de computadora escribió a partir de tu prompt",
+        "Un dibujo con crayones que tú mismo coloreaste",
+        "Una canción que tu maestra le cantó en voz alta a la clase"
+      ],
+      "reason": "Una historia que un ayudante de computadora hizo a partir de tu prompt está hecha por IA. Un dibujo que tú coloreaste y una canción que cantó tu maestra los hacen personas vivas, así que están hechos por personas."
+    },
+    {
+      "title": "Revísalo dos veces",
+      "q": "Toca CADA buena forma de revisar dos veces la respuesta de un ayudante de IA.",
+      "items": [
+        "Preguntarle a un adulto de confianza",
+        "Buscarlo en un libro o fuente en la que confías",
+        "Compararlo con lo que ya sabes",
+        "Creerlo porque suena muy seguro",
+        "Usarlo de inmediato sin leerlo"
+      ],
+      "reason": "Las buenas formas de revisar dos veces son preguntarle a un adulto, buscar en una fuente de confianza o comparar con lo que sabes. Creerlo porque suena seguro, o usarlo sin leerlo, no es comprobar."
+    },
+    {
+      "title": "Nombra la petición",
+      "q": "La petición clara que escribes a un ayudante de IA se llama ______.",
+      "reason": "La petición clara que escribes a un ayudante de IA se llama prompt. Un buen prompt le dice al ayudante de IA exactamente lo que quieres para que su respuesta encaje."
+    },
+    {
+      "title": "Da crédito",
+      "q": "Un ayudante de IA te ayudó a hacer un cartel. Toca los pasos en el orden CORRECTO.",
+      "pads": [
+        "📤 Comparte el cartel",
+        "🤖 La IA me ayudó a hacerlo",
+        "🏷️ Di la verdad y da crédito"
+      ],
+      "reason": "Primero la IA te AYUDÓ a hacerlo. Luego tú DICES LA VERDAD y das crédito por esa ayuda. Luego COMPARTES el cartel. Ser honesto es lo correcto."
+    }
+  ]
+}

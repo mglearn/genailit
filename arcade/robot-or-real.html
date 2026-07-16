@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<title>Robot or Real? — Critical Thinking Arcade</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../assets/favicon.ico" sizes="16x16 32x32 48x48">
+<meta name="theme-color" content="#4338ca">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>:root{--navy:#4338ca;--navy-d:#312e81;--red:#c1121f;--red-d:#8b0d16;--gold:#06b6d4;--gold-d:#0e7490;--paper:#f5f6ff;--ink:#14203a;--ink-soft:#4b5a78;--card:#fff;--line:#e0e7ff;--good:#2f9e44;--bad:#e03131;--c1:#4338ca;--c2:#7c3aed;--c3:#0891b2;--c4:#06b6d4;--c5:#6d28d9;--bg-a:rgba(6,182,212,.12);--bg-b:rgba(67,56,202,.10)}</style>
+<link rel="stylesheet" href="../assets/arcade.css">
+</head>
+<body>
+<div class="awrap"><div id="game"></div></div>
+<script>
+window.ARCADE_DATA = {
+  id: 'ai-robot-or-real',
+  icon: '🤖',
+  seconds: 45,
+  ctaHref: '../index.html',
+  i18n: {
+    en: {
+      title: 'Robot or Real?',
+      sub: 'Is it an AI helper, or a real living thing?',
+      prompt: 'Is this…',
+      left: 'AI helper 🤖',
+      right: 'Living thing 🌱',
+      clear: 'Look at the clues before you decide — weighing evidence is the E in CLEAR.',
+      startP: 'Look at each one, then tap AI helper or Living thing (or press ◀ ▶). 3 lives, 45 seconds!'
+    },
+    es: {
+      title: '¿Robot o de verdad?',
+      sub: '¿Es un ayudante de IA o un ser vivo de verdad?',
+      prompt: '¿Esto es…',
+      left: 'Ayudante de IA 🤖',
+      right: 'Ser vivo 🌱',
+      clear: 'Mira las pistas antes de decidir: pesar las pruebas es la E de CLEAR.',
+      startP: 'Mira cada uno y toca Ayudante de IA o Ser vivo (o pulsa ◀ ▶). ¡3 vidas, 45 segundos!'
+    },
+    vi: {
+      title: 'Rô-bốt hay Thật?',
+      sub: 'Đây là trợ lý AI hay một sinh vật sống thật sự?',
+      prompt: 'Đây là…',
+      left: 'Trợ lý AI 🤖',
+      right: 'Sinh vật sống 🌱',
+      clear: 'Hãy nhìn các manh mối trước khi quyết định — cân nhắc bằng chứng là chữ E trong CLEAR.',
+      startP: 'Nhìn từng cái, rồi chạm Trợ lý AI hoặc Sinh vật sống (hoặc bấm ◀ ▶). 3 mạng, 45 giây!'
+    },
+    ar: {
+      title: 'روبوت أم حقيقي؟',
+      sub: 'هل هو مساعد ذكاء اصطناعي أم كائن حي حقيقي؟',
+      prompt: 'هل هذا…',
+      left: 'مساعد ذكاء اصطناعي 🤖',
+      right: 'كائن حي 🌱',
+      clear: 'انظر إلى الأدلة قبل أن تقرر — تقييم الأدلة هو حرف E في CLEAR.',
+      startP: 'انظر إلى كل واحد، ثم اضغط مساعد ذكاء اصطناعي أو كائن حي (أو اضغط ◀ ▶). ٣ أرواح، ٤٥ ثانية!'
+    },
+    hi: {
+      title: 'रोबोट या असली?',
+      sub: 'क्या यह एआई सहायक है, या कोई सचमुच का जीवित प्राणी?',
+      prompt: 'क्या यह…',
+      left: 'एआई सहायक 🤖',
+      right: 'जीवित प्राणी 🌱',
+      clear: 'फैसला करने से पहले संकेत देखो — सबूत को तौलना ही CLEAR का E है।',
+      startP: 'हर एक को देखो, फिर एआई सहायक या जीवित प्राणी दबाओ (या ◀ ▶ दबाओ)। 3 जान, 45 सेकंड!'
+    },
+    ur: {
+      title: 'روبوٹ یا حقیقی؟',
+      sub: 'کیا یہ اے آئی مددگار ہے، یا کوئی واقعی زندہ چیز؟',
+      prompt: 'کیا یہ…',
+      left: 'اے آئی مددگار 🤖',
+      right: 'زندہ چیز 🌱',
+      clear: 'فیصلہ کرنے سے پہلے اشاروں کو دیکھو — ثبوت کو تولنا ہی CLEAR کا E ہے۔',
+      startP: 'ہر ایک کو دیکھو، پھر اے آئی مددگار یا زندہ چیز دبائیں (یا ◀ ▶ دبائیں)۔ 3 جانیں، 45 سیکنڈ!'
+    },
+    zh: {
+      title: '机器人还是真的？',
+      sub: '这是人工智能小助手，还是真正的活物？',
+      prompt: '这是…',
+      left: '人工智能小助手 🤖',
+      right: '活的生物 🌱',
+      clear: '决定之前先看看线索——权衡证据就是 CLEAR 里的 E。',
+      startP: '看看每一个，然后点人工智能小助手或活的生物（或按 ◀ ▶）。3 条命，45 秒！'
+    }
+  },
+  items: [
+    { emoji: '🔊', side: 'left',  i18n: { en: 'A voice that answers when you ask a smart speaker', es: 'Una voz que responde cuando le preguntas a un altavoz inteligente', vi: 'Một giọng nói trả lời khi bạn hỏi loa thông minh', ar: 'صوت يجيب عندما تسأل مكبّر صوت ذكي', hi: 'एक आवाज़ जो स्मार्ट स्पीकर से पूछने पर जवाब देती है', ur: 'ایک آواز جو اسمارٹ اسپیکر سے پوچھنے پر جواب دیتی ہے', zh: '你问智能音箱时会回答的声音' } },
+    { emoji: '🐶', side: 'right', i18n: { en: 'A puppy that wags its tail', es: 'Un cachorro que mueve la cola', vi: 'Một chú cún vẫy đuôi', ar: 'جرو يهزّ ذيله', hi: 'एक पिल्ला जो अपनी पूंछ हिलाता है', ur: 'ایک پلا جو اپنی دم ہلاتا ہے', zh: '一只摇尾巴的小狗' } },
+    { emoji: '💬', side: 'left',  i18n: { en: 'A chatbot that writes a story for you', es: 'Un chatbot que te escribe un cuento', vi: 'Một chatbot viết truyện cho bạn', ar: 'روبوت محادثة يكتب لك قصة', hi: 'एक चैटबॉट जो तुम्हारे लिए कहानी लिखता है', ur: 'ایک چیٹ بوٹ جو تمہارے لیے کہانی لکھتا ہے', zh: '一个帮你写故事的聊天机器人' } },
+    { emoji: '🌳', side: 'right', i18n: { en: 'A tree growing in the park', es: 'Un árbol que crece en el parque', vi: 'Một cái cây đang lớn trong công viên', ar: 'شجرة تنمو في الحديقة', hi: 'पार्क में उगता हुआ एक पेड़', ur: 'پارک میں اُگتا ہوا ایک درخت', zh: '一棵在公园里生长的树' } },
+    { emoji: '📱', side: 'left',  i18n: { en: 'An app that guesses your next word', es: 'Una app que adivina tu siguiente palabra', vi: 'Một ứng dụng đoán từ tiếp theo của bạn', ar: 'تطبيق يخمّن كلمتك التالية', hi: 'एक ऐप जो तुम्हारे अगले शब्द का अंदाज़ा लगाता है', ur: 'ایک ایپ جو تمہارے اگلے لفظ کا اندازہ لگاتی ہے', zh: '一个猜你下一个词的应用' } },
+    { emoji: '👵', side: 'right', i18n: { en: 'Your grandma telling a story', es: 'Tu abuela contando un cuento', vi: 'Bà của bạn đang kể chuyện', ar: 'جدّتك تروي قصة', hi: 'तुम्हारी दादी एक कहानी सुना रही हैं', ur: 'تمہاری دادی ایک کہانی سنا رہی ہیں', zh: '你奶奶在讲故事' } },
+    { emoji: '🤖', side: 'left',  i18n: { en: 'A robot vacuum that maps your room', es: 'Una aspiradora robot que hace un mapa de tu cuarto', vi: 'Một robot hút bụi vẽ bản đồ phòng bạn', ar: 'مكنسة روبوت ترسم خريطة غرفتك', hi: 'एक रोबोट वैक्यूम जो तुम्हारे कमरे का नक्शा बनाता है', ur: 'ایک روبوٹ ویکیوم جو تمہارے کمرے کا نقشہ بناتا ہے', zh: '一台会绘制你房间地图的扫地机器人' } },
+    { emoji: '🐠', side: 'right', i18n: { en: 'A goldfish swimming in a bowl', es: 'Un pez dorado nadando en una pecera', vi: 'Một chú cá vàng bơi trong bể', ar: 'سمكة ذهبية تسبح في وعاء', hi: 'कटोरे में तैरती एक सुनहरी मछली', ur: 'پیالے میں تیرتی ایک سنہری مچھلی', zh: '一条在鱼缸里游的金鱼' } },
+    { emoji: '🖼️', side: 'left',  i18n: { en: 'A computer that makes a picture from words', es: 'Una computadora que crea una imagen a partir de palabras', vi: 'Một máy tính tạo ra bức tranh từ chữ', ar: 'حاسوب يصنع صورة من الكلمات', hi: 'एक कंप्यूटर जो शब्दों से तस्वीर बनाता है', ur: 'ایک کمپیوٹر جو الفاظ سے تصویر بناتا ہے', zh: '一台根据文字生成图片的电脑' } },
+    { emoji: '🦋', side: 'right', i18n: { en: 'A butterfly landing on a flower', es: 'Una mariposa posándose en una flor', vi: 'Một con bướm đậu trên bông hoa', ar: 'فراشة تحطّ على زهرة', hi: 'एक तितली जो फूल पर बैठती है', ur: 'ایک تتلی جو پھول پر بیٹھتی ہے', zh: '一只落在花上的蝴蝶' } },
+    { emoji: '🎮', side: 'left',  i18n: { en: 'A game character that talks using AI', es: 'Un personaje de videojuego que habla usando IA', vi: 'Một nhân vật trò chơi nói chuyện bằng AI', ar: 'شخصية لعبة تتحدّث باستخدام الذكاء الاصطناعي', hi: 'एक गेम का किरदार जो एआई से बात करता है', ur: 'ایک گیم کا کردار جو اے آئی سے بات کرتا ہے', zh: '一个用人工智能说话的游戏角色' } },
+    { emoji: '👶', side: 'right', i18n: { en: 'A baby laughing out loud', es: 'Un bebé riéndose a carcajadas', vi: 'Một em bé cười thật to', ar: 'رضيع يضحك بصوت عالٍ', hi: 'एक बच्चा ज़ोर से हंसता हुआ', ur: 'ایک بچہ زور سے ہنستا ہوا', zh: '一个咯咯大笑的宝宝' } }
+  ]
+};
+</script>
+<script src="../assets/arcade.js"></script>
+</body>
+</html>

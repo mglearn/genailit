@@ -1,0 +1,84 @@
+{
+  "chrome": {
+    "h1": "Dùng AI Một Cách Trung Thực",
+    "sub": "Một người giúp đỡ AI có thể giúp bạn làm ra nhiều thứ. Nhưng nó có thể sai, và bạn phải nói thật về sự giúp đỡ của nó. Hãy mở bốn ổ khóa để dùng AI một cách trung thực.",
+    "briefLabel": "Nhiệm vụ của bạn",
+    "briefH": "Làm Một Người Giúp Trung Thực",
+    "briefP": "Một người giúp đỡ AI là một người giúp đỡ bằng máy tính biết đưa ra phỏng đoán. Khi nó giúp bạn, bạn kiểm tra kỹ lại việc của nó và bạn nói thật về sự giúp đỡ của nó. Hãy đọc manh mối, rồi mở cả bốn ổ khóa. Mỗi ổ khóa có một lý do cho thấy vì sao câu trả lời đúng.",
+    "footerText": "Breakout Hiểu biết AI tạo sinh · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+    "winStamp": "ĐÃ GIẢI XONG VỤ ÁN",
+    "winH": "Bạn đã mở cả bốn ổ khóa!",
+    "winP": "Bạn đã học được cách phân biệt việc do AI làm với việc do con người làm, cách kiểm tra kỹ một câu trả lời của AI, rằng một lời hỏi rõ ràng được gọi là một lời nhắc, và cách ghi công khi AI đã giúp bạn. Trung thực và thông minh. Làm tốt lắm!"
+  },
+  "clues": [
+    {
+      "nm": "Do AI Làm",
+      "title": "Do một cỗ máy làm ra",
+      "body": "Một người giúp đỡ AI có thể làm ra chữ và tranh. Việc mà một người giúp đỡ bằng máy tính làm ra từ lời nhắc của bạn là việc do AI làm. Nó đến từ một cỗ máy biết phỏng đoán, không phải từ bàn tay của một con người."
+    },
+    {
+      "nm": "Do Con Người Làm",
+      "title": "Do một con người làm ra",
+      "body": "Khi bạn tự vẽ một bức tranh hay viết câu chuyện của riêng mình, đó là việc do con người làm. Một con người đang sống làm ra nó bằng chính ý tưởng và đôi tay của họ."
+    },
+    {
+      "nm": "Kiểm Tra Kỹ",
+      "title": "Kiểm tra hai lần",
+      "body": "Một người giúp đỡ AI chỉ đang phỏng đoán thôi, nên nó có thể sai. Bạn nhỏ thông minh kiểm tra kỹ câu trả lời. Hãy hỏi người lớn, hoặc tìm trong một nguồn bạn tin cậy, trước khi bạn dùng nó."
+    },
+    {
+      "nm": "Lời Nhắc Của Bạn",
+      "title": "Lời hỏi rõ ràng",
+      "body": "Lời hỏi rõ ràng mà bạn gõ cho một người giúp đỡ AI có một cái tên. Nó được gọi là một lời nhắc. Một lời nhắc tốt nói cho người giúp đỡ AI chính xác điều bạn muốn."
+    },
+    {
+      "nm": "Ghi Công",
+      "title": "Nói thật",
+      "body": "Nếu một người giúp đỡ AI đã giúp bạn làm ra điều gì đó, hãy nói thật. Hãy nói rằng AI đã giúp. Ghi công là trung thực, và nó cho thấy bạn đã làm gì và AI đã làm gì."
+    },
+    {
+      "nm": "Răng Cá Mập",
+      "title": "Một sự thật đầy răng",
+      "body": "Một con cá mập có thể mọc răng mới suốt đời để thay răng cũ. Điều đó ngầu đấy, nhưng nó sẽ không mở được ổ khóa nào."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Ai Làm Ra Nó?",
+      "q": "Cái nào là do AI làm, không phải do con người làm?",
+      "options": [
+        "Một câu chuyện mà một người giúp đỡ bằng máy tính viết từ lời nhắc của bạn",
+        "Một bức vẽ bằng bút sáp mà chính bạn tô màu",
+        "Một bài hát mà cô thầy của bạn hát to cho cả lớp"
+      ],
+      "reason": "Một câu chuyện mà một người giúp đỡ bằng máy tính làm ra từ lời nhắc của bạn là do AI làm. Một bức vẽ bạn tô màu và một bài hát cô thầy hát là do con người đang sống làm ra, nên chúng là do con người làm."
+    },
+    {
+      "title": "Kiểm Tra Kỹ Nó",
+      "q": "Hãy chạm vào MỌI cách tốt để kiểm tra kỹ câu trả lời của một người giúp đỡ AI.",
+      "items": [
+        "Hỏi một người lớn bạn tin cậy",
+        "Tra nó trong một cuốn sách hay nguồn bạn tin cậy",
+        "So sánh nó với điều bạn đã biết",
+        "Tin nó vì nó nghe rất chắc chắn",
+        "Dùng nó ngay mà không đọc"
+      ],
+      "reason": "Những cách kiểm tra kỹ tốt là hỏi người lớn, tìm trong một nguồn tin cậy, hoặc so sánh với điều bạn đã biết. Tin nó vì nó nghe chắc chắn, hay dùng nó mà không đọc, thì không phải là kiểm tra."
+    },
+    {
+      "title": "Gọi Tên Lời Hỏi",
+      "q": "Lời hỏi rõ ràng mà bạn gõ cho một người giúp đỡ AI được gọi là một ______.",
+      "reason": "Lời hỏi rõ ràng mà bạn gõ cho một người giúp đỡ AI được gọi là một lời nhắc. Một lời nhắc tốt nói cho người giúp đỡ AI chính xác điều bạn muốn để câu trả lời của nó khớp."
+    },
+    {
+      "title": "Ghi Công",
+      "q": "Một người giúp đỡ AI đã giúp bạn làm một tấm áp phích. Hãy chạm vào các bước theo ĐÚNG thứ tự.",
+      "pads": [
+        "📤 Chia sẻ tấm áp phích",
+        "🤖 AI đã giúp mình làm nó",
+        "🏷️ Nói thật và ghi công"
+      ],
+      "reason": "Đầu tiên AI đã GIÚP bạn làm nó. Rồi bạn NÓI THẬT và ghi công cho sự giúp đỡ đó. Rồi bạn CHIA SẺ tấm áp phích. Trung thực là điều đúng đắn nên làm."
+    }
+  ]
+}

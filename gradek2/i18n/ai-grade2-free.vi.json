@@ -1,0 +1,84 @@
+{
+  "chrome": {
+    "h1": "Nói Rõ Ràng",
+    "sub": "Một người giúp đỡ AI phỏng đoán từ những gì bạn nói. Nếu bạn nói rõ ràng, bạn sẽ có một câu trả lời tốt hơn. Hãy mở bốn ổ khóa để trở thành một người biết hỏi rõ ràng.",
+    "briefLabel": "Nhiệm vụ của bạn",
+    "briefH": "Làm Một Người Hỏi Rõ Ràng",
+    "briefP": "Một người giúp đỡ AI là một người giúp đỡ bằng máy tính biết đưa ra phỏng đoán. Nó phỏng đoán từ những từ bạn đưa cho nó. Hãy đọc manh mối, rồi mở cả bốn ổ khóa. Mỗi ổ khóa có một lý do cho thấy vì sao câu trả lời đúng.",
+    "footerText": "Breakout Hiểu biết AI tạo sinh · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+    "winStamp": "ĐÃ GIẢI XONG VỤ ÁN",
+    "winH": "Bạn đã mở cả bốn ổ khóa!",
+    "winP": "Bạn đã học được rằng một người giúp đỡ AI phỏng đoán từ những từ của bạn, rằng một lời hỏi rõ ràng cho một câu trả lời tốt hơn, và rằng những từ mơ hồ cho một phỏng đoán mơ hồ. Nó vẫn có thể sai, nên bạn kiểm tra. Làm tốt lắm!"
+  },
+  "clues": [
+    {
+      "nm": "Nó Nghe Lời Bạn",
+      "title": "Cách nó phỏng đoán",
+      "body": "Một người giúp đỡ AI là một người giúp đỡ bằng máy tính biết đưa ra phỏng đoán. Nó đọc những từ bạn đưa cho nó, rồi phỏng đoán một câu trả lời khớp với lời của bạn."
+    },
+    {
+      "nm": "Từ Mơ Hồ",
+      "title": "Một lời hỏi mơ hồ",
+      "body": "Nếu bạn chỉ nói \"làm một cái gì đó,\" người giúp đỡ AI không biết bạn muốn gì. Một lời hỏi mơ hồ cho một phỏng đoán mơ hồ có thể không khớp."
+    },
+    {
+      "nm": "Từ Rõ Ràng",
+      "title": "Một lời hỏi rõ ràng",
+      "body": "Nếu bạn nói \"vẽ một con cá xanh vui vẻ dưới biển,\" người giúp đỡ AI biết chính xác bạn muốn gì. Một lời hỏi rõ ràng cho một câu trả lời tốt hơn."
+    },
+    {
+      "nm": "Thêm Chi Tiết",
+      "title": "Nói nhiều hơn",
+      "body": "Chi tiết giúp ích. Hãy nói cho người giúp đỡ AI màu sắc, kích thước, hay nơi chốn. Bạn thêm càng nhiều chi tiết rõ ràng, câu trả lời càng sát hơn."
+    },
+    {
+      "nm": "Vẫn Kiểm Tra",
+      "title": "Nó có thể sai",
+      "body": "Ngay cả một lời hỏi rõ ràng cũng có thể nhận một câu trả lời sai, vì người giúp đỡ AI vẫn đang phỏng đoán. Nên bạn đọc câu trả lời và kiểm tra nó mỗi lần."
+    },
+    {
+      "nm": "Chú Ong Bận Rộn",
+      "title": "Một sự thật vo ve",
+      "body": "Một chú ong có thể ghé nhiều bông hoa trong một ngày để lấy mật. Điều đó thú vị đấy, nhưng nó sẽ không mở được ổ khóa nào."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Điều Gì Giúp Nhiều Nhất",
+      "q": "Điều gì giúp một người giúp đỡ AI cho bạn một câu trả lời tốt hơn?",
+      "options": [
+        "Nói cho nó một cách rõ ràng điều bạn muốn",
+        "Dùng những từ mơ hồ mà nó không hiểu được",
+        "Không nói gì cả và cứ mong đợi"
+      ],
+      "reason": "Một người giúp đỡ AI phỏng đoán từ những từ của bạn. Khi bạn nói rõ ràng điều bạn muốn, nó có thể cho một câu trả lời tốt hơn. Những từ mơ hồ hay không nói gì thì dẫn đến một phỏng đoán mơ hồ."
+    },
+    {
+      "title": "Những Lời Hỏi Rõ Ràng",
+      "q": "Hãy chạm vào MỌI lời hỏi đủ rõ ràng để có một câu trả lời tốt.",
+      "items": [
+        "Vẽ một con diều đỏ đang bay trên bầu trời xanh",
+        "Viết một bài thơ ngắn về chú cún của tôi",
+        "Lập một danh sách ba loại trái cây màu xanh",
+        "Cứ làm một cái gì đó cho tôi đi",
+        "Làm gì đó đi, tôi không quan tâm là gì"
+      ],
+      "reason": "Lời hỏi rõ ràng nêu tên điều bạn muốn, như một con diều đỏ hay một bài thơ về một chú cún. Lời hỏi mơ hồ như \"làm một cái gì đó\" không cho người giúp đỡ AI đủ để phỏng đoán giỏi."
+    },
+    {
+      "title": "Từ Kỳ Diệu",
+      "q": "Để có một câu trả lời tốt hơn, bạn phải nói cho người giúp đỡ AI điều bạn muốn một cách ______.",
+      "reason": "Một lời hỏi rõ ràng giúp người giúp đỡ AI đưa ra một phỏng đoán tốt hơn. Khi lời của bạn rõ ràng, câu trả lời của nó khớp với điều bạn thật sự muốn."
+    },
+    {
+      "title": "Hỏi Đúng Cách",
+      "q": "Bạn muốn người giúp đỡ AI vẽ một bức tranh. Hãy chạm vào các bước theo ĐÚNG thứ tự.",
+      "pads": [
+        "✅ Kiểm tra câu trả lời",
+        "💭 Nghĩ xem bạn muốn gì",
+        "🗣️ Hỏi bằng những từ rõ ràng"
+      ],
+      "reason": "Đầu tiên NGHĨ về điều bạn muốn. Rồi HỎI bằng những từ rõ ràng. Rồi KIỂM TRA câu trả lời, vì người giúp đỡ AI vẫn có thể sai."
+    }
+  ]
+}

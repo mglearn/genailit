@@ -1,0 +1,84 @@
+{
+  "chrome": {
+    "h1": "Gặp AI, Hỏi Người Lớn",
+    "sub": "Một người giúp đỡ AI nhỏ muốn giúp bạn. Nhưng trước tiên bạn học các quy tắc. Hãy mở bốn ổ khóa để dùng AI một cách an toàn.",
+    "briefLabel": "Nhiệm vụ của bạn",
+    "briefH": "Làm Một Người Bạn Của AI",
+    "briefP": "Một người giúp đỡ AI là một người giúp đỡ bằng máy tính. Nó đưa ra phỏng đoán. Nó có thể sai. Hãy xem manh mối. Rồi mở cả bốn ổ khóa. Mỗi ổ khóa cho bạn biết vì sao.",
+    "footerText": "Breakout Hiểu biết AI tạo sinh · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+    "winStamp": "ĐÃ GIẢI XONG VỤ ÁN",
+    "winH": "Bạn đã mở cả bốn ổ khóa!",
+    "winP": "Bạn phân biệt được một người giúp đỡ AI với một thứ đang sống. Bạn biết nó có thể sai. Bạn giữ kín những điều riêng tư. Bạn hỏi người lớn trước. Giỏi lắm!"
+  },
+  "clues": [
+    {
+      "nm": "Người Giúp Đỡ",
+      "title": "AI là gì?",
+      "body": "Một người giúp đỡ AI là một người giúp đỡ bằng máy tính. Nó đưa ra phỏng đoán. Nó không sống như bạn."
+    },
+    {
+      "nm": "Không Sống",
+      "title": "Sống hay không?",
+      "body": "Một chú mèo thì sống. Nó kêu gừ gừ và ăn. Một người máy giúp đỡ thì không sống. Nó chỉ phỏng đoán thôi."
+    },
+    {
+      "nm": "Nó Có Thể Sai",
+      "title": "Không phải lúc nào cũng đúng",
+      "body": "Một người giúp đỡ AI chỉ phỏng đoán thôi. Nên nó có thể sai. Hãy kiểm tra phỏng đoán bằng mắt của bạn."
+    },
+    {
+      "nm": "Giữ Kín",
+      "title": "Những điều riêng tư",
+      "body": "Đừng nói cho một con bot tên hay nhà của bạn. Hãy giữ kín những điều riêng tư. Hỏi người lớn."
+    },
+    {
+      "nm": "Hỏi Trước",
+      "title": "Hỏi người lớn",
+      "body": "Trước khi bạn dùng một người giúp đỡ AI, hãy hỏi người lớn. Dùng nó cùng nhau. Đó là cách an toàn."
+    },
+    {
+      "nm": "Bong Bóng Đỏ",
+      "title": "Một sự thật vui",
+      "body": "Một quả bong bóng đỏ có thể bay lên cao trên bầu trời. Điều đó vui đấy, nhưng nó sẽ không mở được ổ khóa nào."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Người Giúp Đỡ Hay Vật Sống?",
+      "q": "Cái nào là một người giúp đỡ AI?",
+      "options": [
+        "Một người giúp đỡ bằng máy tính biết phỏng đoán trên màn hình",
+        "Một chú mèo kêu gừ gừ và uống sữa",
+        "Một cái cây lớn cao trong sân"
+      ],
+      "reason": "Một người giúp đỡ AI sống trong một máy tính và đưa ra phỏng đoán. Một chú mèo và một cái cây thì sống và lớn lên. Chúng không phải là người giúp đỡ AI."
+    },
+    {
+      "title": "Điều Đúng Về AI",
+      "q": "Hãy chạm vào MỌI điều đúng về một người giúp đỡ AI.",
+      "items": [
+        "Nó đưa ra phỏng đoán",
+        "Nó có thể sai",
+        "Nó là một người giúp đỡ bằng máy tính",
+        "Nó luôn luôn đúng",
+        "Nó là một thú cưng thật đang sống"
+      ],
+      "reason": "Một người giúp đỡ AI phỏng đoán, nên nó có thể sai. Nó là một người giúp đỡ bằng máy tính, không phải một thú cưng đang sống, và nó không phải lúc nào cũng đúng."
+    },
+    {
+      "title": "Giữ An Toàn",
+      "q": "Tên và nhà của bạn là bí mật. Hãy giữ chúng ______ khỏi một con bot.",
+      "reason": "Tên và nhà của bạn là riêng tư. Bạn giữ chúng riêng tư và an toàn khỏi một con bot, và bạn hỏi người lớn để được giúp."
+    },
+    {
+      "title": "Hỏi Người Lớn",
+      "q": "Bạn muốn dùng một người giúp đỡ AI. Hãy chạm vào các bước theo ĐÚNG thứ tự.",
+      "pads": [
+        "🤝 Dùng nó cùng nhau",
+        "💡 Bạn muốn dùng AI",
+        "🙋 Hỏi người lớn"
+      ],
+      "reason": "Đầu tiên bạn MUỐN dùng AI. Rồi bạn HỎI người lớn. Rồi bạn DÙNG nó cùng nhau. Điều đó giữ bạn an toàn."
+    }
+  ]
+}

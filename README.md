@@ -2,7 +2,7 @@
 
 A suite of **Critical Thinking Online Breakouts (CTOBs)** for **Generative AI
 Literacy**, aligned to the **Texas TEKS Technology Applications** standard
-(adopted 2022, required K–8), grades **3–8**, in **7 languages**. Sibling to the
+(adopted 2022, required K–8), grades **K–8**, in **7 languages**. Sibling to the
 Digital Citizenship Breakouts — same escape-room engine, same build pipeline,
 different curriculum: this suite lives in the **AI-adjacent TEKS strands**
 (Computational Thinking, Creativity & Innovation, Data Literacy, Practical
@@ -12,26 +12,37 @@ Each activity is a self-contained escape-room: six clues (one a decoy), four
 locks, and a revealed *reason* after every lock — the reasoning is the point.
 Runs entirely in the browser; no logins, no data collected.
 
-**Live (free tier):** https://mglearn.github.io/genailit/ — Grades 3–5 are fully
-playable; Grades 6–8 show a licensed placeholder on the public site and are
-served to licensed districts through the auth gateway.
+**18 activities:** every grade K–8 has one **free featured** lesson (fully playable
+on the public site) plus one **licensed** lesson (shown as a placeholder publicly,
+served to licensed districts through the auth gateway).
+
+**Live:** https://mglearn.github.io/genailit/ — free featured lessons + the
+[🕹️ Critical Thinking Arcade](https://mglearn.github.io/genailit/arcade/) (three
+free, no-login sorting games, one per grade band, in 7 languages).
 
 Sibling suite: [Digital Citizenship Breakouts](https://mglearn.github.io/digcit/)
 (same engine, Digital Citizenship TEKS strand).
 
 ## The activities
 
-| Grade | Title | TEKS | Tier |
-|-------|-------|------|------|
-| 3 | Meet the Machine that Guesses | §126.8 | free |
-| 4 | Garbage In, Garbage Out | §126.9 | free |
-| 5 | The Prompt Lab | §126.10 | free |
-| 6 | Real or Generated? | §126.17 | licensed |
-| 7 | Bias in the Machine | §126.18 | licensed |
-| 8 | Build with AI, Responsibly | §126.19 | licensed |
+Each grade has a free featured lesson and a licensed lesson, in the AI-adjacent
+TEKS strands. The through-line: *AI makes guesses from patterns, it can be
+confidently wrong, so you verify.*
 
-All six activities are built, translated into all 7 languages, and verified
-(`solve-test.js` → ALL PASS). The full build plan is in [`plan.md`](plan.md).
+| Band | Grades | TEKS | Example themes |
+|------|--------|------|----------------|
+| K–2 | K, 1, 2 | §126.5–.7 | meet AI helpers, AI guesses & can be wrong, check it, clear prompts |
+| 3–5 | 3, 4, 5 | §126.8–.10 | how AI guesses, garbage in/out, prompt writing |
+| 6–8 | 6, 7, 8 | §126.17–.19 | real vs generated, bias in the machine, build with AI responsibly |
+
+## The arcade
+
+Three free, no-login **sorting games** (one per grade band), fully translated into
+all 7 languages, sharing one engine (`assets/arcade.js`):
+**Robot or Real?** (K–2), **Double-Check Dash** (3–5), and **Bias Buster** (6–8).
+
+All activities are built, translated into all 7 languages, and verified
+(`solve-test.js` → ALL PASS).
 Languages: English, Spanish, Vietnamese, Arabic (RTL), Hindi, Urdu, Chinese.
 Non-English text is AI-seeded and pending native-speaker review.
 

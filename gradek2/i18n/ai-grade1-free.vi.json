@@ -1,0 +1,84 @@
+{
+  "chrome": {
+    "h1": "Những Người Đoán Giỏi",
+    "sub": "Một người giúp đỡ AI là một người đoán giỏi. Nó nhìn nhiều ví dụ trước đã. Nó phỏng đoán như thế nào? Hãy mở bốn ổ khóa để tìm hiểu.",
+    "briefLabel": "Nhiệm vụ của bạn",
+    "briefH": "Làm Một Thám Tử Phỏng Đoán",
+    "briefP": "Một người giúp đỡ AI là một người giúp đỡ bằng máy tính biết đưa ra phỏng đoán. Nó xem nhiều ví dụ trước đã. Hãy đọc manh mối. Rồi mở cả bốn ổ khóa. Mỗi ổ khóa cho bạn biết vì sao.",
+    "footerText": "Breakout Hiểu biết AI tạo sinh · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+    "winStamp": "ĐÃ GIẢI XONG VỤ ÁN",
+    "winH": "Bạn đã mở cả bốn ổ khóa!",
+    "winP": "Bạn đã học được rằng một người giúp đỡ AI phỏng đoán từ những ví dụ nó đã thấy. Nhiều ví dụ tốt giúp nó phỏng đoán giỏi hơn. Nó vẫn có thể sai, nên bạn kiểm tra. Làm tốt lắm!"
+  },
+  "clues": [
+    {
+      "nm": "Người Đoán",
+      "title": "Người đoán là gì?",
+      "body": "Một người giúp đỡ AI là một người giúp đỡ bằng máy tính. Nó đưa ra phỏng đoán. Nó không sống, và nó không suy nghĩ như bạn."
+    },
+    {
+      "nm": "Nhiều Ví Dụ",
+      "title": "Nó nhìn trước đã",
+      "body": "Để phỏng đoán một con mèo, một người giúp đỡ AI nhìn nhiều bức ảnh mèo trước đã. Những bức ảnh đó là các ví dụ của nó."
+    },
+    {
+      "nm": "Tìm Khuôn Mẫu",
+      "title": "Giống và giống",
+      "body": "Người giúp đỡ AI thấy rằng mèo có lông, có tai, và có đuôi. Đó là một khuôn mẫu. Nó dùng khuôn mẫu để phỏng đoán."
+    },
+    {
+      "nm": "Nhiều Thì Tốt Hơn",
+      "title": "Thật nhiều ví dụ",
+      "body": "Nhiều ví dụ tốt giúp người giúp đỡ AI phỏng đoán giỏi hơn. Vài ví dụ thì mắc nhiều lỗi hơn."
+    },
+    {
+      "nm": "Kiểm Tra Nó",
+      "title": "Nó có thể sai",
+      "body": "Một phỏng đoán không phải lúc nào cũng đúng. Người giúp đỡ AI có thể sai. Nên bạn nhìn và kiểm tra nó."
+    },
+    {
+      "nm": "Sự Thật Cầu Vồng",
+      "title": "Một sự thật đẹp",
+      "body": "Một cầu vồng có nhiều màu sau cơn mưa. Điều đó đẹp đấy, nhưng nó sẽ không mở được ổ khóa nào."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Nó Phỏng Đoán Như Thế Nào",
+      "q": "Một người giúp đỡ AI đưa ra một phỏng đoán như thế nào?",
+      "options": [
+        "Nó nhìn nhiều ví dụ nó đã thấy trước đây",
+        "Nó đang sống và cứ thế biết mọi câu trả lời",
+        "Nó không bao giờ nhìn gì cả và luôn luôn đúng"
+      ],
+      "reason": "Một người giúp đỡ AI nhìn nhiều ví dụ trước đã, rồi phỏng đoán từ khuôn mẫu nó thấy. Nó không sống, và nó không phải lúc nào cũng đúng."
+    },
+    {
+      "title": "Về Việc Phỏng Đoán",
+      "q": "Hãy chạm vào MỌI điều đúng về cách một người giúp đỡ AI phỏng đoán.",
+      "items": [
+        "Nó nhìn nhiều ví dụ trước đã",
+        "Nó tìm một khuôn mẫu để phỏng đoán",
+        "Nhiều ví dụ tốt giúp nó phỏng đoán giỏi hơn",
+        "Nó sinh ra đã biết sẵn mọi thứ",
+        "Nó có thể phỏng đoán mà không cần ví dụ nào cả"
+      ],
+      "reason": "Một người giúp đỡ AI học một khuôn mẫu từ nhiều ví dụ, và nhiều ví dụ tốt thì giúp ích. Nó không sinh ra đã biết mọi thứ, và nó không thể phỏng đoán giỏi khi không có ví dụ nào."
+    },
+    {
+      "title": "Nhìn Trước Đã",
+      "q": "Trước khi nó phỏng đoán một con mèo, người giúp đỡ AI nhìn nhiều ______.",
+      "reason": "Một người giúp đỡ AI cần ví dụ để học hỏi. Nó nhìn nhiều bức ảnh mèo trước đã, rồi nó có thể phỏng đoán một con mèo mới."
+    },
+    {
+      "title": "Phỏng Đoán Rồi Kiểm Tra",
+      "q": "Người giúp đỡ AI phỏng đoán. Hãy chạm vào các bước theo ĐÚNG thứ tự.",
+      "pads": [
+        "✅ Bạn kiểm tra phỏng đoán",
+        "🖼️ Nó nhìn các ví dụ",
+        "🔮 Nó đưa ra một phỏng đoán"
+      ],
+      "reason": "Đầu tiên người giúp đỡ AI NHÌN các ví dụ. Rồi nó đưa ra một PHỎNG ĐOÁN. Rồi bạn KIỂM TRA phỏng đoán, vì nó có thể sai."
+    }
+  ]
+}

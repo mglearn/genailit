@@ -1,0 +1,85 @@
+{
+  "chrome": {
+    "h1": "Buenos adivinadores",
+    "sub": "Un ayudante de IA es un buen adivinador. Primero mira muchos ejemplos. ¿Cómo adivina? Abre cuatro candados para descubrirlo.",
+    "briefLabel": "Tu misión",
+    "briefH": "Sé un detective de conjeturas",
+    "briefP": "Un ayudante de IA es un ayudante de computadora que hace conjeturas. Primero ve muchos ejemplos. Lee las pistas. Luego abre los cuatro candados. Cada candado te dice por qué.",
+    "footerText": "Breakouts de alfabetización en IA generativa · Funciona todo en tu navegador — sin cuentas, sin datos guardados.",
+    "winStamp": "CASO CERRADO",
+    "winH": "¡Abriste los cuatro candados!",
+    "winP": "Aprendiste que un ayudante de IA adivina a partir de ejemplos que ha visto. Más buenos ejemplos lo ayudan a adivinar mejor. Aun así se puede equivocar, por eso tú compruebas. ¡Buen trabajo!",
+    "crumbSuite": "Breakouts de alfabetización en IA generativa"
+  },
+  "clues": [
+    {
+      "nm": "El adivinador",
+      "title": "¿Qué es un adivinador?",
+      "body": "Un ayudante de IA es un ayudante de computadora. Hace conjeturas. No está vivo, y no piensa como tú."
+    },
+    {
+      "nm": "Muchos ejemplos",
+      "title": "Primero mira",
+      "body": "Para adivinar un gato, un ayudante de IA primero mira muchas fotos de gatos. Esas fotos son sus ejemplos."
+    },
+    {
+      "nm": "Encuentra el patrón",
+      "title": "Igual e igual",
+      "body": "El ayudante de IA ve que los gatos tienen pelo, orejas y cola. Eso es un patrón. Usa el patrón para adivinar."
+    },
+    {
+      "nm": "Más es mejor",
+      "title": "Muchos ejemplos",
+      "body": "Más buenos ejemplos ayudan al ayudante de IA a adivinar mejor. Con pocos ejemplos comete más errores."
+    },
+    {
+      "nm": "Compruébalo",
+      "title": "Se puede equivocar",
+      "body": "Una conjetura no siempre acierta. El ayudante de IA se puede equivocar. Así que tú miras y lo compruebas."
+    },
+    {
+      "nm": "Dato del arcoíris",
+      "title": "Un dato bonito",
+      "body": "Un arcoíris tiene muchos colores después de la lluvia. Eso es bonito, pero no abrirá ningún candado."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Cómo adivina",
+      "q": "¿Cómo hace una conjetura un ayudante de IA?",
+      "options": [
+        "Mira muchos ejemplos que ha visto antes",
+        "Está vivo y simplemente sabe cada respuesta",
+        "Nunca mira nada y siempre acierta"
+      ],
+      "reason": "Un ayudante de IA primero mira muchos ejemplos, luego adivina a partir del patrón que ve. No está vivo, y no siempre acierta."
+    },
+    {
+      "title": "Sobre adivinar",
+      "q": "Toca CADA cosa verdadera sobre cómo adivina un ayudante de IA.",
+      "items": [
+        "Primero mira muchos ejemplos",
+        "Encuentra un patrón para adivinar",
+        "Más buenos ejemplos lo ayudan a adivinar mejor",
+        "Nació sabiendo todo",
+        "Puede adivinar sin ningún ejemplo"
+      ],
+      "reason": "Un ayudante de IA aprende un patrón a partir de muchos ejemplos, y más buenos ejemplos ayudan. No nació sabiendo cosas, y no puede adivinar bien sin ejemplos."
+    },
+    {
+      "title": "Primero mira",
+      "q": "Antes de adivinar un gato, el ayudante de IA mira muchos ______.",
+      "reason": "Un ayudante de IA necesita ejemplos para aprender. Primero mira muchas fotos de gatos, luego puede adivinar un gato nuevo."
+    },
+    {
+      "title": "Adivina y luego comprueba",
+      "q": "El ayudante de IA adivina. Toca los pasos en el orden CORRECTO.",
+      "pads": [
+        "✅ Tú compruebas la conjetura",
+        "🖼️ Mira ejemplos",
+        "🔮 Hace una conjetura"
+      ],
+      "reason": "Primero el ayudante de IA MIRA ejemplos. Luego hace una CONJETURA. Luego tú COMPRUEBAS la conjetura, porque se puede equivocar."
+    }
+  ]
+}

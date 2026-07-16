@@ -1,0 +1,85 @@
+{
+  "chrome": {
+    "h1": "Dilo con claridad",
+    "sub": "Un ayudante de IA adivina a partir de lo que dices. Si lo dices con claridad, obtienes una mejor respuesta. Abre cuatro candados para volverte alguien que pide con claridad.",
+    "briefLabel": "Tu misión",
+    "briefH": "Sé alguien que pide con claridad",
+    "briefP": "Un ayudante de IA es un ayudante de computadora que hace conjeturas. Adivina a partir de las palabras que le das. Lee las pistas, luego abre los cuatro candados. Cada candado tiene una razón que muestra por qué la respuesta es correcta.",
+    "footerText": "Breakouts de alfabetización en IA generativa · Funciona todo en tu navegador — sin cuentas, sin datos guardados.",
+    "winStamp": "CASO CERRADO",
+    "winH": "¡Abriste los cuatro candados!",
+    "winP": "Aprendiste que un ayudante de IA adivina a partir de tus palabras, que una petición clara obtiene una mejor respuesta, y que las palabras confusas obtienen una conjetura confusa. Aun así se puede equivocar, por eso tú compruebas. ¡Buen trabajo!",
+    "crumbSuite": "Breakouts de alfabetización en IA generativa"
+  },
+  "clues": [
+    {
+      "nm": "Escucha tus palabras",
+      "title": "Cómo adivina",
+      "body": "Un ayudante de IA es un ayudante de computadora que hace conjeturas. Lee las palabras que le das, luego adivina una respuesta que va con tus palabras."
+    },
+    {
+      "nm": "Palabras confusas",
+      "title": "Una petición confusa",
+      "body": "Si solo dices \"haz algo\", el ayudante de IA no sabe qué quieres. Una petición confusa obtiene una conjetura confusa que quizá no encaje."
+    },
+    {
+      "nm": "Palabras claras",
+      "title": "Una petición clara",
+      "body": "Si dices \"dibuja un pez azul feliz en el mar\", el ayudante de IA sabe exactamente qué quieres decir. Una petición clara obtiene una mejor respuesta."
+    },
+    {
+      "nm": "Agrega detalles",
+      "title": "Di más",
+      "body": "Los detalles ayudan. Dile al ayudante de IA el color, el tamaño o el lugar. Entre más detalles claros agregues, más cerca estará la respuesta."
+    },
+    {
+      "nm": "Aun así comprueba",
+      "title": "Se puede equivocar",
+      "body": "Incluso una petición clara puede obtener una respuesta equivocada, porque el ayudante de IA sigue adivinando. Así que lees la respuesta y la compruebas cada vez."
+    },
+    {
+      "nm": "Abeja ocupada",
+      "title": "Un dato zumbón",
+      "body": "Una abeja puede visitar muchas flores en un día para juntar néctar. Eso es curioso, pero no abrirá ningún candado."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Qué ayuda más",
+      "q": "¿Qué ayuda a un ayudante de IA a darte una mejor respuesta?",
+      "options": [
+        "Decirle con claridad lo que quieres",
+        "Usar palabras confusas que no puede entender",
+        "No decir nada y esperar"
+      ],
+      "reason": "Un ayudante de IA adivina a partir de tus palabras. Cuando le dices con claridad lo que quieres, te puede dar una mejor respuesta. Las palabras confusas o ninguna palabra llevan a una conjetura confusa."
+    },
+    {
+      "title": "Peticiones claras",
+      "q": "Toca CADA petición que es lo bastante clara para una buena respuesta.",
+      "items": [
+        "Dibuja un papalote rojo volando en un cielo azul",
+        "Escribe un poema corto sobre mi perrito",
+        "Haz una lista de tres frutas que sean verdes",
+        "Solo haz una cosa para mí",
+        "Haz algo, no me importa qué"
+      ],
+      "reason": "Las peticiones claras nombran lo que quieres, como un papalote rojo o un poema sobre un perrito. Las peticiones confusas como \"haz una cosa\" no le dicen suficiente al ayudante de IA para adivinar bien."
+    },
+    {
+      "title": "La palabra mágica",
+      "q": "Para conseguir una mejor respuesta, debes decirle al ayudante de IA lo que quieres de forma ______.",
+      "reason": "Una petición clara ayuda al ayudante de IA a hacer una mejor conjetura. Cuando tus palabras son claras, su respuesta va con lo que de verdad quieres."
+    },
+    {
+      "title": "Pide de la forma correcta",
+      "q": "Quieres que el ayudante de IA dibuje una imagen. Toca los pasos en el orden CORRECTO.",
+      "pads": [
+        "✅ Comprueba la respuesta",
+        "💭 Piensa qué quieres",
+        "🗣️ Pide con palabras claras"
+      ],
+      "reason": "Primero PIENSA en lo que quieres. Luego PIDE con palabras claras. Luego COMPRUEBA la respuesta, porque el ayudante de IA aún se puede equivocar."
+    }
+  ]
+}

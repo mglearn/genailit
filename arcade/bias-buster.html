@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<title>Bias Buster — Critical Thinking Arcade</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="../assets/favicon.ico" sizes="16x16 32x32 48x48">
+<meta name="theme-color" content="#4338ca">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>:root{--navy:#4338ca;--navy-d:#312e81;--red:#c1121f;--red-d:#8b0d16;--gold:#06b6d4;--gold-d:#0e7490;--paper:#f5f6ff;--ink:#14203a;--ink-soft:#4b5a78;--card:#fff;--line:#e0e7ff;--good:#2f9e44;--bad:#e03131;--c1:#4338ca;--c2:#7c3aed;--c3:#0891b2;--c4:#06b6d4;--c5:#6d28d9;--bg-a:rgba(6,182,212,.12);--bg-b:rgba(67,56,202,.10)}</style>
+<link rel="stylesheet" href="../assets/arcade.css">
+</head>
+<body>
+<div class="awrap"><div id="game"></div></div>
+<script>
+window.ARCADE_DATA = {
+  id: 'ai-bias-buster',
+  icon: '⚖️',
+  seconds: 45,
+  ctaHref: '../index.html',
+  i18n: {
+    en: {
+      title: 'Bias Buster',
+      sub: 'Sort each AI output: SOUND, or BIASED / UNRELIABLE?',
+      prompt: 'This AI output is…',
+      left: 'Sound 🟢',
+      right: 'Biased / unreliable 🟥',
+      clear: 'Consider Alternatives and check your Lens — bias hides in one-sided data (CLEAR).',
+      startP: 'Read each output, then tap Sound or Biased/unreliable (or press ◀ ▶). 3 lives, 45 seconds.'
+    },
+    es: {
+      title: 'Caza-Sesgos',
+      sub: 'Clasifica cada respuesta de la IA: ¿CONFIABLE o SESGADA / POCO FIABLE?',
+      prompt: 'Esta respuesta de la IA es…',
+      left: 'Confiable 🟢',
+      right: 'Sesgada / poco fiable 🟥',
+      clear: 'Considera Alternativas y revisa tu Lente — el sesgo se esconde en datos de un solo lado (CLEAR).',
+      startP: 'Lee cada respuesta y toca Confiable o Sesgada/poco fiable (o pulsa ◀ ▶). 3 vidas, 45 segundos.'
+    },
+    vi: {
+      title: 'Phá Thiên Kiến',
+      sub: 'Phân loại mỗi câu trả lời của AI: ĐÁNG TIN hay THIÊN KIẾN / KHÔNG ĐÁNG TIN?',
+      prompt: 'Câu trả lời này của AI là…',
+      left: 'Đáng tin 🟢',
+      right: 'Thiên kiến / không đáng tin 🟥',
+      clear: 'Hãy xét các Lựa chọn khác và kiểm tra Lăng kính của bạn — thiên kiến ẩn trong dữ liệu một chiều (CLEAR).',
+      startP: 'Đọc từng câu trả lời, rồi chạm Đáng tin hoặc Thiên kiến/không đáng tin (hoặc bấm ◀ ▶). 3 mạng, 45 giây.'
+    },
+    ar: {
+      title: 'كاسر التحيّز',
+      sub: 'صنّف كل ناتج من الذكاء الاصطناعي: سليم أم متحيّز / غير موثوق؟',
+      prompt: 'هذا الناتج من الذكاء الاصطناعي…',
+      left: 'سليم 🟢',
+      right: 'متحيّز / غير موثوق 🟥',
+      clear: 'فكّر في البدائل وتحقّق من عدستك — التحيّز يختبئ في البيانات أحادية الجانب (CLEAR).',
+      startP: 'اقرأ كل ناتج، ثم اضغط سليم أو متحيّز/غير موثوق (أو اضغط ◀ ▶). ٣ أرواح، ٤٥ ثانية.'
+    },
+    hi: {
+      title: 'पूर्वाग्रह भेदक',
+      sub: 'हर एआई उत्तर को छांटो: भरोसेमंद या पक्षपाती / अविश्वसनीय?',
+      prompt: 'यह एआई उत्तर है…',
+      left: 'भरोसेमंद 🟢',
+      right: 'पक्षपाती / अविश्वसनीय 🟥',
+      clear: 'दूसरे विकल्प सोचो और अपने नज़रिये को जांचो — पूर्वाग्रह एकतरफा डेटा में छिपता है (CLEAR)।',
+      startP: 'हर उत्तर पढ़ो, फिर भरोसेमंद या पक्षपाती/अविश्वसनीय दबाओ (या ◀ ▶ दबाओ)। 3 जान, 45 सेकंड।'
+    },
+    ur: {
+      title: 'تعصب شکن',
+      sub: 'ہر اے آئی جواب کو چھانٹو: قابلِ بھروسہ یا متعصب / ناقابلِ اعتبار؟',
+      prompt: 'یہ اے آئی جواب ہے…',
+      left: 'قابلِ بھروسہ 🟢',
+      right: 'متعصب / ناقابلِ اعتبار 🟥',
+      clear: 'دوسرے متبادل سوچو اور اپنے نظریے کو جانچو — تعصب یک طرفہ ڈیٹا میں چھپتا ہے (CLEAR)۔',
+      startP: 'ہر جواب پڑھو، پھر قابلِ بھروسہ یا متعصب/ناقابلِ اعتبار دبائیں (یا ◀ ▶ دبائیں)۔ 3 جانیں، 45 سیکنڈ۔'
+    },
+    zh: {
+      title: '偏见克星',
+      sub: '给每个人工智能的输出分类：可靠，还是有偏见／不可靠？',
+      prompt: '这个人工智能的输出是…',
+      left: '可靠 🟢',
+      right: '有偏见／不可靠 🟥',
+      clear: '想想其他可能，检查你的视角——偏见藏在片面的数据里（CLEAR）。',
+      startP: '读一读每个输出，然后点可靠或有偏见／不可靠（或按 ◀ ▶）。3 条命，45 秒。'
+    }
+  },
+  items: [
+    { emoji: '🔗', side: 'left',  i18n: { en: '“Here are sources you can verify,” with real links', es: '«Aquí tienes fuentes que puedes verificar», con enlaces reales', vi: '“Đây là các nguồn bạn có thể kiểm chứng,” kèm liên kết thật', ar: '«إليك مصادر يمكنك التحقق منها» مع روابط حقيقية', hi: '“ये रहे स्रोत जिन्हें तुम जांच सकते हो,” असली लिंक के साथ', ur: '”یہ رہے ذرائع جنہیں تم جانچ سکتے ہو،“ اصلی لنکس کے ساتھ', zh: '“这里是你可以核实的来源”，并附上真实链接' } },
+    { emoji: '👩‍⚕️', side: 'right', i18n: { en: '“All nurses are women” — a stereotype', es: '«Todas las enfermeras son mujeres» — un estereotipo', vi: '“Tất cả y tá đều là phụ nữ” — một định kiến', ar: '«كل الممرضين نساء» — صورة نمطية', hi: '“सभी नर्सें महिलाएं होती हैं” — एक रूढ़िवादी धारणा', ur: '”ساری نرسیں عورتیں ہوتی ہیں“ — ایک دقیانوسی خیال', zh: '“所有护士都是女的”——一种刻板印象' } },
+    { emoji: '⚖️', side: 'left',  i18n: { en: 'An answer that gives several viewpoints', es: 'Una respuesta que ofrece varios puntos de vista', vi: 'Một câu trả lời đưa ra nhiều góc nhìn', ar: 'إجابة تعرض عدة وجهات نظر', hi: 'एक उत्तर जो कई नज़रिये देता है', ur: 'ایک جواب جو کئی نقطہ ہائے نظر دیتا ہے', zh: '一个给出多种观点的答案' } },
+    { emoji: '📌', side: 'right', i18n: { en: 'A confident claim with a made-up citation', es: 'Una afirmación segura con una cita inventada', vi: 'Một khẳng định chắc nịch với trích dẫn bịa ra', ar: 'ادّعاء واثق مع مرجع مختلق', hi: 'एक आत्मविश्वासी दावा जिसमें गढ़ा हुआ संदर्भ हो', ur: 'ایک پُریقین دعویٰ جس میں گھڑا ہوا حوالہ ہو', zh: '一个附带编造引用的自信断言' } },
+    { emoji: '🙋', side: 'left',  i18n: { en: '“I might be wrong; please double-check this.”', es: '«Podría estar equivocada; por favor verifica esto.»', vi: '“Tôi có thể sai; hãy kiểm tra lại điều này.”', ar: '«قد أكون مخطئًا؛ من فضلك تحقق من هذا.»', hi: '“मैं गलत हो सकता हूं; कृपया इसे दोबारा जांच लें।”', ur: '”میں غلط ہو سکتا ہوں؛ برائے مہربانی اسے دوبارہ جانچ لیں۔“', zh: '“我可能会错，请再核对一下。”' } },
+    { emoji: '🔬', side: 'right', i18n: { en: 'Images of “a scientist” that all look the same', es: 'Imágenes de «un científico» que se ven todas iguales', vi: 'Hình ảnh về “một nhà khoa học” mà đều trông giống nhau', ar: 'صور «عالِم» تبدو كلها متشابهة', hi: '“एक वैज्ञानिक” की तस्वीरें जो सब एक जैसी दिखती हैं', ur: '”ایک سائنسدان“ کی تصویریں جو سب ایک جیسی نظر آتی ہیں', zh: '“一位科学家”的图片全都长得一样' } },
+    { emoji: '📄', side: 'left',  i18n: { en: 'A summary that matches the original article', es: 'Un resumen que coincide con el artículo original', vi: 'Một bản tóm tắt khớp với bài gốc', ar: 'ملخّص يطابق المقال الأصلي', hi: 'एक सारांश जो मूल लेख से मेल खाता है', ur: 'ایک خلاصہ جو اصل مضمون سے میل کھاتا ہے', zh: '一份与原文一致的摘要' } },
+    { emoji: '📊', side: 'right', i18n: { en: 'Trained on one-sided data, so it favors one view', es: 'Entrenada con datos de un solo lado, así que favorece una postura', vi: 'Được huấn luyện bằng dữ liệu một chiều nên thiên về một quan điểm', ar: 'مُدرَّب على بيانات أحادية الجانب فيميل إلى رأي واحد', hi: 'एकतरफा डेटा पर प्रशिक्षित, इसलिए एक ही नज़रिये का पक्ष लेता है', ur: 'یک طرفہ ڈیٹا پر تربیت یافتہ، اس لیے ایک ہی نظریے کا ساتھ دیتا ہے', zh: '用片面的数据训练，所以偏向某一种观点' } },
+    { emoji: '📚', side: 'left',  i18n: { en: 'Citing a study you can actually find', es: 'Citar un estudio que realmente puedes encontrar', vi: 'Trích dẫn một nghiên cứu mà bạn thật sự tìm được', ar: 'الاستشهاد بدراسة يمكنك أن تجدها فعلًا', hi: 'ऐसे अध्ययन का हवाला जिसे तुम सचमुच ढूंढ सकते हो', ur: 'ایسی تحقیق کا حوالہ جسے تم واقعی ڈھونڈ سکتے ہو', zh: '引用一项你真的能找到的研究' } },
+    { emoji: '🗣️', side: 'right', i18n: { en: '“This group is always…” — a sweeping claim', es: '«Este grupo siempre…» — una afirmación generalizada', vi: '“Nhóm người này lúc nào cũng…” — một khẳng định vơ đũa cả nắm', ar: '«هذه الفئة دائمًا…» — تعميم جارف', hi: '“यह समूह हमेशा…” — एक व्यापक धारणा', ur: '”یہ گروہ ہمیشہ…“ — ایک عمومی دعویٰ', zh: '“这群人总是……”——一个以偏概全的说法' } },
+    { emoji: '🧭', side: 'left',  i18n: { en: 'Noting the limits of its own knowledge', es: 'Reconocer los límites de su propio conocimiento', vi: 'Thừa nhận giới hạn hiểu biết của chính nó', ar: 'الإشارة إلى حدود معرفته الخاصة', hi: 'अपने ही ज्ञान की सीमाओं को स्वीकार करना', ur: 'اپنے ہی علم کی حدود کو تسلیم کرنا', zh: '指出它自己知识的局限' } },
+    { emoji: '💬', side: 'right', i18n: { en: 'A hallucinated quote no one really said', es: 'Una cita inventada que nadie dijo en realidad', vi: 'Một câu trích dẫn bịa ra mà không ai thật sự nói', ar: 'اقتباس مختلق لم يقله أحد في الحقيقة', hi: 'एक मनगढ़ंत उद्धरण जो असल में किसी ने नहीं कहा', ur: 'ایک من گھڑت اقتباس جو حقیقت میں کسی نے نہیں کہا', zh: '一句谁都没真正说过的、凭空捏造的引言' } }
+  ]
+};
+</script>
+<script src="../assets/arcade.js"></script>
+</body>
+</html>

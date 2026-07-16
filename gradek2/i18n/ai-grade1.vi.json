@@ -1,0 +1,84 @@
+{
+  "chrome": {
+    "h1": "Kiểm Tra Người Máy",
+    "sub": "Một người giúp đỡ AI đã đưa ra một phỏng đoán. Nó có đúng không? Một bạn nhỏ thông minh luôn kiểm tra. Hãy mở bốn ổ khóa để học cách kiểm tra một người máy.",
+    "briefLabel": "Nhiệm vụ của bạn",
+    "briefH": "Làm Một Người Kiểm Tra Người Máy",
+    "briefP": "Một người giúp đỡ AI là một người giúp đỡ bằng máy tính phỏng đoán từ các ví dụ. Một phỏng đoán có thể sai. Hãy đọc manh mối. Rồi mở cả bốn ổ khóa. Mỗi ổ khóa cho bạn biết vì sao.",
+    "footerText": "Breakout Hiểu biết AI tạo sinh · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+    "winStamp": "ĐÃ GIẢI XONG VỤ ÁN",
+    "winH": "Bạn đã mở cả bốn ổ khóa!",
+    "winP": "Bạn đã học được rằng một người giúp đỡ AI phỏng đoán từ các ví dụ, rằng một cách hay để kiểm tra là hỏi người lớn hoặc dùng điều bạn đã biết, rằng một lời yêu cầu rõ ràng giúp ích, và rằng bạn đọc và kiểm tra trước khi dùng nó. Làm tốt lắm!"
+  },
+  "clues": [
+    {
+      "nm": "Nó Phỏng Đoán",
+      "title": "Từ các ví dụ",
+      "body": "Một người giúp đỡ AI đưa ra phỏng đoán. Nó học từ nhiều ví dụ nó đã thấy. Nó là một người giúp đỡ bằng máy tính, không phải một thứ đang sống."
+    },
+    {
+      "nm": "Nó Có Đúng Không?",
+      "title": "Một phỏng đoán có thể sai",
+      "body": "Một người giúp đỡ AI có thể nghe rất chắc chắn mà vẫn sai. Nó chỉ đang phỏng đoán thôi. Nên bạn nên luôn kiểm tra câu trả lời của nó."
+    },
+    {
+      "nm": "Các Cách Kiểm Tra",
+      "title": "Cách kiểm tra",
+      "body": "Bạn có thể kiểm tra một phỏng đoán. Hỏi người lớn. Dùng điều bạn đã biết. Tìm trong một cuốn sách bạn tin cậy."
+    },
+    {
+      "nm": "Nói Rõ Ràng",
+      "title": "Một lời yêu cầu rõ ràng",
+      "body": "Hãy nói cho người giúp đỡ AI điều bạn muốn một cách rõ ràng. Một lời yêu cầu rõ ràng giúp nó phỏng đoán tốt hơn."
+    },
+    {
+      "nm": "Đọc Trước Đã",
+      "title": "Nhìn vào câu trả lời",
+      "body": "Khi người giúp đỡ AI trả lời, hãy đọc nó trước. Đừng chỉ dùng ngay. Đọc, rồi kiểm tra xem nó có đúng không."
+    },
+    {
+      "nm": "Rùa Chậm Chạp",
+      "title": "Một sự thật chậm rãi",
+      "body": "Một con rùa đi rất chậm và mang theo cái mai của nó. Điều đó thú vị đấy, nhưng nó sẽ không mở được ổ khóa nào."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Phỏng Đoán Đến Từ Đâu",
+      "q": "Một người giúp đỡ AI đưa ra phỏng đoán của nó như thế nào?",
+      "options": [
+        "Từ nhiều ví dụ nó đã thấy trước đây",
+        "Nó đang sống và cảm nhận được câu trả lời",
+        "Nó biết sự thật một cách kỳ diệu"
+      ],
+      "reason": "Một người giúp đỡ AI đưa ra phỏng đoán từ các ví dụ nó đã thấy. Nó không sống, và nó không biết sự thật một cách kỳ diệu, nên nó có thể sai."
+    },
+    {
+      "title": "Những Cách Kiểm Tra Tốt",
+      "q": "Hãy chạm vào MỌI cách tốt để kiểm tra câu trả lời của một người giúp đỡ AI.",
+      "items": [
+        "Hỏi một người lớn bạn tin cậy",
+        "Dùng điều bạn đã biết",
+        "Tra nó trong một cuốn sách bạn tin cậy",
+        "Cứ tin mọi lời nó nói",
+        "Nhắm mắt lại và mong nó đúng"
+      ],
+      "reason": "Những cách kiểm tra tốt là hỏi người lớn, dùng điều bạn đã biết, hoặc tìm trong một cuốn sách tin cậy. Cứ tin nó hay mong đợi thì không phải là kiểm tra."
+    },
+    {
+      "title": "Nói Rõ Ràng",
+      "q": "Để có một phỏng đoán tốt hơn, hãy nói cho người giúp đỡ AI điều bạn muốn một cách ______.",
+      "reason": "Một lời yêu cầu rõ ràng giúp người giúp đỡ AI đưa ra một phỏng đoán tốt hơn. Nếu lời của bạn rõ ràng, câu trả lời của nó sẽ khớp với điều bạn thật sự muốn."
+    },
+    {
+      "title": "Khi Nó Có Thể Sai",
+      "q": "Người giúp đỡ AI có thể sai. Hãy chạm vào các bước theo ĐÚNG thứ tự.",
+      "pads": [
+        "🎒 Rồi dùng nó",
+        "👀 Đọc câu trả lời",
+        "✅ Kiểm tra nó hoặc hỏi người lớn"
+      ],
+      "reason": "Đầu tiên ĐỌC câu trả lời. Rồi KIỂM TRA nó hoặc hỏi người lớn. Rồi DÙNG nó chỉ khi nó đúng. Đọc, Kiểm tra, Dùng."
+    }
+  ]
+}

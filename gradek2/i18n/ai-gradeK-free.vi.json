@@ -1,0 +1,84 @@
+{
+  "chrome": {
+    "h1": "Những Người Máy Giúp Đỡ",
+    "sub": "Một người máy giúp đỡ có thể phỏng đoán. Một chú cún thì sống. Bạn phân biệt được chúng không? Hãy mở bốn ổ khóa và gặp một người giúp đỡ biết phỏng đoán.",
+    "briefLabel": "Nhiệm vụ của bạn",
+    "briefH": "Gặp Một Người Giúp Đỡ",
+    "briefP": "Một người giúp đỡ AI là một người giúp đỡ bằng máy tính. Nó đưa ra phỏng đoán. Nó không sống. Hãy xem manh mối. Rồi mở cả bốn ổ khóa. Mỗi ổ khóa cho bạn biết vì sao.",
+    "footerText": "Breakout Hiểu biết AI tạo sinh · Chạy hoàn toàn trong trình duyệt của bạn — không đăng nhập, không thu thập dữ liệu.",
+    "winStamp": "ĐÃ GIẢI XONG VỤ ÁN",
+    "winH": "Bạn đã mở cả bốn ổ khóa!",
+    "winP": "Bạn đã gặp một người giúp đỡ AI. Nó là một người giúp đỡ bằng máy tính biết phỏng đoán. Nó không sống. Nó có thể sai. Bạn là người làm chủ. Giỏi lắm!"
+  },
+  "clues": [
+    {
+      "nm": "Người Giúp Đỡ",
+      "title": "Người giúp đỡ là gì?",
+      "body": "Một người giúp đỡ AI là một người giúp đỡ bằng máy tính. Nó đưa ra phỏng đoán. Nó không sống."
+    },
+    {
+      "nm": "Sống",
+      "title": "Những thứ sống",
+      "body": "Một chú cún thì sống. Một cái cây thì lớn lên. Bạn cũng sống. Một người máy thì không sống."
+    },
+    {
+      "nm": "Nó Phỏng Đoán",
+      "title": "Một phỏng đoán hay",
+      "body": "Một người giúp đỡ AI nhìn và phỏng đoán. Đôi khi nó đúng. Đôi khi nó sai."
+    },
+    {
+      "nm": "Bạn Thông Minh",
+      "title": "Bạn kiểm tra",
+      "body": "Bạn có thể suy nghĩ. Bạn có thể kiểm tra. Nếu một phỏng đoán trông có vẻ sai, hãy hỏi người lớn."
+    },
+    {
+      "nm": "Bạn Là Người Làm Chủ",
+      "title": "Bạn lựa chọn",
+      "body": "Một người giúp đỡ có thể phỏng đoán. Nhưng bạn mới là người chọn. Bạn là người làm chủ, không phải người máy."
+    },
+    {
+      "nm": "Kem",
+      "title": "Một sự thật ngon lành",
+      "body": "Kem thì lạnh và ngọt. Điều đó vui đấy, nhưng nó sẽ không mở được ổ khóa nào."
+    }
+  ],
+  "locks": [
+    {
+      "title": "Ai Đang Sống?",
+      "q": "Cái nào đang sống?",
+      "options": [
+        "Một chú cún biết chạy và ăn",
+        "Một người máy giúp đỡ trên màn hình",
+        "Một khối đồ chơi nằm trên sàn"
+      ],
+      "reason": "Một chú cún thì sống. Nó chạy, ăn, và lớn lên. Một người máy giúp đỡ và một khối đồ chơi thì không sống."
+    },
+    {
+      "title": "Điều Đúng Về Người Giúp Đỡ",
+      "q": "Hãy chạm vào MỌI điều đúng về một người giúp đỡ AI.",
+      "items": [
+        "Nó là một người giúp đỡ bằng máy tính",
+        "Nó đưa ra phỏng đoán",
+        "Đôi khi nó có thể sai",
+        "Nó là một chú cún thật đang sống",
+        "Nó luôn luôn đúng"
+      ],
+      "reason": "Một người giúp đỡ AI là một người giúp đỡ bằng máy tính biết phỏng đoán, và nó có thể sai. Nó không sống, và nó không phải lúc nào cũng đúng."
+    },
+    {
+      "title": "Từ Phỏng Đoán",
+      "q": "Một người giúp đỡ AI nhìn và đưa ra một ______.",
+      "reason": "Một người giúp đỡ AI không phải cứ thế mà biết. Nó đưa ra một phỏng đoán từ những gì nó thấy, nên nó có thể sai."
+    },
+    {
+      "title": "Kiểm Tra Phỏng Đoán",
+      "q": "Người giúp đỡ phỏng đoán. Hãy chạm vào các bước theo ĐÚNG thứ tự.",
+      "pads": [
+        "👀 Bạn kiểm tra phỏng đoán",
+        "🤖 Người giúp đỡ phỏng đoán",
+        "🙋 Hỏi người lớn nếu không chắc"
+      ],
+      "reason": "Đầu tiên người giúp đỡ PHỎNG ĐOÁN. Rồi bạn KIỂM TRA phỏng đoán. Nếu bạn không chắc, hãy HỎI người lớn."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "chrome": {
+    "h1": "Comprueba al robot",
+    "sub": "Un ayudante de IA hizo una conjetura. ¿Está bien? Un niño inteligente siempre comprueba. Abre cuatro candados para aprender a comprobar a un robot.",
+    "briefLabel": "Tu misión",
+    "briefH": "Sé un comprobador de robots",
+    "briefP": "Un ayudante de IA es un ayudante de computadora que adivina a partir de ejemplos. Una conjetura se puede equivocar. Lee las pistas. Luego abre los cuatro candados. Cada candado te dice por qué.",
+    "footerText": "Breakouts de alfabetización en IA generativa · Funciona todo en tu navegador — sin cuentas, sin datos guardados.",
+    "winStamp": "CASO CERRADO",
+    "winH": "¡Abriste los cuatro candados!",
+    "winP": "Aprendiste que un ayudante de IA adivina a partir de ejemplos, que una buena forma de comprobar es preguntarle a un adulto o usar lo que sabes, que una petición clara ayuda, y que lees y compruebas antes de usarlo. ¡Buen trabajo!",
+    "crumbSuite": "Breakouts de alfabetización en IA generativa"
+  },
+  "clues": [
+    {
+      "nm": "Adivina",
+      "title": "A partir de ejemplos",
+      "body": "Un ayudante de IA hace conjeturas. Aprende de muchos ejemplos que ha visto. Es un ayudante de computadora, no una cosa viva."
+    },
+    {
+      "nm": "¿Está bien?",
+      "title": "Una conjetura se puede equivocar",
+      "body": "Un ayudante de IA puede sonar seguro y aun así equivocarse. Solo está adivinando. Así que siempre debes comprobar su respuesta."
+    },
+    {
+      "nm": "Formas de comprobar",
+      "title": "Cómo comprobar",
+      "body": "Puedes comprobar una conjetura. Pregúntale a un adulto. Usa lo que ya sabes. Busca en un libro en el que confías."
+    },
+    {
+      "nm": "Dilo con claridad",
+      "title": "Una petición clara",
+      "body": "Dile al ayudante de IA lo que quieres de forma clara. Una petición clara lo ayuda a hacer una mejor conjetura."
+    },
+    {
+      "nm": "Lee primero",
+      "title": "Mira la respuesta",
+      "body": "Cuando el ayudante de IA responde, léelo primero. No lo uses sin más. Lee, luego comprueba si está bien."
+    },
+    {
+      "nm": "Tortuga lenta",
+      "title": "Un dato lento",
+      "body": "Una tortuga camina muy despacio y carga su caparazón. Eso es curioso, pero no abrirá ningún candado."
+    }
+  ],
+  "locks": [
+    {
+      "title": "De dónde vienen las conjeturas",
+      "q": "¿Cómo hace sus conjeturas un ayudante de IA?",
+      "options": [
+        "A partir de muchos ejemplos que ha visto antes",
+        "Está vivo y siente la respuesta",
+        "Por arte de magia siempre sabe la verdad"
+      ],
+      "reason": "Un ayudante de IA hace conjeturas a partir de ejemplos que ha visto. No está vivo, y no sabe la verdad por arte de magia, así que se puede equivocar."
+    },
+    {
+      "title": "Buenas formas de comprobar",
+      "q": "Toca CADA buena forma de comprobar la respuesta de un ayudante de IA.",
+      "items": [
+        "Preguntarle a un adulto de confianza",
+        "Usar lo que ya sabes",
+        "Buscarlo en un libro en el que confías",
+        "Solo creer cada palabra que dice",
+        "Cerrar los ojos y esperar que esté bien"
+      ],
+      "reason": "Las buenas formas de comprobar son preguntarle a un adulto, usar lo que sabes o buscar en un libro de confianza. Solo creerle o esperar no es comprobar."
+    },
+    {
+      "title": "Dilo con claridad",
+      "q": "Para conseguir una mejor conjetura, dile al ayudante de IA lo que quieres de forma ______.",
+      "reason": "Una petición clara ayuda al ayudante de IA a hacer una mejor conjetura. Si tus palabras son claras, su respuesta se ajustará a lo que de verdad quieres."
+    },
+    {
+      "title": "Cuando podría equivocarse",
+      "q": "El ayudante de IA podría equivocarse. Toca los pasos en el orden CORRECTO.",
+      "pads": [
+        "🎒 Luego úsalo",
+        "👀 Lee la respuesta",
+        "✅ Compruébalo o pregúntale a un adulto"
+      ],
+      "reason": "Primero LEE la respuesta. Luego COMPRUÉBALO o pregúntale a un adulto. Luego ÚSALO solo si está bien. Lee, comprueba, usa."
+    }
+  ]
+}

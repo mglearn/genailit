@@ -1,0 +1,85 @@
+{
+  "chrome": {
+    "h1": "Robots ayudantes",
+    "sub": "Un robot ayudante puede adivinar. Un perrito está vivo. ¿Los puedes distinguir? Abre cuatro candados y conoce a un ayudante que adivina.",
+    "briefLabel": "Tu misión",
+    "briefH": "Conoce a un ayudante",
+    "briefP": "Un ayudante de IA es un ayudante de computadora. Hace conjeturas. No está vivo. Mira las pistas. Luego abre los cuatro candados. Cada candado te dice por qué.",
+    "footerText": "Breakouts de alfabetización en IA generativa · Funciona todo en tu navegador — sin cuentas, sin datos guardados.",
+    "winStamp": "CASO CERRADO",
+    "winH": "¡Abriste los cuatro candados!",
+    "winP": "Conociste a un ayudante de IA. Es un ayudante de computadora que adivina. No está vivo. Se puede equivocar. Tú mandas. ¡Buen trabajo!",
+    "crumbSuite": "Breakouts de alfabetización en IA generativa"
+  },
+  "clues": [
+    {
+      "nm": "El ayudante",
+      "title": "¿Qué es un ayudante?",
+      "body": "Un ayudante de IA es un ayudante de computadora. Hace conjeturas. No está vivo."
+    },
+    {
+      "nm": "Vivo",
+      "title": "Cosas vivas",
+      "body": "Un perrito está vivo. Una planta crece. Tú también estás vivo. Un robot no está vivo."
+    },
+    {
+      "nm": "Adivina",
+      "title": "Una buena conjetura",
+      "body": "Un ayudante de IA mira y adivina. A veces acierta. A veces se equivoca."
+    },
+    {
+      "nm": "Tú eres inteligente",
+      "title": "Tú compruebas",
+      "body": "Tú puedes pensar. Tú puedes comprobar. Si una conjetura se ve mal, pregúntale a un adulto."
+    },
+    {
+      "nm": "Tú mandas",
+      "title": "Tú eliges",
+      "body": "Un ayudante puede adivinar. Pero tú eliges. Tú mandas, no el robot."
+    },
+    {
+      "nm": "Helado",
+      "title": "Un dato rico",
+      "body": "El helado es frío y dulce. Eso es divertido, pero no abrirá ningún candado."
+    }
+  ],
+  "locks": [
+    {
+      "title": "¿Quién está vivo?",
+      "q": "¿Cuál está vivo?",
+      "options": [
+        "Un perrito que corre y come",
+        "Un robot ayudante en una pantalla",
+        "Un bloque de juguete en el piso"
+      ],
+      "reason": "Un perrito está vivo. Corre, come y crece. Un robot ayudante y un bloque de juguete no están vivos."
+    },
+    {
+      "title": "Verdadero sobre los ayudantes",
+      "q": "Toca CADA cosa verdadera sobre un ayudante de IA.",
+      "items": [
+        "Es un ayudante de computadora",
+        "Hace conjeturas",
+        "A veces se puede equivocar",
+        "Es un perrito de verdad y vivo",
+        "Siempre acierta"
+      ],
+      "reason": "Un ayudante de IA es un ayudante de computadora que adivina, y se puede equivocar. No está vivo, y no siempre acierta."
+    },
+    {
+      "title": "La palabra adivinar",
+      "q": "Un ayudante de IA mira y hace una ______.",
+      "reason": "Un ayudante de IA no solo sabe. Hace una conjetura a partir de lo que ve, así que se puede equivocar."
+    },
+    {
+      "title": "Comprueba la conjetura",
+      "q": "El ayudante adivina. Toca los pasos en el orden CORRECTO.",
+      "pads": [
+        "👀 Tú compruebas la conjetura",
+        "🤖 El ayudante adivina",
+        "🙋 Pregúntale a un adulto si no estás seguro"
+      ],
+      "reason": "Primero el ayudante ADIVINA. Luego tú COMPRUEBAS la conjetura. Si no estás seguro, PREGÚNTALE a un adulto."
+    }
+  ]
+}

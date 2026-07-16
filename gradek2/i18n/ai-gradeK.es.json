@@ -1,0 +1,85 @@
+{
+  "chrome": {
+    "h1": "Conoce la IA, pregúntale a un adulto",
+    "sub": "Un pequeño ayudante de IA quiere ayudarte. Pero primero aprendes las reglas. Abre cuatro candados para usar la IA de la forma segura.",
+    "briefLabel": "Tu misión",
+    "briefH": "Sé un amigo de la IA",
+    "briefP": "Un ayudante de IA es un ayudante de computadora. Hace conjeturas. Se puede equivocar. Mira las pistas. Luego abre los cuatro candados. Cada candado te dice por qué.",
+    "footerText": "Breakouts de alfabetización en IA generativa · Funciona todo en tu navegador — sin cuentas, sin datos guardados.",
+    "winStamp": "CASO CERRADO",
+    "winH": "¡Abriste los cuatro candados!",
+    "winP": "Sabes distinguir un ayudante de IA de una cosa viva. Sabes que se puede equivocar. Mantienes las cosas privadas en privado. Le preguntas primero a un adulto. ¡Buen trabajo!",
+    "crumbSuite": "Breakouts de alfabetización en IA generativa"
+  },
+  "clues": [
+    {
+      "nm": "El ayudante",
+      "title": "¿Qué es la IA?",
+      "body": "Un ayudante de IA es un ayudante de computadora. Hace conjeturas. No está vivo como tú."
+    },
+    {
+      "nm": "No está vivo",
+      "title": "¿Vivo o no?",
+      "body": "Un gato está vivo. Ronronea y come. Un robot ayudante no está vivo. Solo adivina."
+    },
+    {
+      "nm": "Se puede equivocar",
+      "title": "No siempre acierta",
+      "body": "Un ayudante de IA solo adivina. Así que se puede equivocar. Comprueba la conjetura con tus ojos."
+    },
+    {
+      "nm": "Mantenlo privado",
+      "title": "Cosas privadas",
+      "body": "No le digas a un robot tu nombre o tu casa. Mantén las cosas privadas en privado. Pregúntale a un adulto."
+    },
+    {
+      "nm": "Pregunta primero",
+      "title": "Pregúntale a un adulto",
+      "body": "Antes de usar un ayudante de IA, pregúntale a un adulto. Úsenlo juntos. Esa es la forma segura."
+    },
+    {
+      "nm": "Globo rojo",
+      "title": "Un dato divertido",
+      "body": "Un globo rojo puede flotar muy alto en el cielo. Eso es divertido, pero no abrirá ningún candado."
+    }
+  ],
+  "locks": [
+    {
+      "title": "¿Ayudante o vivo?",
+      "q": "¿Cuál es un ayudante de IA?",
+      "options": [
+        "Un ayudante de computadora que adivina en una pantalla",
+        "Un gato que ronronea y toma leche",
+        "Un árbol que crece alto en el jardín"
+      ],
+      "reason": "Un ayudante de IA vive en una computadora y hace conjeturas. Un gato y un árbol están vivos y crecen. No son ayudantes de IA."
+    },
+    {
+      "title": "Verdadero sobre la IA",
+      "q": "Toca CADA cosa verdadera sobre un ayudante de IA.",
+      "items": [
+        "Hace conjeturas",
+        "Se puede equivocar",
+        "Es un ayudante de computadora",
+        "Siempre acierta",
+        "Es una mascota de verdad y viva"
+      ],
+      "reason": "Un ayudante de IA adivina, así que se puede equivocar. Es un ayudante de computadora, no una mascota viva, y no siempre acierta."
+    },
+    {
+      "title": "Mantenlo seguro",
+      "q": "Tu nombre y tu casa son secretos. Mantenlos ______ de un robot.",
+      "reason": "Tu nombre y tu casa son privados. Los mantienes privados y seguros de un robot, y le pides ayuda a un adulto."
+    },
+    {
+      "title": "Pregúntale a un adulto",
+      "q": "Quieres usar un ayudante de IA. Toca los pasos en el orden CORRECTO.",
+      "pads": [
+        "🤝 Úsenlo juntos",
+        "💡 Tú quieres usar la IA",
+        "🙋 Pregúntale a un adulto"
+      ],
+      "reason": "Primero tú QUIERES usar la IA. Luego le PREGUNTAS a un adulto. Luego lo USAS junto con él. Eso te mantiene seguro."
+    }
+  ]
+}
